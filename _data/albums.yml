@@ -1,0 +1,96 @@
+guidingeyes:
+  name: Guiding Eyes for the Blind
+  description: Guiding Eyes for the Blind events and guide dog puppies in training
+  albums: [geb-puppies, geb-events]
+
+geb-puppies:
+  name: Puppies
+  description: Guiding Eyes for the Blind guide dog puppies in training
+  permalink: /gallery/geb/puppies
+  preview_image: JosephGruber_20170312_184504.jpg
+  galleries:
+    [
+      geb-amos,
+      geb-aqua,
+      geb-aron,
+      geb-aussie,
+      geb-balsa,
+      geb-delilah,
+      geb-elkins,
+      geb-ellery,
+      geb-emerald,
+      geb-ernie,
+      geb-farrow,
+      geb-fauna,
+      geb-fenway,
+      geb-galahad,
+      geb-giada,
+      geb-gilligan,
+      geb-ginny,
+      geb-gunther,
+      geb-gwenyth,
+      geb-harmony,
+      geb-hilton,
+      geb-howie,
+      geb-icarus,
+      geb-irwin,
+      geb-izzie,
+      geb-jenny,
+      geb-jude,
+      geb-justine,
+      geb-kibble,
+      geb-krieger,
+      geb-laverne,
+      geb-libby,
+      geb-lita,
+      geb-meyer,
+      geb-minka,
+      geb-nutmeg,
+      geb-otto,
+      geb-parsley,
+      geb-pippi,
+      geb-pria,
+      geb-pugsley,
+      geb-pumpkin,
+      geb-rasha,
+      geb-rhonda,
+      geb-rigby,
+      geb-rocco,
+      geb-rue,
+      geb-ruza,
+      geb-valiant,
+      geb-valor,
+      geb-vanda,
+      geb-vespa,
+      geb-willa,
+      geb-yani,
+      geb-yoshi,
+      geb-yvetta,
+    ]
+
+geb-events:
+  name: Events
+  description: Guiding Eyes for the Blind Dominion Region events
+  permalink: /gallery/geb/events
+  preview_image: JosephGruber_20170604_140815.jpg
+  galleries:
+    [
+      geb-2018-wagging-tails,
+      geb-2017-baysox-game,
+      geb-2017-canine-cruise,
+      geb-2017-wagging-tails,
+    ]
+
+photojournalism:
+  name: Photojournalism
+  description: Photojournalism of various protests, events, and memorials
+  permalink: /gallery/photojournalism
+  preview_image: JosephGruber_20160707_211247.jpg
+  galleries: [activism, memorials, events]
+
+places:
+  name: Places
+  description: Locations around the world
+  permalink: /gallery/places
+  preview_image: JosephGruber_20140922_185549.jpg
+  galleries: [washington-dc]

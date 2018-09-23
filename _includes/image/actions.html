@@ -1,0 +1,39 @@
+<a class="icon-twitter-squared" title="Share on Twitter" aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text={{ image.title }}&url={{ page.url | prepend: site.url }}#gallery-{{ forloop.index }}&via={{ site.author.twitter_username}}" target="_blank" rel="noopener"></a>
+<a class="icon-facebook-squared" title="Share on Facebook" aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}#gallery-{{ forloop.index }}" target="_blank" rel="noopener"></a>
+<a class="icon-forward" title="Share Link" href="#" aria-label="Share Link" data-toggle="modal" data-target="#shareModal" data-url="{{ page.url | prepend: site.url }}#gallery-{{ forloop.index }}" data-title="{{ image.title }}"></a>
+
+{% if pricelist %}
+{% if pricelist.digital and image.guid %}
+<a class="icon-download snipcart-add-item" href="#" title="Purchase Digital File" aria-label="Purchase Digital File"
+data-item-id="digital-{{ image.filename | remove: ".jpg" }}"
+data-item-file-guid="{{ image.guid }}"
+data-item-name="{{ image.title }}"
+data-item-price="{{ pricelist.digital.base-price }}"
+data-item-max-quantity="1"
+data-item-shippable="false"
+data-item-taxable="false"
+{% if pricelist.digital.products %}
+data-item-custom1-name="Image Quality"
+data-item-custom1-options="{{ pricelist.digital.base-name }}|{% for product in pricelist.digital.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}"
+data-item-custom1-value="{{ pricelist.digital.base-name }}"
+{% endif %}
+data-item-url="{{ site.url }}/data/products.json"
+data-item-image="{{ image.filename | replace: '.jpg', '-400.jpg' | prepend: "/" | prepend: site.photo_url }}"></a>
+{% endif %}
+
+{% if pricelist.print %}
+<a class="icon-cart-plus snipcart-add-item" href="#" title="Purchase Digital File" aria-label="Purchase Digital File"
+data-item-id="print-{{ image.filename | remove: ".jpg" }}"
+data-item-name="{{ image.title }}"
+data-item-price="{{ pricelist.print.base-price }}"
+data-item-shippable="true"
+data-item-taxable="true"
+{% if pricelist.print.products %}
+data-item-custom1-name="Print Size/Type"
+data-item-custom1-options="{{ pricelist.print.base-name }}|{% for product in pricelist.print.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}"
+data-item-custom1-value="{{ pricelist.print.base-name }}"
+{% endif %}
+data-item-url="{{ site.url }}/data/products.json"
+data-item-image="{{ image.filename | replace: '.jpg', '-400.jpg' | prepend: "/" | prepend: site.photo_url }}"></a>
+{% endif %}
+{% endif %}

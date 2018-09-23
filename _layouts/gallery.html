@@ -1,0 +1,15 @@
+---
+layout: default
+snipcart: true
+---
+<div class="container mt-4">
+  {% if page.album_name %}{% include album.html %}{% endif %}
+
+  {% if page.album_name and page.gallery_name %}<hr class="mt-4">{% endif %}
+
+  {% if page.gallery_name %}{% include gallery.html %}{% endif %}
+</div>
+
+{% include share-modal.html %}
+
+{% if page.allow_download %}{% include /image/context-menu.html %}{% endif %}

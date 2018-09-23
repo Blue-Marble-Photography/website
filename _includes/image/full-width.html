@@ -1,0 +1,70 @@
+{% assign image_url = image.filename | prepend: '/' | prepend: site.photo_url %}
+<div class="col-12 mt-3 d-flex img-gallery">
+  <figure id="image-{{ forloop.index0 }}" class="mb-0 bg-dark rounded w-100"{% if page.allow_download %}data-src="{% if page.allow_download == "watermark" %}{{ image_url | replace: '.jpg', '-1440.jpg' }}{% else %}{{ image_url | replace: '.jpg', '-750.jpg' | replace: 'photos/', 'photos/originals/' }}{% endif %}"{% endif %}>
+    <a class="zoom-in" href="{{ image_url | replace: '.jpg', '-750.jpg' }}" data-srcset="{{ image_url | replace: '.jpg', '-1600.jpg' }} 992w, {{ image_url | replace: '.jpg', '-1440.jpg' }} 768w, {{ image_url | replace: '.jpg', '-1100.jpg' }} 576w" data-fancybox="gallery" data-caption="{% if image.caption %}{{ image.caption }}{% else %}{{ image.title }}{% endif %}">
+      <picture>
+        <source type="image/webp" media="(min-width: 1200px)" srcset="{{ image_url | remove: '.jpg' }}-2880.webp">
+        <source type="image/webp" media="(min-width: 992px)" srcset="{{ image_url | remove: '.jpg' }}-1600.webp">
+        <source type="image/webp" media="(min-width: 768px)" srcset="{{ image_url | remove: '.jpg' }}-1440.webp">
+        <source type="image/webp" media="(min-width: 576px)" srcset="{{ image_url | remove: '.jpg' }}-1100.webp">
+        <source type="image/webp" media="(max-width: 575.98px)" srcset="{{ image_url | remove: '.jpg' }}-750.webp">
+        <source media="(min-width: 1200px)" srcset="{{ image_url | replace: '.jpg', '-2880.jpg' }}">
+        <source media="(min-width: 992px)" srcset="{{ image_url | replace: '.jpg', '-1600.jpg' }}">
+        <source media="(min-width: 768px)" srcset="{{ image_url | replace: '.jpg', '-1440.jpg' }}">
+        <source media="(min-width: 576px)" srcset="{{ image_url | replace: '.jpg', '-1100.jpg' }}">
+        <source media="(max-width: 575.98px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
+        <img class="img-fluid rounded w-100" src="{{ image_url | replace: '.jpg', '-750.jpg' }}" {% if image.title %}title="{{ image.title }}"{% endif %} {% if image.caption %}alt="{{ image.caption }}"{% endif %} />
+      </picture>
+    </a>
+    <figcaption id="image-{{ forloop.index0 }}-actions" class="zoom-in text-white text-center">
+      <a class="zoom-in" data-trigger="gallery" data-index="{{ forloop.index0 }}" href="javascript:;">{{ image.title }}</a>
+      <br>
+      {% include /image/actions.html %}
+    </figcaption>
+  </figure>
+</div>
+
+<div class="col-12 text-right">
+  <a class="icon-forward" title="Share Link" aria-label="Share Link" href="#" data-toggle="modal" data-target="#shareModal" data-url="{{ page.url | prepend: site.url }}" data-title="{{ image.title }}"></a>
+  {% if pricelist %}
+  {% if pricelist.digital and image.guid %}
+  <a class="icon-download snipcart-add-item" href="#" title="Purchase Digital File" aria-label="Purchase Digital File"
+    data-item-id="digital-{{ image.filename | remove: ".jpg" }}"
+    data-item-file-guid="{{ image.guid }}"
+    data-item-name="{{ image.title }}"
+    data-item-price="{{ pricelist.digital.base-price }}"
+    data-item-max-quantity="1"
+    data-item-shippable="false"
+    data-item-taxable="false"
+    {% if pricelist.digital.products %}
+    data-item-custom1-name="Image Quality"
+    data-item-custom1-options="{{ pricelist.digital.base-name }}|{% for product in pricelist.digital.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}"
+    data-item-custom1-value="{{ pricelist.digital.base-name }}"
+    {% endif %}
+    data-item-url="{{ site.url }}/data/products.json"
+    data-item-image="{{ image.filename | replace: ".jpg", "-400.jpg" | prepend: "/" | prepend: site.photo_url }}"></a>
+  {% endif %}
+
+  {% if pricelist.print %}
+  <a class="icon-cart-plus snipcart-add-item" href="#" title="Purchase Print" aria-label="Purchase Print"
+    data-item-id="print-{{ image.filename | remove: ".jpg" }}"
+    data-item-name="{{ image.title }}"
+    data-item-price="{{ pricelist.print.base-price }}"
+    data-item-shippable="true"
+    data-item-taxable="true"
+    {% if pricelist.print.products %}
+    data-item-custom1-name="Print Size/Type"
+    data-item-custom1-options="{{ pricelist.print.base-name }}|{% for product in pricelist.print.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}"
+    data-item-custom1-value="{{ pricelist.print.base-name }}"
+    {% endif %}
+    data-item-url="{{ site.url }}/data/products.json"
+    data-item-image="{{ image.filename | replace: ".jpg", "-400.jpg" | prepend: "/" | prepend: site.photo_url }}"></a>
+  {% endif %}
+  {% endif %}
+  </div>
+
+{% if image.caption %}
+<div class="col-12 text-center">
+  {{ image.caption }}
+</div>
+{% endif %}

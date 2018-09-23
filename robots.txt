@@ -1,0 +1,10 @@
+---
+---
+User-agent: *
+Disallow: /gallery/geb/
+Disallow: /gallery/private/
+Disallow: /assets/images/photos/
+Disallow: /assets/images/featured/
+Disallow: /data/
+
+Sitemap: {{ site.url}}/sitemap.xml

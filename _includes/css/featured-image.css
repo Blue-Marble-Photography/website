@@ -1,0 +1,35 @@
+.webp .featured-image {
+  background-image: url('{{ page.featured_image.filename | replace: '.jpg', '-1440.webp' | prepend: "/" | prepend: site.featured_image_url }}');
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.no-webp .featured-image {
+  background-image: url('{{ page.featured_image.filename | replace: '.jpg', '-1440.jpg' | prepend: "/" | prepend: site.featured_image_url }}');
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media all and (min-width: 576px)  {
+  .webp .featured-image { background-image: url('{{ page.featured_image.filename | replace: '.jpg', '-1100.webp' | prepend: "/" | prepend: site.featured_image_url }}'); }
+  .no-webp .featured-image { background-image: url('{{ page.featured_image.filename | replace: '.jpg', '-1100.jpg' | prepend: "/" | prepend: site.featured_image_url }}'); }
+}
+
+@media all and (min-width: 768px)  {
+  .webp .featured-image { background-image: url('{{ page.featured_image.filename | replace: '.jpg', '-1440.webp' | prepend: "/" | prepend: site.featured_image_url }}'); }
+  .no-webp .featured-image { background-image: url('{{ page.featured_image.filename | replace: '.jpg', '-1440.jpg' | prepend: "/" | prepend: site.featured_image_url }}'); }
+}
+
+@media all and (min-width: 992px)  {
+  .webp .featured-image { background-image: url('{{ page.featured_image.filename | replace: '.jpg', '-1600.webp' | prepend: "/" | prepend: site.featured_image_url }}'); }
+  .no-webp .featured-image { background-image: url('{{ page.featured_image.filename | replace: '.jpg', '-1600.jpg' | prepend: "/" | prepend: site.featured_image_url }}'); }
+}
+
+@media all and (min-width: 1200px)  {
+  .webp .featured-image { background-image: url('{{ page.featured_image.filename | replace: '.jpg', '-2880.webp' | prepend: "/" | prepend: site.featured_image_url }}'); }
+  .no-webp .featured-image { background-image: url('{{ page.featured_image.filename | replace: '.jpg', '-2880.jpg' | prepend: "/" | prepend: site.featured_image_url }}'); }
+}

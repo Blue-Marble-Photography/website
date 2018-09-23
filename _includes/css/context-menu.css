@@ -1,0 +1,26 @@
+#context-menu {
+  display: none;
+  position: absolute;
+  z-index: 99999;
+  background-color: #ffffff;
+  border: solid 1px #dfdfdf;
+  box-shadow: 1px 1px 2px #cfcfcf;
+}
+
+#context-menu ul {
+  list-style: none;
+}
+
+#context-menu li {
+  display: block;
+}
+
+#context-menu li:hover {
+  background-color: #d3d3d3;
+}
+
+#context-menu li a {
+  display: block;
+  color: #146496;
+  text-decoration: none;
+}

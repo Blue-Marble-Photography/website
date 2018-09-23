@@ -1,0 +1,2 @@
+_assets/images/photos/** filter=lfs diff=lfs merge=lfs -text
+_assets/images/featured/** filter=lfs diff=lfs merge=lfs -text

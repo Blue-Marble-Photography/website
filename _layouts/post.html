@@ -1,0 +1,42 @@
+---
+layout: default
+navbar-style: transparent
+snipcart: true
+---
+<article>
+  {% include image/featured.html post=true %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {{ content }}
+      </div>
+    </div>
+
+    {% if page.gallery_name %}
+    {% assign gallery = site.data.galleries[page.gallery_name] %}
+    {% assign images = gallery.images | sort: 'date' %}
+    {% if gallery.pricelist %}
+    {% assign pricelist = site.data.pricelist[gallery.pricelist] %}
+    {% endif %}
+
+    <div id="post-gallery" class="row">
+      {% for image in images %}
+      {% include /image/full-width.html %}
+      {% endfor %}
+    </div>
+
+    {% if page.allow_download %}
+    <div class="row mt-2">
+      <div class="col-12 text-center small">
+        (<a href="{% link pages/license.html %}">License Terms</a>)
+      </div>
+    </div>
+    {% endif %}
+    {% endif %}
+  </div>
+</article>
+
+{% if page.gallery_name %}{% include share-modal.html %}{% endif %}
+
+{% if page.allow_download %}{% include /image/context-menu.html %}{% endif %}

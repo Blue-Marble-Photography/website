@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="container pt-4">
+  <div class="row">
+    {% for post in paginator.posts %}
+    <div class="col-lg-6 py-3">
+      <a href="{{ post.url }}" class="post-card">
+        <div class="card bg-dark text-white shadow">
+          {% assign image_url = post.featured_image.filename | prepend: '/' | prepend:site.featured_image_url %}
+          <picture>
+            <source type="image/webp" media="(min-width: 992px)" srcset="{{ image_url | remove: '.jpg' }}-1100.webp">
+            <source type="image/webp" media="(min-width: 768px)" srcset="{{ image_url | remove: '.jpg' }}-1440.webp">
+            <source type="image/webp" srcset="{{ image_url | remove: '.jpg' }}-1100.webp">
+            <source media="(min-width: 992px)" srcset="{{ image_url | replace: '.jpg', '-1100.jpg' }}">
+            <source media="(min-width: 768px)" srcset="{{ image_url | replace: '.jpg', '-1440.jpg' }}">
+            <source srcset="{{ image_url | replace: '.jpg', '-1100.jpg' }}">
+            <img class="card-img post" src="{{ image_url | replace: '.jpg', '-1100.jpg' }}" title="{{ post.title }}" {% if post.featured_image.caption %}alt="{{ post.featured_image.caption }}"{% endif %} />
+          </picture>
+          <div class="card-img-overlay h-100 d-flex flex-column justify-content-center align-items-center">
+            <p class="card-text text-uppercase small m-0"><time datetime="{{ post.date | date_to_rfc822 }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
+            <h3 class="card-title text-uppercase text-center">{{ post.title }}</h3>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+
+  <nav role="navigation" class="d-flex justify-content-between">
+    <div>
+      {% if paginator.next_page %}
+      <a rel="next" class="btn btn-outline-primary btn-sm" href="/blog/page{{ paginator.next_page }}">← Older Posts</a>
+      {% endif %}
+    </div>
+    <div>
+      {% if paginator.previous_page %}
+      <a rel="prev" class="btn btn-outline-primary btn-sm" href="/blog{% if paginator.previous_page != 1 %}/page{{ paginator.previous_page }}{% endif %}" title="Previous Page">Newer Posts →</a>
+      {% endif %}
+    </div>
+  </nav>
+</div>

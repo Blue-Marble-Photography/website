@@ -1,0 +1,43 @@
+---
+title: Contact Blue Marble Photography
+layout: default
+navbar-style: transparent
+featured_image:
+  filename: contact.jpg
+permalink: /contact/
+---
+{% include image/featured.html lead="Interested in licensing or purchasing a photo? Want to schedule a photo shoot? Have questions? Fill out the form below and let's chat!" %}
+
+<div class="container">
+  <div class="row submitted d-none">
+    <div class="col-12 text-center">
+      <h3>Thank you for your message! We'll be in contact shortly.</h3>
+    </div>
+  </div>
+
+  <form id="contactForm" class="form-validation" method="post" action="https://formspree.io/contact@bluemarble.photography" novalidate>
+    <div class="row">
+      <div class="form-group col">
+        <label for="inputName">Name</label>
+        <input type="text" class="form-control" placeholder="Name" id="inputName" name="Name" required>
+        <div class="invalid-feedback">Please provide your name.</div>
+      </div>
+      <div class="form-group col">
+        <label for="inputEmail">Email</label>
+        <input type="email" class="form-control" placeholder="Email" id="inputEmail" name="_replyto" required>
+        <div class="invalid-feedback">Please provide your email address.</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="inputMessage">Message</label>
+      <textarea class="form-control" rows="3" placeholder="Enter your message" id="inputMessage" name="Message" required></textarea>
+      <div class="invalid-feedback">Please enter a message.</div>
+    </div>
+
+    <input type="hidden" name="_next" value="{{ page.url }}#submitted">
+    <input type="hidden" name="_subject" value="Message from BlueMarble.Photography">
+    <input type="text" name="_gotcha" style="display: none;">
+    <button id="formSubmit" type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

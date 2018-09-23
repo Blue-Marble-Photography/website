@@ -1,0 +1,62 @@
+{% assign album = site.data.albums[page.album_name] %}
+<div class="row mt-4 d-flex justify-content-center">
+  <div class="col-12">
+    <h2 class="text-center">{{ album.name }}</h2>
+  </div>
+
+  {% if album.albums %}
+  {% for album_child in album.albums %}
+  {% assign sub_album = site.data.albums[album_child] %}
+  {% assign image_url = sub_album.preview_image | prepend: '/' | prepend: site.photo_url %}
+  <div class="col-12 col-lg-3 col-md-4 d-flex align-items-stretch">
+    <div class="card shadow p-2 mb-4">
+      <a href="{{ sub_album.permalink }}">
+        <picture>
+          <source type="image/webp" media="(min-width: 992px)" srcset="{{ image_url | remove: '.jpg' }}-750.webp">
+          <source type="image/webp" media="(min-width: 768px)" srcset="{{ image_url | remove: '.jpg' }}-1440.webp">
+          <source type="image/webp" media="(min-width: 576px)" srcset="{{ image_url | remove: '.jpg' }}-1100.webp">
+          <source type="image/webp" media="(max-width: 575.98px)" srcset="{{ image_url | remove: '.jpg' }}-750.webp">
+          <source media="(min-width: 992px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
+          <source media="(min-width: 768px)" srcset="{{ image_url | replace: '.jpg', '-1440.jpg' }}">
+          <source media="(min-width: 576px)" srcset="{{ image_url | replace: '.jpg', '-1100.jpg' }}">
+          <source media="(max-width: 575.98px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
+          <img class="card-img-top album" src="{{ image_url | replace: '.jpg', '-750.jpg' }}" title="{{ sub_album.name }}">
+        </picture>
+      </a>
+      <div class="card-body p-0 pt-2">
+        <p class="card-title text-center m-0"><a href="{{ sub_album.permalink }}">{{ sub_album.name }}</a></p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if album.albums and album.galleries %}<hr class="mt-4">{% endif %}
+
+  {% if album.galleries %}
+  {% for album_gallery in album.galleries %}
+  {% assign gallery = site.data.galleries[album_gallery] %}
+  {% assign image_url = gallery.preview_image | prepend: '/' | prepend: site.photo_url %}
+  <div class="col-12 col-lg-3 col-md-4 d-flex align-items-stretch">
+    <div class="card shadow p-2 mb-4">
+      <a href="{{ gallery.permalink }}">
+        <picture>
+          <source type="image/webp" media="(min-width: 992px)" srcset="{{ image_url | remove: '.jpg' }}-750.webp">
+          <source type="image/webp" media="(min-width: 768px)" srcset="{{ image_url | remove: '.jpg' }}-1440.webp">
+          <source type="image/webp" media="(min-width: 576px)" srcset="{{ image_url | remove: '.jpg' }}-1100.webp">
+          <source type="image/webp" media="(max-width: 575.98px)" srcset="{{ image_url | remove: '.jpg' }}-750.webp">
+          <source media="(min-width: 992px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
+          <source media="(min-width: 768px)" srcset="{{ image_url | replace: '.jpg', '-1440.jpg' }}">
+          <source media="(min-width: 576px)" srcset="{{ image_url | replace: '.jpg', '-1100.jpg' }}">
+          <source media="(max-width: 575.98px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
+          <img class="card-img-top album" src="{{ image_url | replace: '.jpg', '-750.jpg' }}" title="{{ sub_album.name }}">
+        </picture>
+      </a>
+      <div class="card-body p-0 pt-2">
+        <p class="card-title text-center m-0"><a href="{{ gallery.permalink }}">{{ gallery.name }}</a></p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+</div>

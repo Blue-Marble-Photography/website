@@ -1,0 +1,23 @@
+{% assign image_url = image.filename | prepend: '/' | prepend: site.photo_url %}
+<div class="col-12 col-lg-4 col-xl-3 d-flex align-items-stretch p-2 img-gallery">
+  <figure id="image-{{ forloop.index0 }}" class="mb-0 w-100 bg-dark"{% if page.allow_download %}data-src="{% if page.allow_download == "watermark" %}{{ image_url | replace: '.jpg', '-1440.jpg' }}{% else %}{{ image_url | replace: 'photos/', 'photos/originals/' }}{% endif %}"{% endif %}>
+    <a class="zoom-in" href="{{ image_url | replace: '.jpg', '-750.jpg' }}" data-srcset="{{ image_url | replace: '.jpg', '-1600.jpg' }} 992w, {{ image_url | replace: '.jpg', '-1440.jpg' }} 768w, {{ image_url | replace: '.jpg', '-1100.jpg' }} 576w" data-fancybox="gallery" data-caption="{% if image.caption %}{{ image.caption }}{% else %}{{ image.title }}{% endif %}">
+      <picture>
+        <source type="image/webp" media="(min-width: 992px)" srcset="{{ image_url | remove: '.jpg' }}-750.webp">
+        <source type="image/webp" media="(min-width: 768px)" srcset="{{ image_url | remove: '.jpg' }}-1440.webp">
+        <source type="image/webp" media="(min-width: 576px)" srcset="{{ image_url | remove: '.jpg' }}-1100.webp">
+        <source type="image/webp" media="(max-width: 575.98px)" srcset="{{ image_url | remove: '.jpg' }}-750.webp">
+        <source media="(min-width: 992px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
+        <source media="(min-width: 768px)" srcset="{{ image_url | replace: '.jpg', '-1440.jpg' }}">
+        <source media="(min-width: 576px)" srcset="{{ image_url | replace: '.jpg', '-1100.jpg' }}">
+        <source media="(max-width: 575.98px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
+        <img class="img-fluid w-100" src="{{ image_url | replace: '.jpg', '-750.jpg' }}" {% if image.title %}title="{{ image.title }}"{% endif %} {% if image.caption %}alt="{{ image.caption }}"{% endif %} />
+      </picture>
+    </a>
+    <figcaption id="image-{{ forloop.index0 }}-actions" class="zoom-in text-white text-center">
+      <a class="zoom-in" data-trigger="gallery" data-index="{{ forloop.index0 }}" href="javascript:;">{{ image.title }}</a>
+      <br>
+      {% include /image/actions.html %}
+    </figcaption>
+  </figure>
+</div>

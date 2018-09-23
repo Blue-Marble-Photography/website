@@ -1,0 +1,20 @@
+{% if include.gallery_name %}
+{% assign gallery = site.data.galleries[include.gallery_name] %}
+{% elsif page.gallery_name %}
+{% assign gallery = site.data.galleries[page.gallery_name] %}
+{% endif %}
+
+{% if gallery.pricelist %}
+{% assign pricelist = site.data.pricelist[gallery.pricelist] %}
+{% endif %}
+
+<div id="photo-gallery" class="row mt-4">
+  <div class="col-12">
+    <h2 class="text-center">{{ gallery.name }}</h2>
+  </div>
+
+  {% assign images = gallery.images | sort: 'date' | reverse %}
+  {% for image in images %}
+  {% include /image/gallery.html %}
+  {% endfor %}
+</div>

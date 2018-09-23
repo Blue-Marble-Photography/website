@@ -1,0 +1,82 @@
+title: "Blue Marble Photography"
+description: "Our Blue Marble, the planet Earth, has so many amazing, jaw-dropping, wonderous views all around us that I am delighted to share with you through my photography. In the infamous words of Apollo 8 astronaut Bill Anders, 'Oh, my God! Look at that picture over there! Here's the earth coming up. Wow, is that pretty!'"
+headline: "That's here, that's home, that's us."
+
+url: "https://bluemarble.photography"
+base_url: "/"
+asset_url: "/assets"
+image_url: "/assets/images"
+photo_url: "/assets/images/photos"
+featured_image_url: "/assets/images/featured"
+
+google_analytics: "UA-60495309-1"
+
+author:
+  name: Joseph Gruber
+  email: contact@bluemarble.photography
+  twitter_username: josephgruber
+  facebook_username: joseph.gruber
+  facebook_id: https://www.facebook.com/joseph.gruber
+  flickr_username: josephgruber
+  instagram_username: josephgruber
+
+facebook:
+  publisher: 1065184637
+  admins: 1065184637
+  app_id: 724541104395072
+
+twitter:
+  username: josephgruber
+
+social:
+  links:
+    - https://twitter.com/BlueMarblePhoto
+    - https://www.facebook.com/BlueMarblePhoto
+    - https://www.instagram.com/josephgruber
+
+destination: _site
+paginate: 10
+paginate_path: "/blog/page:num/"
+permalink: /post/:title/
+markdown: kramdown
+highlighter: rouge
+future: false
+
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "_galleries/geb"
+    values:
+      sitemap: false
+  - scope:
+      path: "_galleries/private"
+    values:
+      sitemap: false
+
+collections:
+  galleries:
+    output: true
+    permalink: gallery/:path/
+
+plugins: ["jekyll-paginate", "jekyll-last-modified-at", "jekyll-sitemap"]
+
+exclude:
+  [
+    "vendor",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "node_modules",
+    "package.json",
+    "package-lock.json",
+    "write-gallery-meta.php",
+    "rev-manifest.json",
+    "s3_website.yml",
+  ]

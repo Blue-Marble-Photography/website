@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    {% include head.html %}
+  </head>
+
+  {% if page.navbar-style == "transparent" or layout.navbar-style == "transparent" %}<body>{% else %}<body class="p-66">{% endif %}
+    {% include navbar.html %}
+
+    <main>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

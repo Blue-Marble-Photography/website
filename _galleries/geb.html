@@ -1,0 +1,38 @@
+---
+layout: default
+title: Guiding Eyes for the Blind
+description: Adorable pups of Guiding Eyes for the Blind exploring the strange world around them on their journey to becoming guide dogs
+album_name: guidingeyes
+snipcart: true
+robots: nofollow
+allow_download: true
+sitemap: false
+---
+<div class="container mt-4">
+  {% include album.html %}
+
+  <hr class="mt-4">
+
+  <div class="row mt-4">
+    <div class="col-12">
+      <h2 class="text-center">Recent Photos</h2>
+    </div>
+
+    {% assign galleries = site.data.galleries | where: 'tags', 'geb' %}
+    {% assign images = [] %}
+    {% for gallery in galleries %}
+    {% assign images = images | concat: gallery.images %}
+    {% endfor %}
+
+    {% assign images = images | sort: 'date' | reverse %}
+    {% assign pricelist = site.data.pricelist["guiding-eyes"] %}
+
+    {% for image in images limit: 100 %}
+    {% include /image/gallery.html %}
+    {% endfor %}
+  </div>
+</div>
+
+{% include share-modal.html %}
+
+{% include /image/context-menu.html %}

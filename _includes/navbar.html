@@ -1,0 +1,42 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top {% if page.navbar-style == "transparent" or layout.navbar-style == "transparent" %}transparent{% endif %}">
+    <a class="navbar-brand py-0" href="{{ site.base_url }}">
+      <img src="{{ site.image_url }}/navbar-logo.png" class="img-fluid" alt="Logo for Blue Marble Photography showing the planet Earth inside of a camera lens">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-right" id="navbarText">
+      <ul class="navbar-nav ml-auto text-uppercase">
+        <li class="nav-item">
+          <a class="nav-link py-0 text-white" href="/about">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link py-0 dropdown-toggle text-white" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galleries</a>
+          <div class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item text-dark" href="/gallery/astrophotography">Astrophotography</a>
+            <a class="dropdown-item text-dark" href="/gallery/landscapes">Landscapes</a>
+            <a class="dropdown-item text-dark" href="/gallery/pets">Pets</a>
+            <a class="dropdown-item text-dark" href="/gallery/photojournalism">Photojournalism</a>
+            <a class="dropdown-item text-dark" href="/gallery/places">Places</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link py-0 text-white" href="/blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link py-0 text-white" href="/services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link py-0 text-white" href="/contact">Contact</a>
+        </li>
+        {% if page.snipcart or layout.snipcart %}
+        <li class="nav-item">
+          <a class="nav-link py-0 text-white snipcart-checkout snipcart-summary icon-basket" href="#"><span class="snipcart-total-price text-white"></span></a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+</header>

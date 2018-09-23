@@ -1,0 +1,43 @@
+---
+layout: default
+navbar-style: transparent
+permalink: index.html
+---
+<div id="cover" class="jumbotron jumbotron-fluid">
+  <div class="container h-100 d-flex align-items-center justify-content-center">
+    <p class="lead text-white">That's here. That's home. That's us.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="text-center">Recent Posts</h1>
+    </div>
+
+    {% for post in site.posts limit:6 %}
+    <div class="col-lg-4 d-flex align-items-stretch">
+      <div class="card shadow p-2 mb-2">
+        {% assign image_url = post.featured_image.filename | prepend: '/' | prepend:site.featured_image_url %}
+        <a href="{{ post.url }}" title="{{ post.title }}">
+          <picture>
+            <source type="image/webp" media="(min-width: 992px)" srcset="{{ image_url | remove: '.jpg' }}-750.webp">
+            <source type="image/webp" media="(min-width: 768px)" srcset="{{ image_url | remove: '.jpg' }}-1440.webp">
+            <source type="image/webp" media="(min-width: 576px)" srcset="{{ image_url | remove: '.jpg' }}-1100.webp">
+            <source type="image/webp" media="(max-width: 575.98px)" srcset="{{ image_url | remove: '.jpg' }}-750.webp">
+            <source media="(min-width: 992px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
+            <source media="(min-width: 768px)" srcset="{{ image_url | replace: '.jpg', '-1440.jpg' }}">
+            <source media="(min-width: 576px)" srcset="{{ image_url | replace: '.jpg', '-1100.jpg' }}">
+            <source media="(max-width: 575.98px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
+            <img class="card-img-top post" src="{{ image_url | replace: '.jpg', '-750.jpg' }}" title="{{ post.title }}" {% if post.featured_image.caption %}alt="{{ post.featured_image.caption }}"{% else %}alt="{{ post.title }}"{% endif %} />
+          </picture>
+        </a>
+        <div class="card-body">
+          <h4 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
+          <p class="card-text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
