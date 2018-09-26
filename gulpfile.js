@@ -93,7 +93,7 @@ function buildStylesCritical() {
     css: [paths.jekyllCssFiles + '/' + json['main.css']],
     dest: '../_includes/css/critical.css',
     minify: true,
-    include: [/cc_/],
+    include: [/^\.no-webp/],
     ignore: ['@font-face']
   });
 }
@@ -125,7 +125,8 @@ function buildStylesUnCss() {
         ".modal-open",
         ".in",
         ".modal-backdrop",
-        ".float-right"
+        ".float-right",
+        ".no-webp"
       ]
     })]))
     .pipe(gulp.dest(paths.jekyllCssFiles))
@@ -376,15 +377,19 @@ function rewriteRev() {
     .pipe(gulp.dest(paths.siteDir));
 }
 
-gulp.task('build:jekyll', function () {
+gulp.task('build:jekyll:dev', function () {
   return cp.exec('bundle exec jekyll build --destination ' + paths.siteDir);
 });
 
+gulp.task('build:jekyll:prod', function () {
+  return cp.exec('JEKYLL_ENV=prod bundle exec jekyll build --destination ' + paths.siteDir);
+});
+
+
 function deployAWS() {
   return cp.spawn('s3_website', ['push'], {
-      stdio: 'inherit'
-    })
-    .on('close', done);
+    stdio: 'inherit'
+  });
 }
 
 var build = gulp.series(
@@ -399,8 +404,7 @@ var build = gulp.series(
     buildOriginalPhotos,
     buildFavicons,
     buildFonts
-  ),
-  'build:jekyll'
+  )
 );
 
 async function ngrokConnect() {
@@ -441,15 +445,15 @@ function reload(done) {
 
 function watch() {
   gulp.watch(paths.imageFilesGlob, gulp.series(gulp.parallel(buildSitePngImages, buildSiteImages, buildOriginalPhotos), reload));
-  gulp.watch('_config.yml', gulp.series('build:jekyll', reload));
+  gulp.watch('_config.yml', gulp.series('build:jekyll:dev', reload));
   gulp.watch([paths.bootstrapSassFiles, paths.sassFilesGlob], gulp.series(gulp.parallel('build:styles:main', 'build:styles:fancybox'), reload));
   gulp.watch([paths.bootstrapJsFiles, paths.jqueryJsFiles, paths.popperJsFiles, paths.jsFilesGlob], gulp.series(gulp.parallel('build:scripts:main', 'build:scripts:fancybox'), reload));
-  gulp.watch([paths.jekyllPostFilesGlob, paths.jekyllDraftFilesGlob], gulp.series('build:jekyll', reload));
-  gulp.watch(['**/*.html', paths.jekyllDataFilesGlob, '!_site/**/*.*'], gulp.series('build:jekyll', reload));
+  gulp.watch([paths.jekyllPostFilesGlob, paths.jekyllDraftFilesGlob], gulp.series('build:jekyll:dev', reload));
+  gulp.watch(['**/*.html', paths.jekyllDataFilesGlob, '!_site/**/*.*'], gulp.series('build:jekyll:dev', reload));
 }
 
 // Default Task: builds site.
-gulp.task('default', gulp.series(ngrokConnect, buildSiteUrl, build, rewriteRev, buildStylesCritical, buildStylesUnCss, serve, watch));
+gulp.task('default', gulp.series(ngrokConnect, buildSiteUrl, build, 'build:jekyll:dev', rewriteRev, buildStylesCritical, buildStylesUnCss, serve, watch));
 
 // Production build task
-gulp.task('deploy', gulp.series(build, rewriteRev, buildStylesUnCss, gulp.parallel(compressScripts, compressStyles)));
+gulp.task('deploy', gulp.series(build, 'build:jekyll:prod', rewriteRev, buildStylesUnCss, gulp.parallel(compressScripts, compressStyles), deployAWS));

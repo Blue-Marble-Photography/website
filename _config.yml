@@ -10,6 +10,10 @@ photo_url: "/assets/images/photos"
 featured_image_url: "/assets/images/featured"
 
 google_analytics: "UA-60495309-1"
+onesignal_api_key: "e0cbc398-0a93-49be-bdd7-8dbc8e2151c5"
+snipcart_api_key:
+  test: "MmYxNTM1MzItOGRkZS00MjcxLTk4OGEtYWE5MjAwYzc1MzQ4NjM2NjYyNDExMzgxNzA0MTc0"
+  live: "N2JiYWRmMTctMjhjMS00MmY1LWJhOTYtNWVhZjY2Y2NjM2VkNjM2NjYyNDExMzgxNzA0MTc0"
 
 author:
   name: Joseph Gruber
