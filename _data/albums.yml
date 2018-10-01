@@ -64,6 +64,7 @@ geb-puppies:
       geb-vespa,
       geb-willa,
       geb-yani,
+      geb-yola,
       geb-yoshi,
       geb-yvetta,
     ]
@@ -74,12 +75,7 @@ geb-events:
   permalink: /gallery/geb/events
   preview_image: JosephGruber_20170604_140815.jpg
   galleries:
-    [
-      geb-2018-wagging-tails,
-      geb-2017-baysox-game,
-      geb-2017-canine-cruise,
-      geb-2017-wagging-tails,
-    ]
+    [geb-2018-wagging-tails, geb-2017-baysox-game, geb-2017-canine-cruise, geb-2017-wagging-tails]
 
 photojournalism:
   name: Photojournalism
