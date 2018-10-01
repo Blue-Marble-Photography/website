@@ -106,10 +106,10 @@
 {% endif %}
 
 <link rel="preload" as="style" href="{{ site.asset_url }}/css/main.css" onload="this.rel='stylesheet'">
-<script async src="{{ site.asset_url }}/js/main.js"></script>
+<script src="{{ site.asset_url }}/js/main.js"></script>
 
 {% if jekyll.environment == "prod" %}
-<script defer src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
 <script>
   var OneSignal = window.OneSignal || [];
   OneSignal.push(function () {
@@ -122,12 +122,12 @@
 
 {% if page.gallery_name or page.album_name %}
 <link rel="preload" as="style" href="{{ site.asset_url }}/css/fancybox.css" onload="this.rel='stylesheet'">
-<script defer src="{{ site.asset_url }}/js/fancybox.js"></script>
+<script src="{{ site.asset_url }}/js/fancybox.js"></script>
 {% endif %}
 
 {% if page.snipcart or layout.snipcart %}
 <link rel="preload" as="style" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" onload="this.rel='stylesheet'">
-<script defer src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="{% if jekyll.environment == "prod" %}{{ site.snipcart_api_key.live }}{% else %}{{ site.snipcart_api_key.test }}{% endif %}" id="snipcart" defer></script>
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="{% if jekyll.environment == "prod" %}{{ site.snipcart_api_key.live }}{% else %}{{ site.snipcart_api_key.test }}{% endif %}" id="snipcart"></script>
 <script>
   document.addEventListener('snipcart.ready', function() {
     Snipcart.api
