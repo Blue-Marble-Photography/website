@@ -22,6 +22,7 @@ geb-puppies:
       geb-ernie,
       geb-farrow,
       geb-fauna,
+      geb-fay,
       geb-fenway,
       geb-galahad,
       geb-giada,
@@ -76,6 +77,7 @@ geb-events:
   preview_image: JosephGruber_20170604_140815.jpg
   galleries:
     [
+      geb-2018-ft-hunt-park,
       geb-2018-pints-and-poses,
       geb-2018-canine-cruise,
       geb-2018-wagging-tails,

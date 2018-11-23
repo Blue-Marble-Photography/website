@@ -971,6 +971,44 @@ april-showers-bring-may-flowers:
       caption: Wildflowers along a hillside at Fort Ross Historic State Park overlooking the Pacific Ocean
       guid: 88c8f2f2-398d-45c0-b8ae-b31775ac5461
 
+2018-fall-foliage:
+  name: 2018 Autumn Foliage in Shenandoah National Park
+  description: Trees glow in shades of reds, oranges, and yellows as autumn's fall peaks in Shendoah National Park
+  permalink: /post/shenandoah-fall-foliage/
+  preview_image: JosephGruber_20181104_115721.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20181104_122938.jpg
+      date: 2018-11-04T12:29:38Z
+      title: Valley Fog
+      caption: Fog lower in the valley near Shenandoah National Park during the peak of autumn's foliage
+      guid: b4f329d6-7879-457e-a5b9-2072ba1a0760
+    - filename: JosephGruber_20181104_133012.jpg
+      date: 2018-11-04T13:30:12Z
+      title: Fall Creek
+      caption: Water flows over the rocks and leaves near Dark Hollows Falls
+      guid: 839ba9c0-10a8-4890-bc95-61673d15c03d
+    - filename: JosephGruber_20181104_121935.jpg
+      date: 2018-11-04T12:19:35Z
+      title: Valley Fog
+      caption: Fog lower in the valley near Shenandoah National Park during the peak of autumn's foliage
+      guid: dc35f077-f8b4-44ad-801f-4f4105fea8e9
+    - filename: JosephGruber_20181104_115721.jpg
+      date: 2018-11-04T11:57:21Z
+      title: Peak Foliage
+      caption: Peak of autumn's foliage in Shenandoah National Park
+      guid: d8fc2b36-05e5-4e7c-b5b3-193e26d20810
+    - filename: JosephGruber_20181104_132759.jpg
+      date: 2018-11-04T13:27:59Z
+      title: Fall Creek
+      caption: Water flows over the rocks and leaves near Dark Hollows Falls
+      guid: 41dd0785-fb35-4229-b1d3-b65d553623a8
+    - filename: JosephGruber_20181104_115340.jpg
+      date: 2018-11-04T11:53:40Z
+      title: Peak Foliage
+      caption: Peak of autumn's foliage in Shenandoah National Park
+      guid: 0f7f9d60-bbfe-4689-996c-14c5b48074f9
+
 geb-2017-baysox-game:
   name: 2017 Bowie Baysox Game
   tags: geb
@@ -1523,6 +1561,30 @@ geb-2018-pints-and-poses:
     - filename: JosephGruber_20181013_175732.jpg
       date: 2018-10-13T17:57:32Z
       title: 2018 Pints and Poses (Oreo)
+
+geb-2018-ft-hunt-park:
+  name: 2018 Fort Hunt Park Outing
+  tags: geb
+  permalink: /gallery/geb/2018-ft-hunt-park/
+  preview_image: JosephGruber_20181118_193818.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20181118_192635.jpg
+      date: 2018-11-18T19:26:35Z
+      title: Guiding Eyes Outing at Fort Hunt Park
+      caption: Otto, Ohana, and Imus
+    - filename: JosephGruber_20181118_192900.jpg
+      date: 2018-11-18T19:29:00Z
+      title: Guiding Eyes Outing at Fort Hunt Park
+      caption: Otto, Ohana, Imus, Jenny, and Ode
+    - filename: JosephGruber_20181118_193818.jpg
+      date: 2018-11-18T19:38:18Z
+      title: Guiding Eyes Outing at Fort Hunt Park
+      caption: Pippi and Pria
+    - filename: JosephGruber_20181118_205355.jpg
+      date: 2018-11-18T20:53:55Z
+      title: Guiding Eyes Outing at Fort Hunt Park
+      caption: Nikon, Fay, Valor, Romeo, Jude, Fenway, and Icarus
 
 benny:
   name: Benny
@@ -2196,6 +2258,41 @@ geb-fenway:
       date: 2018-07-29T12:15:31Z
       title: Fenway
 
+geb-fay:
+  name: Fay (7F317)
+  tags: geb
+  permalink: /gallery/geb/fay/
+  preview_image: JosephGruber_20181110_131822.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20181110_131809.jpg
+      date: 2018-11-10T13:18:09Z
+      title: Fay
+    - filename: JosephGruber_20181110_131822.jpg
+      date: 2018-11-10T13:18:22Z
+      title: Fay
+    - filename: JosephGruber_20181110_130654.jpg
+      date: 2018-11-10T13:06:54Z
+      title: Fay
+    - filename: JosephGruber_20181110_130442.jpg
+      date: 2018-11-10T13:04:42Z
+      title: Fay
+    - filename: JosephGruber_20181110_131946.jpg
+      date: 2018-11-10T13:19:46Z
+      title: Fay
+    - filename: JosephGruber_20181110_131855.jpg
+      date: 2018-11-10T13:18:55Z
+      title: Fay
+    - filename: JosephGruber_20181117_232025.jpg
+      date: 2018-11-17T23:20:25Z
+      title: Fay
+    - filename: JosephGruber_20181110_132821.jpg
+      date: 2018-11-10T13:28:21Z
+      title: Fay
+    - filename: JosephGruber_20181110_131709.jpg
+      date: 2018-11-10T13:17:09Z
+      title: Fay
+
 geb-galahad:
   name: Galahad (1GG13)
   tags: geb
@@ -2779,6 +2876,12 @@ geb-jude:
       title: Jude
     - filename: JosephGruber_20171105_141406.jpg
       date: 2017-11-05T18:14:06Z
+      title: Jude
+    - filename: JosephGruber_20181118_205534.jpg
+      date: 2018-11-18T20:55:34Z
+      title: Jude
+    - filename: JosephGruber_20181118_205546.jpg
+      date: 2018-11-18T20:55:46Z
       title: Jude
 
 geb-justine:
@@ -3554,6 +3657,36 @@ geb-valor:
       title: Valor
     - filename: JosephGruber_20170813_144136.jpg
       date: 2017-08-13T14:41:36Z
+      title: Valor
+    - filename: JosephGruber_20181113_172051.jpg
+      date: 2018-11-13T17:20:51Z
+      title: Valor
+    - filename: JosephGruber_20181113_170042.jpg
+      date: 2018-11-13T17:00:42Z
+      title: Valor
+    - filename: JosephGruber_20181113_163306.jpg
+      date: 2018-11-13T16:33:06Z
+      title: Valor
+    - filename: JosephGruber_20181113_163517.jpg
+      date: 2018-11-13T16:35:17Z
+      title: Valor
+    - filename: JosephGruber_20181113_163302.jpg
+      date: 2018-11-13T16:33:02Z
+      title: Valor
+    - filename: JosephGruber_20181113_163319.jpg
+      date: 2018-11-13T16:33:19Z
+      title: Valor
+    - filename: JosephGruber_20181113_163242.jpg
+      date: 2018-11-13T16:32:42Z
+      title: Valor
+    - filename: JosephGruber_20181113_164946.jpg
+      date: 2018-11-13T16:49:46Z
+      title: Valor
+    - filename: JosephGruber_20181113_170114.jpg
+      date: 2018-11-13T17:01:14Z
+      title: Valor
+    - filename: JosephGruber_20181117_121151.jpg
+      date: 2018-11-17T12:11:51Z
       title: Valor
 
 geb-vanda:
