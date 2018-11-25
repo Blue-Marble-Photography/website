@@ -1,19 +1,19 @@
-title: "Blue Marble Photography"
+title: 'Blue Marble Photography'
 description: "Our Blue Marble, the planet Earth, has so many amazing, jaw-dropping, wonderous views all around us that I am delighted to share with you through my photography. In the infamous words of Apollo 8 astronaut Bill Anders, 'Oh, my God! Look at that picture over there! Here's the earth coming up. Wow, is that pretty!'"
 headline: "That's here, that's home, that's us."
 
-url: "https://bluemarble.photography"
-base_url: "/"
-asset_url: "/assets"
-image_url: "/assets/images"
-photo_url: "/assets/images/photos"
-featured_image_url: "/assets/images/featured"
+url: 'https://bluemarble.photography'
+base_url: '/'
+asset_url: '/assets'
+image_url: '/assets/images'
+photo_url: '/assets/images/photos'
+featured_image_url: '/assets/images/featured'
 
-google_analytics: "UA-60495309-1"
-onesignal_api_key: "e0cbc398-0a93-49be-bdd7-8dbc8e2151c5"
+google_analytics: 'UA-60495309-1'
+onesignal_api_key: 'e0cbc398-0a93-49be-bdd7-8dbc8e2151c5'
 snipcart_api_key:
-  test: "MmYxNTM1MzItOGRkZS00MjcxLTk4OGEtYWE5MjAwYzc1MzQ4NjM2NjYyNDExMzgxNzA0MTc0"
-  live: "N2JiYWRmMTctMjhjMS00MmY1LWJhOTYtNWVhZjY2Y2NjM2VkNjM2NjYyNDExMzgxNzA0MTc0"
+  test: 'MmYxNTM1MzItOGRkZS00MjcxLTk4OGEtYWE5MjAwYzc1MzQ4NjM2NjYyNDExMzgxNzA0MTc0'
+  live: 'N2JiYWRmMTctMjhjMS00MmY1LWJhOTYtNWVhZjY2Y2NjM2VkNjM2NjYyNDExMzgxNzA0MTc0'
 
 author:
   name: Joseph Gruber
@@ -40,7 +40,7 @@ social:
 
 destination: _site
 paginate: 10
-paginate_path: "/blog/page:num/"
+paginate_path: '/blog/page:num/'
 permalink: /post/:title/
 markdown: kramdown
 highlighter: rouge
@@ -51,16 +51,16 @@ kramdown:
 
 defaults:
   - scope:
-      path: ""
-      type: "posts"
+      path: ''
+      type: 'posts'
     values:
-      layout: "post"
+      layout: 'post'
   - scope:
-      path: "_galleries/geb"
+      path: '_galleries/geb'
     values:
       sitemap: false
   - scope:
-      path: "_galleries/private"
+      path: '_galleries/private'
     values:
       sitemap: false
 
@@ -69,18 +69,21 @@ collections:
     output: true
     permalink: gallery/:path/
 
-plugins: ["jekyll-paginate", "jekyll-last-modified-at", "jekyll-sitemap"]
+plugins: ['jekyll-paginate', 'jekyll-last-modified-at', 'jekyll-sitemap']
 
 exclude:
   [
-    "vendor",
-    "Gemfile",
-    "Gemfile.lock",
-    "gulpfile.js",
-    "node_modules",
-    "package.json",
-    "package-lock.json",
-    "write-gallery-meta.php",
-    "rev-manifest.json",
-    "s3_website.yml",
+    'vendor',
+    'Gemfile',
+    'Gemfile.lock',
+    'gulpfile.js',
+    'node_modules',
+    'package.json',
+    'package-lock.json',
+    'write-gallery-meta.php',
+    'rev-manifest.json',
+    's3_website.yml',
   ]
+
+compress_html:
+  clippings: all
