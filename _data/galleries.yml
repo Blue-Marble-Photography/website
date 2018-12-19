@@ -2257,6 +2257,9 @@ geb-fenway:
     - filename: JosephGruber_20180729_121531.jpg
       date: 2018-07-29T12:15:31Z
       title: Fenway
+    - filename: JosephGruber_20181216_203839.jpg
+      date: 2018-12-16T20:38:39Z
+      title: Fenway
 
 geb-fay:
   name: Fay (7F317)
@@ -2746,6 +2749,20 @@ geb-icarus:
     - filename: JosephGruber_20170917_135206.jpg
       date: 2017-09-17T13:52:06Z
       title: Icarus
+    - filename: JosephGruber_20181216_203934.jpg
+      date: 2018-12-16T20:39:34Z
+      title: Icarus
+
+geb-imus:
+  name: Imus (3I317)
+  tags: geb
+  permalink: /gallery/geb/imus/
+  preview_image: JosephGruber_20181216_193324.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20181216_193324.jpg
+      date: 2018-12-16T19:33:24Z
+      title: Imus
 
 geb-irwin:
   name: Irwin (1I16)
@@ -2860,6 +2877,9 @@ geb-jenny:
     - filename: JosephGruber_20180909_182958.jpg
       date: 2018-09-09T18:29:58Z
       title: Jenny
+    - filename: JosephGruber_20181216_193058.jpg
+      date: 2018-12-16T19:30:58Z
+      title: Jenny
 
 geb-jude:
   name: Jude (2J317)
@@ -2882,6 +2902,9 @@ geb-jude:
       title: Jude
     - filename: JosephGruber_20181118_205546.jpg
       date: 2018-11-18T20:55:46Z
+      title: Jude
+    - filename: JosephGruber_20181216_203633.jpg
+      date: 2018-12-16T20:36:33Z
       title: Jude
 
 geb-justine:
@@ -3182,6 +3205,9 @@ geb-meyer:
     - filename: JosephGruber_20180412_075111.jpg
       date: 2018-04-09T00:00:00Z
       title: Meyer
+    - filename: JosephGruber_20181216_182838.jpg
+      date: 2018-12-16T18:28:38Z
+      title: Meyer
 
 geb-minka:
   name: Minka (6MM17)
@@ -3211,6 +3237,17 @@ geb-minka:
     - filename: JosephGruber_20180909_083313.jpg
       date: 2018-09-09T12:37:00Z
       title: Minka
+
+geb-nikon:
+  name: Nikon (8N417)
+  tags: geb
+  permalink: /gallery/geb/nikon/
+  preview_image: JosephGruber_20181216_203551.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20181216_203551.jpg
+      date: 2018-12-16T20:35:51Z
+      title: Nikon
 
 geb-nutmeg:
   name: Nutmeg (4N17)
@@ -3250,6 +3287,17 @@ geb-nutmeg:
       date: 2018-05-06T00:00:00Z
       title: Nutmeg
 
+geb-ode:
+  name: Ode (3O317)
+  tags: geb
+  permalink: /gallery/geb/ode/
+  preview_image: JosephGruber_20181216_193431.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20181216_193431.jpg
+      date: 2018-12-16T19:34:31Z
+      title: Ode
+
 geb-otto:
   name: Otto (4O417)
   tags: geb
@@ -3259,6 +3307,9 @@ geb-otto:
   images:
     - filename: JosephGruber_20180408_134140.jpg
       date: 2018-04-08T13:41:40Z
+      title: Otto
+    - filename: JosephGruber_20181216_183710.jpg
+      date: 2018-12-16T18:37:10Z
       title: Otto
 
 geb-parsley:
@@ -3305,6 +3356,9 @@ geb-pippi:
       title: Pippi
     - filename: JosephGruber_20180916_160756.jpg
       date: 2018-09-16T16:07:56Z
+      title: Pippi
+    - filename: JosephGruber_20181216_181006.jpg
+      date: 2018-12-16T18:10:06Z
       title: Pippi
 
 geb-pria:
@@ -3406,6 +3460,17 @@ geb-pumpkin:
       title: Pumpkin
       caption: Pumpkin enjoys a day out in Shenandoah National Park
 
+geb-quincy:
+  name: Quincy (4Q417)
+  tags: geb
+  permalink: /gallery/geb/quincy/
+  preview_image: JosephGruber_20181216_183535.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20181216_183535.jpg
+      date: 2018-12-16T18:35:35Z
+      title: Quincy
+
 geb-rasha:
   name: Rasha (2RR16)
   tags: geb
@@ -3501,6 +3566,15 @@ geb-rhonda:
     - filename: JosephGruber_20180916_164254.jpg
       date: 2018-09-16T16:42:54Z
       title: Rhonda
+    - filename: JosephGruber_20181216_172059.jpg
+      date: 2018-12-16T17:20:59Z
+      title: Rhonda
+    - filename: JosephGruber_20181216_181718.jpg
+      date: 2018-12-16T18:17:18Z
+      title: Rhonda
+    - filename: JosephGruber_20181216_181533.jpg
+      date: 2018-12-16T18:15:33Z
+      title: Rhonda
 
 geb-rocco:
   name: Rocco (2RR18)
@@ -3515,6 +3589,20 @@ geb-rocco:
     - filename: JosephGruber_20180916_161216.jpg
       date: 2018-09-16T16:12:16Z
       title: Rocco
+    - filename: JosephGruber_20181216_181208.jpg
+      date: 2018-12-16T18:12:08Z
+      title: Rocco
+
+geb-romeo:
+  name: Romeo (5R317)
+  tags: geb
+  permalink: /gallery/geb/romeo/
+  preview_image: JosephGruber_20181216_203739.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20181216_203739.jpg
+      date: 2018-12-16T20:37:39Z
+      title: Romeo
 
 geb-rue:
   name: Rue (4R17)
@@ -3874,6 +3962,15 @@ geb-yola:
       title: Yola
     - filename: JosephGruber_20180930_160238.jpg
       date: 2018-09-30T16:02:38Z
+      title: Yola
+    - filename: JosephGruber_20181216_181344.jpg
+      date: 2018-12-16T18:13:44Z
+      title: Yola
+    - filename: JosephGruber_20181216_181829.jpg
+      date: 2018-12-16T18:18:29Z
+      title: Yola
+    - filename: JosephGruber_20181216_172008.jpg
+      date: 2018-12-16T17:20:08Z
       title: Yola
 
 geb-yoshi:
