@@ -4,7 +4,7 @@ from botocore.exceptions import ClientError
 
 
 def lambda_handler(event, context):
-  status = sendEmail(event['filename'])
+  status = sendEmail(event['queryStringParameters']['filename'])
 
   return {'status': status}
 
@@ -14,10 +14,9 @@ def sendEmail(filename):
 
   bodyText = (filename + ' was downloaded at ' + timestamp)
 
-  bodyHtml = '<html><head></head><body>'
-  '<p>' + filename + ' was downloaded at ' + timestamp + '</p>'
-  '<p><img src="https://bluemarble.photography/assets/images/photos/"' + filename.replace('.jpg', '-750.jpg') + '"></p>'
-  '</body></html>'
+  bodyHtml = '<html><head></head><body><p>' + filename + ' was downloaded at ' + timestamp + \
+      '</p><p><img src="https://bluemarble.photography/assets/images/photos/' + \
+      filename.replace('.jpg', '-750.jpg') + '"></p></body></html>'
 
   client = boto3.client('ses', region_name='us-east-1')
 
