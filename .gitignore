@@ -14,3 +14,4 @@ _assets/images/featured/
 _assets/images/photos/
 rev-manifest.json
 .env
+*.zip
