@@ -1,12 +1,20 @@
 import boto3
 import datetime
+import json
 from botocore.exceptions import ClientError
 
 
 def lambda_handler(event, context):
   status = sendEmail(event['queryStringParameters']['filename'])
 
-  return {'status': status}
+  return {
+      'statusCode': 200,
+      'body': json.dumps(status),
+      'headers': {
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': 'https://bluemarble.photography'
+      }
+  }
 
 
 def sendEmail(filename):
@@ -21,16 +29,16 @@ def sendEmail(filename):
   client = boto3.client('ses', region_name='us-east-1')
 
   try:
-    response = client.send_email(
+    client.send_email(
         Destination={'ToAddresses': ['joseph@bluemarble.photography', ]},
         Message={'Body': {'Html': {'Charset': 'UTF-8', 'Data': bodyHtml},
                           'Text': {'Charset': 'UTF-8', 'Data': bodyText}},
                  'Subject': {'Charset': 'UTF-8', 'Data': 'Blue Marble Photography - Download Notification', }},
         Source='noreply@bluemarble.photography',
     )
-  except ClientError as e:
-    response = e.response['Error']['Message']
-  else:
-    response = 'sent'
 
-  return response
+    return {'status': 'sent'}
+  except ClientError as e:
+    return {'status': e.response['Error']['Message']}
+  else:
+    return {'status': 'unknown'}
