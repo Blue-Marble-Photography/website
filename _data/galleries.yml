@@ -2954,6 +2954,36 @@ geb-jude:
     - filename: JosephGruber_20181216_203633.jpg
       date: 2018-12-16T20:36:33Z
       title: Jude
+    - filename: JosephGruber_20181229_141722.jpg
+      date: 2018-12-29T14:17:22Z
+      title: Jude
+    - filename: JosephGruber_20181229_140228.jpg
+      date: 2018-12-29T14:02:28Z
+      title: Jude
+    - filename: JosephGruber_20181229_141409.jpg
+      date: 2018-12-29T14:14:09Z
+      title: Jude
+    - filename: JosephGruber_20181229_140709.jpg
+      date: 2018-12-29T14:07:09Z
+      title: Jude
+    - filename: JosephGruber_20181229_141945.jpg
+      date: 2018-12-29T14:19:45Z
+      title: Jude
+    - filename: JosephGruber_20181229_140653.jpg
+      date: 2018-12-29T14:06:53Z
+      title: Jude
+    - filename: JosephGruber_20181229_141413.jpg
+      date: 2018-12-29T14:14:13Z
+      title: Jude
+    - filename: JosephGruber_20181229_140543.jpg
+      date: 2018-12-29T14:05:43Z
+      title: Jude
+    - filename: JosephGruber_20181229_204958.jpg
+      date: 2018-12-29T20:49:58Z
+      title: Jude
+    - filename: JosephGruber_20181229_140218.jpg
+      date: 2018-12-29T14:02:18Z
+      title: Jude
 
 geb-justine:
   name: Justine (6J315)
@@ -3339,11 +3369,35 @@ geb-ode:
   name: Ode (3O317)
   tags: geb
   permalink: /gallery/geb/ode/
-  preview_image: JosephGruber_20181216_193431.jpg
+  preview_image: JosephGruber_20181229_133000.jpg
   pricelist: guiding-eyes
   images:
     - filename: JosephGruber_20181216_193431.jpg
       date: 2018-12-16T19:34:31Z
+      title: Ode
+    - filename: JosephGruber_20181229_133000.jpg
+      date: 2018-12-29T13:30:00Z
+      title: Ode
+    - filename: JosephGruber_20181229_133715.jpg
+      date: 2018-12-29T13:37:15Z
+      title: Ode
+    - filename: JosephGruber_20181229_132414.jpg
+      date: 2018-12-29T13:24:14Z
+      title: Ode
+    - filename: JosephGruber_20181229_132206.jpg
+      date: 2018-12-29T13:22:06Z
+      title: Ode
+    - filename: JosephGruber_20181229_131054.jpg
+      date: 2018-12-29T13:10:54Z
+      title: Ode
+    - filename: JosephGruber_20181229_205029.jpg
+      date: 2018-12-29T20:50:29Z
+      title: Ode
+    - filename: JosephGruber_20181229_131618.jpg
+      date: 2018-12-29T13:16:18Z
+      title: Ode
+    - filename: JosephGruber_20181229_131343.jpg
+      date: 2018-12-29T13:13:43Z
       title: Ode
 
 geb-ohana:
