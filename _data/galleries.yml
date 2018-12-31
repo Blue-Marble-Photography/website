@@ -1009,6 +1009,64 @@ april-showers-bring-may-flowers:
       caption: Peak of autumn's foliage in Shenandoah National Park
       guid: 0f7f9d60-bbfe-4689-996c-14c5b48074f9
 
+2018-best-photos:
+  name: Best Photos of 2018
+  description: Counting down the ten most favorite and best photos of 2018 captured by Blue Marble Photography
+  permalink: /post/2018-best-photos/
+  preview_image: JosephGruber_20180108_071820.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20180106_144743.jpg
+      date: 2018-01-06T14:47:43Z
+      title: Ice Skating on a Frozen Lincoln Memorial Reflecting Pool
+      caption: January 2018 - As winter wore on, a cold streak hit the Washington, D.C. area freezing the Lincoln Memorial Reflecting Pool allowing ice skaters, and even intrepid photographers, to venture out onto it's surface.
+      guid: 0413e165-a5d5-40b2-a073-971596bbf393
+    - filename: JosephGruber_20180108_070524.jpg
+      date: 2018-01-08T07:05:24Z
+      title: Colorful Sunrise over the Jefferson Memorial
+      caption: January 2018 - The Washington, D.C. area has some of the prettiest sunrises during winter with a multitude of colors over the memorials and monuments, in this case the Tidal Basin and Jefferson Memorial.
+      guid: 3b310256-a4e9-4685-bf28-130e47aeea0c
+    - filename: JosephGruber_20180206_154731.jpg
+      date: 2018-02-06T15:47:31Z
+      title: Maiden Falcon Heavy Launch
+      caption: February 2018 - SpaceX successfully launches the Falcon Heavy from Launch Complex 39-A at Kennedy Space Center on it's maiden flight, and in the process sends back stunning views of a cherry red Tesla Roadstar and our beautiful Earth.
+      guid: 05f56b1c-c557-4916-a8dc-761755eff564
+    - filename: JosephGruber_20180311_073136.jpg
+      date: 2018-03-11T07:31:36Z
+      title: Guiding Eyes for the Blind Gwenyth
+      caption: March 2018 - Countless fun photoshoots throughout the year with the amazing Guiding Eyes for the Blind puppies in training. GEB Gwenyth here practically bounces for joy in front of the Lincoln Memorial.
+      guid: b0f1d23d-ab9c-42e3-ae6a-cb854cb37c0c
+    - filename: JosephGruber_20180514_004629.jpg
+      date: 2018-05-14T00:46:29Z
+      title: Badlands National Park Night Sky
+      caption: May 2018 - Adventures in one of my favorite national parks, Badlands National Park, which has amazing dark skies allowing you to see the stars, planets, and Milky Way in their full glory.
+      guid: e2d237f8-9f2d-41ed-b8cd-dca83ad90d1d
+    - filename: JosephGruber_20180812_191045.jpg
+      date: 2018-08-12T19:10:45Z
+      title: The Face of Hate
+      caption: August 2018 - I debated whether to include this photo of the white nationalist Unite the Right rally in DC this summer, however, it was the craziest and scariest protest I've photographed.
+      guid: fe120efb-f9f2-492a-a099-80a77941a481
+    - filename: JosephGruber_20180907_003815.jpg
+      date: 2018-09-07T00:38:15Z
+      title: Lightning over the Washington Monument
+      caption: September 2018 - An gorgeous bolt of lightning strikes behind the Washington Monument lighting up the night sky. I had tried for years to get this shot!
+      guid: fe132485-3463-4d50-a330-3767032a1161
+    - filename: JosephGruber_20180903_004432.jpg
+      date: 2018-09-03T00:44:32Z
+      title: Iridium Flare over the Washington Monument
+      caption: September 2018 - An Iridium satellite flares over the Washington Monument, one of the last times it would as the legacy generation of Iridium satellites was mostly deorbited in 2018.
+      guid: 391c90a7-d528-4e0d-93fa-91778b5d0efb
+    - filename: JosephGruber_20181104_115340.jpg
+      date: 2018-11-04T11:53:40Z
+      title: Peak Foliage
+      caption: November 2018 - Many, many camping and hiking adventures were had in Shenandoah National Park this year with autumn one of my favorite times to spend in the park as the forest glows all shades of orange, red, and yellow.
+      guid: 0f7f9d60-bbfe-4689-996c-14c5b48074f9
+    - filename: JosephGruber_20181223_115703.jpg
+      date: 2018-12-23T11:57:03Z
+      title: Christmas Shutdown
+      caption: December 2018 - As the US government shutdown began, impacts began to be felt far and wide including at the United States Capitol with limited visiting hours for the Capitol Christmas Tree.
+      guid: 82497960-b08c-4c8e-80d3-509bb11b4fcc
+
 geb-2017-baysox-game:
   name: 2017 Bowie Baysox Game
   tags: geb
