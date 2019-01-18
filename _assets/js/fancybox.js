@@ -141,20 +141,22 @@ function setLightboxDefaults() {
   };
 }
 
-$('body').on('click', '.fancybox-button.icon-facebook-squared', function() {
-  window.open(
-    'https://www.facebook.com/sharer/sharer.php?u=' +
-      encodeURIComponent(window.location.href) +
-      '&t=' +
-      encodeURIComponent(document.title)
-  );
-});
+jQuery(document).ready(function() {
+  $('body').on('click', '.fancybox-button.icon-facebook-squared', function() {
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u=' +
+        encodeURIComponent(window.location.href) +
+        '&t=' +
+        encodeURIComponent(document.title)
+    );
+  });
 
-$('body').on('click', '.fancybox-button.icon-twitter-squared', function() {
-  window.open(
-    'https://twitter.com/intent/tweet?text=' +
-      encodeURIComponent(document.title) +
-      '&via=BlueMarblePhoto&url=' +
-      encodeURIComponent(window.location.href)
-  );
+  $('body').on('click', '.fancybox-button.icon-twitter-squared', function() {
+    window.open(
+      'https://twitter.com/intent/tweet?text=' +
+        encodeURIComponent(document.title) +
+        '&via=BlueMarblePhoto&url=' +
+        encodeURIComponent(window.location.href)
+    );
+  });
 });
