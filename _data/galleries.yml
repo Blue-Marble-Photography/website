@@ -4027,6 +4027,38 @@ geb-valiant:
       date: 2015-11-13T00:00:00Z
       title: Valiant
 
+geb-valiant-7v318:
+  name: Valiant (7V318)
+  tags: geb
+  permalink: /gallery/geb/valiant-7v318/
+  preview_image: JosephGruber_20190120_194110.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20190120_194159.jpg
+      date: 2019-01-20T19:41:59Z
+      title: Valiant
+    - filename: JosephGruber_20190120_192007.jpg
+      date: 2019-01-20T19:20:07Z
+      title: Valiant
+    - filename: JosephGruber_20190120_194110.jpg
+      date: 2019-01-20T19:41:10Z
+      title: Valiant
+    - filename: JosephGruber_20190120_191900.jpg
+      date: 2019-01-20T19:19:00Z
+      title: Valiant
+    - filename: JosephGruber_20190120_194326.jpg
+      date: 2019-01-20T19:43:26Z
+      title: Valiant
+    - filename: JosephGruber_20190120_192019.jpg
+      date: 2019-01-20T19:20:19Z
+      title: Valiant
+    - filename: JosephGruber_20190120_191821.jpg
+      date: 2019-01-20T19:18:21Z
+      title: Valiant
+    - filename: JosephGruber_20190120_194225.jpg
+      date: 2019-01-20T19:42:25Z
+      title: Valiant
+
 geb-valor:
   name: Valor (3VV17)
   tags: geb
