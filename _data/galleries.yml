@@ -3905,11 +3905,41 @@ geb-romeo:
   name: Romeo (5R317)
   tags: geb
   permalink: /gallery/geb/romeo/
-  preview_image: JosephGruber_20181216_203739.jpg
+  preview_image: JosephGruber_20190202_141142.jpg
   pricelist: guiding-eyes
   images:
     - filename: JosephGruber_20181216_203739.jpg
       date: 2018-12-16T20:37:39Z
+      title: Romeo
+    - filename: JosephGruber_20190202_134205.jpg
+      date: 2019-02-02T13:42:05Z
+      title: Romeo
+    - filename: JosephGruber_20190202_185815.jpg
+      date: 2019-02-02T18:58:15Z
+      title: Romeo
+    - filename: JosephGruber_20190202_133456.jpg
+      date: 2019-02-02T13:34:56Z
+      title: Romeo
+    - filename: JosephGruber_20190202_135421.jpg
+      date: 2019-02-02T13:54:21Z
+      title: Romeo
+    - filename: JosephGruber_20190202_141408.jpg
+      date: 2019-02-02T14:14:08Z
+      title: Romeo
+    - filename: JosephGruber_20190202_141142.jpg
+      date: 2019-02-02T14:11:42Z
+      title: Romeo
+    - filename: JosephGruber_20190202_132555.jpg
+      date: 2019-02-02T13:25:55Z
+      title: Romeo
+    - filename: JosephGruber_20190202_133606.jpg
+      date: 2019-02-02T13:36:06Z
+      title: Romeo
+    - filename: JosephGruber_20190202_141524.jpg
+      date: 2019-02-02T14:15:24Z
+      title: Romeo
+    - filename: JosephGruber_20190202_141532.jpg
+      date: 2019-02-02T14:15:32Z
       title: Romeo
 
 geb-rue:
