@@ -48,6 +48,11 @@ astrophotography:
       date: 2014-07-13T02:21:17Z
       title: Supermoon Departure
       guid: cb621e57-b38b-4578-a126-7d85e55bb018
+    - filename: JosephGruber_20190331_034104.jpg
+      date: 2019-03-31T03:41:04Z
+      title: Space Needle, meet Space Station
+      caption: The International Space Station passes high above the Space Needle in Seattle amidst a background of stars in the night sky
+      guid: a7a63f49-ddec-4383-936a-9bb01e7c128f
 
 landscapes:
   name: Landscapes
@@ -55,11 +60,6 @@ landscapes:
   preview_image: JosephGruber_20150311_191718.jpg
   pricelist: default
   images:
-    - filename: JosephGruber_20141108_210258.jpg
-      date: 2014-11-08T21:02:58Z
-      title: Colors of Seattle
-      caption: Sunset over the Seattle skyline with the Space Needle in the foreground and Mt Rainier in the background
-      guid: e4f46be4-a05f-46c7-8db9-20f22b60f032
     - filename: JosephGruber_20150311_191718.jpg
       date: 2015-03-11T19:17:18Z
       title: What A Beautiful World!
@@ -116,6 +116,18 @@ landscapes:
       title: Last Sunrise
       caption: A light show in the sky during the last sunrise of the year as the clouds take on multiple colors and reflect in the Potomac River
       guid: 0b76d89c-bd54-48c6-88ec-bdf643cae440
+
+weather:
+  name: Weather
+  permalink: /gallery/weather
+  preview_image: JosephGruber_20180907_003815.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20180907_003815.jpg
+      date: 2018-09-07T00:38:15Z
+      title: Monumental Strike
+      caption: Lightning strikes behind the Washington Monument lighting up the night sky
+      guid: cae798d0-5819-4a4f-9520-53c6175979b7
 
 pets:
   name: Pets
@@ -570,6 +582,48 @@ washington-dc:
       title: Capitol Snow
       caption: Snow flakes fall around the United States Capitol Building dome during a DC snowstorm
       guid: 01335939-c7a9-4278-af3f-761d2b80d55d
+    - filename: JosephGruber_20180907_003815.jpg
+      date: 2018-09-07T00:38:15Z
+      title: Monumental Strike
+      caption: Lightning strikes behind the Washington Monument lighting up the night sky
+      guid: cae798d0-5819-4a4f-9520-53c6175979b7
+    - filename: JosephGruber_20190217_121203.jpg
+      date: 2019-02-17T12:12:03Z
+      title: Capitol Sunrise
+      caption: Sunrise from the steps of the Lincoln Memorial looking out over the DC skyline and Lincoln Memorial Reflecting Pool
+      guid: 9f1d5d0b-8f0c-4f60-bc43-9311662ac50b
+
+seattle:
+  name: Seattle
+  permalink: /gallery/seattle
+  preview_image: JosephGruber_20141108_210258.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20141108_210258.jpg
+      date: 2014-11-08T21:02:58Z
+      title: Colors of Seattle
+      caption: Sunset over the Seattle skyline with the Space Needle in the foreground and Mt Rainier in the background
+      guid: e4f46be4-a05f-46c7-8db9-20f22b60f032
+    - filename: JosephGruber_20190327_012927.jpg
+      date: 2019-03-27T01:29:27Z
+      title: UW Cherry Blossoms
+      caption: Cherry blossoms bloom in the sunlight on the University of Washington campus
+      guid: 597f526f-2cae-440f-b496-2af42f3920e5
+    - filename: JosephGruber_20190325_021634.jpg
+      date: 2019-03-25T02:16:34Z
+      title: One last wave
+      caption: A surfer sitting on their surfboard waits in the water to catch one last wave before the sun sets
+      guid: 8f0532cb-b67c-43ef-983b-136292e2a6ef
+    - filename: JosephGruber_20190331_034104.jpg
+      date: 2019-03-31T03:41:04Z
+      title: Space Needle, meet Space Station
+      caption: The International Space Station passes high above the Space Needle in Seattle amidst a background of stars in the night sky
+      guid: a7a63f49-ddec-4383-936a-9bb01e7c128f
+    - filename: JosephGruber_20190319_020810.jpg
+      date: 2019-03-19T02:08:10Z
+      title: Beauty of Seattle
+      caption: Joggers, bikers, and walkers enjoy the waterfront along Elliott Bay on the warmest winter day in Seattle history
+      guid: ef7d8bee-e808-456e-b639-2f795b8e19ad
 
 winter-in-dc:
   name: Winter in DC (2018)
@@ -1071,6 +1125,50 @@ april-showers-bring-may-flowers:
       title: Christmas Shutdown
       caption: December 2018 - As the US government shutdown began, impacts began to be felt far and wide including at the United States Capitol with limited visiting hours for the Capitol Christmas Tree.
       guid: 82497960-b08c-4c8e-80d3-509bb11b4fcc
+
+2019-seattle-cherry-blossoms:
+  name: Seattle Spring Cherry Blossoms
+  description: Cherry Blossoms in bloom at the University of Washington campus in Seattle as winter exits and spring arrives
+  permalink: /post/2019-seattle-cherry-blossoms/
+  preview_image: JosephGruber_20190327_012512.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20190327_013105.jpg
+      date: 2019-03-27T01:31:05Z
+      title: Cherry blossoms blooming in the bright sunlight
+      guid: eda88fdf-0c63-4992-93ba-44a7bfccf992
+    - filename: JosephGruber_20190327_013138.jpg
+      date: 2019-03-27T01:31:38Z
+      title: A lone, fully bloomed, cherry blossom
+      guid: 643fd0fd-6058-4e39-be18-69b3b27d984c
+    - filename: JosephGruber_20190327_012828.jpg
+      date: 2019-03-27T01:28:28Z
+      title: Groves of cherry blossoms lined up on the University of Washington campus
+      guid: 9de28bc9-3b6e-425f-ac1f-e0e3dc6530ca
+    - filename: JosephGruber_20190327_013204.jpg
+      date: 2019-03-27T01:32:04Z
+      title: Cherry blossoms embedded in the trunk of the cherry tree
+      guid: e9370a95-3906-4b20-8838-cf98e7d76ec0
+    - filename: JosephGruber_20190327_012709.jpg
+      date: 2019-03-27T01:27:09Z
+      title: Cherry blossoms almost at full bloom
+      guid: 59d2269a-0854-4a68-89ae-bbb042a59ed2
+    - filename: JosephGruber_20190327_012927.jpg
+      date: 2019-03-27T01:29:27Z
+      title: Cherry blossoms bloom in the sunlight on the University of Washington campus
+      guid: 597f526f-2cae-440f-b496-2af42f3920e5
+    - filename: JosephGruber_20190327_013227.jpg
+      date: 2019-03-27T01:32:27Z
+      title: Cherry blossoms embedded in the trunk of the cherry tree
+      guid: da880d15-c389-47a6-9f77-2c9b7d6bb007
+    - filename: JosephGruber_20190327_013342.jpg
+      date: 2019-03-27T01:33:42Z
+      title: Instagram worthy views of the cherry blossoms
+      guid: a21fcbba-d8b3-4a34-a7e2-6a7a2b9b6418
+    - filename: JosephGruber_20190327_012512.jpg
+      date: 2019-03-27T01:35:12Z
+      title: Cherry blossoms soak up the bright sunlight admist a clear blue sky
+      guid: dc8b8f99-027d-4e59-ac47-5ded077ea902
 
 geb-2017-baysox-game:
   name: 2017 Bowie Baysox Game
@@ -1649,6 +1747,44 @@ geb-2018-ft-hunt-park:
       title: Guiding Eyes Outing at Fort Hunt Park
       caption: Nikon, Fay, Valor, Romeo, Jude, Fenway, and Icarus
 
+geb-2019-tom-panek:
+  name: 2019 Tom Panek Visits Northern Virginia
+  tags: geb
+  permalink: /gallery/geb/2019-tom-panek/
+  preview_image: JosephGruber_20190428_183647.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20190428_180537.jpg
+      date: 2019-04-28T18:05:37Z
+      title: GEB CEO Tom Panek Visits Northern Virginia
+    - filename: JosephGruber_20190428_180431.jpg
+      date: 2019-04-28T18:04:31Z
+      title: GEB CEO Tom Panek Visits Northern Virginia
+    - filename: JosephGruber_20190428_180948.jpg
+      date: 2019-04-28T18:09:48Z
+      title: GEB CEO Tom Panek Visits Northern Virginia
+    - filename: JosephGruber_20190428_182608.jpg
+      date: 2019-04-28T18:26:08Z
+      title: GEB CEO Tom Panek Visits Northern Virginia
+    - filename: JosephGruber_20190428_183124.jpg
+      date: 2019-04-28T18:31:24Z
+      title: GEB CEO Tom Panek Visits Northern Virginia
+    - filename: JosephGruber_20190428_180604.jpg
+      date: 2019-04-28T18:06:04Z
+      title: GEB CEO Tom Panek Visits Northern Virginia
+    - filename: JosephGruber_20190428_182007.jpg
+      date: 2019-04-28T18:20:07Z
+      title: GEB CEO Tom Panek Visits Northern Virginia
+    - filename: JosephGruber_20190428_191242.jpg
+      date: 2019-04-28T19:12:42Z
+      title: GEB CEO Tom Panek Visits Northern Virginia
+    - filename: JosephGruber_20190428_183647.jpg
+      date: 2019-04-28T18:36:47Z
+      title: GEB CEO Tom Panek Visits Northern Virginia
+    - filename: JosephGruber_20190428_182503.jpg
+      date: 2019-04-28T18:25:03Z
+      title: GEB CEO Tom Panek Visits Northern Virginia
+
 benny:
   name: Benny
   permalink: /gallery/private/benny/
@@ -1787,6 +1923,23 @@ benny:
     - filename: JosephGruber_20171028_162956.jpg
       date: 2017-10-28T16:29:56Z
       title: Benny
+
+geb-adrienne:
+  name: Adrienne (9A418)
+  tags: geb
+  permalink: /gallery/geb/adrienne/
+  preview_image: JosephGruber_20190217_183934.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20190217_183935.jpg
+      date: 2019-02-17T18:39:35Z
+      title: Adrienne
+    - filename: JosephGruber_20190217_183934.jpg
+      date: 2019-02-17T18:39:34Z
+      title: Adrienne
+    - filename: JosephGruber_20190217_173504.jpg
+      date: 2019-02-17T17:35:04Z
+      title: Adrienne
 
 geb-amos:
   name: Amos (4AA15)
@@ -1933,6 +2086,23 @@ geb-balsa:
       date: 2017-05-06T00:00:00Z
       title: Balsa
 
+geb-brandy:
+  name: Brandy (3B418)
+  tags: geb
+  permalink: /gallery/geb/brandy/
+  preview_image: JosephGruber_20190217_173146.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20190217_165130.jpg
+      date: 2019-02-17T16:51:30Z
+      title: Brandy
+    - filename: JosephGruber_20190217_173146.jpg
+      date: 2019-02-17T17:31:46Z
+      title: Brandy
+    - filename: JosephGruber_20190217_165128.jpg
+      date: 2019-02-17T16:51:28Z
+      title: Brandy
+
 geb-delilah:
   name: Delilah (7D316)
   tags: geb
@@ -1991,6 +2161,20 @@ geb-delilah:
     - filename: JosephGruber_20171118_124310.jpg
       date: 2017-11-18T22:00:00Z
       title: Delilah
+
+geb-dove:
+  name: Dove (2D418)
+  tags: geb
+  permalink: /gallery/geb/dove/
+  preview_image: JosephGruber_20190217_170958.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20190217_170953.jpg
+      date: 2019-02-17T17:09:53Z
+      title: Dove
+    - filename: JosephGruber_20190217_170958.jpg
+      date: 2019-02-17T17:09:58Z
+      title: Dove
 
 geb-elkins:
   name: Elkins (1E17)
@@ -2234,6 +2418,41 @@ geb-ernie:
       date: 2016-05-10T00:00:00Z
       title: Ernie
 
+geb-expo:
+  name: Expo (6E19)
+  tags: geb
+  permalink: /gallery/geb/expo/
+  preview_image: JosephGruber_20190427_121329.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20190427_121329.jpg
+      date: 2019-04-27T12:13:29Z
+      title: Expo
+    - filename: JosephGruber_20190427_121925.jpg
+      date: 2019-04-27T12:19:25Z
+      title: Expo
+    - filename: JosephGruber_20190427_122203.jpg
+      date: 2019-04-27T12:22:03Z
+      title: Expo
+    - filename: JosephGruber_20190427_121045.jpg
+      date: 2019-04-27T12:10:45Z
+      title: Expo
+    - filename: JosephGruber_20190427_121330.jpg
+      date: 2019-04-27T12:13:30Z
+      title: Expo
+    - filename: JosephGruber_20190427_123340.jpg
+      date: 2019-04-27T12:33:40Z
+      title: Expo
+    - filename: JosephGruber_20190427_121608.jpg
+      date: 2019-04-27T12:16:08Z
+      title: Expo
+    - filename: JosephGruber_20190427_123341.jpg
+      date: 2019-04-27T12:33:41Z
+      title: Expo
+    - filename: JosephGruber_20190427_121032.jpg
+      date: 2019-04-27T12:10:32Z
+      title: Expo
+
 geb-farrow:
   name: Farrow (9F315)
   tags: geb
@@ -2358,6 +2577,20 @@ geb-fay:
     - filename: JosephGruber_20181110_131709.jpg
       date: 2018-11-10T13:17:09Z
       title: Fay
+
+geb-freddy:
+  name: Freddy (4F418)
+  tags: geb
+  permalink: /gallery/geb/freddy/
+  preview_image: JosephGruber_20190217_183544.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20190217_183544.jpg
+      date: 2019-02-17T18:35:44Z
+      title: Freddy
+    - filename: JosephGruber_20190217_183816.jpg
+      date: 2019-02-17T18:38:16Z
+      title: Freddy
 
 geb-galahad:
   name: Galahad (1GG13)
@@ -3497,11 +3730,50 @@ geb-nikon:
   name: Nikon (8N417)
   tags: geb
   permalink: /gallery/geb/nikon/
-  preview_image: JosephGruber_20181216_203551.jpg
+  preview_image: JosephGruber_20190209_145917.jpg
   pricelist: guiding-eyes
   images:
     - filename: JosephGruber_20181216_203551.jpg
       date: 2018-12-16T20:35:51Z
+      title: Nikon
+    - filename: JosephGruber_20190209_143321.jpg
+      date: 2019-02-09T14:33:21Z
+      title: Nikon
+    - filename: JosephGruber_20190209_144702.jpg
+      date: 2019-02-09T14:47:02Z
+      title: Nikon
+    - filename: JosephGruber_20190209_143046.jpg
+      date: 2019-02-09T14:30:46Z
+      title: Nikon
+    - filename: JosephGruber_20190209_204115.jpg
+      date: 2019-02-09T20:41:15Z
+      title: Nikon
+    - filename: JosephGruber_20190209_145917.jpg
+      date: 2019-02-09T14:59:17Z
+      title: Nikon
+    - filename: JosephGruber_20190209_144205.jpg
+      date: 2019-02-09T14:42:05Z
+      title: Nikon
+    - filename: JosephGruber_20190209_144212.jpg
+      date: 2019-02-09T14:42:12Z
+      title: Nikon
+    - filename: JosephGruber_20190209_143637.jpg
+      date: 2019-02-09T14:36:37Z
+      title: Nikon
+    - filename: JosephGruber_20190209_145904.jpg
+      date: 2019-02-09T14:59:04Z
+      title: Nikon
+    - filename: JosephGruber_20190209_144618.jpg
+      date: 2019-02-09T14:46:18Z
+      title: Nikon
+    - filename: JosephGruber_20190209_144543.jpg
+      date: 2019-02-09T14:45:43Z
+      title: Nikon
+    - filename: JosephGruber_20190209_143303.jpg
+      date: 2019-02-09T14:33:03Z
+      title: Nikon
+    - filename: JosephGruber_20190209_144251.jpg
+      date: 2019-02-09T14:42:51Z
       title: Nikon
 
 geb-nutmeg:
@@ -3618,6 +3890,27 @@ geb-otto:
       title: Otto
     - filename: JosephGruber_20181216_183710.jpg
       date: 2018-12-16T18:37:10Z
+      title: Otto
+    - filename: JosephGruber_20190209_134030.jpg
+      date: 2019-02-09T13:40:30Z
+      title: Otto
+    - filename: JosephGruber_20190209_134519.jpg
+      date: 2019-02-09T13:45:19Z
+      title: Otto
+    - filename: JosephGruber_20190209_133739.jpg
+      date: 2019-02-09T13:37:39Z
+      title: Otto
+    - filename: JosephGruber_20190209_133501.jpg
+      date: 2019-02-09T13:35:01Z
+      title: Otto
+    - filename: JosephGruber_20190209_133851.jpg
+      date: 2019-02-09T13:38:51Z
+      title: Otto
+    - filename: JosephGruber_20190209_133135.jpg
+      date: 2019-02-09T13:31:35Z
+      title: Otto
+    - filename: JosephGruber_20190210_194012.jpg
+      date: 2019-02-10T19:40:12Z
       title: Otto
 
 geb-parsley:

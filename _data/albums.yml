@@ -10,20 +10,25 @@ geb-puppies:
   preview_image: JosephGruber_20170312_184504.jpg
   galleries:
     [
+      geb-adrienne,
       geb-amos,
       geb-aqua,
       geb-aron,
       geb-aussie,
       geb-balsa,
+      geb-brandy,
       geb-delilah,
+      geb-dove,
       geb-elkins,
       geb-ellery,
       geb-emerald,
       geb-ernie,
+      geb-expo,
       geb-farrow,
       geb-fauna,
       geb-fay,
       geb-fenway,
+      geb-freddy,
       geb-galahad,
       geb-giada,
       geb-gilligan,
@@ -84,6 +89,7 @@ geb-events:
   preview_image: JosephGruber_20170604_140815.jpg
   galleries:
     [
+      geb-2019-tom-panek,
       geb-2018-ft-hunt-park,
       geb-2018-pints-and-poses,
       geb-2018-canine-cruise,
@@ -105,4 +111,4 @@ places:
   description: Locations around the world
   permalink: /gallery/places
   preview_image: JosephGruber_20140922_185549.jpg
-  galleries: [washington-dc]
+  galleries: [washington-dc, seattle]
