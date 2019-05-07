@@ -4,7 +4,6 @@ var changed = require('gulp-changed');
 var cleancss = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var cp = require('child_process');
-var critical = require('critical');
 var del = require('del');
 var fs = require('fs');
 var gulp = require('gulp');
@@ -21,7 +20,6 @@ var rev = require('gulp-rev');
 var revRewrite = require('gulp-rev-rewrite');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
-var uncss = require('postcss-uncss');
 var webp = require('imagemin-webp');
 
 var paths = require('./_assets/gulp/paths.js');
@@ -66,102 +64,6 @@ gulp.task('build:styles:main', function() {
     .pipe(browserSync.stream());
 });
 
-gulp.task('build:styles:fancybox', function() {
-  return gulp
-    .src([paths.fancyboxCssFiles])
-    .pipe(
-      sass({
-        outputStyle: 'compressed'
-      })
-    )
-    .pipe(
-      postcss([
-        autoprefixer({
-          browsers: ['last 2 versions']
-        })
-      ])
-    )
-    .pipe(
-      cleancss({
-        level: {
-          1: {
-            specialComments: 0
-          }
-        },
-        inline: ['all']
-      })
-    )
-    .pipe(concat('fancybox.css'))
-    .pipe(rev())
-    .pipe(gulp.dest(paths.jekyllCssFiles))
-    .pipe(gulp.dest(paths.siteCssFiles))
-    .pipe(
-      rev.manifest(paths.gulpFiles + '/rev-manifest.json', {
-        base: paths.gulpFiles,
-        merge: true
-      })
-    )
-    .pipe(gulp.dest(paths.gulpFiles))
-    .pipe(browserSync.stream());
-});
-
-function buildStylesCritical() {
-  var json = JSON.parse(fs.readFileSync(paths.gulpFiles + '/rev-manifest.json'));
-
-  return critical.generate({
-    base: '_site/',
-    src: 'index.html', // Extract critical path CSS for index.html
-    css: [paths.jekyllCssFiles + '/' + json['main.css']],
-    dest: '../_includes/css/critical.css',
-    minify: true,
-    include: [/^\.no-webp/],
-    ignore: ['@font-face']
-  });
-}
-
-function buildStylesUnCss() {
-  var json = JSON.parse(fs.readFileSync(paths.gulpFiles + '/rev-manifest.json'));
-
-  return gulp
-    .src(paths.siteCssFiles + '/' + json['main.css'])
-    .pipe(
-      postcss([
-        uncss({
-          html: ['./_site/**/*.html'],
-          htmlroot: paths.siteDir,
-          ignore: [
-            /\w\.in/,
-            '.fade',
-            '.collapse',
-            '.collapsing',
-            /(#|\.)navbar(\-[a-zA-Z]+)?/,
-            /(#|\.)dropdown(\-[a-zA-Z]+)?/,
-            /(#|\.)(open)/,
-            /\.popover/,
-            '.modal',
-            '.modal.fade.in',
-            '.modal-dialog',
-            '.modal-document',
-            '.modal-scrollbar-measure',
-            '.modal-backdrop.fade',
-            '.modal-backdrop.in',
-            '.modal.fade.modal-dialog',
-            '.modal.in.modal-dialog',
-            '.modal-open',
-            '.in',
-            '.modal-backdrop',
-            '.float-right',
-            '.no-webp'
-          ]
-        })
-      ])
-    )
-    .pipe(gulp.dest(paths.jekyllCssFiles))
-    .pipe(gulp.dest(paths.siteCssFiles))
-    .pipe(browserSync.stream())
-    .on('error', log.error);
-}
-
 function compressStyles() {
   return gulp
     .src(paths.jekyllCssFiles + '/*.css')
@@ -176,14 +78,7 @@ function compressStyles() {
 
 gulp.task('build:scripts:main', function() {
   return gulp
-    .src([
-      paths.jqueryJsFiles,
-      paths.popperJsFiles,
-      paths.bootstrapJsFiles,
-      paths.fancyboxJsFiles,
-      paths.instafeedJsFiles,
-      paths.jsFilesGlob
-    ])
+    .src([paths.jsFilesGlob])
     .pipe(concat('main.js'))
     .pipe(uglify())
     .pipe(rev())
@@ -482,7 +377,6 @@ var build = gulp.series(
   gulp.parallel(
     'build:scripts:main',
     'build:styles:main',
-    'build:styles:fancybox',
     buildSitePngImages,
     buildSiteImages,
     buildOriginalPhotos,
@@ -534,14 +428,8 @@ function watch() {
     gulp.series(gulp.parallel(buildSitePngImages, buildSiteImages, buildOriginalPhotos), reload)
   );
   gulp.watch('_config.yml', gulp.series('build:jekyll:dev', reload));
-  gulp.watch(
-    [paths.bootstrapSassFiles, paths.sassFilesGlob],
-    gulp.series(gulp.parallel('build:styles:main', 'build:styles:fancybox'), reload)
-  );
-  gulp.watch(
-    [paths.bootstrapJsFiles, paths.jqueryJsFiles, paths.popperJsFiles, paths.jsFilesGlob],
-    gulp.series(gulp.parallel('build:scripts:main'), reload)
-  );
+  gulp.watch([paths.sassFilesGlob], gulp.series(gulp.parallel('build:styles:main'), reload));
+  gulp.watch([paths.jsFilesGlob], gulp.series(gulp.parallel('build:scripts:main'), reload));
   gulp.watch(
     [paths.jekyllPostFilesGlob, paths.jekyllDraftFilesGlob],
     gulp.series('build:jekyll:dev', reload)
@@ -555,17 +443,7 @@ function watch() {
 // Default Task: builds site.
 gulp.task(
   'default',
-  gulp.series(
-    ngrokConnect,
-    buildSiteUrl,
-    build,
-    'build:jekyll:dev',
-    rewriteRev,
-    buildStylesCritical,
-    buildStylesUnCss,
-    serve,
-    watch
-  )
+  gulp.series(ngrokConnect, buildSiteUrl, build, 'build:jekyll:dev', rewriteRev, serve, watch)
 );
 
 // Production build task
@@ -575,7 +453,6 @@ gulp.task(
     build,
     'build:jekyll:prod',
     rewriteRev,
-    buildStylesUnCss,
     gulp.parallel(compressScripts, compressStyles),
     deployAWS
   )

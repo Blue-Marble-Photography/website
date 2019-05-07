@@ -2,8 +2,11 @@ jQuery(document).ready(function() {
   parseUriHash();
   setContextMenu();
   createInstagramFeed();
-  setLightboxDefaults();
   enableDownloadNotifications();
+
+  if (typeof $.fancybox === 'object') {
+    setLightboxDefaults();
+  }
 });
 
 $(document).scroll(function() {

@@ -78,16 +78,6 @@ paths.jekyllFaviconFilesGlob = paths.jekyllFaviconFiles + paths.faviconPattern;
 
 // Site files globs
 paths.siteHtmlFilesGlob = paths.siteDir + paths.htmlPattern;
-
-// Library files locations
-paths.bootstrapSassFiles = paths.nodeDir + 'bootstrap/scss/bootstrap.scss';
-paths.bootstrapJsFiles = paths.nodeDir + 'bootstrap/dist/js/bootstrap.js';
-paths.jqueryJsFiles = paths.nodeDir + 'jquery/dist/jquery.js';
-paths.popperJsFiles = paths.nodeDir + 'popper.js/dist/umd/popper.js';
-paths.instafeedJsFiles = paths.nodeDir + 'instafeed.js/instafeed.js';
-paths.fancyboxJsFiles = paths.nodeDir + '@fancyapps/fancybox/dist/jquery.fancybox.js';
-paths.fancyboxCssFiles = paths.nodeDir + '@fancyapps/fancybox/dist/jquery.fancybox.css';
-
 // Photo files locations
 paths.originalPhotoFiles = paths.imageFiles + '/photos/originals';
 paths.originalPhotoFilesGlob = paths.originalPhotoFiles + paths.imagePattern;
