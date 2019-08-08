@@ -53,6 +53,11 @@ astrophotography:
       title: Space Needle, meet Space Station
       caption: The International Space Station passes high above the Space Needle in Seattle amidst a background of stars in the night sky
       guid: a7a63f49-ddec-4383-936a-9bb01e7c128f
+    - filename: JosephGruber_20190804_070247.jpg
+      date: 2019-08-04T07:02:47Z
+      title: Star Trails over Mount Rainier reflected in Reflection Lake
+      caption: Hundreds of stars and planets rotate around the North Star, Polaris, above Mount Rainier with the reflection of both seen in Reflection Lake
+      guid: 938f091c-128e-409a-8eca-86cd09b94fe0
 
 landscapes:
   name: Landscapes
@@ -116,18 +121,11 @@ landscapes:
       title: Last Sunrise
       caption: A light show in the sky during the last sunrise of the year as the clouds take on multiple colors and reflect in the Potomac River
       guid: 0b76d89c-bd54-48c6-88ec-bdf643cae440
-
-weather:
-  name: Weather
-  permalink: /gallery/weather
-  preview_image: JosephGruber_20180907_003815.jpg
-  pricelist: default
-  images:
-    - filename: JosephGruber_20180907_003815.jpg
-      date: 2018-09-07T00:38:15Z
-      title: Monumental Strike
-      caption: Lightning strikes behind the Washington Monument lighting up the night sky
-      guid: cae798d0-5819-4a4f-9520-53c6175979b7
+    - filename: JosephGruber_20190512_034541.jpg
+      date: 2019-05-12T03:45:40Z
+      title: Colorful sunset over Mt Shuksan and Baker Lake
+      caption: The sky glows pink as the sun sets behind Mt Baker and Baker Lake in the Pacific Northwest
+      guid: 877f8719-0779-4e52-bf2d-bd60e4bd55f4
 
 pets:
   name: Pets
@@ -3223,6 +3221,9 @@ geb-jenny:
       title: Jenny
     - filename: JosephGruber_20181216_193058.jpg
       date: 2018-12-16T19:30:58Z
+      title: Jenny
+    - filename: JosephGruber_20190807_194012.jpg
+      date: 2019-08-07T19:40:12Z
       title: Jenny
 
 geb-jude:
