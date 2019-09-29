@@ -24,7 +24,7 @@ sitemap: false
     {% assign images = images | concat: gallery.images %}
     {% endfor %}
 
-    {% assign images = images | sort: 'date' | reverse %}
+    {% assign images = images | sort: 'date' | reverse | uniq %}
     {% assign pricelist = site.data.pricelist["guiding-eyes"] %}
 
     {% for image in images limit: 100 %}
