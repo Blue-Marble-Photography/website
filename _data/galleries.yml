@@ -2274,25 +2274,25 @@ geb-cam:
   name: Cam (11C319)
   tags: geb
   permalink: /gallery/geb/cam/
-  preview_image: JosephGruber_20190922_184631.jpg
-  pricelist: guiding-eyes
-  images:
-    - filename: JosephGruber_20190922_184631.jpg
-      date: 2019-09-22T18:46:31Z
-      title: Cam
-    - filename: JosephGruber_20190922_184547.jpg
-      date: 2019-09-22T18:45:47Z
-      title: Cam
-
-geb-colleen:
-  name: Colleen (8C319)
-  tags: geb
-  permalink: /gallery/geb/colleen/
   preview_image: JosephGruber_20190922_185145.jpg
   pricelist: guiding-eyes
   images:
     - filename: JosephGruber_20190922_185145.jpg
       date: 2019-09-22T18:51:45Z
+      title: Cam
+
+geb-colleen:
+  name: Colleen (8C319)
+  tags: geb
+  permalink: /gallery/geb/colleen
+  preview_image: JosephGruber_20190922_184631.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20190922_184631.jpg
+      date: 2019-09-22T18:46:31Z
+      title: Colleen
+    - filename: JosephGruber_20190922_184547.jpg
+      date: 2019-09-22T18:45:47Z
       title: Colleen
 
 geb-davis:
@@ -4302,6 +4302,9 @@ geb-pippi:
     - filename: JosephGruber_20190924_173611.jpg
       date: 2019-09-24T17:36:11Z
       title: Wagging Tails and Dogfish Ale (2019)
+    - filename: JosephGruber_20191014_105612.jpg
+      date: 2019-10-14T10:56:12Z
+      title: Pippi
 
 geb-pria:
   name: Pria (9PP18)
@@ -4318,6 +4321,9 @@ geb-pria:
       title: Pria
     - filename: JosephGruber_20190922_163744.jpg
       date: 2019-09-22T16:37:44Z
+      title: Pria
+    - filename: JosephGruber_20191013_112500.jpg
+      date: 2019-10-13T11:25:00Z
       title: Pria
 
 geb-pugsley:
