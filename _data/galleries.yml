@@ -2640,6 +2640,23 @@ geb-ellery:
       date: 2017-05-21T00:00:00Z
       title: Ellery
 
+geb-emblem:
+  name: Emblem (6EE19)
+  tags: geb
+  permalink: /gallery/geb/emblem/
+  preview_image: JosephGruber_20191109_180954.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20191109_180856.jpg
+      date: 2019-11-09T18:08:56Z
+      title: Emblem
+    - filename: JosephGruber_20191109_180549.jpg
+      date: 2019-11-09T18:05:49Z
+      title: Emblem
+    - filename: JosephGruber_20191109_180954.jpg
+      date: 2019-11-09T18:09:54Z
+      title: Emblem
+
 geb-emerald:
   name: Emerald (1E15)
   tags: geb
@@ -4496,7 +4513,7 @@ geb-rhonda:
   name: Rhonda (6RR18)
   tags: geb
   permalink: /gallery/geb/rhonda
-  preview_image: JosephGruber_20180916_162430.jpg
+  preview_image: JosephGruber_20191109_175257.jpg
   pricelist: guiding-eyes
   images:
     - filename: JosephGruber_20180909_181523.jpg
@@ -4526,6 +4543,30 @@ geb-rhonda:
     - filename: JosephGruber_20181216_181533.jpg
       date: 2018-12-16T18:15:33Z
       title: Rhonda
+    - filename: JosephGruber_20191109_175045.jpg
+      date: 2019-11-09T17:50:45Z
+      title: Rhonda
+    - filename: JosephGruber_20191109_175057.jpg
+      date: 2019-11-09T17:50:57Z
+      title: Rhonda
+    - filename: JosephGruber_20191109_173815.jpg
+      date: 2019-11-09T17:38:15Z
+      title: Rhonda
+    - filename: JosephGruber_20191109_175257.jpg
+      date: 2019-11-09T17:52:57Z
+      title: Rhonda
+    - filename: JosephGruber_20191109_174955.jpg
+      date: 2019-11-09T17:49:55Z
+      title: Rhonda
+    - filename: JosephGruber_20191109_174941.jpg
+      date: 2019-11-09T17:49:41Z
+      title: Rhonda
+    - filename: JosephGruber_20191109_174641.jpg
+      date: 2019-11-09T17:46:41Z
+      title: Rhonda
+    - filename: JosephGruber_20191109_174655.jpg
+      date: 2019-11-09T17:46:55Z
+      title: Rhonda
 
 geb-rocco:
   name: Rocco (2RR18)
@@ -4542,6 +4583,9 @@ geb-rocco:
       title: Rocco
     - filename: JosephGruber_20181216_181208.jpg
       date: 2018-12-16T18:12:08Z
+      title: Rocco
+    - filename: JosephGruber_20191114_195612.jpg
+      date: 2019-11-14T19:56:12Z
       title: Rocco
 
 geb-romeo:
