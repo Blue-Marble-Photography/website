@@ -12,7 +12,7 @@ build:
       - node_modules/
   before_script:
     - apt-get update -qy
-    - apt-get install -y nodejs
+    - apt-get install -y nodejs npm
     - gem install bundler
     - bundle install --path /cache
     - npm install
