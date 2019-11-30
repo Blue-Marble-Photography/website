@@ -1,0 +1,41 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  image: ruby:latest
+  cache:
+    paths:
+      - vendor/
+      - cache/
+      - node_modules/
+  before_script:
+    - apt-get update -qy
+    - apt-get install -y nodejs
+    - gem install bundler
+    - bundle install --path /cache
+    - npm install
+  script:
+    - gulp deploy
+  artifacts:
+    paths:
+      - _site
+    expire_in: 10 mins
+  only:
+    - master
+
+deploy:
+  stage: deploy
+  image: python:latest
+  dependencies:
+    - build
+  before_script:
+    - pip install awscli
+  script:
+    - aws s3 sync ./_site/ s3://$S3_BUCKET_NAME --delete
+    - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+  after_script:
+    - rm -r _site
+  only:
+    - master
