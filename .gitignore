@@ -1,17 +1,2 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-vendor/
-.bundle/
 assets/
-node_modules/
-_drafts/
-.jekyll-metadata
-_includes/css/critical.css
-.vscode/
-.jscsrc
-_assets/images/featured/
-_assets/images/photos/
 rev-manifest.json
-.env
-*.zip
