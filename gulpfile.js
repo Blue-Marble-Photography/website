@@ -5,22 +5,17 @@ var cleancss = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var cp = require('child_process');
 var del = require('del');
-var fs = require('fs');
 var gulp = require('gulp');
 var gzip = require('gulp-gzip');
-var imagemin = require('gulp-imagemin');
 var log = require('fancy-log');
-var mozjpeg = require('imagemin-mozjpeg');
 var ngrok = require('ngrok');
 var postcss = require('gulp-postcss');
 var rename = require('gulp-rename');
 var replace = require('gulp-replace');
-var responsive = require('gulp-responsive');
 var rev = require('gulp-rev');
 var revRewrite = require('gulp-rev-rewrite');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
-var webp = require('imagemin-webp');
 
 var paths = require('./_assets/gulp/paths.js');
 var platform = process.platform === 'win32' ? 'win' : 'mac';
@@ -106,189 +101,6 @@ function compressScripts() {
     .pipe(gulp.dest(paths.siteJsFiles));
 }
 
-function buildSitePngImages() {
-  return gulp
-    .src([paths.imagePngFilesGlob, paths.excludeOriginalPhotoFilesGlob])
-    .pipe(changed(paths.jekyllImageFiles))
-    .pipe(
-      responsive(
-        {
-          '**/*.png': [
-            {
-              quality: 100
-            }
-          ]
-        },
-        {
-          withoutEnlargement: true,
-          skipOnEnlargement: false,
-          errorOnEnlargement: false,
-          errorOnUnusedConfig: false,
-          errorOnUnusedImage: false,
-          progressive: false,
-          compressionLevel: 0,
-          quality: 100
-        }
-      )
-    )
-    .pipe(
-      imagemin(
-        [
-          imagemin.optipng({
-            optimizationLevel: 5
-          })
-        ],
-        {
-          progressive: true,
-          verbose: true
-        }
-      )
-    )
-    .pipe(gulp.dest(paths.jekyllImageFiles))
-    .pipe(gulp.dest(paths.siteImageFiles))
-    .pipe(
-      imagemin(
-        [
-          webp({
-            method: 6
-          })
-        ],
-        {
-          progressive: true,
-          verbose: true
-        }
-      )
-    )
-    .pipe(
-      rename({
-        extname: '.webp'
-      })
-    )
-    .pipe(gulp.dest(paths.jekyllImageFiles))
-    .pipe(gulp.dest(paths.siteImageFiles))
-    .pipe(browserSync.stream());
-}
-
-function buildSiteImages() {
-  return gulp
-    .src([paths.imageFilesGlob, paths.excludeOriginalPhotoFilesGlob])
-    .pipe(
-      changed(paths.jekyllImageFiles, {
-        extension: '-2880.jpg'
-      })
-    )
-    .pipe(
-      responsive(
-        {
-          '**/*.jpg': [
-            {
-              width: 400,
-              rename: {
-                suffix: '-400'
-              }
-            },
-            {
-              width: 750,
-              rename: {
-                suffix: '-750'
-              }
-            },
-            {
-              width: 1100,
-              rename: {
-                suffix: '-1100'
-              }
-            },
-            {
-              width: 1440,
-              rename: {
-                suffix: '-1440'
-              }
-            },
-            {
-              width: 1600,
-              rename: {
-                suffix: '-1600'
-              }
-            },
-            {
-              width: 2880,
-              rename: {
-                suffix: '-2880'
-              }
-            }
-          ]
-        },
-        {
-          withoutEnlargement: true,
-          skipOnEnlargement: false,
-          errorOnEnlargement: false,
-          errorOnUnusedConfig: false,
-          errorOnUnusedImage: false,
-          progressive: false,
-          compressionLevel: 0,
-          quality: 100
-        }
-      )
-    )
-    .pipe(
-      imagemin(
-        [
-          imagemin.gifsicle({
-            interlaced: true
-          }),
-          imagemin.svgo({
-            plugins: [
-              {
-                removeDesc: true
-              }
-            ]
-          }),
-          mozjpeg({
-            quality: 70,
-            progressive: true
-          })
-        ],
-        {
-          progressive: true,
-          verbose: true
-        }
-      )
-    )
-    .pipe(gulp.dest(paths.jekyllImageFiles))
-    .pipe(gulp.dest(paths.siteImageFiles))
-    .pipe(
-      imagemin(
-        [
-          webp({
-            method: 6
-          })
-        ],
-        {
-          progressive: true,
-          verbose: true
-        }
-      )
-    )
-    .pipe(
-      rename({
-        extname: '.webp'
-      })
-    )
-    .pipe(gulp.dest(paths.jekyllImageFiles))
-    .pipe(gulp.dest(paths.siteImageFiles))
-    .pipe(browserSync.stream());
-}
-
-function buildOriginalPhotos() {
-  return gulp
-    .src(paths.originalPhotoFilesGlob)
-    .pipe(changed(paths.jekyllOriginalPhotoFiles))
-    .pipe(gulp.dest(paths.jekyllOriginalPhotoFiles))
-    .pipe(gulp.dest(paths.siteOriginalPhotoFiles))
-    .pipe(browserSync.stream());
-}
-
 function buildFavicons() {
   return gulp
     .src(paths.faviconFilesGlob)
@@ -307,6 +119,14 @@ function buildFonts() {
     )
     .pipe(gulp.dest(paths.jekyllFontFiles))
     .pipe(gulp.dest(paths.siteFontFiles))
+    .pipe(browserSync.stream());
+}
+
+function buildImages() {
+  return gulp
+    .src(paths.imageFilesGlob)
+    .pipe(gulp.dest(paths.jekyllImageFiles))
+    .pipe(gulp.dest(paths.siteImageFiles))
     .pipe(browserSync.stream());
 }
 
@@ -340,9 +160,15 @@ function cleanFavicons() {
   });
 }
 
+function cleanImages() {
+  return del([paths.jekyllImageFiles, paths.siteImageFiles], {
+    force: true
+  });
+}
+
 gulp.task(
   'clean',
-  gulp.parallel('clean:styles', 'clean:scripts', cleanFonts, cleanFavicons, 'clean:site')
+  gulp.parallel('clean:styles', 'clean:scripts', cleanFonts, cleanFavicons, cleanImages, 'clean:site')
 );
 
 function rewriteRev() {
@@ -367,9 +193,7 @@ gulp.task('build:jekyll:prod', function() {
 });
 
 function deployAWS() {
-  return cp.spawn('s3_website', ['push'], {
-    stdio: 'inherit'
-  });
+  return cp.spawn('s3_website', ['push'], { stdio: 'inherit' });
 }
 
 var build = gulp.series(
@@ -377,11 +201,9 @@ var build = gulp.series(
   gulp.parallel(
     'build:scripts:main',
     'build:styles:main',
-    buildSitePngImages,
-    buildSiteImages,
-    buildOriginalPhotos,
     buildFavicons,
-    buildFonts
+    buildFonts,
+    buildImages
   )
 );
 
@@ -423,10 +245,6 @@ function reload(done) {
 }
 
 function watch() {
-  gulp.watch(
-    paths.imageFilesGlob,
-    gulp.series(gulp.parallel(buildSitePngImages, buildSiteImages, buildOriginalPhotos), reload)
-  );
   gulp.watch('_config.yml', gulp.series('build:jekyll:dev', reload));
   gulp.watch([paths.sassFilesGlob], gulp.series(gulp.parallel('build:styles:main'), reload));
   gulp.watch([paths.jsFilesGlob], gulp.series(gulp.parallel('build:scripts:main'), reload));
