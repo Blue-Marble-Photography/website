@@ -1,6 +1,5 @@
 var autoprefixer = require('autoprefixer');
 var browserSync = require('browser-sync').create();
-var changed = require('gulp-changed');
 var cleancss = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var cp = require('child_process');
@@ -192,10 +191,6 @@ gulp.task('build:jekyll:prod', function() {
   return cp.exec('JEKYLL_ENV=prod bundle exec jekyll build --destination ' + paths.siteDir);
 });
 
-function deployAWS() {
-  return cp.spawn('s3_website', ['push'], { stdio: 'inherit' });
-}
-
 var build = gulp.series(
   'clean',
   gulp.parallel(
@@ -271,7 +266,6 @@ gulp.task(
     build,
     'build:jekyll:prod',
     rewriteRev,
-    gulp.parallel(compressScripts, compressStyles),
-    deployAWS
+    gulp.parallel(compressScripts, compressStyles)
   )
 );
