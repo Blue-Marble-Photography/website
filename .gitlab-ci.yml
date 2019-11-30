@@ -12,10 +12,13 @@ build:
       - node_modules/
   before_script:
     - apt-get update -qy
-    - apt-get install -y nodejs npm
+    - apt-get install -y nodejs
+    - apt-get install -y npm
+    - npm install npm@latest -g
+    - npm install gulp -g
+    - npm install
     - gem install bundler
     - bundle install --path /cache
-    - npm install
   script:
     - gulp deploy
   artifacts:
