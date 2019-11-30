@@ -8,7 +8,6 @@ paths.jekyllDir = '';
 paths.jekyllAssetsDir = 'assets/';
 paths.siteDir = '_site/';
 paths.siteAssetsDir = '_site/assets/';
-paths.nodeDir = 'node_modules/';
 
 // Folder naming conventions.
 paths.dataFolderName = '_data';
