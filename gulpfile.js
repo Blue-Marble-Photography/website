@@ -11,8 +11,6 @@ var ngrok = require('ngrok');
 var postcss = require('gulp-postcss');
 var rename = require('gulp-rename');
 var replace = require('gulp-replace');
-var rev = require('gulp-rev');
-var revRewrite = require('gulp-rev-rewrite');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 
@@ -45,16 +43,8 @@ gulp.task('build:styles:main', function() {
       })
     )
     .pipe(concat('main.css'))
-    .pipe(rev())
     .pipe(gulp.dest(paths.jekyllCssFiles))
     .pipe(gulp.dest(paths.siteCssFiles))
-    .pipe(
-      rev.manifest(paths.gulpFiles + '/rev-manifest.json', {
-        base: paths.gulpFiles,
-        merge: true
-      })
-    )
-    .pipe(gulp.dest(paths.gulpFiles))
     .pipe(browserSync.stream());
 });
 
@@ -75,16 +65,8 @@ gulp.task('build:scripts:main', function() {
     .src([paths.jsFilesGlob])
     .pipe(concat('main.js'))
     .pipe(uglify())
-    .pipe(rev())
     .pipe(gulp.dest(paths.jekyllJsFiles))
     .pipe(gulp.dest(paths.siteJsFiles))
-    .pipe(
-      rev.manifest(paths.gulpFiles + '/rev-manifest.json', {
-        base: paths.gulpFiles,
-        merge: true
-      })
-    )
-    .pipe(gulp.dest(paths.gulpFiles))
     .pipe(browserSync.stream());
 });
 
@@ -170,19 +152,6 @@ gulp.task(
   gulp.parallel('clean:styles', 'clean:scripts', cleanFonts, cleanFavicons, cleanImages, 'clean:site')
 );
 
-function rewriteRev() {
-  var manifest = gulp.src('./_assets/gulp/rev-manifest.json');
-
-  return gulp
-    .src(paths.siteHtmlFilesGlob)
-    .pipe(
-      revRewrite({
-        manifest
-      })
-    )
-    .pipe(gulp.dest(paths.siteDir));
-}
-
 gulp.task('build:jekyll:dev', function() {
   return cp.exec('bundle exec jekyll build --destination ' + paths.siteDir);
 });
@@ -256,7 +225,7 @@ function watch() {
 // Default Task: builds site.
 gulp.task(
   'default',
-  gulp.series(ngrokConnect, buildSiteUrl, build, 'build:jekyll:dev', rewriteRev, serve, watch)
+  gulp.series(ngrokConnect, buildSiteUrl, build, 'build:jekyll:dev', serve, watch)
 );
 
 // Production build task
@@ -265,7 +234,6 @@ gulp.task(
   gulp.series(
     build,
     'build:jekyll:prod',
-    rewriteRev,
     gulp.parallel(compressScripts, compressStyles)
   )
 );
