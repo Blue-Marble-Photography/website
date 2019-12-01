@@ -21,7 +21,7 @@ function enableDownloadNotifications() {
   $('#context-menu a.icon-download').click(function(e) {
     $.ajax({
       type: 'GET',
-      url: 'https://yuprby6yi1.execute-api.us-east-1.amazonaws.com/prod/notify',
+      url: 'https://api.bluemarble.photography/v2/notify',
       data: {
         filename: $(this)
           .attr('href')
