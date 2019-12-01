@@ -5,7 +5,6 @@ var concat = require('gulp-concat');
 var cp = require('child_process');
 var del = require('del');
 var gulp = require('gulp');
-var gzip = require('gulp-gzip');
 var log = require('fancy-log');
 var ngrok = require('ngrok');
 var postcss = require('gulp-postcss');
@@ -48,18 +47,6 @@ gulp.task('build:styles:main', function() {
     .pipe(browserSync.stream());
 });
 
-function compressStyles() {
-  return gulp
-    .src(paths.jekyllCssFiles + '/*.css')
-    .pipe(
-      gzip({
-        append: false
-      })
-    )
-    .pipe(gulp.dest(paths.jekyllCssFiles))
-    .pipe(gulp.dest(paths.siteCssFiles));
-}
-
 gulp.task('build:scripts:main', function() {
   return gulp
     .src([paths.jsFilesGlob])
@@ -69,18 +56,6 @@ gulp.task('build:scripts:main', function() {
     .pipe(gulp.dest(paths.siteJsFiles))
     .pipe(browserSync.stream());
 });
-
-function compressScripts() {
-  return gulp
-    .src(paths.jekyllJsFiles + '/*.js')
-    .pipe(
-      gzip({
-        append: false
-      })
-    )
-    .pipe(gulp.dest(paths.jekyllJsFiles))
-    .pipe(gulp.dest(paths.siteJsFiles));
-}
 
 function buildFavicons() {
   return gulp
@@ -233,7 +208,6 @@ gulp.task(
   'deploy',
   gulp.series(
     build,
-    'build:jekyll:prod',
-    gulp.parallel(compressScripts, compressStyles)
+    'build:jekyll:prod'
   )
 );
