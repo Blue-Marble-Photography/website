@@ -1168,6 +1168,50 @@ april-showers-bring-may-flowers:
       title: Cherry blossoms soak up the bright sunlight admist a clear blue sky
       guid: dc8b8f99-027d-4e59-ac47-5ded077ea902
 
+2019-exploring-denver:
+  name: Exploring Denver in Early Winter
+  description: From brilliant, snow filled sunrises at Red Rocks Park to majestic sunsets over the Front Range, the views never stop when exploring Denver in early winter
+  permalink: /post/2019-denver-adventures/
+  preview_image: JosephGruber_20191110_235828.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20191110_130735.jpg
+      date: 2019-11-10T13:07:35Z
+      title: Sunrise
+      guid: 2e4ebe59-6904-4c2c-bf39-966cbd65f9f6
+    - filename: JosephGruber_20191110_130809.jpg
+      date: 2019-11-10T13:08:09Z
+      title: Dawn over Denver
+      guid: 36b57ac9-e364-4fec-bc66-e0b9aed82a14
+    - filename: JosephGruber_20191110_133108.jpg
+      date: 2019-11-10T13:31:08Z
+      title: Purple Mountains Majesty
+      guid: 34793a90-e2d4-4834-b385-41bd65a48a31
+    - filename: JosephGruber_20191110_134354.jpg
+      date: 2019-11-10T13:43:54Z
+      title: Early Bird
+      guid: c5cdb717-7c3b-407a-8c7f-7b3fdb1c72c7
+    - filename: JosephGruber_20191110_134458.jpg
+      date: 2019-11-10T13:44:58Z
+      title: Sunrise at Red Rocks
+      guid: 13b611c4-f3bc-427d-9488-15958c745cbf
+    - filename: JosephGruber_20191110_235752.jpg
+      date: 2019-11-10T23:57:52Z
+      title: Brilliant Sunset over the Front Range
+      guid: bf3ce86b-ec28-4180-93d4-a629c00c7aa9
+    - filename: JosephGruber_20191110_235828.jpg
+      date: 2019-11-10T23:58:28Z
+      title: Majestic Sunset over the Front Range
+      guid: 992d26a9-ff93-4c69-b387-ffb1a43f8968
+    - filename: JosephGruber_20191111_182701.jpg
+      date: 2019-11-11T18:27:01Z
+      title: Sunrise Snow at Red Rocks
+      guid: 03a274cf-df12-473f-9d85-4ea922003597
+    - filename: JosephGruber_20191111_182930.jpg
+      date: 2019-11-11T18:29:30Z
+      title: Red Rocks Morning Snow
+      guid: 1b689008-f5b8-4dbd-87c5-01e0f700bd89
+
 geb-2017-baysox-game:
   name: 2017 Bowie Baysox Game
   tags: geb
