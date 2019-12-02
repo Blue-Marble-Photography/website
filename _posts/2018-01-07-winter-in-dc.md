@@ -4,7 +4,7 @@ seo_title: Bomb Cyclone? Nor' Easter? Winter Storm Grayson?
 description: Whether you call it bombogenesis, bomb cyclone, or nor'easter - one thing is for sure winter in DC is cold! Cold enough for the DC memorials and monuments to share the stage with some pretty solid ice.
 date: 2018-01-07T01:26:00Z
 featured_image:
-  filename: JosephGruber_20180106_14203717644.jpg
+  filename: JosephGruber_20180106_142037.jpg
   caption: The sun shines overhead on a ice covered, frozen Potomac River
 gallery_name: winter-in-dc
 ---

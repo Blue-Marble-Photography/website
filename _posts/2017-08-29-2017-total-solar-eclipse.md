@@ -3,7 +3,7 @@ title: 2017 Total Solar Eclipse
 description: For over a year, I had planned for the 2017 total solar eclipse. However, at the moment of totality, I realized I hadn't prepared at all. Not for this.
 date: 2017-08-29T01:08:00Z
 featured_image:
-  filename: JosephGruber_20170821_14345112268.jpg
+  filename: JosephGruber_20170821_143451.jpg
   caption: Full totality of the sun as the moons passes in front during a total solar eclipse
 gallery_name: 2017-total-solar-eclipse
 ---

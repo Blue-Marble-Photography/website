@@ -3,7 +3,7 @@ title: April Showers Bring May Flowers
 description: April showers bring May flowers. And also a new wallpaper download for you! Enjoy this image of wildflowers in bloom along the California coastline.
 date: 2017-05-01T06:30:00Z
 featured_image:
-  filename: JosephGruber_20150425_00022-Edit.jpg
+  filename: JosephGruber_20150425_112734.jpg
   caption: Dozens of orange and yellow tulips in bloom
 gallery_name: april-showers-bring-may-flowers
 allow_download: watermark

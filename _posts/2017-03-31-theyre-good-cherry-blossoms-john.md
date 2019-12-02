@@ -3,7 +3,7 @@ title: They're Good Cherry Blossoms, John
 description: From an abnormally warm winter to a late snowstorm, the cherry blossoms in DC kept us on the edge of our seats. But peak bloom sure didn't disappoint!
 date: 2017-03-31T23:58:00Z
 featured_image:
-  filename: JosephGruber_20170225_0024.jpg
+  filename: JosephGruber_20170225_083006.jpg
   caption: A fully bloomed cherry blossom tree leads the eye to the blue sky above
 gallery_name: 2017-cherry-blossoms
 ---

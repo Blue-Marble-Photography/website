@@ -4,7 +4,7 @@ seo_title: DC March for Science Rally and Protest
 description: Protesters gathered and marched in the United States Capitol for the DC March for Science to show support for science funding and communication
 date: 2017-04-25T22:56:00Z
 featured_image:
-  filename: JosephGruber_20170422_1502053896.jpg
+  filename: JosephGruber_20170422_150205.jpg
   caption: Hundreds of demonstrators march in front of the United States Capitol with signs in support of science held high
 gallery_name: dc-march-for-science
 ---

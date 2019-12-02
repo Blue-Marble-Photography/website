@@ -4,7 +4,7 @@ seo_title: Stormy DC Sunset on the National Mall
 description: Passing storms light up the sky orange as a stormy DC sunset provided for a colorful and changing sky over the National Mall.
 date: 2017-04-07T12:17:00Z
 featured_image:
-  filename: JosephGruber_20170406_1933402306.jpg
+  filename: JosephGruber_20170406_193340.jpg
   caption: An orange sky appears, with the Washington Monument off in the distance, after rain storms pass through the DC area
 gallery_name: stormy-dc-sunset
 ---

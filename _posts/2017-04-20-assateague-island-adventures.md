@@ -3,7 +3,7 @@ title: Assateague Island Adventures
 description: Wild horses, dark night skies, white sand beaches, beautiful sunrises and amazing sunsets. All found at Assateague Island National Seashore!
 date: 2017-04-20T00:32:00Z
 featured_image:
-  filename: JosephGruber_20170416_0647103583.jpg
+  filename: JosephGruber_20170416_064710.jpg
   caption: Sunset over the sandy beaches at Assateague Island National Seashore
 gallery_name: assateague-island-adventures
 ---

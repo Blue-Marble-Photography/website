@@ -2,7 +2,7 @@
 title: Orbital ATK OA-8 Launch
 date: 2017-11-12T19:39:00Z
 featured_image:
-  filename: JosephGruber_20171112_06231116034.jpg
+  filename: JosephGruber_20171112_062311.jpg
   caption: Antares rocket standing on the launch pad, ready for liftoff, as sun breaks on the horizon
 gallery_name: orbital-atk-oa8
 ---
