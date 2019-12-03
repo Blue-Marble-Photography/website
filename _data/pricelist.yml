@@ -64,10 +64,10 @@ default:
         price: "-30.00"
   digital:
     base-name: "Standard Resolution (1280px)"
-    base-price: "50.00"
+    base-price: "25.00"
     products:
       - name: "Full Resolution (20+MP)"
-        price: "+100.00"
+        price: "+75.00"
 
 guiding-eyes:
   name: Guiding Eyes for the Blind
