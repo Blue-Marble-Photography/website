@@ -5,11 +5,6 @@ stages:
 build:
   stage: build
   image: ruby:latest
-  cache:
-    paths:
-      - /vendor
-      - /cache
-      - /node_modules
   before_script:
     - apt-get update -qy
     - apt-get install -y nodejs
@@ -22,9 +17,11 @@ build:
     - bundle install
   script:
     - gulp deploy
+    - JEKYLL_ENV=prod bundle exec jekyll build --destination _site2/
   artifacts:
     paths:
       - _site
+      - _site2
     expire_in: 10 mins
   only:
     - master
