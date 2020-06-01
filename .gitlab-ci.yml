@@ -7,9 +7,9 @@ build:
   image: ruby:latest
   cache:
     paths:
-      - vendor/
-      - cache/
-      - node_modules/
+      - /vendor
+      - /cache
+      - /node_modules
   before_script:
     - apt-get update -qy
     - apt-get install -y nodejs
