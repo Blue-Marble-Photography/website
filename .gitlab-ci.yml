@@ -18,7 +18,8 @@ build:
     - npm install gulp -g
     - npm install
     - gem install bundler
-    - bundle install --path /cache
+    - bundle config set path '/cache'
+    - bundle install
   script:
     - gulp deploy
   artifacts:
