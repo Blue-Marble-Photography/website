@@ -591,9 +591,9 @@ washington-dc:
       caption: Sunrise from the steps of the Lincoln Memorial looking out over the DC skyline and Lincoln Memorial Reflecting Pool
       guid: 9f1d5d0b-8f0c-4f60-bc43-9311662ac50b
 
-seattle:
-  name: Seattle
-  permalink: /gallery/seattle
+pacific-northwest:
+  name: Pacific Northwest
+  permalink: /gallery/pacific-northwest
   preview_image: JosephGruber_20141108_210258.jpg
   pricelist: default
   images:
@@ -622,6 +622,37 @@ seattle:
       title: Beauty of Seattle
       caption: Joggers, bikers, and walkers enjoy the waterfront along Elliott Bay on the warmest winter day in Seattle history
       guid: ef7d8bee-e808-456e-b639-2f795b8e19ad
+    - filename: JosephGruber_20200322_024804.jpg
+      date: 2020-03-22T02:48:04Z
+      title: Peaceful sunset along the Pacific Northwest coast
+      guid: 2794a7fc-41b3-4220-9359-2d16a72bb79a
+    - filename: JosephGruber_20191225_000227.jpg
+      date: 2019-12-25T00:02:27Z
+      title: Winter Sunset
+      guid: cb5c56ee-dd97-429d-bdf8-3e8b245e877a
+
+severe-weather:
+  name: Severe Weather
+  permalink: /gallery/severe-weather
+  preview_image: JosephGruber_20180907_003815.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20180907_003815.jpg
+      date: 2018-09-07T00:38:15Z
+      title: Lightning bolt strikes over the Washington Monument in D.C.
+      guid: 0b82ac6a-72e0-49b8-9822-3c2ad9028d60
+    - filename: JosephGruber_20200627_233653.jpg
+      date: 2020-06-27T23:36:53Z
+      title: Lightning strikes near a grain elevator on the eastern plains of Colorado
+      guid: 8a488003-165c-47b2-9894-77d9568c7873
+    - filename: JosephGruber_20180609_184357.jpg
+      date: 2018-06-09T18:43:57Z
+      title: Lightning strike over the cannons at Manassas National Battlefield
+      guid: 7badbfc2-1116-4291-910b-8f7efbb2d425
+    - filename: JosephGruber_20200627_224430.jpg
+      date: 2020-06-27T22:44:30Z
+      title: Lightning over the eastern plains of Colorado
+      guid: 34ed3e45-3148-4728-be12-6a5929bf18e6
 
 winter-in-dc:
   name: Winter in DC (2018)
@@ -2148,6 +2179,9 @@ geb-adrienne:
     - filename: JosephGruber_20190922_164527.jpg
       date: 2019-09-22T16:45:27Z
       title: Adrienne
+    - filename: JosephGruber_20200621_220412.jpg
+      date: 2020-06-21T22:04:12Z
+      title: Adrienne
 
 geb-amos:
   name: Amos (4AA15)
@@ -2312,6 +2346,9 @@ geb-brandy:
       title: Brandy
     - filename: JosephGruber_20190922_163058.jpg
       date: 2019-09-22T16:30:58Z
+      title: Brandy
+    - filename: JosephGruber_20200301_211112.jpg
+      date: 2020-03-01T21:11:12Z
       title: Brandy
 
 geb-cam:
@@ -2700,6 +2737,9 @@ geb-emblem:
     - filename: JosephGruber_20191109_180954.jpg
       date: 2019-11-09T18:09:54Z
       title: Emblem
+    - filename: JosephGruber_20200628_153232.jpg
+      date: 2020-06-28T15:32:32Z
+      title: Emblem
 
 geb-emerald:
   name: Emerald (1E15)
@@ -2742,6 +2782,9 @@ geb-eric:
       title: Eric
     - filename: JosephGruber_20190922_154413.jpg
       date: 2019-09-22T15:44:13Z
+      title: Eric
+    - filename: JosephGruber_20200321_184112-2.jpg
+      date: 2020-03-21T18:41:12Z
       title: Eric
 
 geb-ernie:
@@ -2822,6 +2865,9 @@ geb-expo:
     - filename: JosephGruber_20190924_225447.jpg
       date: 2019-09-24T22:54:47Z
       title: Wagging Tails and Dogfish Ale (2019)
+    - filename: JosephGruber_20200321_184112.jpg
+      date: 2020-03-21T18:41:12Z
+      title: Expo
 
 geb-farrow:
   name: Farrow (9F315)
@@ -2969,6 +3015,9 @@ geb-freddy:
       title: Freddy
     - filename: JosephGruber_20190922_153818.jpg
       date: 2019-09-22T15:38:18Z
+      title: Freddy
+    - filename: JosephGruber_20200616_184112.jpg
+      date: 2020-06-16T18:41:12Z
       title: Freddy
 
 geb-galahad:
@@ -3487,6 +3536,42 @@ geb-imus:
       date: 2018-12-23T14:34:07Z
       title: Imus
 
+geb-irene:
+  name: Irene (6II20)
+  tags: geb
+  permalink: /gallery/geb/irene/
+  preview_image: JosephGruber_20200628_160233.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20200628_173657.jpg
+      date: 2020-06-28T17:36:57Z
+      title: Irene
+    - filename: JosephGruber_20200628_155057.jpg
+      date: 2020-06-28T15:50:57Z
+      title: Irene
+    - filename: JosephGruber_20200628_173650.jpg
+      date: 2020-06-28T17:36:50Z
+      title: Irene
+    - filename: JosephGruber_20200628_155510.jpg
+      date: 2020-06-28T15:55:10Z
+      title: Irene
+    - filename: JosephGruber_20200628_160233.jpg
+      date: 2020-06-28T16:02:33Z
+      title: Irene
+    - filename: JosephGruber_20200628_155103.jpg
+      date: 2020-06-28T15:51:03Z
+      title: Irene
+    - filename: JosephGruber_20200628_155305.jpg
+      date: 2020-06-28T15:53:05Z
+      title: Irene
+    - filename: JosephGruber_20200628_154958.jpg
+      date: 2020-06-28T15:49:58Z
+      title: Irene
+    - filename: JosephGruber_20200628_154743.jpg
+      date: 2020-06-28T15:47:43Z
+      title: Irene
+      caption: Puppy class in the park
+
 geb-irwin:
   name: Irwin (1I16)
   tags: geb
@@ -3541,6 +3626,23 @@ geb-irwin:
       title: Irwin
     - filename: JosephGruber_20170507_100342.jpg
       date: 2017-05-08T00:00:00Z
+      title: Irwin
+
+geb-irwin-7II20:
+  name: Irwin (7II20)
+  tags: geb
+  permalink: /gallery/geb/irwin-7II20/
+  preview_image: JosephGruber_20200628_171137.jpg
+  pricelist: guiding-eyes
+  images:
+    - filename: JosephGruber_20200628_171134.jpg
+      date: 2020-06-28T17:11:34Z
+      title: Irwin
+    - filename: JosephGruber_20200628_171137.jpg
+      date: 2020-06-28T17:11:37Z
+      title: Irwin
+    - filename: JosephGruber_20200628_171136.jpg
+      date: 2020-06-28T17:11:36Z
       title: Irwin
 
 geb-izzie:
@@ -4205,6 +4307,9 @@ geb-obie:
   images:
     - filename: JosephGruber_20190922_152313.jpg
       date: 2019-09-22T15:23:13Z
+      title: Obie
+    - filename: JosephGruber_20200201_211112.jpg
+      date: 2020-02-01T21:11:12Z
       title: Obie
 
 geb-ode:
@@ -5019,6 +5124,9 @@ geb-willis:
       title: Willis
     - filename: JosephGruber_20190922_163946.jpg
       date: 2019-09-22T16:39:46Z
+      title: Willis
+    - filename: JosephGruber_20200621_223112.jpg
+      date: 2020-06-21T22:31:12Z
       title: Willis
 
 geb-yani:

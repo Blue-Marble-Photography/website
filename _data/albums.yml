@@ -46,7 +46,9 @@ geb-puppies:
       geb-howie,
       geb-icarus,
       geb-imus,
+      geb-irene,
       geb-irwin,
+      geb-irwin-7II20,
       geb-izzie,
       geb-jenny,
       geb-jude,
@@ -121,4 +123,4 @@ places:
   description: Locations around the world
   permalink: /gallery/places
   preview_image: JosephGruber_20140922_185549.jpg
-  galleries: [washington-dc, seattle]
+  galleries: [washington-dc, pacific-northwest]
