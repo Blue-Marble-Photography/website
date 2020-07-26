@@ -631,6 +631,34 @@ pacific-northwest:
       title: Winter Sunset
       guid: cb5c56ee-dd97-429d-bdf8-3e8b245e877a
 
+colorado:
+  name: Colorado
+  permalink: /gallery/colorado
+  preview_image: JosephGruber_20191110_235828.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20191111_182930.jpg
+      date: 2019-11-11T18:29:30Z
+      title: Sunrise Snow at Red Rocks
+      guid: 1b689008-f5b8-4dbd-87c5-01e0f700bd89
+    - filename: JosephGruber_20191110_235828.jpg
+      date: 2019-11-10T23:58:28Z
+      title: Brilliant Sunset over the Front Range
+      guid: 992d26a9-ff93-4c69-b387-ffb1a43f8968
+    - filename: JosephGruber_20191111_182701.jpg
+      date: 2019-11-11T18:27:01Z
+      title: Sunrise Snow at Red Rocks
+      guid: 03a274cf-df12-473f-9d85-4ea922003597
+    - filename: JosephGruber_20151118_093717.jpg
+      date: 2015-11-18T09:37:17Z
+      title: Red Rocks Sunrise
+      caption: Sunrise over the mountains near Denver, Colorado seen from Red Rocks Park
+      guid: fd2fd96d-357a-4ad8-95a7-9f7ac3737302
+    - filename: JosephGruber_20200722_024759.jpg
+      date: 2020-07-22T02:47:59Z
+      title: Electric Sunset
+      guid: dcc483a6-0291-496e-9433-d2399f6118e0
+
 severe-weather:
   name: Severe Weather
   permalink: /gallery/severe-weather
@@ -639,19 +667,19 @@ severe-weather:
   images:
     - filename: JosephGruber_20180907_003815.jpg
       date: 2018-09-07T00:38:15Z
-      title: Lightning bolt strikes over the Washington Monument in D.C.
+      title: Lightning strikes the Washington Monument
       guid: 0b82ac6a-72e0-49b8-9822-3c2ad9028d60
     - filename: JosephGruber_20200627_233653.jpg
       date: 2020-06-27T23:36:53Z
-      title: Lightning strikes near a grain elevator on the eastern plains of Colorado
+      title: Lightning over the Colorado plains
       guid: 8a488003-165c-47b2-9894-77d9568c7873
     - filename: JosephGruber_20180609_184357.jpg
       date: 2018-06-09T18:43:57Z
-      title: Lightning strike over the cannons at Manassas National Battlefield
+      title: Manassas National Battlefield lightning strike
       guid: 7badbfc2-1116-4291-910b-8f7efbb2d425
     - filename: JosephGruber_20200627_224430.jpg
       date: 2020-06-27T22:44:30Z
-      title: Lightning over the eastern plains of Colorado
+      title: Lightning over the Colorado plains
       guid: 34ed3e45-3148-4728-be12-6a5929bf18e6
 
 winter-in-dc:
