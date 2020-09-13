@@ -2080,13 +2080,13 @@ geb-2020-lake-dillon-outing:
           title: Patty
         - filename: JosephGruber_20200912_192839.jpg
           date: 2020-09-12T19:28:39Z
-          title: Irwin
+          title: Irene
         - filename: JosephGruber_20200912_191921.jpg
           date: 2020-09-12T19:19:21Z
           title: Varick
         - filename: JosephGruber_20200912_192958.jpg
           date: 2020-09-12T19:29:58Z
-          title: Irwin
+          title: Irene
         - filename: JosephGruber_20200912_191114.jpg
           date: 2020-09-12T19:11:14Z
           title: Patty
@@ -3647,6 +3647,12 @@ geb-irene:
           date: 2020-06-28T15:47:43Z
           title: Irene
           caption: Puppy class in the park
+        - filename: JosephGruber_20200912_192839.jpg
+          date: 2020-09-12T19:28:39Z
+          title: Irene
+        - filename: JosephGruber_20200912_192958.jpg
+          date: 2020-09-12T19:29:58Z
+          title: Irene
 
 geb-irwin:
     name: Irwin (1I16)
@@ -3719,12 +3725,6 @@ geb-irwin-7II20:
           title: Irwin
         - filename: JosephGruber_20200628_171136.jpg
           date: 2020-06-28T17:11:36Z
-          title: Irwin
-        - filename: JosephGruber_20200912_192839.jpg
-          date: 2020-09-12T19:28:39Z
-          title: Irwin
-        - filename: JosephGruber_20200912_192958.jpg
-          date: 2020-09-12T19:29:58Z
           title: Irwin
 
 geb-izzie:
