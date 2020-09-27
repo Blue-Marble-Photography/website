@@ -4538,6 +4538,15 @@ geb-patty:
         - filename: JosephGruber_20200912_191114.jpg
           date: 2020-09-12T19:11:14Z
           title: Patty
+        - filename: JosephGruber_20200924_132519.jpg
+          date: 2020-09-24T13:25:19Z
+          title: Patty
+        - filename: JosephGruber_20200921_003935.jpg
+          date: 2020-09-21T00:39:35Z
+          title: Patty
+        - filename: JosephGruber_20200921_003940.jpg
+          date: 2020-09-21T00:39:40Z
+          title: Patty
 
 geb-pippi:
     name: Pippi (3PP18)
