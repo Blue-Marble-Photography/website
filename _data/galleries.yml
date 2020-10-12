@@ -2097,6 +2097,47 @@ geb-2020-lake-dillon-outing:
           date: 2020-09-12T19:21:35Z
           title: Malone
 
+geb-2020-mile-high-farms-outing:
+    name: 2020 Mile High Farms Outing
+    tags: geb
+    permalink: /gallery/geb/2020-mile-high-farms-outing/
+    preview_image: JosephGruber_20201011_172910_44261.jpg
+    pricelist: guiding-eyes
+    images:
+        - filename: JosephGruber_20201011_171249_44244.jpg
+          date: 2020-10-11T17:12:49Z
+          title: Irene
+        - filename: JosephGruber_20201011_164949_44090.jpg
+          date: 2020-10-11T16:49:49Z
+          title: Mile High Farms Outing
+        - filename: JosephGruber_20201011_170925_44215.jpg
+          date: 2020-10-11T17:09:25Z
+          title: Mile High Farms Outing
+        - filename: JosephGruber_20201011_164931_44088.jpg
+          date: 2020-10-11T16:49:31Z
+          title: Mile High Farms Outing
+        - filename: JosephGruber_20201011_171042_44234.jpg
+          date: 2020-10-11T17:10:42Z
+          title: Mile High Farms Outing
+        - filename: JosephGruber_20201011_170724_44186.jpg
+          date: 2020-10-11T17:07:24Z
+          title: Mile High Farms Outing
+        - filename: JosephGruber_20201011_172937_44269.jpg
+          date: 2020-10-11T17:29:37Z
+          title: Emblem
+        - filename: JosephGruber_20201011_165031_44097.jpg
+          date: 2020-10-11T16:50:31Z
+          title: Mile High Farms Outing
+        - filename: JosephGruber_20201011_170638_44176.jpg
+          date: 2020-10-11T17:06:38Z
+          title: Mile High Farms Outing
+        - filename: JosephGruber_20201011_164530_44080.jpg
+          date: 2020-10-11T16:45:30Z
+          title: Mile High Farms Outing
+        - filename: JosephGruber_20201011_172910_44261.jpg
+          date: 2020-10-11T17:29:10Z
+          title: Emblem
+
 benny:
     name: Benny
     permalink: /gallery/private/benny/
@@ -2815,6 +2856,12 @@ geb-emblem:
           title: Emblem
         - filename: JosephGruber_20200628_153232.jpg
           date: 2020-06-28T15:32:32Z
+          title: Emblem
+        - filename: JosephGruber_20201011_172937_44269-Edit.jpg
+          date: 2020-10-11T17:29:37Z
+          title: Emblem
+        - filename: JosephGruber_20201011_172910_44261-Edit.jpg
+          date: 2020-10-11T17:29:10Z
           title: Emblem
 
 geb-emerald:
@@ -3652,6 +3699,9 @@ geb-irene:
           title: Irene
         - filename: JosephGruber_20200912_192958.jpg
           date: 2020-09-12T19:29:58Z
+          title: Irene
+        - filename: JosephGruber_20201011_171249_44244-Edit.jpg
+          date: 2020-10-11T17:12:49Z
           title: Irene
 
 geb-irwin:
