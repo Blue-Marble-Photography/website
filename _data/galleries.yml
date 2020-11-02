@@ -2480,6 +2480,29 @@ geb-balsa:
           date: 2017-05-06T00:00:00Z
           title: Balsa
 
+geb-bando:
+    name: Bando
+    tags: geb
+    permalink: /gallery/geb/bando/
+    preview_image: JosephGruber_20201101_193730.jpg
+    pricelist: guiding-eyes
+    images:
+        - filename: JosephGruber_20201101_193730.jpg
+          date: 2020-11-01T19:37:30Z
+          title: Bando
+        - filename: JosephGruber_20201101_210240.jpg
+          date: 2020-11-01T21:02:40Z
+          title: Bando
+        - filename: JosephGruber_20201101_193843.jpg
+          date: 2020-11-01T19:38:43Z
+          title: Bando
+        - filename: JosephGruber_20201101_210312.jpg
+          date: 2020-11-01T21:03:12Z
+          title: Bando
+        - filename: JosephGruber_20201101_210302.jpg
+          date: 2020-11-01T21:03:02Z
+          title: Bando
+
 geb-brandy:
     name: Brandy (3B418)
     tags: geb
