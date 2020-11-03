@@ -2173,6 +2173,20 @@ geb-2020-guide-dogs-go-west:
           date: 2020-10-21T18:33:52Z
           title: GEB Guide Dogs Go West
 
+geb-guide-dogs:
+    name: GEB Guide Dogs
+    tags: geb
+    permalink: /gallery/geb/geb-guide-dogs
+    preview_image: JosephGruber_20201021_173221_45965.jpg
+    pricelist: guiding-eyes
+    images:
+        - filename: JosephGruber_20201101_194402.jpg
+          date: 2020-11-01T19:44:02Z
+          title: Bando
+        - filename: JosephGruber_20201101_194650.jpg
+          date: 2020-11-01T19:46:50Z
+          title: Bando
+
 benny:
     name: Benny
     permalink: /gallery/private/benny/
@@ -2481,7 +2495,7 @@ geb-balsa:
           title: Balsa
 
 geb-bando:
-    name: Bando
+    name: Bando (2B416)
     tags: geb
     permalink: /gallery/geb/bando/
     preview_image: JosephGruber_20201101_193730.jpg
