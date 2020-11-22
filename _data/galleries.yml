@@ -564,6 +564,8 @@ washington-dc:
           guid: fa90d6e1-f554-4297-920a-58792e788d20
         - filename: JosephGruber_20171209_122615.jpg
           date: 2017-12-09T12:26:15Z
+          title: Winter snowfall at Nationals Park
+          caption: Heavy snow begins to fall at Nationals Park during the offseason
           guid: 091d9664-40e4-4743-ac10-715bbd448a40
         - filename: JosephGruber_20180106_142037.jpg
           date: 2018-01-06T14:20:37Z
@@ -1069,6 +1071,7 @@ stormy-dc-sunset:
 
 hello-spring:
     name: Hello Spring!
+    tags: free-download
     permalink: /post/hello-spring/
     preview_image: JosephGruber_20170330_074520.jpg
     pricelist: free-download
@@ -1081,6 +1084,7 @@ hello-spring:
 
 april-showers-bring-may-flowers:
     name: April Showers Bring May Flowers
+    tags: free-download
     permalink: /post/april-showers-bring-may-flowers/
     preview_image: JosephGruber_20150519_123323.jpg
     pricelist: free-download
