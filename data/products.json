@@ -6,7 +6,7 @@ layout: null
     "id": "digital-{{ image.filename | remove: ".jpg" }}",
     "guid": "{{ image.guid }}",
     "name": "{{ image.title }}",
-    "image": "{{ image.filename | replace: '.jpg', '-750.jpg' | prepend: "/" | prepend: site.photo_url | prepend: site.url }}",
+    "image": "{{ image.filename | replace: '.jpg', '-750.jpg' | prepend: "/" | prepend: site.photo_url }}",
     "price": {{ pricelist.digital.base-price }},
     {% if pricelist.digital.products %}"customFields": [
       {
@@ -19,7 +19,7 @@ layout: null
   }{% endif %}{% if pricelist.digital and image.guid and pricelist.print %},{% endif %}{% if pricelist.print %}{
     "id": "print-{{ image.filename | remove: ".jpg" }}",
     "name": "{{ image.title }}",
-    "image": "{{ image.filename | replace: '.jpg', '-750.jpg' | prepend: "/" | prepend: site.photo_url | prepend: site.url }}",
+    "image": "{{ image.filename | replace: '.jpg', '-750.jpg' | prepend: "/" | prepend: site.photo_url }}",
     "price": {{ pricelist.print.base-price }},
     {% if pricelist.print.products %}"customFields": [
       {
