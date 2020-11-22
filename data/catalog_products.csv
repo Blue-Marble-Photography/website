@@ -1,0 +1,119 @@
+---
+layout: null
+---
+id,item_group_id,title,description,availability,inventory,condition,price,link,image_link,brand,google_product_category,fb_product_category,size,material
+{%- for gallery in site.data.galleries -%}
+{%- if gallery[1].tags -%}{%- continue -%}{%- endif -%}
+{%- if gallery[1].pricelist -%}
+{%- assign gallery-pricelist = gallery[1].pricelist -%}
+{%- assign pricelist = site.data.pricelist[gallery-pricelist] -%}
+{%- for image in gallery[1].images -%}
+{%- if pricelist.digital and image.guid -%}
+{% capture string_with_newlines %}
+"{{ image.filename | remove: ".jpg" | append: "-" | append: pricelist.digital.base-name | remove: ")" | remove: "(" | remove: "+" | replace: " ", "_" }}",
+"{{ image.filename | remove: ".jpg" }}",
+"{{ image.title }}",
+"{% if image.caption %}{{ image.caption }}{% else %}{{ image.title }}{% endif %}",
+available for order,
+1,
+new,
+{{ pricelist.digital.base-price | append: " USD" }},
+"{{ gallery[1].permalink | prepend: site.url }}",
+"{{ image.filename | replace: '.jpg', '-750.jpg' | prepend: "/" | prepend: site.photo_url }}",
+Blue Marble Photography,
+783,
+147,
+{{ pricelist.digital.base-name }},
+"Digital"
+{% endcapture %}
+{{ string_with_newlines | strip_newlines }}
+{%- for product in pricelist.digital.products -%}
+{% capture string_with_newlines %}
+"{{ image.filename | remove: ".jpg" | append: "-" | append: product.name | remove: ")" | remove: "(" | remove: "+" | replace: " ", "_" }}",
+"{{ image.filename | remove: ".jpg" }}",
+"{{ image.title }}",
+"{% if image.caption %}{{ image.caption }}{% else %}{{ image.title }}{% endif %}",
+available for order,
+1,
+new,
+{{ pricelist.digital.base-price | plus: product.price | append: "0" | append: " USD" }},
+"{{ gallery[1].permalink | prepend: site.url }}",
+"{{ image.filename | replace: '.jpg', '-750.jpg' | prepend: "/" | prepend: site.photo_url }}",
+Blue Marble Photography,
+783,
+147,
+{{ product.name }},
+"Digital"
+{% endcapture %}
+{{ string_with_newlines | strip_newlines }}
+{%- endfor -%}
+{%- endif -%}
+{%- if pricelist.print -%}
+{% capture string_with_newlines %}
+"{{ image.filename | remove: ".jpg" | append: "-" | append: pricelist.print.base-name | replace: " ", "_" }}",
+"{{ image.filename | remove: ".jpg" }}",
+"{{ image.title }}",
+"{% if image.caption %}{{ image.caption }}{% else %}{{ image.title }}{% endif %}",
+available for order,
+1,
+new,
+{{ pricelist.print.base-price | append: " USD" }},
+"{{ gallery[1].permalink | prepend: site.url }}",
+"{{ image.filename | replace: '.jpg', '-750.jpg' | prepend: "/" | prepend: site.photo_url }}",
+Blue Marble Photography,
+500044,
+375,
+{%- assign product_name  = pricelist.print.base-name | split: " " -%}
+{%- if product_name[0] == "Custom" -%}
+"Custom",
+{%- else -%}
+"{{ product_name[0] }}",
+{%- endif -%}
+{%- if product_name[1] == "Print" -%}
+"Fine Art Print"
+{%- elsif product_name[1] == "Metal" -%}
+"Metal Print"
+{%- elsif product_name[1] == "Canvas" -%}
+"Canvas Wrap Print"
+{%- else -%}
+"Custom"
+{%- endif -%}
+{% endcapture %}
+{{ string_with_newlines | strip_newlines }}
+{%- for product in pricelist.print.products -%}
+{% capture string_with_newlines %}
+"{{ image.filename | remove: ".jpg" | append: "-" | append: product.name | replace: " ", "_" }}",
+"{{ image.filename | remove: ".jpg" }}",
+"{{ image.title }}",
+"{% if image.caption %}{{ image.caption }}{% else %}{{ image.title }}{% endif %}",
+available for order,
+1,
+new,
+{{ pricelist.print.base-price | plus: product.price | append: "0" | append: " USD" }},
+"{{ gallery[1].permalink | prepend: site.url }}",
+"{{ image.filename | replace: '.jpg', '-750.jpg' | prepend: "/" | prepend: site.photo_url }}",
+Blue Marble Photography,
+500044,
+375,
+{%- assign product_name  = product.name | split: " " -%}
+{%- if product_name[0] == "Custom" -%}
+"Custom",
+{%- else -%}
+"{{ product_name[0] }}",
+{%- endif -%}
+{%- if product_name[1] == "Print" -%}
+"Fine Art Print"
+{%- elsif product_name[1] == "Metal" -%}
+"Metal Print"
+{%- elsif product_name[1] == "Canvas" -%}
+"Canvas Wrap Print"
+{%- else -%}
+"Custom"
+{%- endif -%}
+{% endcapture %}
+{{ string_with_newlines | strip_newlines }}
+{%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
