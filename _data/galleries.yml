@@ -2175,6 +2175,7 @@ geb-2020-guide-dogs-go-west:
 
 geb-guide-dogs:
     name: GEB Guide Dogs
+    tags: private
     permalink: /gallery/geb/geb-guide-dogs
     preview_image: JosephGruber_20201021_173221_45965.jpg
     pricelist: guiding-eyes
@@ -2188,6 +2189,7 @@ geb-guide-dogs:
 
 benny:
     name: Benny
+    tags: private
     permalink: /gallery/private/benny/
     preview_image: JosephGruber_20171028_151739.jpg
     pricelist: free-download
