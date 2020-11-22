@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-id,item_group_id,title,description,availability,inventory,condition,price,link,image_link,brand,google_product_category,fb_product_category,size,material
+id,item_group_id,title,description,availability,inventory,condition,price,link,image_link,brand,google_product_category,fb_product_category,size,material,additional_variant_attribute,custom_label_0
 {%- for gallery in site.data.galleries -%}
 {%- if gallery[1].tags -%}{%- continue -%}{%- endif -%}
 {%- if gallery[1].pricelist -%}
@@ -23,8 +23,10 @@ new,
 Blue Marble Photography,
 783,
 147,
-{{ pricelist.digital.base-name }},
-"Digital"
+,
+,
+Digital:{{ pricelist.digital.base-name }},
+"{{ gallery[1].name }}"
 {% endcapture %}
 {{ string_with_newlines | strip_newlines }}
 {%- for product in pricelist.digital.products -%}
@@ -42,8 +44,10 @@ new,
 Blue Marble Photography,
 783,
 147,
-{{ product.name }},
-"Digital"
+,
+,
+Digital:{{ pricelist.digital.base-name }},
+"{{ gallery[1].name }}"
 {% endcapture %}
 {{ string_with_newlines | strip_newlines }}
 {%- endfor -%}
@@ -70,14 +74,16 @@ Blue Marble Photography,
 "{{ product_name[0] }}",
 {%- endif -%}
 {%- if product_name[1] == "Print" -%}
-"Fine Art Print"
+"Fine Art Print",
 {%- elsif product_name[1] == "Metal" -%}
-"Metal Print"
+"Metal Print",
 {%- elsif product_name[1] == "Canvas" -%}
-"Canvas Wrap Print"
+"Canvas Wrap Print",
 {%- else -%}
-"Custom"
+"Custom",
 {%- endif -%}
+,
+"{{ gallery[1].name }}"
 {% endcapture %}
 {{ string_with_newlines | strip_newlines }}
 {%- for product in pricelist.print.products -%}
@@ -89,7 +95,11 @@ Blue Marble Photography,
 available for order,
 1,
 new,
+{%- if product.name == "Custom Order" -%}
+1.00 USD,
+{%- else -%}
 {{ pricelist.print.base-price | plus: product.price | append: "0" | append: " USD" }},
+{%- endif -%}
 "{{ gallery[1].permalink | prepend: site.url }}",
 "{{ image.filename | replace: '.jpg', '-750.jpg' | prepend: "/" | prepend: site.photo_url }}",
 Blue Marble Photography,
@@ -102,14 +112,16 @@ Blue Marble Photography,
 "{{ product_name[0] }}",
 {%- endif -%}
 {%- if product_name[1] == "Print" -%}
-"Fine Art Print"
+"Fine Art Print",
 {%- elsif product_name[1] == "Metal" -%}
-"Metal Print"
+"Metal Print",
 {%- elsif product_name[1] == "Canvas" -%}
-"Canvas Wrap Print"
+"Canvas Wrap Print",
 {%- else -%}
-"Custom"
+"Custom",
 {%- endif -%}
+,
+"{{ gallery[1].name }}"
 {% endcapture %}
 {{ string_with_newlines | strip_newlines }}
 {%- endfor -%}
