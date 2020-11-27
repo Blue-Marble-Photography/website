@@ -2177,20 +2177,6 @@ geb-2020-guide-dogs-go-west:
           date: 2020-10-21T18:33:52Z
           title: GEB Guide Dogs Go West
 
-geb-guide-dogs:
-    name: GEB Guide Dogs
-    tags: private
-    permalink: /gallery/geb/geb-guide-dogs
-    preview_image: JosephGruber_20201021_173221_45965.jpg
-    pricelist: guiding-eyes
-    images:
-        - filename: JosephGruber_20201101_194402.jpg
-          date: 2020-11-01T19:44:02Z
-          title: Bando
-        - filename: JosephGruber_20201101_194650.jpg
-          date: 2020-11-01T19:46:50Z
-          title: Bando
-
 benny:
     name: Benny
     tags: private
@@ -2523,6 +2509,12 @@ geb-bando:
           title: Bando
         - filename: JosephGruber_20201101_204658.jpg
           date: 2020-11-01T20:46:58Z
+          title: Bando
+        - filename: JosephGruber_20201101_194402.jpg
+          date: 2020-11-01T19:44:02Z
+          title: Bando
+        - filename: JosephGruber_20201101_194650.jpg
+          date: 2020-11-01T19:46:50Z
           title: Bando
 
 geb-brandy:
@@ -4683,6 +4675,95 @@ geb-patty:
         - filename: JosephGruber_20200921_003940.jpg
           date: 2020-09-21T00:39:40Z
           title: Patty
+
+geb-pax:
+    name: Pax (2P316)
+    tags: geb
+    permalink: /gallery/geb/pax
+    preview_image: JosephGruber_20201117_221558.jpg
+    pricelist: guiding-eyes
+    images:
+        - filename: JosephGruber_20201117_212332.jpg
+          date: 2020-11-17T21:23:32Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_213159.jpg
+          date: 2020-11-17T21:31:59Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_212131.jpg
+          date: 2020-11-17T21:21:31Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_212133.jpg
+          date: 2020-11-17T21:21:33Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_222132.jpg
+          date: 2020-11-17T22:21:32Z
+          title: Pax
+        - filename: JosephGruber_20201117_221759.jpg
+          date: 2020-11-17T22:17:59Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_221558.jpg
+          date: 2020-11-17T22:15:58Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_222737.jpg
+          date: 2020-11-17T22:27:37Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_212810.jpg
+          date: 2020-11-17T21:28:10Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_220858.jpg
+          date: 2020-11-17T22:08:58Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_213132.jpg
+          date: 2020-11-17T21:31:32Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_213133.jpg
+          date: 2020-11-17T21:31:33Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_220713.jpg
+          date: 2020-11-17T22:07:13Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_220717.jpg
+          date: 2020-11-17T22:07:17Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_223021.jpg
+          date: 2020-11-17T22:30:21Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_212029.jpg
+          date: 2020-11-17T21:20:29Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_213733.jpg
+          date: 2020-11-17T21:37:33Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_215802.jpg
+          date: 2020-11-17T21:58:02Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_222603.jpg
+          date: 2020-11-17T22:26:03Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_214830.jpg
+          date: 2020-11-17T21:48:30Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_212931.jpg
+          date: 2020-11-17T21:29:31Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_221531.jpg
+          date: 2020-11-17T22:15:31Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_221136.jpg
+          date: 2020-11-17T22:11:36Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_222946.jpg
+          date: 2020-11-17T22:29:46Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_215324.jpg
+          date: 2020-11-17T21:53:24Z
+          title: Pax
+        - filename: JosephGruber_20201117_213220.jpg
+          date: 2020-11-17T21:32:20Z
+          title: Laverne and Pax
+        - filename: JosephGruber_20201117_212101.jpg
+          date: 2020-11-17T21:21:01Z
+          title: Laverne and Pax
 
 geb-pippi:
     name: Pippi (3PP18)
