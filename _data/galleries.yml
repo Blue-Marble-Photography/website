@@ -146,6 +146,11 @@ landscapes:
           title: Sunrise
           caption: Vivid sunrise over the flatness of the Plains from the horizon to the sky with a spectrum of orange, yellow, and blues
           guid: 2e4ebe59-6904-4c2c-bf39-966cbd65f9f6
+        - filename: JosephGruber_20190705_014154.jpg
+          date: 2019-07-05T01:41:54Z
+          title: Majestic Bison
+          caption: Bison grazing with the Swan Range in northern Montana just south of Glacier National Park majestically rising in the distance
+          guid: 4a1130b3-490a-4ca8-98a7-189ac350c44a
 
 pets:
     name: Pets
