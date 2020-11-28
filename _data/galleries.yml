@@ -126,6 +126,21 @@ landscapes:
           title: Colorful sunset over Mt Shuksan and Baker Lake
           caption: The sky glows pink as the sun sets behind Mt Baker and Baker Lake in the Pacific Northwest
           guid: 877f8719-0779-4e52-bf2d-bd60e4bd55f4
+        - filename: JosephGruber_20200805_012938.jpg
+          date: 2020-08-05T01:29:38Z
+          title: Sunflowers & Showers
+          caption: Raindrops fall onto a field of bright yellow and orange sunflowers
+          guid: 22a813fd-4582-49e7-a965-c523ae61a99a
+        - filename: JosephGruber_20200805_013708.jpg
+          date: 2020-08-05T01:37:08Z
+          title: Sunset Sunflowers
+          caption: The sun shines bright in the sky as it begins to set behind a wide field of yellow and orange sunflowers
+          guid: b7e08ecc-318e-4205-b1cb-282a9adb9f2d
+        - filename: JosephGruber_20200322_024804.jpg
+          date: 2020-03-22T02:48:04Z
+          title: Peaceful sunset along the Pacific Northwest coast
+          caption: Dusk along the Pacific coastline as waves crash along the rocks and beach with pink and purple colors bright in the sky
+          guid: 05755bc8-46ed-402e-b8b0-55882a729818
 
 pets:
     name: Pets
