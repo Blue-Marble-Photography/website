@@ -60,9 +60,6 @@ function setLightboxDefaults() {
       }
       if (printDetails.attr('data-item-custom1-value')) {
         btnPrint.data('item-custom1-value', printDetails.data('item-custom1-value'));
-      }  
-      if (printDetails.attr("data-item-weight")) {
-        btnPrint.data("item-weight", printDetails.data("item-weight"));
       }
 
       btnPrint.addClass('snipcart-add-item');
