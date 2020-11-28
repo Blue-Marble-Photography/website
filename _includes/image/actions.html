@@ -26,6 +26,7 @@ data-item-image="{{ image.filename | replace: '.jpg', '-400.jpg' | prepend: "/" 
 data-item-id="print-{{ image.filename | remove: ".jpg" }}"
 data-item-name="{{ image.title }}"
 data-item-price="{{ pricelist.print.base-price }}"
+data-item-weight="{{ pricelist.print.weight }}"
 data-item-shippable="true"
 data-item-taxable="true"
 {% if pricelist.print.products %}

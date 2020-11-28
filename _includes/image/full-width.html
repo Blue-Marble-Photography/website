@@ -63,6 +63,7 @@
         data-item-custom1-options="{{ pricelist.print.base-name }}|{% for product in pricelist.print.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}"
         data-item-custom1-value="{{ pricelist.print.base-name }}" {% endif %}
         data-item-url="{{ site.url }}/data/products.json"
+        data-item-weight="{{ pricelist.print.weight }}"
         data-item-image="{{ image.filename | replace: ".jpg", "-400.jpg" | prepend: "/" | prepend: site.photo_url }}"></a>
     {% endif %}
     {% endif %}
