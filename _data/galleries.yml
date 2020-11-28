@@ -141,6 +141,11 @@ landscapes:
           title: Peaceful sunset along the Pacific Northwest coast
           caption: Dusk along the Pacific coastline as waves crash along the rocks and beach with pink and purple colors bright in the sky
           guid: 05755bc8-46ed-402e-b8b0-55882a729818
+        - filename: JosephGruber_20191110_130735.jpg
+          date: 2019-11-10T13:07:35Z
+          title: Sunrise
+          caption: Vivid sunrise over the flatness of the Plains from the horizon to the sky with a spectrum of orange, yellow, and blues
+          guid: 2e4ebe59-6904-4c2c-bf39-966cbd65f9f6
 
 pets:
     name: Pets
@@ -607,6 +612,11 @@ washington-dc:
           title: Capitol Sunrise
           caption: Sunrise from the steps of the Lincoln Memorial looking out over the DC skyline and Lincoln Memorial Reflecting Pool
           guid: 9f1d5d0b-8f0c-4f60-bc43-9311662ac50b
+        - filename: JosephGruber_20181223_115703.jpg
+          date: 2018-12-23T11:57:03Z
+          title: Christmas Shutdown
+          caption: December 2018 - As the US government shutdown began, impacts began to be felt far and wide including at the United States Capitol with limited visiting hours for the Capitol Christmas Tree.
+          guid: 82497960-b08c-4c8e-80d3-509bb11b4fcc
 
 pacific-northwest:
     name: Pacific Northwest
@@ -675,6 +685,11 @@ colorado:
           date: 2020-07-22T02:47:59Z
           title: Electric Sunset
           guid: dcc483a6-0291-496e-9433-d2399f6118e0
+        - filename: JosephGruber_20191110_130735.jpg
+          date: 2019-11-10T13:07:35Z
+          title: Sunrise
+          caption: Vivid sunrise over the flatness of the Plains from the horizon to the sky with a spectrum of orange, yellow, and blues
+          guid: 2e4ebe59-6904-4c2c-bf39-966cbd65f9f6
 
 severe-weather:
     name: Severe Weather
@@ -710,7 +725,7 @@ severe-weather:
         - filename: JosephGruber_20201018_183213.jpg
           date: 2020-10-18T18:32:13Z
           title: Forest burned in the Cal Wood Fire
-          caption: Trees burned to a cripsp in the forest while other are still standing after the Cal Wood forest fire
+          caption: Trees burned to a crisp in the forest while other are still standing after the Cal Wood forest fire
           guid: 54058fdf-6435-4244-b5ee-7d148b28aabb
 
 winter-in-dc:
