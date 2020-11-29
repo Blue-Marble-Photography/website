@@ -66,15 +66,6 @@
         data-item-custom1-name="Print Size/Type"
         data-item-custom1-options="{{ pricelist.print.base-name }}|{% for product in pricelist.print.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}"
         data-item-custom1-value="{{ pricelist.print.base-name }}" 
-        data-item-weight="{{ x.x }}" 
-        data-item-length="{{ x.x }}"
-        data-item-height="{{ x.x }}" 
-        data-item-width="{{ x.x }}"
-        {%- else -%}
-        data-item-weight="{{ x.x }}" 
-        data-item-length="{{ x.x }}"
-        data-item-height="{{ x.x }}" 
-        data-item-width="{{ x.x }}"
         {%- endif -%}
         data-item-url="{{ site.url }}/data/products.json"
         data-item-image="{{ image.filename | replace: ".jpg", "-400.jpg" | prepend: "/" | prepend: site.photo_url }}"></a>
