@@ -1,19 +1,23 @@
 <script async src="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.js"></script>
 <div hidden id="snipcart"
     data-api-key="{% if jekyll.environment == "prod" %}{{ site.snipcart_api_key.live }}{% else %}{{ site.snipcart_api_key.test }}{% endif %}">
+    <payment section="top">
+        <div>
+            <p>
+                <snipcart-checkbox name="license-terms" required></snipcart-checkbox>
+                <snipcart-label for="license-terms">I have read and agree to the&nbsp;<u><a
+                            href="{{ site.url }}/license" target="_blank">license terms</a></u><i aria-hidden="true"
+                        class="icon-link-ext"></i>
+                </snipcart-label>
+            </p>
+        </div>
+    </payment>
 </div>
 
 <script>
     document.addEventListener('snipcart.ready', function () {
         Snipcart.store.subscribe(() => {
             Snipcart.store.getState().cart.items.count == 0 ? $('.snipcart-checkout').addClass('d-none') : $('.snipcart-checkout').removeClass('d-none')
-        });
-
-        Snipcart.execute('bind', 'cart.opened', function () {
-            Snipcart.execute('unbind', 'cart.opened');
-            $('#snipcart-footer').append(
-                '<a id="license-terms" href="{{ site.url }}/license" target="_blank" class="text-capitalize text-white font-italic float-right snipcart-license-terms py-2">View license terms</a>'
-            );
         });
     });
 </script>
