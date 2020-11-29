@@ -1327,7 +1327,7 @@ geb-2017-baysox-game:
     tags: geb
     permalink: /gallery/geb/2017-bowie-baysox-game/
     preview_image: JosephGruber_20170604_153925.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170604_133219.jpg
           date: 2017-06-04T17:32:19Z
@@ -1463,7 +1463,7 @@ geb-2017-canine-cruise:
     tags: geb
     permalink: /gallery/geb/2017-canine-cruise/
     preview_image: JosephGruber_20171004_210922.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20171004_205515.jpg
           date: 2017-10-04T20:55:15Z
@@ -1550,7 +1550,7 @@ geb-2018-canine-cruise:
     tags: geb
     permalink: /gallery/geb/2018-canine-cruise/
     preview_image: JosephGruber_20181002_213215.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20181002_211954.jpg
           date: 2018-10-02T21:19:54Z
@@ -1627,7 +1627,7 @@ geb-2017-wagging-tails:
     tags: geb
     permalink: /gallery/geb/2017-wagging-tails-and-dogfish-ale/
     preview_image: JosephGruber_20170815_233332.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170815_212645.jpg
           date: 2017-08-15T21:26:45Z
@@ -1759,7 +1759,7 @@ geb-2018-wagging-tails:
     tags: geb
     permalink: /gallery/geb/2018-wagging-tails-and-dogfish-ale/
     preview_image: JosephGruber_20180814_214356.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20180814_214356.jpg
           date: 2018-08-14T21:43:56Z
@@ -1797,7 +1797,7 @@ geb-2018-pints-and-poses:
     tags: geb
     permalink: /gallery/geb/2018-pints-and-poses/
     preview_image: JosephGruber_20181013_172218.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20181013_174133-2.jpg
           date: 2018-10-13T17:41:33Z
@@ -1880,7 +1880,7 @@ geb-2018-ft-hunt-park:
     tags: geb
     permalink: /gallery/geb/2018-ft-hunt-park/
     preview_image: JosephGruber_20181118_193818.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20181118_192635.jpg
           date: 2018-11-18T19:26:35Z
@@ -1904,7 +1904,7 @@ geb-2019-tom-panek:
     tags: geb
     permalink: /gallery/geb/2019-tom-panek/
     preview_image: JosephGruber_20190428_183647.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190428_180537.jpg
           date: 2019-04-28T18:05:37Z
@@ -1942,7 +1942,7 @@ geb-2019-halloween-home-depot-outing:
     tags: geb
     permalink: /gallery/geb/2019-halloween-home-depot-outing/
     preview_image: JosephGruber_20190922_163058.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190922_162416.jpg
           date: 2019-09-22T16:24:16Z
@@ -1983,7 +1983,7 @@ geb-2019-wagging-tails:
     tags: geb
     permalink: /gallery/geb/2019-wagging-tails-and-dogfish-ale/
     preview_image: JosephGruber_20190924_205151.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190924_203648.jpg
           date: 2019-09-24T20:36:48Z
@@ -2105,7 +2105,7 @@ geb-2020-lake-dillon-outing:
     tags: geb
     permalink: /gallery/geb/2020-lake-dillon-outing/
     preview_image: JosephGruber_20200912_194412.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20200912_184001.jpg
           date: 2020-09-12T18:40:01Z
@@ -2149,7 +2149,7 @@ geb-2020-mile-high-farms-outing:
     tags: geb
     permalink: /gallery/geb/2020-mile-high-farms-outing/
     preview_image: JosephGruber_20201011_172910_44261.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20201011_171249_44244.jpg
           date: 2020-10-11T17:12:49Z
@@ -2190,7 +2190,7 @@ geb-2020-guide-dogs-go-west:
     tags: geb
     permalink: /gallery/geb/2020-guide-dogs-go-west
     preview_image: JosephGruber_20201021_173221_45965.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20201021_182446_46041.jpg
           date: 2020-10-21T18:24:46Z
@@ -2365,7 +2365,7 @@ geb-adrienne:
     tags: geb
     permalink: /gallery/geb/adrienne/
     preview_image: JosephGruber_20190217_183934.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190217_183935.jpg
           date: 2019-02-17T18:39:35Z
@@ -2388,7 +2388,7 @@ geb-amos:
     tags: geb
     permalink: /gallery/geb/amos/
     preview_image: JosephGruber_20160730_093714.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160730_093714.jpg
           date: 2016-07-30T09:37:14Z
@@ -2408,7 +2408,7 @@ geb-aqua:
     tags: geb
     permalink: /gallery/geb/aqua/
     preview_image: JosephGruber_20160410_055927.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160410_054417.jpg
           date: 2016-04-10T05:44:17Z
@@ -2449,7 +2449,7 @@ geb-aron:
     tags: geb
     permalink: /gallery/geb/aron/
     preview_image: JosephGruber_20151011_075122.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20151011_073520.jpg
           date: 2015-10-11T07:35:20Z
@@ -2484,7 +2484,7 @@ geb-aussie:
     tags: geb
     permalink: /gallery/geb/aussie/
     preview_image: JosephGruber_20170422_075536.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170422_074745.jpg
           date: 2017-04-22T07:47:45Z
@@ -2510,7 +2510,7 @@ geb-balsa:
     tags: geb
     permalink: /gallery/geb/balsa/
     preview_image: JosephGruber_20170514_091819.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170514_091819.jpg
           date: 2017-05-14T09:18:19Z
@@ -2533,7 +2533,7 @@ geb-bando:
     tags: geb
     permalink: /gallery/geb/bando/
     preview_image: JosephGruber_20201101_193730.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20201101_193730.jpg
           date: 2020-11-01T19:37:30Z
@@ -2565,7 +2565,7 @@ geb-brandy:
     tags: geb
     permalink: /gallery/geb/brandy/
     preview_image: JosephGruber_20190217_173146.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190217_165130.jpg
           date: 2019-02-17T16:51:30Z
@@ -2588,7 +2588,7 @@ geb-cam:
     tags: geb
     permalink: /gallery/geb/cam/
     preview_image: JosephGruber_20190922_185145.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190922_185145.jpg
           date: 2019-09-22T18:51:45Z
@@ -2599,7 +2599,7 @@ geb-colleen:
     tags: geb
     permalink: /gallery/geb/colleen
     preview_image: JosephGruber_20190922_184631.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190922_184631.jpg
           date: 2019-09-22T18:46:31Z
@@ -2616,7 +2616,7 @@ geb-davis:
     tags: geb
     permalink: /gallery/geb/davis/
     preview_image: JosephGruber_20190922_185839.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190922_174712.jpg
           date: 2019-09-22T17:47:12Z
@@ -2690,7 +2690,7 @@ geb-debbie:
     tags: geb
     permalink: /gallery/geb/debbie/
     preview_image: JosephGruber_20190922_184836.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190922_184836.jpg
           date: 2019-09-22T18:48:36Z
@@ -2707,7 +2707,7 @@ geb-delilah:
     tags: geb
     permalink: /gallery/geb/delilah/
     preview_image: JosephGruber_20160925_120847.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160925_120847.jpg
           date: 2016-09-25T12:08:47Z
@@ -2766,7 +2766,7 @@ geb-dove:
     tags: geb
     permalink: /gallery/geb/dove/
     preview_image: JosephGruber_20190217_170958.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190217_170953.jpg
           date: 2019-02-17T17:09:53Z
@@ -2780,7 +2780,7 @@ geb-elkins:
     tags: geb
     permalink: /gallery/geb/elkins/
     preview_image: JosephGruber_20170618_065317.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170321_182545.jpg
           date: 2017-03-21T18:25:45Z
@@ -2914,7 +2914,7 @@ geb-ellery:
     tags: geb
     permalink: /gallery/geb/ellery/
     preview_image: JosephGruber_20170521_122429.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170305_130234.jpg
           date: 2017-03-05T13:02:34Z
@@ -2961,7 +2961,7 @@ geb-emblem:
     tags: geb
     permalink: /gallery/geb/emblem/
     preview_image: JosephGruber_20191109_180954.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20191109_180856.jpg
           date: 2019-11-09T18:08:56Z
@@ -2990,7 +2990,7 @@ geb-emerald:
     tags: geb
     permalink: /gallery/geb/emerald/
     preview_image: JosephGruber_20160528_091019.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160528_091019.jpg
           date: 2016-05-28T09:10:19Z
@@ -3019,7 +3019,7 @@ geb-eric:
     tags: geb
     permalink: /gallery/geb/eric/
     preview_image: JosephGruber_20190922_154413.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190922_153009.jpg
           date: 2019-09-22T15:30:09Z
@@ -3036,7 +3036,7 @@ geb-ernie:
     tags: geb
     permalink: /gallery/geb/ernie/
     preview_image: JosephGruber_20160508_070317.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160508_064002.jpg
           date: 2016-05-08T06:40:02Z
@@ -3068,7 +3068,7 @@ geb-expo:
     tags: geb
     permalink: /gallery/geb/expo/
     preview_image: JosephGruber_20190427_121329.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190427_121329.jpg
           date: 2019-04-27T12:13:29Z
@@ -3118,7 +3118,7 @@ geb-farrow:
     tags: geb
     permalink: /gallery/geb/farrow/
     preview_image: JosephGruber_20161231_131729.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20161218_130047.jpg
           date: 2016-12-18T13:00:47Z
@@ -3153,7 +3153,7 @@ geb-fauna:
     tags: geb
     permalink: /gallery/geb/fauna/
     preview_image: JosephGruber_20160509_164022.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160509_163442.jpg
           date: 2016-05-09T16:34:42Z
@@ -3182,7 +3182,7 @@ geb-fenway:
     tags: geb
     permalink: /gallery/geb/fenway/
     preview_image: JosephGruber_20180729_121247.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20180729_120902.jpg
           date: 2018-07-29T12:09:02Z
@@ -3214,7 +3214,7 @@ geb-fay:
     tags: geb
     permalink: /gallery/geb/fay/
     preview_image: JosephGruber_20181110_131822.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20181110_131809.jpg
           date: 2018-11-10T13:18:09Z
@@ -3249,7 +3249,7 @@ geb-freddy:
     tags: geb
     permalink: /gallery/geb/freddy/
     preview_image: JosephGruber_20190217_183544.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190217_183544.jpg
           date: 2019-02-17T18:35:44Z
@@ -3269,7 +3269,7 @@ geb-galahad:
     tags: geb
     permalink: /gallery/geb/galahad/
     preview_image: JosephGruber_20130727_110311.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20130719_085848.jpg
           date: 2013-07-19T08:58:48Z
@@ -3319,7 +3319,7 @@ geb-giada:
     tags: geb
     permalink: /gallery/geb/giada/
     preview_image: JosephGruber_20150815_072910.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20150815_071146.jpg
           date: 2015-08-15T07:11:46Z
@@ -3354,7 +3354,7 @@ geb-gilligan:
     tags: geb
     permalink: /gallery/geb/gilligan/
     preview_image: JosephGruber_20160814_122217.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160814_111245.jpg
           date: 2016-08-14T11:12:45Z
@@ -3392,7 +3392,7 @@ geb-ginny:
     tags: geb
     permalink: /gallery/geb/ginny/
     preview_image: JosephGruber_20180526_072004.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170423_121445.jpg
           date: 2017-04-23T12:14:45Z
@@ -3439,7 +3439,7 @@ geb-gunther:
     tags: geb
     permalink: /gallery/geb/gunther/
     preview_image: JosephGruber_20160903_071754.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160903_071754.jpg
           date: 2016-09-03T07:17:54Z
@@ -3459,7 +3459,7 @@ geb-gwenyth:
     tags: geb
     permalink: /gallery/geb/gwenyth/
     preview_image: JosephGruber_20180311_073136.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170115_155228.jpg
           date: 2017-01-15T15:52:28Z
@@ -3562,7 +3562,7 @@ geb-harmony:
     tags: geb
     permalink: /gallery/geb/harmony/
     preview_image: JosephGruber_20180505_075645.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170423_133416.jpg
           date: 2017-04-23T13:34:16Z
@@ -3618,7 +3618,7 @@ geb-hilton:
     tags: geb
     permalink: /gallery/geb/hilton/
     preview_image: JosephGruber_20161105_094955.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20161105_094955.jpg
           date: 2016-11-05T09:49:55Z
@@ -3647,7 +3647,7 @@ geb-howie:
     tags: geb
     permalink: /gallery/geb/howie/
     preview_image: JosephGruber_20170409_110203.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170409_105809.jpg
           date: 2017-04-09T10:58:09Z
@@ -3700,7 +3700,7 @@ geb-icarus:
     tags: geb
     permalink: /gallery/geb/icarus/
     preview_image: JosephGruber_20170917_134943.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170917_130236.jpg
           date: 2017-09-17T13:02:36Z
@@ -3753,7 +3753,7 @@ geb-imus:
     tags: geb
     permalink: /gallery/geb/imus/
     preview_image: JosephGruber_20181223_143407.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20181216_193324.jpg
           date: 2018-12-16T19:33:24Z
@@ -3785,7 +3785,7 @@ geb-irene:
     tags: geb
     permalink: /gallery/geb/irene/
     preview_image: JosephGruber_20200628_160233.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20200628_173657.jpg
           date: 2020-06-28T17:36:57Z
@@ -3830,7 +3830,7 @@ geb-irwin:
     tags: geb
     permalink: /gallery/geb/irwin/
     preview_image: JosephGruber_20160730_084358.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160730_081817.jpg
           date: 2016-07-30T08:18:17Z
@@ -3886,7 +3886,7 @@ geb-irwin-7II20:
     tags: geb
     permalink: /gallery/geb/irwin-7II20/
     preview_image: JosephGruber_20200628_171137.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20200628_171134.jpg
           date: 2020-06-28T17:11:34Z
@@ -3903,7 +3903,7 @@ geb-izzie:
     tags: geb
     permalink: /gallery/geb/izzie/
     preview_image: JosephGruber_20160814_074602.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160814_073625.jpg
           date: 2016-08-14T07:36:25Z
@@ -3935,7 +3935,7 @@ geb-jenny:
     tags: geb
     permalink: /gallery/geb/jenny/
     preview_image: JosephGruber_20180729_120256.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20180729_120126.jpg
           date: 2018-07-29T16:01:26Z
@@ -3967,7 +3967,7 @@ geb-jude:
     tags: geb
     permalink: /gallery/geb/jude/
     preview_image: JosephGruber_20190113_193059.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20171022_130624.jpg
           date: 2017-10-22T17:06:24Z
@@ -4137,7 +4137,7 @@ geb-justine:
     tags: geb
     permalink: /gallery/geb/justine/
     preview_image: JosephGruber_20161106_150554.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20161106_145449.jpg
           date: 2016-11-06T14:54:49Z
@@ -4166,7 +4166,7 @@ geb-kibble:
     tags: geb
     permalink: /gallery/geb/kibble/
     preview_image: JosephGruber_20160814_104507.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160814_104507.jpg
           date: 2016-08-14T10:45:07Z
@@ -4234,7 +4234,7 @@ geb-krieger:
     tags: geb
     permalink: /gallery/geb/krieger
     preview_image: JosephGruber_20160508_055509.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160508_055509.jpg
           date: 2016-05-08T05:55:09Z
@@ -4260,7 +4260,7 @@ geb-laverne:
     tags: geb
     permalink: /gallery/geb/laverne/
     preview_image: JosephGruber_20161006_172311.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20161006_172311.jpg
           date: 2016-10-06T17:23:11Z
@@ -4286,7 +4286,7 @@ geb-libby:
     tags: geb
     permalink: /gallery/geb/libby/
     preview_image: JosephGruber_20170409_071535.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170205_121001.jpg
           date: 2017-02-05T12:10:01Z
@@ -4339,7 +4339,7 @@ geb-lita:
     tags: geb
     permalink: /gallery/geb/lita/
     preview_image: JosephGruber_20161106_092647.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20161106_091432.jpg
           date: 2016-11-06T09:14:32Z
@@ -4368,7 +4368,7 @@ geb-meyer:
     tags: geb
     permalink: /gallery/geb/meyer/
     preview_image: JosephGruber_20180408_091227.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170205_115443.jpg
           date: 2017-02-05T11:54:43Z
@@ -4439,7 +4439,7 @@ geb-minka:
     tags: geb
     permalink: /gallery/geb/minka/
     preview_image: JosephGruber_20170806_132059.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170806_131822.jpg
           date: 2017-08-06T13:18:22Z
@@ -4468,7 +4468,7 @@ geb-nikon:
     tags: geb
     permalink: /gallery/geb/nikon/
     preview_image: JosephGruber_20190209_145917.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20181216_203551.jpg
           date: 2018-12-16T20:35:51Z
@@ -4518,7 +4518,7 @@ geb-nutmeg:
     tags: geb
     permalink: /gallery/geb/nutmeg/
     preview_image: JosephGruber_20170611_121522.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170611_121505.jpg
           date: 2017-06-11T12:15:05Z
@@ -4556,7 +4556,7 @@ geb-obie:
     tags: geb
     permalink: /gallery/geb/obie/
     preview_image: JosephGruber_20190922_152313.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190922_152313.jpg
           date: 2019-09-22T15:23:13Z
@@ -4570,7 +4570,7 @@ geb-ode:
     tags: geb
     permalink: /gallery/geb/ode/
     preview_image: JosephGruber_20181229_133000.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20181216_193431.jpg
           date: 2018-12-16T19:34:31Z
@@ -4605,7 +4605,7 @@ geb-ohana:
     tags: geb
     permalink: /gallery/geb/ohana/
     preview_image: JosephGruber_20181223_134246.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20181223_134246.jpg
           date: 2018-12-23T13:42:46Z
@@ -4634,7 +4634,7 @@ geb-otto:
     tags: geb
     permalink: /gallery/geb/otto/
     preview_image: JosephGruber_20180408_134140.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20180408_134140.jpg
           date: 2018-04-08T13:41:40Z
@@ -4669,7 +4669,7 @@ geb-parsley:
     tags: geb
     permalink: /gallery/geb/parsley
     preview_image: JosephGruber_20160910_075114.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160910_073905.jpg
           date: 2016-09-10T07:39:05Z
@@ -4698,7 +4698,7 @@ geb-patty:
     tags: geb
     permalink: /gallery/geb/patty
     preview_image: JosephGruber_20200912_191119.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20200912_190823.jpg
           date: 2020-09-12T19:08:23Z
@@ -4724,7 +4724,7 @@ geb-pax:
     tags: geb
     permalink: /gallery/geb/pax
     preview_image: JosephGruber_20201117_221558.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20201117_212332.jpg
           date: 2020-11-17T21:23:32Z
@@ -4813,7 +4813,7 @@ geb-pippi:
     tags: geb
     permalink: /gallery/geb/pippi
     preview_image: JosephGruber_20180916_160756.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20180916_160530.jpg
           date: 2018-09-16T16:05:30Z
@@ -4845,7 +4845,7 @@ geb-pria:
     tags: geb
     permalink: /gallery/geb/pria
     preview_image: JosephGruber_20180916_155935.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20180916_155935.jpg
           date: 2018-09-16T15:59:35Z
@@ -4865,7 +4865,7 @@ geb-pugsley:
     tags: geb
     permalink: /gallery/geb/pugsley/
     preview_image: JosephGruber_20161022_080704.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20161022_080309.jpg
           date: 2016-10-22T08:03:09Z
@@ -4891,7 +4891,7 @@ geb-pumpkin:
     tags: geb
     permalink: /gallery/geb/pumpkin/
     preview_image: JosephGruber_20170312_185630.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20151220_140934.jpg
           date: 2015-12-20T14:09:34Z
@@ -4950,7 +4950,7 @@ geb-quincy:
     tags: geb
     permalink: /gallery/geb/quincy/
     preview_image: JosephGruber_20181216_183535.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20181216_183535.jpg
           date: 2018-12-16T18:35:35Z
@@ -4961,7 +4961,7 @@ geb-rasha:
     tags: geb
     permalink: /gallery/geb/rasha/
     preview_image: JosephGruber_20171105_142519.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160828_120805.jpg
           date: 2016-08-28T12:08:05Z
@@ -5020,7 +5020,7 @@ geb-rigby:
     tags: geb
     permalink: /gallery/geb/rigby/
     preview_image: JosephGruber_20180408_105915.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20180408_105915.jpg
           date: 2018-04-08T10:59:15Z
@@ -5031,7 +5031,7 @@ geb-rhonda:
     tags: geb
     permalink: /gallery/geb/rhonda
     preview_image: JosephGruber_20191109_175257.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20180909_181523.jpg
           date: 2018-09-09T18:15:23Z
@@ -5093,7 +5093,7 @@ geb-rocco:
     tags: geb
     permalink: /gallery/geb/rocco
     preview_image: JosephGruber_20180916_161022.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20180916_161022.jpg
           date: 2018-09-16T16:10:22Z
@@ -5113,7 +5113,7 @@ geb-romeo:
     tags: geb
     permalink: /gallery/geb/romeo/
     preview_image: JosephGruber_20190202_141142.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20181216_203739.jpg
           date: 2018-12-16T20:37:39Z
@@ -5154,7 +5154,7 @@ geb-rue:
     tags: geb
     permalink: /gallery/geb/rue/
     preview_image: JosephGruber_20170611_121110.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170611_115240.jpg
           date: 2017-06-11T11:52:40Z
@@ -5204,7 +5204,7 @@ geb-ruza:
     tags: geb
     permalink: /gallery/geb/ruza/
     preview_image: JosephGruber_20160130_162912.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20141221_135650.jpg
           date: 2014-12-21T13:56:50Z
@@ -5230,7 +5230,7 @@ geb-valiant:
     tags: geb
     permalink: /gallery/geb/valiant/
     preview_image: JosephGruber_20151111_132532.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20151111_132101.jpg
           date: 2015-11-11T13:21:01Z
@@ -5274,7 +5274,7 @@ geb-valiant-7v318:
     tags: geb
     permalink: /gallery/geb/valiant-7v318/
     preview_image: JosephGruber_20190120_194110.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190120_194159.jpg
           date: 2019-01-20T19:41:59Z
@@ -5306,7 +5306,7 @@ geb-valor:
     tags: geb
     permalink: /gallery/geb/valor/
     preview_image: JosephGruber_20170813_144040.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20170813_143723.jpg
           date: 2017-08-13T14:37:23Z
@@ -5359,7 +5359,7 @@ geb-vanda:
     tags: geb
     permalink: /gallery/geb/vanda/
     preview_image: JosephGruber_20151017_082052.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20150711_090403.jpg
           date: 2015-07-11T09:04:03Z
@@ -5412,7 +5412,7 @@ geb-vespa:
     tags: geb
     permalink: /gallery/geb/vespa/
     preview_image: JosephGruber_20161106_142539.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20161006_172110.jpg
           date: 2016-10-06T17:21:10Z
@@ -5456,7 +5456,7 @@ geb-willa:
     tags: geb
     permalink: /gallery/geb/willa/
     preview_image: JosephGruber_20161022_100452.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20161022_100452.jpg
           date: 2016-10-22T10:04:52Z
@@ -5482,7 +5482,7 @@ geb-willis:
     tags: geb
     permalink: /gallery/geb/willis/
     preview_image: JosephGruber_20190922_163946.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20190217_171545.jpg
           date: 2019-02-17T17:15:45Z
@@ -5502,7 +5502,7 @@ geb-yani:
     tags: geb
     permalink: /gallery/geb/yani/
     preview_image: JosephGruber_20160702_194151.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160702_193702.jpg
           date: 2016-07-02T19:37:02Z
@@ -5543,7 +5543,7 @@ geb-yola:
     tags: geb
     permalink: /gallery/geb/yola/
     preview_image: JosephGruber_20180930_160133.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20180930_154657.jpg
           date: 2018-09-30T15:46:57Z
@@ -5575,7 +5575,7 @@ geb-yoshi:
     tags: geb
     permalink: /gallery/geb/yoshi/
     preview_image: JosephGruber_20160710_075252.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20160710_074833.jpg
           date: 2016-07-10T07:48:33Z
@@ -5604,7 +5604,7 @@ geb-yvetta:
     tags: geb
     permalink: /gallery/geb/yvetta/
     preview_image: JosephGruber_20161106_101649.jpg
-    pricelist: guiding-eyes
+    pricelist: default
     images:
         - filename: JosephGruber_20161106_100545.jpg
           date: 2016-11-06T10:05:45Z
