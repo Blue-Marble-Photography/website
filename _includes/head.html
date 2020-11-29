@@ -2,7 +2,10 @@
 <link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com">
 <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="//code.jquery.com">
-{% if page.snipcart or layout.snipcart %}<link rel="dns-prefetch" href="//cdn.snipcart.com">{% endif %}
+{%- if page.snipcart or layout.snipcart -%}
+<link rel="preconnect" href="https://app.snipcart.com">
+<link rel="preconnect" href="https://cdn.snipcart.com">
+{%- endif -%}
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -139,25 +142,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 {% endif %}
 
-{% if page.snipcart or layout.snipcart %}
-<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
-<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="{% if jekyll.environment == "prod" %}{{ site.snipcart_api_key.live }}{% else %}{{ site.snipcart_api_key.test }}{% endif %}" id="snipcart"></script>
-
-<script>
-  document.addEventListener('snipcart.ready', function() {
-    Snipcart.api
-      .configure('show_continue_shopping', true)
-      .configure('shipping_same_as_billing', true);
-
-    Snipcart.execute('bind', 'cart.opened', function() {
-      Snipcart.execute('unbind', 'cart.opened');
-      $('#snipcart-footer').append(
-        '<a id="license-terms" href="{{ site.url }}/license" target="_blank" class="text-capitalize text-white font-italic float-right snipcart-license-terms py-2">View license terms</a>'
-      );
-    });
-  });
-</script>
-{% endif %}
+{% if page.snipcart or layout.snipcart %}<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.css" />{% endif %}
 
 <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,700&display=swap" rel="stylesheet">
 

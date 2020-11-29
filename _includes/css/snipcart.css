@@ -1,11 +1,11 @@
-.snipcart-summary-empty {
-  display: none !important;
-}
-
 .snipcart-total-price {
-  margin-left: 6px;
+    margin-left: 6px;
 }
 
 .snipcart-license-terms {
-  font-size: .6rem !important;
+    font-size: 0.6rem !important;
+}
+
+.snipcart-modal__container {
+    margin-top: 3rem !important;
 }
