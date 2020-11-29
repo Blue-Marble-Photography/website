@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg">
-<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
 <defs>
 <font id="fontello" horiz-adv-x="1000" >
 <font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
@@ -23,6 +23,8 @@
 <glyph glyph-name="forward" unicode="&#xe807;" d="M1000 493q0-15-11-25l-285-286q-11-11-25-11t-25 11-11 25v143h-125q-55 0-98-3t-86-12-74-24-59-39-45-56-27-77-10-101q0-31 3-69 0-4 2-13t1-15q0-8-5-14t-13-6q-9 0-15 10-4 5-8 12t-7 17-6 13q-71 159-71 252 0 111 30 186 90 225 488 225h125v143q0 14 11 25t25 10 25-10l285-286q11-11 11-25z" horiz-adv-x="1000" />
 
 <glyph glyph-name="resize-full" unicode="&#xe808;" d="M421 261q0-7-5-13l-185-185 80-81q10-10 10-25t-10-25-25-11h-250q-15 0-25 11t-11 25v250q0 15 11 25t25 11 25-11l80-80 186 185q5 6 12 6t13-6l64-63q5-6 5-13z m436 482v-250q0-15-10-25t-26-11-25 11l-80 80-185-185q-6-6-13-6t-13 6l-64 64q-5 5-5 12t5 13l186 185-81 81q-10 10-10 25t10 25 25 11h250q15 0 26-11t10-25z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="link-ext" unicode="&#xf08e;" d="M786 332v-178q0-67-47-114t-114-47h-464q-67 0-114 47t-47 114v464q0 66 47 113t114 48h393q7 0 12-5t5-13v-36q0-8-5-13t-12-5h-393q-37 0-63-26t-27-63v-464q0-37 27-63t63-27h464q37 0 63 27t26 63v178q0 8 5 13t13 5h36q8 0 13-5t5-13z m214 482v-285q0-15-11-25t-25-11-25 11l-98 98-364-364q-5-6-13-6t-12 6l-64 64q-6 5-6 12t6 13l364 364-98 98q-11 11-11 25t11 25 25 11h285q15 0 25-11t11-25z" horiz-adv-x="1000" />
 
 <glyph glyph-name="gplus-squared" unicode="&#xf0d4;" d="M512 345q0 15-4 36h-202v-74h122q-2-13-10-28t-21-29-37-25-54-10q-55 0-94 40t-39 95 39 95 94 40q52 0 86-33l58 57q-60 55-144 55-89 0-151-62t-63-152 63-151 151-63q92 0 149 58t57 151z m192-26h61v62h-61v61h-61v-61h-61v-62h61v-61h61v61z m153 299v-536q0-66-47-113t-114-48h-535q-67 0-114 48t-47 113v536q0 66 47 113t114 48h535q67 0 114-48t47-113z" horiz-adv-x="857.1" />
 
