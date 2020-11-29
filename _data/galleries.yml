@@ -1116,10 +1116,9 @@ stormy-dc-sunset:
 
 hello-spring:
     name: Hello Spring!
-    tags: free-download
     permalink: /post/hello-spring/
     preview_image: JosephGruber_20170330_074520.jpg
-    pricelist: free-download
+    pricelist: default
     images:
         - filename: JosephGruber_20170330_074520.jpg
           date: 2017-03-30T07:45:20Z
@@ -1129,10 +1128,9 @@ hello-spring:
 
 april-showers-bring-may-flowers:
     name: April Showers Bring May Flowers
-    tags: free-download
     permalink: /post/april-showers-bring-may-flowers/
     preview_image: JosephGruber_20150519_123323.jpg
-    pricelist: free-download
+    pricelist: default
     images:
         - filename: JosephGruber_20150519_123323.jpg
           date: 2015-05-19T12:33:23Z
@@ -2227,7 +2225,7 @@ benny:
     tags: private
     permalink: /gallery/private/benny/
     preview_image: JosephGruber_20171028_151739.jpg
-    pricelist: free-download
+    pricelist: default
     images:
         - filename: JosephGruber_20171028_133251.jpg
           date: 2017-10-28T13:32:51Z
