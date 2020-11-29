@@ -71,6 +71,9 @@ collections:
 
 plugins: ['jekyll-paginate', 'jekyll-last-modified-at', 'jekyll-sitemap']
 
+include:
+  - .well-known
+
 exclude:
   [
     'vendor',
