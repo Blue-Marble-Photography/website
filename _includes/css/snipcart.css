@@ -3,5 +3,5 @@
 }
 
 .snipcart-modal__container {
-    margin-top: 3rem !important;
+    z-index: 9999 !important;
 }
