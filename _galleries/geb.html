@@ -25,7 +25,7 @@ sitemap: false
     {% endfor %}
 
     {% assign images = images | sort: 'date' | reverse | uniq %}
-    {% assign pricelist = site.data.pricelist["guiding-eyes"] %}
+    {% assign pricelist = site.data.pricelist["default"] %}
 
     {% for image in images limit: 100 %}
     {% include /image/gallery.html %}
