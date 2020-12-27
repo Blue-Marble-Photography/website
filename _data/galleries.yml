@@ -695,6 +695,16 @@ colorado:
           title: Sunrise
           caption: Vivid sunrise over the flatness of the Plains from the horizon to the sky with a spectrum of orange, yellow, and blues
           guid: 2e4ebe59-6904-4c2c-bf39-966cbd65f9f6
+        - filename: JosephGruber_20201226_235056.jpg
+          date: 2020-12-26T23:50:56Z
+          title: Pawnee Buttes Colorful Sunset
+          caption: Shades of pinks and purples highlight the skies above the Pawnee Buttes on the plains of eastern Colorado in Pawnee National Grassland
+          guid: b6f93bdd-0ef9-4c02-99c3-559fc4991ed8
+        - filename: JosephGruber_20201226_233904.jpg
+          date: 2020-12-26T23:39:04Z
+          title: Hints of Sunset
+          caption: Bright sunlight shining on the east Pawnee Butte in the Pawnee National Grassland as the shadows of sunset begin to creep up the butte
+          guid: f474e2a2-229f-4534-b59a-78e2da67c469
 
 severe-weather:
     name: Severe Weather
