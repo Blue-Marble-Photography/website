@@ -125,5 +125,8 @@ DEPENDENCIES
   jekyll-paginate (~> 1.1.0)
   jekyll-sitemap (~> 1.2.0)
 
+RUBY VERSION
+   ruby 2.7.2p137
+
 BUNDLED WITH
-   2.1.2
+   2.1.4
