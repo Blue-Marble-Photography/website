@@ -25,11 +25,9 @@ build:
 
 deploy:
     stage: deploy
-    image: python:latest
+    image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
     dependencies:
         - build
-    before_script:
-        - pip install awscli
     script:
         - aws s3 sync ./_site/ s3://$S3_BUCKET_NAME --delete
         - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
