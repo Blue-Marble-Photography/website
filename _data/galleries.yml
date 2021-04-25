@@ -4994,6 +4994,35 @@ geb-pumpkin:
           title: Pumpkin
           caption: Pumpkin enjoys a day out in Shenandoah National Park
 
+geb-quasar:
+    name: Quasar (6QQ19)
+    tags: geb
+    permalink: /gallery/geb/quasar/
+    preview_image: JosephGruber_20210424_174238.jpg
+    pricelist: default
+    images:
+        - filename: JosephGruber_20210424_173755.jpg
+          date: 2021-04-24T17:37:55Z
+          title: Quasar
+        - filename: JosephGruber_20210424_174238.jpg
+          date: 2021-04-24T17:42:38Z
+          title: Quasar
+        - filename: JosephGruber_20210424_173344.jpg
+          date: 2021-04-24T17:33:44Z
+          title: Quasar
+        - filename: JosephGruber_20210424_173025.jpg
+          date: 2021-04-24T17:30:25Z
+          title: Quasar
+        - filename: JosephGruber_20210424_174551.jpg
+          date: 2021-04-24T17:45:51Z
+          title: Quasar
+        - filename: JosephGruber_20210424_174234.jpg
+          date: 2021-04-24T17:42:34Z
+          title: Quasar
+        - filename: JosephGruber_20210424_173601.jpg
+          date: 2021-04-24T17:36:01Z
+          title: Quasar
+
 geb-quincy:
     name: Quincy (4Q417)
     tags: geb
@@ -5455,6 +5484,44 @@ geb-vanda:
         - filename: JosephGruber_20151017_154849.jpg
           date: 2015-10-18T00:00:00Z
           title: Vanda
+
+geb-varick:
+    name: Varick (4V19)
+    tags: geb
+    permalink: /gallery/geb/varick/
+    preview_image: JosephGruber_20210424_142153.jpg
+    pricelist: default
+    images:
+        - filename: JosephGruber_20210424_135015.jpg
+          date: 2021-04-24T13:50:15Z
+          title: Varick
+        - filename: JosephGruber_20210424_142138.jpg
+          date: 2021-04-24T14:21:38Z
+          title: Varick
+        - filename: JosephGruber_20210424_141154.jpg
+          date: 2021-04-24T14:11:54Z
+          title: Varick
+        - filename: JosephGruber_20210424_141126.jpg
+          date: 2021-04-24T14:11:26Z
+          title: Varick
+        - filename: JosephGruber_20210424_140224.jpg
+          date: 2021-04-24T14:02:24Z
+          title: Varick
+        - filename: JosephGruber_20210424_142153.jpg
+          date: 2021-04-24T14:21:53Z
+          title: Varick
+        - filename: JosephGruber_20210424_140949.jpg
+          date: 2021-04-24T14:09:49Z
+          title: Varick
+        - filename: JosephGruber_20210424_135045.jpg
+          date: 2021-04-24T13:50:45Z
+          title: Varick
+        - filename: JosephGruber_20210424_141920.jpg
+          date: 2021-04-24T14:19:20Z
+          title: Varick
+        - filename: JosephGruber_20210424_140450.jpg
+          date: 2021-04-24T14:04:50Z
+          title: Varick
 
 geb-vespa:
     name: Vespa (12VV15)
