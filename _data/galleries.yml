@@ -58,6 +58,10 @@ astrophotography:
           title: Star Trails over Mount Rainier reflected in Reflection Lake
           caption: Hundreds of stars and planets rotate around the North Star, Polaris, above Mount Rainier with the reflection of both seen in Reflection Lake
           guid: 938f091c-128e-409a-8eca-86cd09b94fe0
+        - filename: JosephGruber_20210329_132747.jpg
+          date: 2021-03-29T13:27:47Z
+          title: Full Worm Moon setting over the NOAA Table Mountain Test Facility
+          guid: 0a0ba30e-c25c-4edd-ba71-a2c41e9b2a33
 
 landscapes:
     name: Landscapes
@@ -151,6 +155,14 @@ landscapes:
           title: Majestic Bison
           caption: Bison grazing with the Swan Range in northern Montana just south of Glacier National Park majestically rising in the distance
           guid: 4a1130b3-490a-4ca8-98a7-189ac350c44a
+        - filename: JosephGruber_20201226_225849.jpg
+          date: 2020-12-26T22:58:48Z
+          title: Sunset at Pawnee Buttes
+          guid: b5397320-989d-456a-842f-8f6d484ce6b1
+        - filename: JosephGruber_20210523_233657.jpg
+          date: 2021-05-23T23:36:57Z
+          title: Somewhere...
+          guid: cea13c6b-bd3e-4093-8bc7-8bf102834f86
 
 pets:
     name: Pets
@@ -234,6 +246,10 @@ pets:
           date: 2018-06-30T07:43:43Z
           title: Rue
           guid: d79b0033-c31b-4813-b910-f100d9f655ea
+        - filename: JosephGruber_20201226_231001.jpg
+          date: 2020-12-26T23:10:01Z
+          title: Bando
+          guid: 9d018cf5-e462-489c-a7d6-ebc542361c3f
 
 memorials:
     name: Memorials
@@ -742,6 +758,22 @@ severe-weather:
           title: Forest burned in the Cal Wood Fire
           caption: Trees burned to a crisp in the forest while other are still standing after the Cal Wood forest fire
           guid: 54058fdf-6435-4244-b5ee-7d148b28aabb
+        - filename: JosephGruber_20210523_192315.jpg
+          date: 2021-05-23T19:23:15Z
+          title: Ominous Plains
+          guid: 3ecbe106-b515-402c-a193-a2e3f7c53702
+        - filename: JosephGruber_20210521_022926.jpg
+          date: 2021-05-21T02:29:26Z
+          title: Electric
+          guid: 71708763-bd57-4a66-8782-48d632f18af6
+        - filename: JosephGruber_20210523_211501.jpg
+          date: 2021-05-23T21:15:01Z
+          title: Funnel Cloud in Colorado
+          guid: 25bba500-e46a-437f-aa5b-558add7b7e95
+        - filename: JosephGruber_20210522_194646.jpg
+          date: 2021-05-22T19:46:46Z
+          title: Rope Tornado in Northeast Colorado
+          guid: 5735603d-6746-4a3e-8add-8d755c0c811b
 
 winter-in-dc:
     name: Winter in DC (2018)
