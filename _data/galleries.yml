@@ -770,6 +770,14 @@ severe-weather:
           date: 2021-05-22T19:46:46Z
           title: Rope Tornado in Northeast Colorado
           guid: 5735603d-6746-4a3e-8add-8d755c0c811b
+        - filename: JosephGruber_20210609_024330.jpg
+          date: 2021-06-09T02:43:30Z
+          title: Sunset Lightning (Composite)
+          guid: 7ce1deb1-dfec-434f-935d-ab05a93656fc
+        - filename: JosephGruber_20210609_022843.jpg
+          date: 2021-06-09T02:28:43Z
+          title: Sunset Lightning
+          guid: eae69c87-94d7-4185-9942-9326ebd7edfd
 
 winter-in-dc:
     name: Winter in DC (2018)
