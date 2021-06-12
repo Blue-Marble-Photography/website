@@ -2406,6 +2406,41 @@ benny:
           date: 2017-10-28T16:29:56Z
           title: Benny
 
+skittle:
+    name: Skittle
+    tags: private
+    permalink: /gallery/private/skittle/
+    preview_image: JosephGruber_20210612_145005.jpg
+    pricelist: default
+    images:
+        - filename: JosephGruber_20210612_143450.jpg
+          date: 2021-06-12T14:34:50Z
+          title: Skittle
+        - filename: JosephGruber_20210612_144300.jpg
+          date: 2021-06-12T14:43:00Z
+          title: Skittle
+        - filename: JosephGruber_20210612_144836.jpg
+          date: 2021-06-12T14:48:36Z
+          title: Skittle
+        - filename: JosephGruber_20210612_142935.jpg
+          date: 2021-06-12T14:29:35Z
+          title: Skittle
+        - filename: JosephGruber_20210612_144223.jpg
+          date: 2021-06-12T14:42:23Z
+          title: Skittle
+        - filename: JosephGruber_20210612_142626.jpg
+          date: 2021-06-12T14:26:26Z
+          title: Skittle
+        - filename: JosephGruber_20210612_144242.jpg
+          date: 2021-06-12T14:42:42Z
+          title: Skittle
+        - filename: JosephGruber_20210612_142542.jpg
+          date: 2021-06-12T14:25:42Z
+          title: Skittle
+        - filename: JosephGruber_20210612_145005.jpg
+          date: 2021-06-12T14:50:05Z
+          title: Skittle
+
 geb-adrienne:
     name: Adrienne (9A418)
     tags: geb
