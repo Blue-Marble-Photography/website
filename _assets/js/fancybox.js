@@ -37,37 +37,31 @@ function setLightboxDefaults() {
                 btnPrint.get(0).dataset.itemId = printDetails.data("item-id");
             }
             if (printDetails.attr("data-item-name")) {
-                btnPrint.get(0).dataset.itemName = printDetails.data(
-                    "item-name"
-                );
+                btnPrint.get(0).dataset.itemName =
+                    printDetails.data("item-name");
             }
             if (printDetails.attr("data-item-price")) {
-                btnPrint.get(0).dataset.itemPrice = printDetails.data(
-                    "item-price"
-                );
+                btnPrint.get(0).dataset.itemPrice =
+                    printDetails.data("item-price");
             }
             if (printDetails.attr("data-item-shippable")) {
-                btnPrint.get(0).dataset.itemShippable = printDetails.data(
-                    "item-shippable"
-                );
+                btnPrint.get(0).dataset.itemShippable =
+                    printDetails.data("item-shippable");
             }
             if (printDetails.attr("data-item-taxable")) {
-                btnPrint.get(0).dataset.itemTaxable = printDetails.data(
-                    "item-taxable"
-                );
+                btnPrint.get(0).dataset.itemTaxable =
+                    printDetails.data("item-taxable");
             }
             if (printDetails.attr("data-item-url")) {
                 btnPrint.get(0).dataset.itemUrl = printDetails.data("item-url");
             }
             if (printDetails.attr("data-item-image")) {
-                btnPrint.get(0).dataset.itemImage = printDetails.data(
-                    "item-image"
-                );
+                btnPrint.get(0).dataset.itemImage =
+                    printDetails.data("item-image");
             }
             if (printDetails.attr("data-item-custom1-name")) {
-                btnPrint.get(0).dataset.itemCustom1Name = printDetails.data(
-                    "item-custom1-name"
-                );
+                btnPrint.get(0).dataset.itemCustom1Name =
+                    printDetails.data("item-custom1-name");
             }
             if (printDetails.attr("data-item-custom1-options")) {
                 btnPrint.get(0).dataset.itemCustom1Options = printDetails.data(
@@ -75,9 +69,8 @@ function setLightboxDefaults() {
                 );
             }
             if (printDetails.attr("data-item-custom1-value")) {
-                btnPrint.get(0).dataset.itemCustom1Value = printDetails.data(
-                    "item-custom1-value"
-                );
+                btnPrint.get(0).dataset.itemCustom1Value =
+                    printDetails.data("item-custom1-value");
             }
 
             btnPrint.addClass("snipcart-add-item");
@@ -91,77 +84,66 @@ function setLightboxDefaults() {
                 "#image-" + slide.index + "-actions > a.icon-download"
             );
 
-            if (downloadDetails.attr("data-item-id")) {
-                btnDownload.get(0).dataset.itemId = downloadDetails.data(
-                    "item-id"
+            if (downloadDetails.attr("download") !== undefined) {
+                btnDownload.replaceWith(
+                    '<a class=" fancybox-button icon-download" title="Download" href="' +
+                        downloadDetails.attr("href") +
+                        '" target="_blank" download></a>'
                 );
-            }
-            if (downloadDetails.attr("data-item-file-guid")) {
-                btnDownload.get(0).dataset.itemFileGuid = downloadDetails.data(
-                    "item-file-guid"
-                );
-            }
-            if (downloadDetails.attr("data-item-max-quantity")) {
-                btnDownload.get(
-                    0
-                ).dataset.itemMaxQuantity = downloadDetails.data(
-                    "item-max-quantity"
-                );
-            }
-            if (downloadDetails.attr("data-item-name")) {
-                btnDownload.get(0).dataset.itemName = downloadDetails.data(
-                    "item-name"
-                );
-            }
-            if (downloadDetails.attr("data-item-price")) {
-                btnDownload.get(0).dataset.itemPrice = downloadDetails.data(
-                    "item-price"
-                );
-            }
-            if (downloadDetails.attr("data-item-shippable")) {
-                btnDownload.get(0).dataset.itemShippable = downloadDetails.data(
-                    "item-shippable"
-                );
-            }
-            if (downloadDetails.attr("data-item-taxable")) {
-                btnDownload.get(0).dataset.itemTaxable = downloadDetails.data(
-                    "item-taxable"
-                );
-            }
-            if (downloadDetails.attr("data-item-url")) {
-                btnDownload.get(0).dataset.itemUrl = downloadDetails.data(
-                    "item-url"
-                );
-            }
-            if (downloadDetails.attr("data-item-image")) {
-                btnDownload.get(0).dataset.itemImage = downloadDetails.data(
-                    "item-image"
-                );
-            }
-            if (downloadDetails.attr("data-item-custom1-name")) {
-                btnDownload.get(
-                    0
-                ).dataset.itemCustom1Name = downloadDetails.data(
-                    "item-custom1-name"
-                );
-            }
-            if (downloadDetails.attr("data-item-custom1-options")) {
-                btnDownload.get(
-                    0
-                ).dataset.itemCustom1Options = downloadDetails.data(
-                    "item-custom1-options"
-                );
-            }
-            if (downloadDetails.attr("data-item-custom1-value")) {
-                btnDownload.get(
-                    0
-                ).dataset.itemCustom1Value = downloadDetails.data(
-                    "item-custom1-value"
-                );
-            }
+                enableDownloadNotifications();
+            } else {
+                if (downloadDetails.attr("data-item-id")) {
+                    btnDownload.get(0).dataset.itemId =
+                        downloadDetails.data("item-id");
+                }
+                if (downloadDetails.attr("data-item-file-guid")) {
+                    btnDownload.get(0).dataset.itemFileGuid =
+                        downloadDetails.data("item-file-guid");
+                }
+                if (downloadDetails.attr("data-item-max-quantity")) {
+                    btnDownload.get(0).dataset.itemMaxQuantity =
+                        downloadDetails.data("item-max-quantity");
+                }
+                if (downloadDetails.attr("data-item-name")) {
+                    btnDownload.get(0).dataset.itemName =
+                        downloadDetails.data("item-name");
+                }
+                if (downloadDetails.attr("data-item-price")) {
+                    btnDownload.get(0).dataset.itemPrice =
+                        downloadDetails.data("item-price");
+                }
+                if (downloadDetails.attr("data-item-shippable")) {
+                    btnDownload.get(0).dataset.itemShippable =
+                        downloadDetails.data("item-shippable");
+                }
+                if (downloadDetails.attr("data-item-taxable")) {
+                    btnDownload.get(0).dataset.itemTaxable =
+                        downloadDetails.data("item-taxable");
+                }
+                if (downloadDetails.attr("data-item-url")) {
+                    btnDownload.get(0).dataset.itemUrl =
+                        downloadDetails.data("item-url");
+                }
+                if (downloadDetails.attr("data-item-image")) {
+                    btnDownload.get(0).dataset.itemImage =
+                        downloadDetails.data("item-image");
+                }
+                if (downloadDetails.attr("data-item-custom1-name")) {
+                    btnDownload.get(0).dataset.itemCustom1Name =
+                        downloadDetails.data("item-custom1-name");
+                }
+                if (downloadDetails.attr("data-item-custom1-options")) {
+                    btnDownload.get(0).dataset.itemCustom1Options =
+                        downloadDetails.data("item-custom1-options");
+                }
+                if (downloadDetails.attr("data-item-custom1-value")) {
+                    btnDownload.get(0).dataset.itemCustom1Value =
+                        downloadDetails.data("item-custom1-value");
+                }
 
-            btnDownload.addClass("snipcart-add-item");
-            btnDownload.removeClass("d-none");
+                btnDownload.addClass("snipcart-add-item");
+                btnDownload.removeClass("d-none");
+            }
         } else {
             btnDownload.addClass("d-none");
         }

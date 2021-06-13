@@ -8,38 +8,35 @@
     data-target="#shareModal" data-url="{{ page.url | prepend: site.url }}#gallery-{{ forloop.index }}"
     data-title="{{ image.title }}"></a>
 
+{% if page.allow_download %}
+{% if page.allow_download == "watermark" %}
+<a class="icon-download" href="{{ image_url | replace: '.jpg' , '-1440.jpg' }}" title="Download Digital File" aria-label="Download Digital File" target="_blank" download></a>
+{% else %}
+<a class="icon-download" href="{{ image_url | replace: 'photography/' , 'photography/originals/' }}" title="Download Digital File" aria-label="Download Digital File" target="_blank" download></a>
+{% endif %}
+{% endif %}
+
 {%- if pricelist -%}
 {%- if pricelist.digital and image.guid -%}
 <a class="icon-download snipcart-add-item" href="#" title="Purchase Digital File" aria-label="Purchase Digital File"
-    data-item-id="digital-{{ image.filename | remove: ".jpg" }}" 
-    data-item-file-guid="{{ image.guid }}"
-    data-item-name="{{ image.title }}" 
-    data-item-price="{{ pricelist.digital.base-price }}" 
-    data-item-max-quantity="1"
-    data-item-shippable="false" 
-    data-item-taxable="false" 
-    {%- if pricelist.digital.products -%}
+    data-item-id="digital-{{ image.filename | remove: " .jpg" }}" data-item-file-guid="{{ image.guid }}"
+    data-item-name="{{ image.title }}" data-item-price="{{ pricelist.digital.base-price }}" data-item-max-quantity="1"
+    data-item-shippable="false" data-item-taxable="false" {%- if pricelist.digital.products -%}
     data-item-custom1-name="Image Quality"
     data-item-custom1-options="{{ pricelist.digital.base-name }}|{% for product in pricelist.digital.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}"
-    data-item-custom1-value="{{ pricelist.digital.base-name }}" 
-    {%- endif -%}
+    data-item-custom1-value="{{ pricelist.digital.base-name }}" {%- endif -%}
     data-item-url="{{ site.url }}/data/products.json"
     data-item-image="{{ image.filename | replace: '.jpg', '-400.jpg' | prepend: "/" | prepend: site.photo_url }}"></a>
 {%- endif -%}
 
 {%- if pricelist.print -%}
-<a class="icon-cart-plus snipcart-add-item" href="#" title="Purchase Digital File" aria-label="Purchase Digital File"
-    data-item-id="print-{{ image.filename | remove: ".jpg" }}" 
-    data-item-name="{{ image.title }}"
-    data-item-price="{{ pricelist.print.base-price }}" 
-    data-item-shippable="true" 
-    data-item-taxable="true"
-    {%- if pricelist.print.products -%} 
-    data-item-custom1-name="Print Size/Type"
+<a class="icon-cart-plus snipcart-add-item" href="#" title="Purchase Print" aria-label="Purchase Print"
+    data-item-id="print-{{ image.filename | remove: " .jpg" }}" data-item-name="{{ image.title }}"
+    data-item-price="{{ pricelist.print.base-price }}" data-item-shippable="true" data-item-taxable="true" {%- if
+    pricelist.print.products -%} data-item-custom1-name="Print Size/Type"
     data-item-custom1-options="{{ pricelist.print.base-name }}|{% for product in pricelist.print.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}"
-    data-item-custom1-value="{{ pricelist.print.base-name }}"
-    {%- endif -%}
-    data-item-url="{{ site.url }}/data/products.json" 
+    data-item-custom1-value="{{ pricelist.print.base-name }}" {%- endif -%}
+    data-item-url="{{ site.url }}/data/products.json"
     data-item-image="{{ image.filename | replace: '.jpg', '-400.jpg' | prepend: "/" | prepend: site.photo_url }}"></a>
 {%- endif -%}
 {%- endif -%}
