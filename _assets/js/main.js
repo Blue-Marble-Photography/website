@@ -25,7 +25,7 @@ function enableDownloadNotifications() {
       data: {
         filename: $(this)
           .attr('href')
-          .substring(46)
+          .substring(48)
       },
       crossDomain: true,
       dataType: 'json',
