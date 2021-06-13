@@ -3439,6 +3439,41 @@ geb-giada:
           date: 2015-08-20T00:00:00Z
           title: Giada
 
+geb-gibbs:
+    name: Gibbs (2G21)
+    tags: geb
+    permalink: /gallery/geb/gibbs/
+    preview_image: JosephGruber_20210613_015046.jpg
+    pricelist: default
+    images:
+        - filename: JosephGruber_20210613_015046.jpg
+          date: 2021-06-13T01:50:46Z
+          title: Gibbs
+        - filename: JosephGruber_20210613_021109.jpg
+          date: 2021-06-13T02:11:09Z
+          title: Gibbs
+        - filename: JosephGruber_20210613_014727.jpg
+          date: 2021-06-13T01:47:27Z
+          title: Gibbs
+        - filename: JosephGruber_20210613_013515.jpg
+          date: 2021-06-13T01:35:15Z
+          title: Gibbs
+        - filename: JosephGruber_20210613_014457.jpg
+          date: 2021-06-13T01:44:57Z
+          title: Gibbs
+        - filename: JosephGruber_20210613_015211.jpg
+          date: 2021-06-13T01:52:11Z
+          title: Gibbs
+        - filename: JosephGruber_20210613_013831.jpg
+          date: 2021-06-13T01:38:31Z
+          title: Gibbs
+        - filename: JosephGruber_20210613_015501.jpg
+          date: 2021-06-13T01:55:01Z
+          title: Gibbs
+        - filename: JosephGruber_20210613_020753.jpg
+          date: 2021-06-13T02:07:53Z
+          title: Gibbs
+
 geb-gilligan:
     name: Gilligan (5GG16)
     tags: geb
