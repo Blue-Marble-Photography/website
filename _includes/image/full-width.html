@@ -1,7 +1,7 @@
 {%- assign image_url = image.filename | prepend: '/' | prepend: site.photo_url -%}
 <div class="col-12 mt-3 d-flex img-gallery" vocab="http://schema.org/" typeof="ImageObject">
     <figure id="image-{{ forloop.index0 }}" class="mb-0 bg-dark rounded w-100"
-        {% if page.allow_download %}data-src="{% if page.allow_download == "watermark" %}{{ image_url | replace: '.jpg', '-1440.jpg' }}{% else %}{{ image_url | replace: 'photography/', 'photography/masters' }}{% endif %}"
+        {% if page.allow_download %}data-src="{% if page.allow_download == "watermark" %}{{ image_url | replace: '.jpg', '-1440.jpg' }}{% else %}{{ image_url | replace: 'photography/', 'photography/originals' }}{% endif %}"
         {% endif %}>
         <a class="zoom-in" href="{{ image_url | replace: '.jpg', '-750.jpg' }}"
             data-srcset="{{ image_url | replace: '.jpg', '-1600.jpg' }} 992w, {{ image_url | replace: '.jpg', '-1440.jpg' }} 768w, {{ image_url | replace: '.jpg', '-1100.jpg' }} 576w"
