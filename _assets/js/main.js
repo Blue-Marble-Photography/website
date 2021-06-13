@@ -24,7 +24,6 @@ function enableDownloadNotifications() {
     $("a.icon-download")
         .not("a.snipcart-add-item")
         .click(function (e) {
-            console.log("test");
             $.ajax({
                 type: "GET",
                 url: "https://api.bluemarble.photography/v2/notify",
