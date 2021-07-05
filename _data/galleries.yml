@@ -1368,6 +1368,26 @@ april-showers-bring-may-flowers:
           title: Red Rocks Morning Snow
           guid: 1b689008-f5b8-4dbd-87c5-01e0f700bd89
 
+2021-frederick-in-flight:
+    name: Frederick In Flight
+    description: Bla bla bla
+    permalink: /post/hot-air-balloons-at-frederick-in-flight/
+    preview_image: JosephGruber_20210627_123239.jpg
+    pricelist: default
+    images:
+        - filename: JosephGruber_20210627_123611.jpg
+          date: 2021-06-27T12:36:11+0000Z
+          title: Mass ascension of hot-air balloons at Frederick in Flight reflected in a pond
+        - filename: JosephGruber_20210627_121626.jpg
+          date: 2021-06-27T12:16:26+0000Z
+          title: Multi-colored hot-air balloon
+        - filename: JosephGruber_20210627_133645.jpg
+          date: 2021-06-27T13:36:45+0000Z
+          title: Hot-air balloons preparing for landing in northern Colorado
+        - filename: JosephGruber_20210627_125959.jpg
+          date: 2021-06-27T12:59:59+0000Z
+          title: Flame from the burner directed into the hot-air balloon
+
 geb-2017-baysox-game:
     name: 2017 Bowie Baysox Game
     tags: geb
@@ -3949,6 +3969,18 @@ geb-irene:
         - filename: JosephGruber_20201011_171249_44244.jpg
           date: 2020-10-11T17:12:49Z
           title: Irene
+        - filename: JosephGruber_20210705_162452.jpg
+          date: 2021-07-05T16:24:52+0000Z
+          title: Irene
+        - filename: JosephGruber_20210705_162532.jpg
+          date: 2021-07-05T16:25:32+0000Z
+          title: Irene
+        - filename: JosephGruber_20210704_014003.jpg
+          date: 2021-07-04T01:40:03+0000Z
+          title: Irene
+        - filename: JosephGruber_20210705_171117.jpg
+          date: 2021-07-05T17:11:17+0000Z
+          title: Irene & Rhiana
 
 geb-irwin:
     name: Irwin (1I16)
@@ -5212,6 +5244,20 @@ geb-rigby:
         - filename: JosephGruber_20180408_105915.jpg
           date: 2018-04-08T10:59:15Z
           title: Rigby
+
+geb-rhiana:
+    name: Rhiana (8R14)
+    tags: geb
+    permalink: /gallery/geb/rhiana
+    preview_image: JosephGruber_20191109_175257.jpg
+    pricelist: default
+    images:
+        - filename: JosephGruber_20210705_161900.jpg
+          date: 2021-07-05T16:19:00+0000Z
+          title: Rhiana
+        - filename: JosephGruber_20210705_171117.jpg
+          date: 2021-07-05T17:11:17+0000Z
+          title: Irene & Rhiana
 
 geb-rhonda:
     name: Rhonda (6RR18)
