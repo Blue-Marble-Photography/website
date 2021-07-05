@@ -24,7 +24,7 @@ def main(directory):
             title = ''
 
         data_created_formatted = f'{date_created[0:4]}-{date_created[4:6]}-{date_created[6:8]}'
-        time_created_formatted = f'{time_created[0:2]}:{time_created[2:4]}:{time_created[4:6]}{time_created[6:11]}Z'
+        time_created_formatted = f'{time_created[0:2]}:{time_created[2:4]}:{time_created[4:6]}Z'
 
         print(f'- filename: {path.name}')
         print(f'  date: {data_created_formatted}T{time_created_formatted}')

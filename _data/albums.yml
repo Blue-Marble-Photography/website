@@ -1,136 +1,136 @@
 guidingeyes:
-    name: Guiding Eyes for the Blind
-    description: Guiding Eyes for the Blind events and guide dog puppies in training
-    albums: [geb-puppies, geb-events]
+  name: Guiding Eyes for the Blind
+  description: Guiding Eyes for the Blind events and guide dog puppies in training
+  albums: [geb-puppies, geb-events]
 
 geb-puppies:
-    name: Puppies
-    description: Guiding Eyes for the Blind guide dog puppies in training
-    permalink: /gallery/geb/puppies
-    preview_image: JosephGruber_20170312_184504.jpg
-    galleries:
-        [
-            geb-adrienne,
-            geb-amos,
-            geb-aqua,
-            geb-aron,
-            geb-aussie,
-            geb-balsa,
-            geb-bando,
-            geb-brandy,
-            geb-cam,
-            geb-colleen,
-            geb-davis,
-            geb-debbie,
-            geb-delilah,
-            geb-dove,
-            geb-elkins,
-            geb-ellery,
-            geb-emblem,
-            geb-emerald,
-            geb-eric,
-            geb-ernie,
-            geb-expo,
-            geb-farrow,
-            geb-fauna,
-            geb-fay,
-            geb-fenway,
-            geb-freddy,
-            geb-galahad,
-            geb-giada,
-            geb-gibbs,
-            geb-gilligan,
-            geb-ginny,
-            geb-gunther,
-            geb-gwenyth,
-            geb-harmony,
-            geb-hilton,
-            geb-howie,
-            geb-icarus,
-            geb-imus,
-            geb-irene,
-            geb-irwin,
-            geb-irwin-7II20,
-            geb-izzie,
-            geb-jenny,
-            geb-jude,
-            geb-justine,
-            geb-kibble,
-            geb-krieger,
-            geb-laverne,
-            geb-libby,
-            geb-lita,
-            geb-meyer,
-            geb-minka,
-            geb-nikon,
-            geb-nutmeg,
-            geb-obie,
-            geb-ode,
-            geb-ohana,
-            geb-otto,
-            geb-parsley,
-            geb-patty,
-            geb-pax,
-            geb-pippi,
-            geb-pria,
-            geb-pugsley,
-            geb-pumpkin,
-            geb-quasar,
-            geb-quincy,
-            geb-rasha,
-            geb-rhiana,
-            geb-rhonda,
-            geb-rigby,
-            geb-rocco,
-            geb-romeo,
-            geb-rue,
-            geb-ruza,
-            geb-valiant,
-            geb-valiant-7v318,
-            geb-valor,
-            geb-varick,
-            geb-vanda,
-            geb-vespa,
-            geb-willa,
-            geb-willis,
-            geb-yani,
-            geb-yola,
-            geb-yoshi,
-            geb-yvetta,
-        ]
+  name: Puppies
+  description: Guiding Eyes for the Blind guide dog puppies in training
+  permalink: /gallery/geb/puppies
+  preview_image: JosephGruber_20170312_184504.jpg
+  galleries:
+    [
+      geb-adrienne,
+      geb-amos,
+      geb-aqua,
+      geb-aron,
+      geb-aussie,
+      geb-balsa,
+      geb-bando,
+      geb-brandy,
+      geb-cam,
+      geb-colleen,
+      geb-davis,
+      geb-debbie,
+      geb-delilah,
+      geb-dove,
+      geb-elkins,
+      geb-ellery,
+      geb-emblem,
+      geb-emerald,
+      geb-eric,
+      geb-ernie,
+      geb-expo,
+      geb-farrow,
+      geb-fauna,
+      geb-fay,
+      geb-fenway,
+      geb-freddy,
+      geb-galahad,
+      geb-giada,
+      geb-gibbs,
+      geb-gilligan,
+      geb-ginny,
+      geb-gunther,
+      geb-gwenyth,
+      geb-harmony,
+      geb-hilton,
+      geb-howie,
+      geb-icarus,
+      geb-imus,
+      geb-irene,
+      geb-irwin,
+      geb-irwin-7II20,
+      geb-izzie,
+      geb-jenny,
+      geb-jude,
+      geb-justine,
+      geb-kibble,
+      geb-krieger,
+      geb-laverne,
+      geb-libby,
+      geb-lita,
+      geb-meyer,
+      geb-minka,
+      geb-nikon,
+      geb-nutmeg,
+      geb-obie,
+      geb-ode,
+      geb-ohana,
+      geb-otto,
+      geb-parsley,
+      geb-patty,
+      geb-pax,
+      geb-pippi,
+      geb-pria,
+      geb-pugsley,
+      geb-pumpkin,
+      geb-quasar,
+      geb-quincy,
+      geb-rasha,
+      geb-rhiana,
+      geb-rhonda,
+      geb-rigby,
+      geb-rocco,
+      geb-romeo,
+      geb-rue,
+      geb-ruza,
+      geb-valiant,
+      geb-valiant-7v318,
+      geb-valor,
+      geb-varick,
+      geb-vanda,
+      geb-vespa,
+      geb-willa,
+      geb-willis,
+      geb-yani,
+      geb-yola,
+      geb-yoshi,
+      geb-yvetta,
+    ]
 
 geb-events:
-    name: Events
-    description: Guiding Eyes for the Blind Dominion Region events
-    permalink: /gallery/geb/events
-    preview_image: JosephGruber_20170604_140815.jpg
-    galleries:
-        [
-            geb-2020-guide-dogs-go-west,
-            geb-2020-mile-high-farms-outing,
-            geb-2020-lake-dillon-outing,
-            geb-2019-wagging-tails,
-            geb-2019-halloween-home-depot-outing,
-            geb-2019-tom-panek,
-            geb-2018-ft-hunt-park,
-            geb-2018-pints-and-poses,
-            geb-2018-canine-cruise,
-            geb-2018-wagging-tails,
-            geb-2017-baysox-game,
-            geb-2017-canine-cruise,
-            geb-2017-wagging-tails,
-        ]
+  name: Events
+  description: Guiding Eyes for the Blind Dominion Region events
+  permalink: /gallery/geb/events
+  preview_image: JosephGruber_20170604_140815.jpg
+  galleries:
+    [
+      geb-2020-guide-dogs-go-west,
+      geb-2020-mile-high-farms-outing,
+      geb-2020-lake-dillon-outing,
+      geb-2019-wagging-tails,
+      geb-2019-halloween-home-depot-outing,
+      geb-2019-tom-panek,
+      geb-2018-ft-hunt-park,
+      geb-2018-pints-and-poses,
+      geb-2018-canine-cruise,
+      geb-2018-wagging-tails,
+      geb-2017-baysox-game,
+      geb-2017-canine-cruise,
+      geb-2017-wagging-tails,
+    ]
 
 photojournalism:
-    name: Photojournalism
-    description: Photojournalism of various protests, events, and memorials
-    permalink: /gallery/photojournalism
-    preview_image: JosephGruber_20160707_211247.jpg
-    galleries: [activism, memorials, events]
+  name: Photojournalism
+  description: Photojournalism of various protests, events, and memorials
+  permalink: /gallery/photojournalism
+  preview_image: JosephGruber_20160707_211247.jpg
+  galleries: [activism, memorials, events]
 
 places:
-    name: Places
-    description: Locations around the world
-    permalink: /gallery/places
-    preview_image: JosephGruber_20140922_185549.jpg
-    galleries: [washington-dc, pacific-northwest, colorado]
+  name: Places
+  description: Locations around the world
+  permalink: /gallery/places
+  preview_image: JosephGruber_20140922_185549.jpg
+  galleries: [washington-dc, pacific-northwest, colorado]
