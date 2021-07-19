@@ -2306,6 +2306,35 @@ geb-2020-guide-dogs-go-west:
       date: 2020-10-21T18:33:52Z
       title: GEB Guide Dogs Go West
 
+geb-2021-lazy-dog:
+  name: 2021 Lazy Dog Outing
+  tags: geb
+  permalink: /gallery/geb/2021-lazy-dog-outing
+  preview_image: JosephGruber_20210718_173346.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20210718_193003.jpg
+      date: 2021-07-18T19:30:03Z
+      title: Ivan
+    - filename: JosephGruber_20210718_171115.jpg
+      date: 2021-07-18T17:11:15Z
+      title: Ivan
+    - filename: JosephGruber_20210718_193246.jpg
+      date: 2021-07-18T19:32:46Z
+      title: Ivan
+    - filename: JosephGruber_20210718_171731.jpg
+      date: 2021-07-18T17:17:31Z
+      title: Guiding Eyes for the Blind Colorado Region
+    - filename: JosephGruber_20210718_173346.jpg
+      date: 2021-07-18T17:33:46Z
+      title: Guiding Eyes for the Blind Colorado Region
+    - filename: JosephGruber_20210718_172633.jpg
+      date: 2021-07-18T17:26:33Z
+      title: Guiding Eyes for the Blind Colorado Region
+    - filename: JosephGruber_20210718_174338.jpg
+      date: 2021-07-18T17:43:38Z
+      title: Guiding Eyes for the Blind Colorado Region
+
 benny:
   name: Benny
   tags: private
@@ -4074,6 +4103,23 @@ geb-irwin-7II20:
     - filename: JosephGruber_20200628_171136.jpg
       date: 2020-06-28T17:11:36Z
       title: Irwin
+
+geb-ivan:
+  name: Ivan ()
+  tags: geb
+  permalink: /gallery/geb/ivan/
+  preview_image: JosephGruber_20210718_193003.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20210718_193003.jpg
+      date: 2021-07-18T19:30:03Z
+      title: Ivan
+    - filename: JosephGruber_20210718_171115.jpg
+      date: 2021-07-18T17:11:15Z
+      title: Ivan
+    - filename: JosephGruber_20210718_193246.jpg
+      date: 2021-07-18T19:32:46Z
+      title: Ivan
 
 geb-izzie:
   name: Izzie (3II15)

@@ -51,6 +51,7 @@ geb-puppies:
       geb-irene,
       geb-irwin,
       geb-irwin-7II20,
+      geb-ivan,
       geb-izzie,
       geb-jenny,
       geb-jude,
@@ -106,6 +107,7 @@ geb-events:
   preview_image: JosephGruber_20170604_140815.jpg
   galleries:
     [
+      geb-2021-lazy-dog,
       geb-2020-guide-dogs-go-west,
       geb-2020-mile-high-farms-outing,
       geb-2020-lake-dillon-outing,
