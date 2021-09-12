@@ -44,6 +44,7 @@ geb-puppies:
       geb-gunther,
       geb-gwenyth,
       geb-harmony,
+      geb-hazy,
       geb-hilton,
       geb-howie,
       geb-icarus,
@@ -107,6 +108,7 @@ geb-events:
   preview_image: JosephGruber_20170604_140815.jpg
   galleries:
     [
+      geb-2021-lake-dillon-outing,
       geb-2021-lazy-dog,
       geb-2020-guide-dogs-go-west,
       geb-2020-mile-high-farms-outing,

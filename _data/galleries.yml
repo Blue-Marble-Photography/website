@@ -2230,6 +2230,62 @@ geb-2020-lake-dillon-outing:
       date: 2020-09-12T19:21:35Z
       title: Malone
 
+geb-2021-lake-dillon-outing:
+  name: 2021 Lake Dillon Outing
+  tags: geb
+  permalink: /gallery/geb/2021-lake-dillon-outing/
+  preview_image: JosephGruber_20210911_191953.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20210911_191013.jpg
+      date: 2021-09-11T19:10:13Z
+      title: Irwin
+    - filename: JosephGruber_20210911_191953.jpg
+      date: 2021-09-11T19:19:53Z
+      title: GEB Colorado Region Dillon Reservoir Outing
+    - filename: JosephGruber_20210911_192757.jpg
+      date: 2021-09-11T19:27:57Z
+      title: Irwin
+    - filename: JosephGruber_20210911_172840.jpg
+      date: 2021-09-11T17:28:40Z
+      title: GEB Colorado Region Dillon Reservoir Outing
+    - filename: JosephGruber_20210911_172511.jpg
+      date: 2021-09-11T17:25:11Z
+      title: Hazy
+    - filename: JosephGruber_20210911_174033.jpg
+      date: 2021-09-11T17:40:33Z
+      title: GEB Colorado Region Dillon Reservoir Outing
+    - filename: JosephGruber_20210911_181911.jpg
+      date: 2021-09-11T18:19:11Z
+      title: GEB Colorado Region Dillon Reservoir Outing
+    - filename: JosephGruber_20210911_171748.jpg
+      date: 2021-09-11T17:17:48Z
+      title: GEB Colorado Region Dillon Reservoir Outing
+    - filename: JosephGruber_20210911_191454.jpg
+      date: 2021-09-11T19:14:54Z
+      title: Hazy
+    - filename: JosephGruber_20210911_172040.jpg
+      date: 2021-09-11T17:20:40Z
+      title: GEB Colorado Region Dillon Reservoir Outing
+    - filename: JosephGruber_20210911_172242.jpg
+      date: 2021-09-11T17:22:42Z
+      title: GEB Colorado Region Dillon Reservoir Outing
+    - filename: JosephGruber_20210911_173310.jpg
+      date: 2021-09-11T17:33:10Z
+      title: GEB Colorado Region Dillon Reservoir Outing
+    - filename: JosephGruber_20210911_171300.jpg
+      date: 2021-09-11T17:13:00Z
+      title: GEB Colorado Region Dillon Reservoir Outing
+    - filename: JosephGruber_20210911_173717.jpg
+      date: 2021-09-11T17:37:17Z
+      title: Hazy
+    - filename: JosephGruber_20210911_171703.jpg
+      date: 2021-09-11T17:17:03Z
+      title: GEB Colorado Region Dillon Reservoir Outing
+    - filename: JosephGruber_20210911_172624.jpg
+      date: 2021-09-11T17:26:24Z
+      title: Hazy
+
 geb-2020-mile-high-farms-outing:
   name: 2020 Mile High Farms Outing
   tags: geb
@@ -3806,6 +3862,26 @@ geb-harmony:
     - filename: JosephGruber_20180505_191311.jpg
       date: 2018-05-12T00:00:00Z
       title: Harmony
+
+geb-hazy:
+  name: Hazy (4HH21)
+  tags: geb
+  permalink: /gallery/geb/hazy/
+  preview_image: JosephGruber_20210911_173717.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20210911_172511.jpg
+      date: 2021-09-11T17:25:11Z
+      title: Hazy
+    - filename: JosephGruber_20210911_191454.jpg
+      date: 2021-09-11T19:14:54Z
+      title: Hazy
+    - filename: JosephGruber_20210911_173717.jpg
+      date: 2021-09-11T17:37:17Z
+      title: Hazy
+    - filename: JosephGruber_20210911_172624.jpg
+      date: 2021-09-11T17:26:24Z
+      title: Hazy
 
 geb-hilton:
   name: Hilton (7H315)
