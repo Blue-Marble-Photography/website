@@ -163,6 +163,21 @@ landscapes:
       date: 2021-05-23T23:36:57Z
       title: Somewhere...
       guid: cea13c6b-bd3e-4093-8bc7-8bf102834f86
+    - filename: JosephGruber_20210925_181259.jpg
+      date: 2021-09-25T18:12:59Z
+      title: Wyoming Fall Foliage
+      caption: Brilliant orange and yellow trees at fall in southern Wyoming at the Continential Divide
+      guid: cefb97a2-486d-494e-9739-e37be5593d73
+    - filename: JosephGruber_20210925_181730.jpg
+      date: 2021-09-25T18:17:30Z
+      title: Wyoming Fall Foliage
+      caption: Fall's reds, oranges, and yellows as far as the eye can see in Wyoming
+      guid: 65292528-9c72-4ef9-9526-00cb7a6798aa
+    - filename: JosephGruber_20211004_000847.jpg
+      date: 2021-10-04T00:08:47Z
+      title: Aspen Glow
+      caption: Golden hues light up Boreas Pass and the golden fall foliage in Colorado
+      guid: 9453aaae-1df5-4742-b2c6-81306a2907db
 
 pets:
   name: Pets
@@ -721,6 +736,58 @@ colorado:
       title: Hints of Sunset
       caption: Bright sunlight shining on the east Pawnee Butte in the Pawnee National Grassland as the shadows of sunset begin to creep up the butte
       guid: f474e2a2-229f-4534-b59a-78e2da67c469
+    - filename: JosephGruber_20211003_225451.jpg
+      date: 2021-10-03T22:54:50Z
+      title: Golden Aspens on Boreas Pass
+      caption: The golden glow of aspens changing color in the fall light up the hill near Boreas Pass in Colorado's high country
+      guid: 8cdcf77d-4999-498c-bc36-4a9e2e38954b
+    - filename: JosephGruber_20211004_000847.jpg
+      date: 2021-10-04T00:08:47Z
+      title: Aspen Glow
+      caption: Golden hues light up Boreas Pass and the golden fall foliage in Colorado
+      guid: 9453aaae-1df5-4742-b2c6-81306a2907db
+    - filename: JosephGruber_20210925_212028.jpg
+      date: 2021-09-25T21:20:28Z
+      title: Colorado Fall Foliage
+      caption: Brilliant yellow aspen trees cree up Whitely Peak in Colorado's high country
+      guid: 3591bc2c-84ee-4d8e-80f8-e84c9d5473e1
+    - filename: JosephGruber_20210925_221254.jpg
+      date: 2021-09-25T22:12:53Z
+      title: Colorado Fall Foliage
+      caption: The Blue River - a tributary of the Colorado River - flows along with trees on the banks changing to their fall colors
+      guid: 0d8315c1-27ad-4dd1-a7ee-a1b340e42594
+    - filename: JosephGruber_20210911_180148.jpg
+      date: 2021-09-11T18:01:48Z
+      title: Fall in Colorado's Summit County
+      caption: Sailboat's enjoy the first signs of fall in Colorad's Summit County on Dillon Reservoir
+      guid: a4d51493-7c7c-4dc7-b67b-5c4cff605ad6
+    - filename: JosephGruber_20210705_042344.jpg
+      date: 2021-07-05T04:23:44Z
+      title: Fire Up The Cliffs Independence Day Fireworks
+      caption: Stars and fireworks light up the night sky and rugged cliffs during Fourth of July festivities in Colorado's high country
+      guid: c037ebb8-f41a-493e-95d2-4b8a7bd1e047
+    - filename: JosephGruber_20210627_123611.jpg
+      date: 2021-06-27T12:36:11Z
+      title: Hot air balloon mass ascension
+      caption: Hot air ballons prepare for an early morning mass ascension in northern Colorado
+      guid: d46c8698-0f03-4d89-9008-c4a19b9c914d
+
+wyoming:
+  name: Wyoming
+  permalink: /gallery/wyoming
+  preview_image: JosephGruber_20210925_181259.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20210925_181259.jpg
+      date: 2021-09-25T18:12:59Z
+      title: Wyoming Fall Foliage
+      caption: Brilliant orange and yellow trees at fall in southern Wyoming at the Continential Divide
+      guid: cefb97a2-486d-494e-9739-e37be5593d73
+    - filename: JosephGruber_20210925_181730.jpg
+      date: 2021-09-25T18:17:30Z
+      title: Wyoming Fall Foliage
+      caption: Fall's reds, oranges, and yellows as far as the eye can see in Wyoming
+      guid: 65292528-9c72-4ef9-9526-00cb7a6798aa
 
 severe-weather:
   name: Severe Weather
