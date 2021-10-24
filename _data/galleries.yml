@@ -2458,6 +2458,41 @@ geb-2021-lazy-dog:
       date: 2021-07-18T17:43:38Z
       title: Guiding Eyes for the Blind Colorado Region
 
+geb-2021-washington-park:
+  name: 2021 Washington Park Outing
+  tags: geb
+  permalink: /gallery/geb/2021-washington-park-outing
+  preview_image: JosephGruber_20211023_174134.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20211023_181115.jpg
+      date: 2021-10-23T18:11:15Z
+      title: Mozart
+    - filename: JosephGruber_20211023_175726.jpg
+      date: 2021-10-23T17:57:26Z
+      title: Gibbs
+    - filename: JosephGruber_20211023_181149.jpg
+      date: 2021-10-23T18:11:49Z
+      title: Mozart
+    - filename: JosephGruber_20211023_173521.jpg
+      date: 2021-10-23T17:35:21Z
+      title: GEB Colorado Outing
+    - filename: JosephGruber_20211023_174134.jpg
+      date: 2021-10-23T17:41:34Z
+      title: GEB Colorado Outing
+    - filename: JosephGruber_20211023_180706.jpg
+      date: 2021-10-23T18:07:06Z
+      title: Harry
+    - filename: JosephGruber_20211023_173310.jpg
+      date: 2021-10-23T17:33:10Z
+      title: GEB Colorado Outing
+    - filename: JosephGruber_20211023_173212.jpg
+      date: 2021-10-23T17:32:12Z
+      title: GEB Colorado Outing
+    - filename: JosephGruber_20211023_173400.jpg
+      date: 2021-10-23T17:34:00Z
+      title: GEB Colorado Outing
+
 benny:
   name: Benny
   tags: private
@@ -3665,6 +3700,9 @@ geb-gibbs:
     - filename: JosephGruber_20210613_020753.jpg
       date: 2021-06-13T02:07:53Z
       title: Gibbs
+    - filename: JosephGruber_20211023_175726.jpg
+      date: 2021-10-23T17:57:26Z
+      title: Gibbs
 
 geb-gilligan:
   name: Gilligan (5GG16)
@@ -3929,6 +3967,17 @@ geb-harmony:
     - filename: JosephGruber_20180505_191311.jpg
       date: 2018-05-12T00:00:00Z
       title: Harmony
+
+geb-harry:
+  name: Harry (8HH21)
+  tags: geb
+  permalink: /gallery/geb/harry/
+  preview_image: JosephGruber_20211023_180706.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20211023_180706.jpg
+      date: 2021-10-23T18:07:06Z
+      title: Harry
 
 geb-hazy:
   name: Hazy (4HH21)
