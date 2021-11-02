@@ -4855,6 +4855,23 @@ geb-meyer:
       date: 2018-12-16T18:28:38Z
       title: Meyer
 
+geb-miles:
+  name: Miles (2MM20)
+  tags: geb
+  permalink: /gallery/geb/miles/
+  preview_image: JosephGruber_20211031_130834.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20211031_131155.jpg
+      date: 2021-10-31T13:11:55Z
+      title: Miles
+    - filename: JosephGruber_20211031_130834.jpg
+      date: 2021-10-31T13:08:34Z
+      title: Miles
+    - filename: JosephGruber_20211031_131734.jpg
+      date: 2021-10-31T13:17:34Z
+      title: Adithya and Miles
+
 geb-minka:
   name: Minka (6MM17)
   tags: geb
