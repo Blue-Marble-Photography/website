@@ -5067,6 +5067,23 @@ geb-ohana:
       date: 2018-12-22T18:43:35Z
       title: Ohana
 
+geb-olana:
+  name: Olana (5OO20)
+  tags: geb
+  permalink: /gallery/geb/olana/
+  preview_image: JosephGruber_20211031_123916.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20211031_123435.jpg
+      date: 2021-10-31T12:34:35Z
+      title: Olana
+    - filename: JosephGruber_20211031_123916.jpg
+      date: 2021-10-31T12:39:16Z
+      title: Olana
+    - filename: JosephGruber_20211031_124320.jpg
+      date: 2021-10-31T12:43:20Z
+      title: Jane and Olana
+
 geb-otto:
   name: Otto (4O417)
   tags: geb
