@@ -3331,6 +3331,29 @@ geb-emerald:
       date: 2016-05-28T00:00:00Z
       title: Emerald
 
+geb-enya:
+  name: Enya (4E21)
+  tags: geb
+  permalink: /gallery/geb/enya/
+  preview_image: JosephGruber_20211031_135433.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20211031_135743.jpg
+      date: 2021-10-31T13:57:43Z
+      title: Nancy and Enya
+    - filename: JosephGruber_20211031_135433.jpg
+      date: 2021-10-31T13:54:33Z
+      title: Enya
+    - filename: JosephGruber_20211031_135803.jpg
+      date: 2021-10-31T13:58:03Z
+      title: Enya
+    - filename: JosephGruber_20211031_135104.jpg
+      date: 2021-10-31T13:51:04Z
+      title: Enya
+    - filename: JosephGruber_20211031_135103.jpg
+      date: 2021-10-31T13:51:03Z
+      title: Enya
+
 geb-eric:
   name: Eric (2E19)
   tags: geb
