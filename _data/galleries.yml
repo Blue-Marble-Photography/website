@@ -5127,6 +5127,32 @@ geb-olana:
       date: 2021-10-31T12:43:20Z
       title: Jane and Olana
 
+geb-olive:
+  name: Olive (1OO20)
+  tags: geb
+  permalink: /gallery/geb/olive/
+  preview_image: JosephGruber_20211031_151551.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20211031_151249.jpg
+      date: 2021-10-31T15:12:49Z
+      title: Olive
+    - filename: JosephGruber_20211031_150718.jpg
+      date: 2021-10-31T15:07:18Z
+      title: Olive
+    - filename: JosephGruber_20211031_152127.jpg
+      date: 2021-10-31T15:21:27Z
+      title: Olive
+    - filename: JosephGruber_20211031_151551.jpg
+      date: 2021-10-31T15:15:51Z
+      title: Olive
+    - filename: JosephGruber_20211031_151250.jpg
+      date: 2021-10-31T15:12:50Z
+      title: Olive
+    - filename: JosephGruber_20211031_152228.jpg
+      date: 2021-10-31T15:22:28Z
+      title: Olive
+
 geb-otto:
   name: Otto (4O417)
   tags: geb
