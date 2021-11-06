@@ -5755,6 +5755,26 @@ geb-rocco:
       date: 2019-11-14T19:56:12Z
       title: Rocco
 
+geb-rocket:
+  name: Rocket (1RR21)
+  tags: geb
+  permalink: /gallery/geb/rocket
+  preview_image: JosephGruber_20211106_140833.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20211106_141415.jpg
+      date: 2021-11-06T14:14:15Z
+      title: Rocket
+    - filename: JosephGruber_20211106_140534.jpg
+      date: 2021-11-06T14:05:34Z
+      title: Rocket
+    - filename: JosephGruber_20211106_140903.jpg
+      date: 2021-11-06T14:09:03Z
+      title: Rocket
+    - filename: JosephGruber_20211106_140833.jpg
+      date: 2021-11-06T14:08:33Z
+      title: Rocket
+
 geb-romeo:
   name: Romeo (5R317)
   tags: geb
