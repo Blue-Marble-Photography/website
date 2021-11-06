@@ -3955,6 +3955,23 @@ geb-gwenyth:
       date: 2018-03-12T00:00:00Z
       title: Gwenyth
 
+geb-halsey:
+  name: Halsey (7HH21)
+  tags: geb
+  permalink: /gallery/geb/halsey/
+  preview_image: JosephGruber_20211031_145322.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20211031_144720.jpg
+      date: 2021-10-31T14:47:20Z
+      title: Halsey
+    - filename: JosephGruber_20211031_145322.jpg
+      date: 2021-10-31T14:53:22Z
+      title: Halsey
+    - filename: JosephGruber_20211031_145622.jpg
+      date: 2021-10-31T14:56:22Z
+      title: Naoka and Halsey
+
 geb-harmony:
   name: Harmony (8H17)
   tags: geb
@@ -4425,6 +4442,23 @@ geb-jenny:
     - filename: JosephGruber_20190807_194012.jpg
       date: 2019-08-07T19:40:12Z
       title: Jenny
+
+geb-jewels:
+  name: Jewels (3JJ21)
+  tags: geb
+  permalink: /gallery/geb/jewels/
+  preview_image: JosephGruber_20211031_141400.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20211031_140740.jpg
+      date: 2021-10-31T14:07:40Z
+      title: Jewels
+    - filename: JosephGruber_20211031_141400.jpg
+      date: 2021-10-31T14:14:00Z
+      title: Jewels
+    - filename: JosephGruber_20211031_141743.jpg
+      date: 2021-10-31T14:17:43Z
+      title: Lipperts and Jewels
 
 geb-jude:
   name: Jude (2J317)
