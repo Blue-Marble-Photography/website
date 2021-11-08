@@ -2,7 +2,7 @@
 layout: null
 ---
 [
-  {% for gallery in site.data.galleries %}{% if gallery[1].tags %}{% continue %}{% endif %}{% if gallery[1].pricelist %}{% assign gallery-pricelist = gallery[1].pricelist %}{% assign pricelist = site.data.pricelist[gallery-pricelist] %}{% for image in gallery[1].images %}{% if pricelist.digital and image.guid %}{
+  {% assign galleries = site.data.galleries | where_exp: 'item', 'item.tags == nil' %}{% for gallery in galleries %}{% if gallery.pricelist %}{% assign gallery-pricelist = gallery.pricelist %}{% assign pricelist = site.data.pricelist[gallery-pricelist] %}{% for image in gallery.images %}{% if pricelist.digital and image.guid %}{
     "id": "digital-{{ image.filename | remove: ".jpg" }}",
     "guid": "{{ image.guid }}",
     "name": "{{ image.title }}",
