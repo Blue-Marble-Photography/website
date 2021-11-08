@@ -8,6 +8,10 @@
 {% assign pricelist = site.data.pricelist[gallery.pricelist] %}
 {% endif %}
 
+{% if gallery.tags %}
+{% assign tags = gallery.tags %}
+{% endif %}
+
 <div id="photo-gallery" class="row mt-4">
   <div class="col-12">
     <h2 class="text-center">{{ gallery.name }}</h2>

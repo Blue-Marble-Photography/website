@@ -19,6 +19,9 @@ snipcart: true
     {% if gallery.pricelist %}
     {% assign pricelist = site.data.pricelist[gallery.pricelist] %}
     {% endif %}
+    {% if gallery.tags %}
+    {% assign tags = gallery.tags %}
+    {% endif %}
 
     <div id="post-gallery" class="row">
       {% for image in images %}

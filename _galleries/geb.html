@@ -26,6 +26,7 @@ sitemap: false
 
     {% assign images = images | sort: 'date' | reverse | uniq %}
     {% assign pricelist = site.data.pricelist["default"] %}
+    {% assign tags = 'geb' %}
 
     {% for image in images limit: 100 %}
     {% include /image/gallery.html %}
