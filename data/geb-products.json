@@ -1,0 +1,33 @@
+---
+layout: null
+---
+[
+  {% assign galleries = site.data.galleries | where: 'tags', 'geb' %}{% for gallery in galleries %}{% if gallery.pricelist %}{% assign gallery-pricelist = gallery.pricelist %}{% assign pricelist = site.data.pricelist[gallery-pricelist] %}{% for image in gallery.images %}{% if pricelist.digital and image.guid %}{
+    "id": "digital-{{ image.filename | remove: ".jpg" }}",
+    "guid": "{{ image.guid }}",
+    "name": "{{ image.title }}",
+    "image": "{{ image.filename | replace: '.jpg', '-750.jpg' | prepend: "/" | prepend: site.photo_url }}",
+    "price": {{ pricelist.digital.base-price }},
+    {% if pricelist.digital.products %}"customFields": [
+      {
+        "name": "Image Quality",
+        "options": "{{ pricelist.digital.base-name }}|{% for product in pricelist.digital.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}",
+        "type": "dropdown"
+      }
+    ],{% endif %}
+    "url": "{{ site.url }}/data/products.json"
+  }{% endif %}{% if pricelist.digital and image.guid and pricelist.print %},{% endif %}{% if pricelist.print %}{
+    "id": "print-{{ image.filename | remove: ".jpg" }}",
+    "name": "{{ image.title }}",
+    "image": "{{ image.filename | replace: '.jpg', '-750.jpg' | prepend: "/" | prepend: site.photo_url }}",
+    "price": {{ pricelist.print.base-price }},
+    {% if pricelist.print.products %}"customFields": [
+      {
+        "name": "Print Size/Type",
+        "options": "{{ pricelist.print.base-name }}|{% for product in pricelist.print.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}",
+        "type": "dropdown"
+      }
+    ],{% endif %}
+    "url": "{{ site.url }}/data/products.json"
+  }{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+]
