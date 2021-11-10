@@ -19,7 +19,7 @@
 {%- if pricelist -%}
 {%- if pricelist.digital and image.guid -%}
 <a class="icon-download snipcart-add-item" href="#" title="Purchase Digital File" aria-label="Purchase Digital File"
-    data-item-id="digital-{{ image.filename | remove: " .jpg" }}" 
+    data-item-id="digital-{{ image.filename | remove: ".jpg" }}" 
     data-item-file-guid="{{ image.guid }}"
     data-item-name="{{ image.title }}" 
     data-item-price="{{ pricelist.digital.base-price }}" 
@@ -35,7 +35,7 @@
 
 {%- if pricelist.print -%}
 <a class="icon-cart-plus snipcart-add-item" href="#" title="Purchase Print" aria-label="Purchase Print"
-    data-item-id="print-{{ image.filename | remove: " .jpg" }}" 
+    data-item-id="print-{{ image.filename | remove: ".jpg" }}" 
     data-item-name="{{ image.title }}"
     data-item-price="{{ pricelist.print.base-price }}" 
     data-item-shippable="true" data-item-taxable="true" 
