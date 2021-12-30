@@ -1,37 +1,37 @@
 stages:
-    - build
-    - deploy
+  - build
+  - deploy
 
 build:
-    stage: build
-    image: ruby:2.7
-    before_script:
-        - apt-get update -qy
-        - apt-get install -y nodejs
-        - apt-get install -y npm
-        - npm install npm@latest -g
-        - npm install gulp -g
-        - npm install
-        - gem install bundler
-        - bundle install
-    script:
-        - gulp deploy
-    artifacts:
-        paths:
-            - _site
-        expire_in: 10 mins
-    only:
-        - master
+  stage: build
+  image: ruby:2.7
+  before_script:
+    - apt-get update -qy
+    - apt-get install -y nodejs
+    - apt-get install -y npm
+    - npm install npm@latest -g
+    - npm install gulp -g
+    - npm install
+    - gem install bundler
+    - bundle install
+  script:
+    - gulp deploy
+  artifacts:
+    paths:
+      - _site
+    expire_in: 10 mins
+  only:
+    - main
 
 deploy:
-    stage: deploy
-    image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
-    dependencies:
-        - build
-    script:
-        - aws s3 sync ./_site/ s3://$S3_BUCKET_NAME --delete
-        - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
-    after_script:
-        - rm -r _site
-    only:
-        - master
+  stage: deploy
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+  dependencies:
+    - build
+  script:
+    - aws s3 sync ./_site/ s3://$S3_BUCKET_NAME --delete
+    - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+  after_script:
+    - rm -r _site
+  only:
+    - main
