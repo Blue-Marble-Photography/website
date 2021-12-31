@@ -2911,6 +2911,23 @@ geb-cam:
       date: 2019-09-22T18:51:45Z
       title: Cam
 
+geb-champ:
+  name: Champ (3C321)
+  tags: geb
+  permalink: /gallery/geb/champ
+  preview_image: JosephGruber_20211230_194549.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20211230_194549.jpg
+      date: 2021-12-30T19:45:48Z
+      title: Champ
+    - filename: JosephGruber_20211230_194548.jpg
+      date: 2021-12-30T19:45:48Z
+      title: Champ
+    - filename: JosephGruber_20211230_194419.jpg
+      date: 2021-12-30T19:44:19Z
+      title: Champ
+
 geb-colleen:
   name: Colleen (8C319)
   tags: geb
@@ -6228,6 +6245,17 @@ geb-vespa:
     - filename: JosephGruber_20161109_202259.jpg
       date: 2016-11-09T00:00:00Z
       title: Vespa
+
+geb-vinny:
+  name: Vinny (5VV20)
+  tags: geb
+  permalink: /gallery/geb/vinny
+  preview_image: JosephGruber_20211230_193032.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20211230_193032.jpg
+      date: 2021-12-30T19:30:32Z
+      title: Vinny
 
 geb-willa:
   name: Willa (7WW15)
