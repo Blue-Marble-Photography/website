@@ -15,7 +15,10 @@ snipcart: true
 
     {% if page.gallery_name %}
     {% assign gallery = site.data.galleries[page.gallery_name] %}
-    {% assign images = gallery.images | sort: 'date' %}
+    {% assign images = gallery.images %}|
+    {% if images %}
+    {% assign images = images | sort: 'date' %}
+    {% endif %}
     {% if gallery.pricelist %}
     {% assign pricelist = site.data.pricelist[gallery.pricelist] %}
     {% endif %}
