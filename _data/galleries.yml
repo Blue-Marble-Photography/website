@@ -1475,6 +1475,74 @@ april-showers-bring-may-flowers:
       date: 2021-07-05T04:23:44Z
       title: Fire Up The Cliffs Independence Day Fireworks
 
+2019-exploring-utah:
+  name: Exploring Utah
+  description: Mind-blowing arches to grand vistas to deep canyons, Utah is surely a photographers dream
+  permalink: /post/2022-exploring-utah/
+  preview_image: JosephGruber_20220411_014923.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20220410_133542.jpg
+      date: 2022-04-10T13:35:42Z
+      title: Canyon Tracks
+    - filename: JosephGruber_20220412_131929.jpg
+      date: 2022-04-12T13:19:28Z
+      title: Powell Point and Sinking Ship
+    - filename: JosephGruber_20220411_133128.jpg
+      date: 2022-04-11T13:31:28Z
+      title: Sunrise at The Castle
+    - filename: JosephGruber_20220411_015458.jpg
+      date: 2022-04-11T01:54:58Z
+      title: La Sal Range Sunset
+    - filename: JosephGruber_20220409_230754.jpg
+      date: 2022-04-09T23:07:54Z
+      title: Delicate Arch
+    - filename: JosephGruber_20220410_012945.jpg
+      date: 2022-04-10T01:29:45Z
+      title: Windows Spire Sunset
+    - filename: JosephGruber_20220411_014753.jpg
+      date: 2022-04-11T01:47:52Z
+      title: Capitol Reef Sunset
+    - filename: JosephGruber_20220411_145721.jpg
+      date: 2022-04-11T14:57:07Z
+      title: Utah Vista
+    - filename: JosephGruber_20220410_014002.jpg
+      date: 2022-04-10T01:40:02Z
+      title: Parade of Elephants Sunset
+    - filename: JosephGruber_20220410_133447.jpg
+      date: 2022-04-10T13:34:47Z
+      title: Canyon Tracks
+    - filename: JosephGruber_20220411_132326.jpg
+      date: 2022-04-11T13:23:26Z
+      title: Sunrise at The Castle
+    - filename: JosephGruber_20220412_011338.jpg
+      date: 2022-04-12T01:13:38Z
+      title: Rainbow Sunset
+    - filename: JosephGruber_20220410_013809.jpg
+      date: 2022-04-10T01:38:09Z
+      title: Parade of Elephants Sunset
+    - filename: JosephGruber_20220410_134640.jpg
+      date: 2022-04-10T13:46:40Z
+      title: Moab Train Tracks
+    - filename: JosephGruber_20220411_014923.jpg
+      date: 2022-04-11T01:44:19Z
+      title: Capitol Reef Sunset
+    - filename: JosephGruber_20220411_161428.jpg
+      date: 2022-04-11T16:14:13Z
+      title: Grand Vista of Utah
+    - filename: JosephGruber_20220411_140419.jpg
+      date: 2022-04-11T14:04:18Z
+      title: Cliffs at sunrise
+    - filename: JosephGruber_20220410_012814.jpg
+      date: 2022-04-10T01:28:14Z
+      title: Parade of Elephants Sunset
+    - filename: JosephGruber_20220411_134847.jpg
+      date: 2022-04-11T13:48:47Z
+      title: Glowing Forest
+    - filename: JosephGruber_20220412_132155.jpg
+      date: 2022-04-12T13:21:55Z
+      title: Fresh Snow in Bryce Amphitheater
+
 geb-2017-baysox-game:
   name: 2017 Bowie Baysox Game
   tags: geb
