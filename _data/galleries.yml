@@ -5974,6 +5974,12 @@ geb-rocket:
     - filename: JosephGruber_20220509_233640.jpg
       date: 2022-05-09T23:36:40Z
       title: Rocket
+    - filename: JosephGruber_20220604_233248.jpg
+      date: 2022-06-04T23:32:48Z
+      title: Rocket
+    - filename: JosephGruber_20220604_233536.jpg
+      date: 2022-06-04T23:35:36Z
+      title: Rocket
 
 geb-romeo:
   name: Romeo (5R317)
@@ -6365,6 +6371,15 @@ geb-vinny:
   images:
     - filename: JosephGruber_20211230_193032.jpg
       date: 2021-12-30T19:30:32Z
+      title: Vinny
+    - filename: JosephGruber_20220605_194507.jpg
+      date: 2022-06-05T19:45:07Z
+      title: Vinny
+    - filename: JosephGruber_20220605_195037.jpg
+      date: 2022-06-05T19:50:37Z
+      title: Vinny
+    - filename: JosephGruber_20220605_194734.jpg
+      date: 2022-06-05T19:47:34Z
       title: Vinny
 
 geb-willa:
