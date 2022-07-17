@@ -62,6 +62,9 @@ astrophotography:
       date: 2021-03-29T13:27:47Z
       title: Full Worm Moon setting over the NOAA Table Mountain Test Facility
       guid: 0a0ba30e-c25c-4edd-ba71-a2c41e9b2a33
+    - filename: JosephGruber_20220628_085943.jpg
+      date: 2022-06-28T08:59:43Z
+      title: Colorado Night Skies
 
 landscapes:
   name: Landscapes
@@ -771,6 +774,15 @@ colorado:
       title: Hot air balloon mass ascension
       caption: Hot air ballons prepare for an early morning mass ascension in northern Colorado
       guid: d46c8698-0f03-4d89-9008-c4a19b9c914d
+    - filename: JosephGruber_20220622_021603.jpg
+      date: 2022-06-22T02:16:02Z
+      title: Alpine Glow in Colorado's High Country
+    - filename: JosephGruber_20220622_024848.jpg
+      date: 2022-06-22T02:48:47Z
+      title: Sunset in Colorado's High Country
+    - filename: JosephGruber_20220711_022821.jpg
+      date: 2022-07-11T02:28:21Z
+      title: Summit Sunset
 
 wyoming:
   name: Wyoming
@@ -845,6 +857,21 @@ severe-weather:
       date: 2021-06-09T02:28:43Z
       title: Sunset Lightning
       guid: eae69c87-94d7-4185-9942-9326ebd7edfd
+    - filename: JosephGruber_20220630_042249.jpg
+      date: 2022-06-30T04:22:49Z
+      title: Lightning Stars
+    - filename: JosephGruber_20220623_233223.jpg
+      date: 2022-06-23T23:32:23Z
+      title: Rural Lightning
+    - filename: JosephGruber_20220623_231055.jpg
+      date: 2022-06-23T23:10:55Z
+      title: Rural Lightning
+    - filename: JosephGruber_20220701_224434.jpg
+      date: 2022-07-01T22:44:34Z
+      title: Mountain Thunder
+    - filename: JosephGruber_20220623_231852.jpg
+      date: 2022-06-23T23:18:52Z
+      title: Rural Lightning
 
 winter-in-dc:
   name: Winter in DC (2018)
@@ -1539,6 +1566,41 @@ april-showers-bring-may-flowers:
     - filename: JosephGruber_20220412_132155.jpg
       date: 2022-04-12T13:21:55Z
       title: Fresh Snow in Bryce Amphitheater
+
+2022-exploring-summit-county:
+  name: Exploring Summit County
+  description: The magnificent peaks and inspiring vista of Summit County Colorado. Oh my.
+  permalink: /post/2022-exploring-summit-county/
+  preview_image: JosephGruber_20220711_022821.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20220622_021603.jpg
+      date: 2022-06-22T02:16:02Z
+      title: Alpine Glow in Colorado's High Country
+    - filename: JosephGruber_20220711_022821.jpg
+      date: 2022-07-11T02:28:21Z
+      title: Summit Sunset
+    - filename: JosephGruber_20220622_024848.jpg
+      date: 2022-06-22T02:48:47Z
+      title: Sunset in Colorado's High Country
+    - filename: JosephGruber_20220623_231852.jpg
+      date: 2022-06-23T23:18:52Z
+      title: Rural Lightning
+    - filename: JosephGruber_20220628_085943.jpg
+      date: 2022-06-28T08:59:43Z
+      title: Colorado Night Skies
+    - filename: JosephGruber_20220623_231055.jpg
+      date: 2022-06-23T23:10:55Z
+      title: Rural Lightning
+    - filename: JosephGruber_20220701_224434.jpg
+      date: 2022-07-01T22:44:34Z
+      title: Mountain Thunder
+    - filename: JosephGruber_20220630_042249.jpg
+      date: 2022-06-30T04:22:49Z
+      title: Lightning Stars
+    - filename: JosephGruber_20220623_233223.jpg
+      date: 2022-06-23T23:32:23Z
+      title: Rural Lightning
 
 geb-2017-baysox-game:
   name: 2017 Bowie Baysox Game
@@ -6040,6 +6102,9 @@ geb-rocket:
     - filename: JosephGruber_20220621_012631.jpg
       date: 2022-06-21T01:26:31Z
       title: Rocket
+    - filename: JosephGruber_20220711_021542.jpg
+      date: 2022-07-11T02:15:42Z
+      title: Rocket at Lake Dillon
 
 geb-romeo:
   name: Romeo (5R317)
