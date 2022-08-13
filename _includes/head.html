@@ -1,149 +1,184 @@
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com">
-<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
-<link rel="dns-prefetch" href="//code.jquery.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com" />
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<link rel="dns-prefetch" href="//code.jquery.com" />
 {%- if page.snipcart or layout.snipcart -%}
-<link rel="preconnect" href="https://app.snipcart.com">
-<link rel="preconnect" href="https://cdn.snipcart.com">
+<link rel="preconnect" href="https://app.snipcart.com" />
+<link rel="preconnect" href="https://cdn.snipcart.com" />
 {%- endif -%}
 
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="{% if page.description %}{{ page.description | strip_newlines | strip | truncate: 320 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 320 }}{% else %}{{ site.description }}{% endif %}">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="author" content="{{ site.author.name }}">
-{% if page.robots %}<meta name="robots" content="noindex,nofollow,noimageindex,noarchive,nosnippet">{% endif %}
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta
+    name="description"
+    content="{% if page.description %}{{ page.description | strip_newlines | strip | truncate: 320 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 320 }}{% else %}{{ site.description }}{% endif %}"
+/>
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="author" content="{{ site.author.name }}" />
+{% if page.robots %}<meta name="robots" content="noindex,nofollow,noimageindex,noarchive,nosnippet" />{% endif %}
 
 <title>{% if page.title %}{{ page.title | append: ' - ' }}{% endif %}{{ site.title }}</title>
 
-<link rel="apple-touch-icon" sizes="180x180" href="{{ site.asset_url | prepend: site.url }}/favicons/apple-touch-icon.png?v=eE5dlz3jAR">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ site.asset_url | prepend: site.url }}/favicons/favicon-32x32.png?v=eE5dlz3jAR">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ site.asset_url | prepend: site.url }}/favicons/favicon-16x16.png?v=eE5dlz3jAR">
-<link rel="manifest" href="{{ site.url }}/manifest.json?v=eE5dlz3jAR">
-<link rel="shortcut icon" href="{{ site.asset_url | prepend: site.url }}/favicons/favicon.ico?v=eE5dlz3jAR">
-<meta name="apple-mobile-web-app-title" content="Blue Marble Photography">
-<meta name="application-name" content="Blue Marble Photography">
-<meta name="msapplication-TileColor" content="#e3e3e3">
-<meta name="msapplication-config" content="{{ site.asset_url | prepend: site.url }}/favicons/browserconfig.xml?v=eE5dlz3jAR">
-<meta name="theme-color" content="#146496">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.asset_url | prepend: site.url }}/favicons/apple-touch-icon.png?v=eE5dlz3jAR" />
+<link rel="icon" type="image/png" sizes="32x32" href="{{ site.asset_url | prepend: site.url }}/favicons/favicon-32x32.png?v=eE5dlz3jAR" />
+<link rel="icon" type="image/png" sizes="16x16" href="{{ site.asset_url | prepend: site.url }}/favicons/favicon-16x16.png?v=eE5dlz3jAR" />
+<link rel="manifest" href="{{ site.url }}/manifest.json?v=eE5dlz3jAR" />
+<link rel="shortcut icon" href="{{ site.asset_url | prepend: site.url }}/favicons/favicon.ico?v=eE5dlz3jAR" />
+<meta name="apple-mobile-web-app-title" content="Blue Marble Photography" />
+<meta name="application-name" content="Blue Marble Photography" />
+<meta name="msapplication-TileColor" content="#e3e3e3" />
+<meta name="msapplication-config" content="{{ site.asset_url | prepend: site.url }}/favicons/browserconfig.xml?v=eE5dlz3jAR" />
+<meta name="theme-color" content="#146496" />
 
-<link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+<link
+    rel="canonical"
+    href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}"
+/>
 
-<meta name="twitter:card" content="{% if page.feature_image.filename %}summary_large_image{% else %}summary{% endif %}">
-<meta name="twitter:creator" content="{{ site.author.twitter_username }}">
-<meta name="twitter:site" content="{{ site.twitter.username }}">
+<meta name="twitter:card" content="{% if page.feature_image.filename %}summary_large_image{% else %}summary{% endif %}" />
+<meta name="twitter:creator" content="{{ site.author.twitter_username }}" />
+<meta name="twitter:site" content="{{ site.twitter.username }}" />
 
-<meta property="og:type" content="article">
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:description" content="{% if page.description %}{{ page.description | strip_newlines | strip | truncate: 320 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 320 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta
+    property="og:description"
+    content="{% if page.description %}{{ page.description | strip_newlines | strip | truncate: 320 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 320 }}{% else %}{{ site.description }}{% endif %}"
+/>
 {% if page.featured_image.filename %}
-  <meta property="og:image" content="{{ page.featured_image.filename | replace: '.jpg', '-1440.jpg' | prepend: site.base_url | prepend: site.featured_image_url | prepend: site.url }}">
+<meta
+    property="og:image"
+    content="{{ page.featured_image.filename | replace: '.jpg', '-1440.jpg' | prepend: site.base_url | prepend: site.featured_image_url | prepend: site.url }}"
+/>
 {% elsif page.gallery_name %}
-  <meta property="og:image" content="{{ site.data.galleries[page.gallery_name].preview_image | replace: '.jpg', '-1440.jpg' | prepend: site.base_url | prepend: site.photo_url | prepend: site.url }}">
+<meta
+    property="og:image"
+    content="{{ site.data.galleries[page.gallery_name].preview_image | replace: '.jpg', '-1440.jpg' | prepend: site.base_url | prepend: site.photo_url | prepend: site.url }}"
+/>
 {% elsif page.album_name %}
-  <meta property="og:image" content="{{ site.data.albums[page.album_name].preview_image | replace: '.jpg', '-1440.jpg' | prepend: site.base_url | prepend: site.photo_url | prepend: site.url }}">
+<meta
+    property="og:image"
+    content="{{ site.data.albums[page.album_name].preview_image | replace: '.jpg', '-1440.jpg' | prepend: site.base_url | prepend: site.photo_url | prepend: site.url }}"
+/>
 {% else %}
-  <meta property="og:image" content="{{ site.asset_url | append: '/favicons/logo-512x512.png' | prepend: site.url }}">
+<meta property="og:image" content="{{ site.asset_url | append: '/favicons/logo-512x512.png' | prepend: site.url }}" />
 {% endif %}
-<meta property="og:image:width" content="{% if page.featured_image.filename or page.gallery_name or page.album_name %}1440{% else %}512{% endif %}">
-<meta property="og:url" content="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | remove:'index.html' | prepend: site.baseurl | prepend: site.url }}{% endif %}">
-<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:image:width" content="{% if page.featured_image.filename or page.gallery_name or page.album_name %}1440{% else %}512{% endif %}" />
+<meta
+    property="og:url"
+    content="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | remove:'index.html' | prepend: site.baseurl | prepend: site.url }}{% endif %}"
+/>
+<meta property="og:site_name" content="{{ site.title }}" />
 
-<meta property="fb:admins" content="{{ site.facebook.admins }}">
-<meta property="fb:app_id" content="{{ site.facebook.app_id }}">
-<meta property="article:publisher" content="{{ site.facebook.publisher }}">
-<meta property="article:author" content="{{ site.author.facebook_id }}">
-<meta property="article:published_time" content="{{ page.date }}">
+<meta property="fb:admins" content="{{ site.facebook.admins }}" />
+<meta property="fb:app_id" content="{{ site.facebook.app_id }}" />
+<meta property="article:publisher" content="{{ site.facebook.publisher }}" />
+<meta property="article:author" content="{{ site.author.facebook_id }}" />
+<meta property="article:published_time" content="{{ page.date }}" />
 
 <script type="application/ld+json">
-  {% if page.date %}
-  {
-    "@context": "http://schema.org",
-    "@type": "Article",
-    "dateCreated": "{{ page.date | date_to_xmlschema }}",
-    "datePublished": "{{ page.date | date_to_xmlschema }}",
-    "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
-    "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.headline }}{% endif %}",
-    "description": "{% if page.description %}{{ page.description | strip_newlines | strip | truncate: 320 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 320 }}{% else %}{{ site.description }}{% endif %}",
-    "image": "{% if page.featured_image.filename %}{{ page.featured_image.filename | replace: '.jpg', '-1440.jpg' | prepend: site.base_url | prepend: site.featured_image_url | prepend: site.url }}{% else %}{{ site.asset_url | append: '/favicons/logo-512x512.png' | prepend: site.url }}{% endif %}",
-    "author": {
-      "@type": "Person",
-      "name": "{{ site.author.name }}"
-    },
-    "publisher": {
+    {% if page.date %}
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "dateCreated": "{{ page.date | date_to_xmlschema }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+      "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.headline }}{% endif %}",
+      "description": "{% if page.description %}{{ page.description | strip_newlines | strip | truncate: 320 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 320 }}{% else %}{{ site.description }}{% endif %}",
+      "image": "{% if page.featured_image.filename %}{{ page.featured_image.filename | replace: '.jpg', '-1440.jpg' | prepend: site.base_url | prepend: site.featured_image_url | prepend: site.url }}{% else %}{{ site.asset_url | append: '/favicons/logo-512x512.png' | prepend: site.url }}{% endif %}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ site.author.name }}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.asset_url | append: '/favicons/logo-512x512.png' | prepend: site.url }}"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | remove:'index.html' | prepend: site.baseurl | prepend: site.url }}{% endif %}"
+      }
+    }
+    {% else %}
+    {
+      "@context": "http://schema.org",
       "@type": "Organization",
       "name": "{{ site.title }}",
       "url": "{{ site.url }}",
       "logo": {
         "@type": "ImageObject",
         "url": "{{ site.asset_url | append: '/favicons/logo-512x512.png' | prepend: site.url }}"
-      }
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | remove:'index.html' | prepend: site.baseurl | prepend: site.url }}{% endif %}"
+      },
+      "sameAs": [{% for link in site.social.links %}"{{ link }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
     }
-  }
-  {% else %}
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": "{{ site.title }}",
-    "url": "{{ site.url }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.asset_url | append: '/favicons/logo-512x512.png' | prepend: site.url }}"
-    },
-    "sameAs": [{% for link in site.social.links %}"{{ link }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
-  }
-  {% endif %}
+    {% endif %}
 </script>
 
 <script>
-  {% include /js/modernizr.js %}
+    {% include /js/modernizr.js %}
 </script>
 
-<link rel="stylesheet" href="{{ site.asset_url }}/css/main.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ site.asset_url }}/css/main.css" />
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+    crossorigin="anonymous"
+/>
 <style>
-  {% if page.featured_image.filename %}{% include /css/featured-image.css %}{% endif %}
-  {% if page.snipcart or layout.snipcart %}{% include /css/snipcart.css %}{% endif %}
-  {% if page.allow_download %}{% include /css/context-menu.css %}{% endif %}
+    {% if page.featured_image.filename %}{% include /css/featured-image.css %}{% endif %}
+    {% if page.snipcart or layout.snipcart %}{% include /css/snipcart.css %}{% endif %}
+    {% if page.allow_download %}{% include /css/context-menu.css %}{% endif %}
 </style>
 
-{% if jekyll.environment == "prod" %}
-{% include gtag.html %}
-{% endif %}
+{% if jekyll.environment == "prod" %} {% include gtag.html %} {% endif %}
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js" integrity="sha256-nZf3pLLtu49qBFElpoa1j1mQ9wDBp66ryKkOyL07oCI=" crossorigin="anonymous"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"
+></script>
 
 {% if jekyll.environment == "prod" %}
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
 <script>
-  var OneSignal = window.OneSignal || [];
-  OneSignal.push(function () {
-    OneSignal.init({
-      appId: "{{ site.onesignal_api_key }}",
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+        OneSignal.init({
+            appId: '{{ site.onesignal_api_key }}',
+        });
     });
-  });
 </script>
-{% endif %}
+{% endif %} {% if page.gallery_name or page.album_name %}
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA="
+    crossorigin="anonymous"
+/>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+    integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8="
+    crossorigin="anonymous"
+></script>
+{% endif %} {% if page.snipcart or layout.snipcart %}<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.css" />{% endif %}
 
-{% if page.gallery_name or page.album_name %}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
-{% endif %}
-
-{% if page.snipcart or layout.snipcart %}<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.css" />{% endif %}
-
-<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,700&display=swap" rel="stylesheet" />
 
 <script src="{{ site.asset_url }}/js/main.js"></script>
