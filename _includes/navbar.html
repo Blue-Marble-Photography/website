@@ -1,6 +1,6 @@
 <header>
-    <nav
-        class="navbar navbar-expand-lg navbar-dark fixed-top {% if page.navbar-style == "transparent" or layout.navbar-style == "transparent" %}transparent{% endif %}">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top {% if page.navbar-style == "transparent" or
+        layout.navbar-style=="transparent" %}transparent{% endif %}">
         <a class="navbar-brand py-0" href="{{ site.base_url }}">
             <img src="{{ site.image_url }}/navbar-logo.png" class="img-fluid"
                 alt="Logo for Blue Marble Photography showing the planet Earth inside of a camera lens">
@@ -30,8 +30,15 @@
                 <li class="nav-item">
                     <a class="nav-link py-0 text-white" href="/blog">Blog</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link py-0 text-white" href="/services">Services</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link py-0 dropdown-toggle text-white" href="#" id="navbarDropdown"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                    <div class="dropdown-menu dropdown-menu-right bg-white" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-dark" href="/services/pet-mini-sessions">
+                            <span class="badge badge-pill badge-primary">New</span>
+                            Fall 2022 Mini Sessions</a>
+                        <a class="dropdown-item text-dark" href="/services/dog-photography">Dog Photography</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link py-0 text-white" href="/contact">Contact</a>
