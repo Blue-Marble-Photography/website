@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "write_gallery_meta"
+version = "0.1.0"
+description = ""
+authors = ["Joseph Gruber <joseph.gruber@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+IPTCInfo3 = "^2.1.4"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.960"
+pylint = "^2.14.0"
+flake8 = "^4.0.1"
+pytest = "^7.1.2"
+autopep8 = "^1.6.0"
+bandit = "^1.7.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
