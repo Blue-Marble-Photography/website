@@ -1,40 +1,85 @@
 <div id="footer" class="container-fluid pt-4 mt-md-5 pt-md-5 border-top text-white">
-  <div class="container">
-    <aside>
-      <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-uppercase">About</h5>
-          <p>{{ site.author.name }} is an award-winning photographer based in the Denver, Colorado area.</p>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a class="text-white" href="https://www.facebook.com/{{ site.author.facebook_username }}" target="_blank" rel="noopener" aria-label="Blue Marble Photography on Facebook"><i aria-hidden="true" class="icon-facebook-squared"></i></a></li>
-            <li class="list-inline-item"><a class="text-white" href="https://twitter.com/{{ site.author.twitter_username }}" target="_blank" rel="noopener" aria-label="Blue Marble Photography on Twitter"><i aria-hidden="true" class="icon-twitter-squared"></i></a></li>
-            <li class="list-inline-item"><a class="text-white" href="https://www.flickr.com/photos/{{ site.author.flickr_username }}" target="_blank" rel="noopener" aria-label="Blue Marble Photography on Flickr"><i aria-hidden="true" class="icon-flickr"></i></a></li>
-            <li class="list-inline-item"><a class="text-white" href="https://www.instagram.com/{{ site.author.instagram_username }}" target="_blank" rel="noopener" aria-label="Blue Marble Photography on Instagram"><i aria-hidden="true" class="icon-instagram"></i></a></li>
-            <li class="list-inline-item"><a class="text-white" href="mailto:{{ site.author.email }}" target="_blank" rel="noopener" aria-label="Email Blue Marble Photography"><i aria-hidden="true" class="icon-mail"></i></a></li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-uppercase">Recent Posts</h5>
-          <ul class="list-unstyled">
-            {% for post in site.posts limit:5 %}
-            <li>
-              <a class="text-white" href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-uppercase">On Instagram</h5>
-          <div class="row m-0" id="instafeed"></div>
-        </div>
-      </div>
-    </aside>
-    <footer>
-      <div class="row pt-4 pb-2 text-center">
-        <div class="col">
-          <span class="small">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</span>
-        </div>
-      </div>
-    </footer>
-  </div>
+    <div class="container">
+        <aside>
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">About</h5>
+                    <p>{{ site.author.name }} is an award-winning photographer based in the Denver, Colorado area.</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a
+                                class="text-white"
+                                href="https://www.facebook.com/{{ site.author.facebook_username }}"
+                                target="_blank"
+                                rel="noopener"
+                                aria-label="Blue Marble Photography on Facebook"
+                                ><i aria-hidden="true" class="icon-facebook-squared"></i
+                            ></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a
+                                class="text-white"
+                                href="https://twitter.com/{{ site.author.twitter_username }}"
+                                target="_blank"
+                                rel="noopener"
+                                aria-label="Blue Marble Photography on Twitter"
+                                ><i aria-hidden="true" class="icon-twitter-squared"></i
+                            ></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a
+                                class="text-white"
+                                href="https://www.flickr.com/photos/{{ site.author.flickr_username }}"
+                                target="_blank"
+                                rel="noopener"
+                                aria-label="Blue Marble Photography on Flickr"
+                                ><i aria-hidden="true" class="icon-flickr"></i
+                            ></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a
+                                class="text-white"
+                                href="https://www.instagram.com/{{ site.author.instagram_username }}"
+                                target="_blank"
+                                rel="noopener"
+                                aria-label="Blue Marble Photography on Instagram"
+                                ><i aria-hidden="true" class="icon-instagram"></i
+                            ></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a
+                                class="text-white"
+                                href="mailto:{{ site.author.email }}"
+                                target="_blank"
+                                rel="noopener"
+                                aria-label="Email Blue Marble Photography"
+                                ><i aria-hidden="true" class="icon-mail"></i
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">Recent Posts</h5>
+                    <ul class="list-unstyled">
+                        {% for post in site.posts limit:5 %}
+                        <li>
+                            <a class="text-white" href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <!-- <h5 class="text-uppercase">On Instagram</h5>
+                    <div class="row m-0" id="instafeed"></div> -->
+                </div>
+            </div>
+        </aside>
+        <footer>
+            <div class="row pt-4 pb-2 text-center">
+                <div class="col">
+                    <span class="small">&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
 </div>
