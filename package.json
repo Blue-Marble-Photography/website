@@ -12,9 +12,6 @@
     },
     "author": "",
     "license": "ISC",
-    "overrides": {
-        "graceful-fs": "^4.2.10"
-    },
     "devDependencies": {
         "autoprefixer": "^10.4.8",
         "browser-sync": "^2.26.7",
