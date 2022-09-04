@@ -9,6 +9,8 @@ build:
     - apt-get update -qy
     - apt-get install -y nodejs
     - apt-get install -y npm
+    - npm --verison
+    - node --version
     - npm install npm@latest -g
     - npm install gulp -g
     - npm install
