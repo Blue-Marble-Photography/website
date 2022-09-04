@@ -3768,6 +3768,17 @@ geb-freddy:
       date: 2020-06-16T18:41:12Z
       title: Freddy
 
+geb-gait:
+  name: Gait (2P22)
+  tags: geb
+  permalink: /gallery/geb/gait/
+  preview_image: JosephGruber_20220821_140308.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20220821_140308.jpg
+      date: 2022-08-21T14:03:08Z
+      title: Gait
+
 geb-galahad:
   name: Galahad (1GG13)
   tags: geb
@@ -4202,6 +4213,26 @@ geb-hazy:
     - filename: JosephGruber_20210911_172624.jpg
       date: 2021-09-11T17:26:24Z
       title: Hazy
+
+geb-heron:
+  name: Heron (7HH22)
+  tags: geb
+  permalink: /gallery/geb/heron/
+  preview_image: JosephGruber_20220821_145912.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20220821_145912.jpg
+      date: 2022-08-21T14:59:12Z
+      title: Heron
+    - filename: JosephGruber_20220821_145914.jpg
+      date: 2022-08-21T14:59:14Z
+      title: Heron
+    - filename: JosephGruber_20220821_145550.jpg
+      date: 2022-08-21T14:55:50Z
+      title: Heron
+    - filename: JosephGruber_20220821_145235.jpg
+      date: 2022-08-21T14:52:35Z
+      title: Heron
 
 geb-hilton:
   name: Hilton (7H315)
