@@ -6,41 +6,37 @@ var cp = require('child_process');
 var del = require('del');
 var gulp = require('gulp');
 var log = require('fancy-log');
-var ngrok = require('ngrok');
 var postcss = require('gulp-postcss');
 var rename = require('gulp-rename');
 var replace = require('gulp-replace');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var uglify = require('gulp-uglify');
 
 var paths = require('./_assets/gulp/paths.js');
-var platform = process.platform === 'win32' ? 'win' : 'mac';
-
-sass.compiler = require('sass');
 
 gulp.task('build:styles:main', function () {
     return gulp
         .src([paths.sassFilesGlob])
         .pipe(
             sass({
-                outputStyle: 'compressed'
+                outputStyle: 'compressed',
             })
         )
         .pipe(
             postcss([
                 autoprefixer({
-                    browsers: ['last 2 versions']
-                })
+                    browsers: ['last 2 versions'],
+                }),
             ])
         )
         .pipe(
             cleancss({
                 level: {
                     1: {
-                        specialComments: 0
-                    }
+                        specialComments: 0,
+                    },
                 },
-                inline: ['all']
+                inline: ['all'],
             })
         )
         .pipe(concat('main.css'))
@@ -60,11 +56,7 @@ gulp.task('build:scripts:main', function () {
 });
 
 function buildFavicons() {
-    return gulp
-        .src(paths.faviconFilesGlob)
-        .pipe(gulp.dest(paths.jekyllFaviconFiles))
-        .pipe(gulp.dest(paths.siteFaviconFiles))
-        .pipe(browserSync.stream());
+    return gulp.src(paths.faviconFilesGlob).pipe(gulp.dest(paths.jekyllFaviconFiles)).pipe(gulp.dest(paths.siteFaviconFiles)).pipe(browserSync.stream());
 }
 
 function buildFonts() {
@@ -81,53 +73,46 @@ function buildFonts() {
 }
 
 function buildImages() {
-    return gulp
-        .src(paths.imageFilesGlob)
-        .pipe(gulp.dest(paths.jekyllImageFiles))
-        .pipe(gulp.dest(paths.siteImageFiles))
-        .pipe(browserSync.stream());
+    return gulp.src(paths.imageFilesGlob).pipe(gulp.dest(paths.jekyllImageFiles)).pipe(gulp.dest(paths.siteImageFiles)).pipe(browserSync.stream());
 }
 
 gulp.task('clean:styles', function () {
     return del([paths.jekyllCssFiles + '/*.css', paths.siteCssFiles + '/*.css'], {
-        force: true
+        force: true,
     });
 });
 
 gulp.task('clean:scripts', function () {
     return del([paths.jekyllJsFiles + '/*.js', paths.siteJsFiles + '/*.js'], {
-        force: true
+        force: true,
     });
 });
 
 gulp.task('clean:site', function () {
     return del([paths.siteDir], {
-        force: true
+        force: true,
     });
 });
 
 function cleanFonts() {
     return del([paths.jekyllFontFiles, paths.siteFontFiles], {
-        force: true
+        force: true,
     });
 }
 
 function cleanFavicons() {
     return del([paths.jekyllFaviconFiles, paths.siteFaviconFiles], {
-        force: true
+        force: true,
     });
 }
 
 function cleanImages() {
     return del([paths.jekyllImageFiles, paths.siteImageFiles], {
-        force: true
+        force: true,
     });
 }
 
-gulp.task(
-    'clean',
-    gulp.parallel('clean:styles', 'clean:scripts', cleanFonts, cleanFavicons, cleanImages, 'clean:site')
-);
+gulp.task('clean', gulp.parallel('clean:styles', 'clean:scripts', cleanFonts, cleanFavicons, cleanImages, 'clean:site'));
 
 gulp.task('build:jekyll:dev', function () {
     return cp.exec('bundle exec jekyll build --destination ' + paths.siteDir);
@@ -137,45 +122,17 @@ gulp.task('build:jekyll:prod', function () {
     return cp.exec('JEKYLL_ENV=prod bundle exec jekyll build --destination ' + paths.siteDir);
 });
 
-var build = gulp.series(
-    'clean',
-    gulp.parallel(
-        'build:scripts:main',
-        'build:styles:main',
-        buildFavicons,
-        buildFonts,
-        buildImages
-    )
-);
-
-async function ngrokConnect() {
-    if (platform === 'win') {
-        url = 'http://localhost:3000';
-    } else {
-        url = await ngrok.connect(3000);
-    }
-}
-
-function buildSiteUrl() {
-    return gulp
-        .src('_config.yml', {
-            cwd: '.'
-        })
-        .pipe(replace(/^url\:\s\"(.*)\"$/m, 'url: "' + url + '"'))
-        .pipe(gulp.dest('.'));
-}
+var build = gulp.series(gulp.parallel('build:scripts:main', 'build:styles:main', buildFavicons, buildFonts, buildImages));
 
 function serve(done) {
     browserSync.init({
         server: {
-            baseDir: paths.siteDir
+            baseDir: paths.siteDir,
         },
         ghostMode: false,
         open: false,
-        notify: false
+        notify: false,
     });
-
-    log('ngrok forwarding: ' + url);
 
     done();
 }
@@ -189,27 +146,12 @@ function watch() {
     gulp.watch('_config.yml', gulp.series('build:jekyll:dev', reload));
     gulp.watch([paths.sassFilesGlob], gulp.series(gulp.parallel('build:styles:main'), reload));
     gulp.watch([paths.jsFilesGlob], gulp.series(gulp.parallel('build:scripts:main'), reload));
-    gulp.watch(
-        [paths.jekyllPostFilesGlob, paths.jekyllDraftFilesGlob],
-        gulp.series('build:jekyll:dev', reload)
-    );
-    gulp.watch(
-        ['**/*.html', paths.jekyllDataFilesGlob, '!_site/**/*.*'],
-        gulp.series('build:jekyll:dev', reload)
-    );
+    gulp.watch([paths.jekyllPostFilesGlob, paths.jekyllDraftFilesGlob], gulp.series('build:jekyll:dev', reload));
+    gulp.watch(['**/*.html', paths.jekyllDataFilesGlob, '!_site/**/*.*'], gulp.series('build:jekyll:dev', reload));
 }
 
 // Default Task: builds site.
-gulp.task(
-    'default',
-    gulp.series(ngrokConnect, buildSiteUrl, build, 'build:jekyll:dev', serve, watch)
-);
+gulp.task('default', gulp.series(build, 'build:jekyll:dev', serve, watch));
 
 // Production build task
-gulp.task(
-    'deploy',
-    gulp.series(
-        build,
-        'build:jekyll:prod'
-    )
-);
+gulp.task('deploy', gulp.series(build, 'build:jekyll:prod'));
