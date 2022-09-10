@@ -181,6 +181,21 @@ landscapes:
       title: Aspen Glow
       caption: Golden hues light up Boreas Pass and the golden fall foliage in Colorado
       guid: 9453aaae-1df5-4742-b2c6-81306a2907db
+    - filename: JosephGruber_20211008_160515.jpg
+      date: 2021-10-08T16:05:15Z
+      title: Hiking in the White Mountain National Forest
+    - filename: JosephGruber_20211008_164527.jpg
+      date: 2021-10-08T16:45:27Z
+      title: New England Fall Colors
+    - filename: JosephGruber_20211008_154020.jpg
+      date: 2021-10-08T15:40:20Z
+      title: Autumn in New Hampshire
+    - filename: JosephGruber_20211008_143738.jpg
+      date: 2021-10-08T14:37:37Z
+      title: Autumn Reflection
+    - filename: JosephGruber_20211008_164425.jpg
+      date: 2021-10-08T16:44:24Z
+      title: Colorful and Peaceful Fall Foliage
 
 pets:
   name: Pets
@@ -783,6 +798,34 @@ colorado:
     - filename: JosephGruber_20220711_022821.jpg
       date: 2022-07-11T02:28:21Z
       title: Summit Sunset
+    - filename: JosephGruber_20220622_021603.jpg
+      date: 2022-06-22T02:16:02Z
+      title: Alpine Glow in Colorado's High Country
+    - filename: JosephGruber_20220711_022821.jpg
+      date: 2022-07-11T02:28:21Z
+      title: Summit Sunset
+    - filename: JosephGruber_20220622_024848.jpg
+      date: 2022-06-22T02:48:47Z
+      title: Sunset in Colorado's High Country
+    - filename: JosephGruber_20211220_001810.jpg
+      date: 2021-12-20T00:18:10Z
+      title: Blucifer's Moon
+    - filename: JosephGruber_20191110_235752.jpg
+      date: 2019-11-10T23:57:52Z
+      title: Brilliant Sunset over the Front Range
+      guid: bf3ce86b-ec28-4180-93d4-a629c00c7aa9
+    - filename: JosephGruber_20191110_235828.jpg
+      date: 2019-11-10T23:58:28Z
+      title: Majestic Sunset over the Front Range
+      guid: 992d26a9-ff93-4c69-b387-ffb1a43f8968
+    - filename: JosephGruber_20191111_182701.jpg
+      date: 2019-11-11T18:27:01Z
+      title: Sunrise Snow at Red Rocks
+      guid: 03a274cf-df12-473f-9d85-4ea922003597
+    - filename: JosephGruber_20191111_182930.jpg
+      date: 2019-11-11T18:29:30Z
+      title: Red Rocks Morning Snow
+      guid: 1b689008-f5b8-4dbd-87c5-01e0f700bd89
 
 wyoming:
   name: Wyoming
@@ -800,6 +843,70 @@ wyoming:
       title: Wyoming Fall Foliage
       caption: Fall's reds, oranges, and yellows as far as the eye can see in Wyoming
       guid: 65292528-9c72-4ef9-9526-00cb7a6798aa
+
+utah:
+  name: Utah
+  permalink: /gallery/utah
+  preview_image: JosephGruber_20210925_181259.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20220410_133542.jpg
+      date: 2022-04-10T13:35:42Z
+      title: Canyon Tracks
+    - filename: JosephGruber_20220412_131929.jpg
+      date: 2022-04-12T13:19:28Z
+      title: Powell Point and Sinking Ship
+    - filename: JosephGruber_20220411_133128.jpg
+      date: 2022-04-11T13:31:28Z
+      title: Sunrise at The Castle
+    - filename: JosephGruber_20220411_015458.jpg
+      date: 2022-04-11T01:54:58Z
+      title: La Sal Range Sunset
+    - filename: JosephGruber_20220409_230754.jpg
+      date: 2022-04-09T23:07:54Z
+      title: Delicate Arch
+    - filename: JosephGruber_20220410_012945.jpg
+      date: 2022-04-10T01:29:45Z
+      title: Windows Spire Sunset
+    - filename: JosephGruber_20220411_014753.jpg
+      date: 2022-04-11T01:47:52Z
+      title: Capitol Reef Sunset
+    - filename: JosephGruber_20220411_145721.jpg
+      date: 2022-04-11T14:57:07Z
+      title: Utah Vista
+    - filename: JosephGruber_20220410_014002.jpg
+      date: 2022-04-10T01:40:02Z
+      title: Parade of Elephants Sunset
+    - filename: JosephGruber_20220410_133447.jpg
+      date: 2022-04-10T13:34:47Z
+      title: Canyon Tracks
+    - filename: JosephGruber_20220411_132326.jpg
+      date: 2022-04-11T13:23:26Z
+      title: Sunrise at The Castle
+    - filename: JosephGruber_20220412_011338.jpg
+      date: 2022-04-12T01:13:38Z
+      title: Rainbow Sunset
+    - filename: JosephGruber_20220410_013809.jpg
+      date: 2022-04-10T01:38:09Z
+      title: Parade of Elephants Sunset
+    - filename: JosephGruber_20220410_134640.jpg
+      date: 2022-04-10T13:46:40Z
+      title: Moab Train Tracks
+    - filename: JosephGruber_20220411_014923.jpg
+      date: 2022-04-11T01:44:19Z
+      title: Capitol Reef Sunset
+    - filename: JosephGruber_20220411_140419.jpg
+      date: 2022-04-11T14:04:18Z
+      title: Cliffs at sunrise
+    - filename: JosephGruber_20220410_012814.jpg
+      date: 2022-04-10T01:28:14Z
+      title: Parade of Elephants Sunset
+    - filename: JosephGruber_20220411_134847.jpg
+      date: 2022-04-11T13:48:47Z
+      title: Glowing Forest
+    - filename: JosephGruber_20220412_132155.jpg
+      date: 2022-04-12T13:21:55Z
+      title: Fresh Snow in Bryce Amphitheater
 
 severe-weather:
   name: Severe Weather
