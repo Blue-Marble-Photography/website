@@ -33,7 +33,7 @@ permalink: index.html
                         <source media="(min-width: 768px)" srcset="{{ image_url | replace: '.jpg', '-1440.jpg' }}">
                         <source media="(min-width: 576px)" srcset="{{ image_url | replace: '.jpg', '-1100.jpg' }}">
                         <source media="(max-width: 575.98px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
-                        <img class="card-img-top post" itemprop="url"
+                        <img class="card-img-top post" itemprop="url contentUrl"
                             src="{{ image_url | replace: '.jpg', '-750.jpg' }}" title="{{ post.title }}"
                             {% if post.featured_image.caption %}alt="{{ post.featured_image.caption }}"
                             {% else %}alt="{{ post.title }}" {% endif %} />
