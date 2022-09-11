@@ -20,7 +20,7 @@
                 <source media="(min-width: 768px)" srcset="{{ image_url | replace: '.jpg', '-1440.jpg' }}">
                 <source media="(min-width: 576px)" srcset="{{ image_url | replace: '.jpg', '-1100.jpg' }}">
                 <source media="(max-width: 575.98px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
-                <img class="img-fluid w-100" itemprop="url contentUrl" src="{{ image_url | replace: '.jpg', '-750.jpg' }}"
+                <img class="img-fluid w-100" itemprop="url" src="{{ image_url | replace: '.jpg', '-750.jpg' }}"
                     {% if image.title %}title="{{ image.title }}" {% endif %}
                     {% if image.caption %}alt="{{ image.caption }}" {% endif %} />
             </picture>
@@ -32,6 +32,7 @@
             {% include /image/actions.html %}
         </figcaption>
     </figure>
+    <span class="d-none" property="contentUrl">{{ image_url | replace: '.jpg', '-1100.jpg' }}</span>
     <span class="d-none" property="license">{{ site.url }}/license/</span>
     <span class="d-none" property="acquireLicensePage">{{ site.url }}/contact/</span>
 </div>
