@@ -23,7 +23,7 @@
                 <source media="(min-width: 768px)" srcset="{{ image_url | replace: '.jpg', '-1440.jpg' }}">
                 <source media="(min-width: 576px)" srcset="{{ image_url | replace: '.jpg', '-1100.jpg' }}">
                 <source media="(max-width: 575.98px)" srcset="{{ image_url | replace: '.jpg', '-750.jpg' }}">
-                <img class="img-fluid rounded w-100" itemprop="url" src="{{ image_url | replace: '.jpg', '-750.jpg' }}"
+                <img class="img-fluid rounded w-100" itemprop="url contentUrl" src="{{ image_url | replace: '.jpg', '-750.jpg' }}"
                     {% if image.title %}title="{{ image.title }}" {% endif %} {% if image.caption
                     %}alt="{{ image.caption }}" {% endif %} />
             </picture>
@@ -60,7 +60,7 @@
         pricelist.digital.products %} data-item-custom1-name="Image Quality"
         data-item-custom1-options="{{ pricelist.digital.base-name }}|{% for product in pricelist.digital.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}"
         data-item-custom1-value="{{ pricelist.digital.base-name }}" {% endif %}
-        data-item-url="{{ site.url }}{% if tags == 'geb' %}/data/geb-products.json{% elsif tags == 'private' %}/data/priv-products.json{% else %}/data/products.json{% endif %}" 
+        data-item-url="{{ site.url }}{% if tags == 'geb' %}/data/geb-products.json{% elsif tags == 'private' %}/data/priv-products.json{% else %}/data/products.json{% endif %}"
         data-item-image="{{ image.filename | replace: ".jpg", "-400.jpg" | prepend: "/" | prepend: site.photo_url }}"></a>
     {%- endif -%}
 
@@ -71,7 +71,7 @@
         pricelist.print.products -%} data-item-custom1-name="Print Size/Type"
         data-item-custom1-options="{{ pricelist.print.base-name }}|{% for product in pricelist.print.products %}{{ product.name }}[{{ product.price }}]{% unless forloop.last %}|{% endunless %}{% endfor %}"
         data-item-custom1-value="{{ pricelist.print.base-name }}" {% endif %}
-        data-item-url="{{ site.url }}{% if tags == 'geb' %}/data/geb-products.json{% elsif tags == 'private' %}/data/priv-products.json{% else %}/data/products.json{% endif %}" 
+        data-item-url="{{ site.url }}{% if tags == 'geb' %}/data/geb-products.json{% elsif tags == 'private' %}/data/priv-products.json{% else %}/data/products.json{% endif %}"
         data-item-image="{{ image.filename | replace: ".jpg", "-400.jpg" | prepend: "/" | prepend: site.photo_url }}"></a>
     {%- endif -%}
     {%- endif -%}
