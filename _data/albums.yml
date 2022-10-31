@@ -19,6 +19,7 @@ geb-puppies:
       geb-bando,
       geb-brandy,
       geb-cam,
+      geb-cersei,
       geb-champ,
       geb-colleen,
       geb-davis,
@@ -100,6 +101,7 @@ geb-puppies:
       geb-romeo,
       geb-rue,
       geb-ruza,
+      geb-sprinkles,
       geb-valiant,
       geb-valiant-7v318,
       geb-valor,
@@ -122,6 +124,7 @@ geb-events:
   preview_image: JosephGruber_20170604_140815.jpg
   galleries:
     [
+      geb-2022-mile-high-farms-outing,
       geb-2021-washington-park,
       geb-2021-lake-dillon-outing,
       geb-2021-lazy-dog,

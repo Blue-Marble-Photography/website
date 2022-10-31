@@ -2706,6 +2706,56 @@ geb-2021-washington-park:
       date: 2021-10-23T17:34:00Z
       title: GEB Colorado Outing
 
+geb-2022-mile-high-farms-outing:
+  name: 2022 Mile High Farms Outing
+  tags: geb
+  permalink: /gallery/geb/2022-mile-high-farms-outing/
+  preview_image: JosephGruber_20221030_170842.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20221030_171634.jpg
+      date: 2022-10-30T17:16:34Z
+      title: Fizzgig
+    - filename: JosephGruber_20221030_171157.jpg
+      date: 2022-10-30T17:11:57Z
+      title: Ivan
+    - filename: JosephGruber_20221030_170842.jpg
+      date: 2022-10-30T17:08:42Z
+      title: Guiding Eyes Colorado Region
+    - filename: JosephGruber_20221030_173634.jpg
+      date: 2022-10-30T17:36:34Z
+      title: Fizzgig
+    - filename: JosephGruber_20221030_173637.jpg
+      date: 2022-10-30T17:36:37Z
+      title: Sprinkles
+    - filename: JosephGruber_20221030_172207.jpg
+      date: 2022-10-30T17:22:07Z
+      title: Cersei
+    - filename: JosephGruber_20221030_173640.jpg
+      date: 2022-10-30T17:36:40Z
+      title: Cersei
+    - filename: JosephGruber_20221030_171846.jpg
+      date: 2022-10-30T17:18:46Z
+      title: Champ and Cersei
+    - filename: JosephGruber_20221030_171105.jpg
+      date: 2022-10-30T17:11:05Z
+      title: Ivan
+    - filename: JosephGruber_20221030_173713.jpg
+      date: 2022-10-30T17:37:13Z
+      title: Puppy Train
+    - filename: JosephGruber_20221030_172035.jpg
+      date: 2022-10-30T17:20:35Z
+      title: Gibbs
+    - filename: JosephGruber_20221030_172551.jpg
+      date: 2022-10-30T17:25:51Z
+      title: Sprinkles
+    - filename: JosephGruber_20221030_171711.jpg
+      date: 2022-10-30T17:17:11Z
+      title: Champ
+    - filename: JosephGruber_20221030_171416.jpg
+      date: 2022-10-30T17:14:16Z
+      title: Hazy
+
 benny:
   name: Benny
   tags: private
@@ -3124,6 +3174,23 @@ geb-cam:
       date: 2019-09-22T18:51:45Z
       title: Cam
 
+geb-cersei:
+  name: Cersei (6C321)
+  tags: geb
+  permalink: /gallery/geb/cersei
+  preview_image: JosephGruber_20221030_172207.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20221030_172207.jpg
+      date: 2022-10-30T17:22:07Z
+      title: Cersei
+    - filename: JosephGruber_20221030_173640.jpg
+      date: 2022-10-30T17:36:40Z
+      title: Cersei
+    - filename: JosephGruber_20221030_171846.jpg
+      date: 2022-10-30T17:18:46Z
+      title: Champ and Cersei
+
 geb-champ:
   name: Champ (3C321)
   tags: geb
@@ -3139,6 +3206,15 @@ geb-champ:
       title: Champ
     - filename: JosephGruber_20211230_194419.jpg
       date: 2021-12-30T19:44:19Z
+      title: Champ
+    - filename: JosephGruber_20221030_171846.jpg
+      date: 2022-10-30T17:18:46Z
+      title: Champ and Cersei
+    - filename: JosephGruber_20221030_171711.jpg
+      date: 2022-10-30T17:17:11Z
+      title: Champ
+    - filename: JosephGruber_20221030_171634.jpg
+      date: 2022-10-30T17:16:34Z
       title: Champ
 
 geb-colleen:
@@ -3987,6 +4063,9 @@ geb-gibbs:
     - filename: JosephGruber_20211023_175726.jpg
       date: 2021-10-23T17:57:26Z
       title: Gibbs
+    - filename: JosephGruber_20221030_172035.jpg
+      date: 2022-10-30T17:20:35Z
+      title: Gibbs
 
 geb-gilligan:
   name: Gilligan (5GG16)
@@ -4298,6 +4377,15 @@ geb-hazy:
       title: Hazy
     - filename: JosephGruber_20210911_172624.jpg
       date: 2021-09-11T17:26:24Z
+      title: Hazy
+    - filename: JosephGruber_20221030_171416.jpg
+      date: 2022-10-30T17:14:16Z
+      title: Hazy
+    - filename: JosephGruber_20221019_233411.jpg
+      date: 2022-10-19T23:34:11Z
+      title: Hazy
+    - filename: JosephGruber_20221019_233055.jpg
+      date: 2022-10-19T23:30:55Z
       title: Hazy
 
 geb-heron:
@@ -4653,6 +4741,12 @@ geb-ivan:
       title: Ivan
     - filename: JosephGruber_20210718_193246.jpg
       date: 2021-07-18T19:32:46Z
+      title: Ivan
+    - filename: JosephGruber_20221030_171157.jpg
+      date: 2022-10-30T17:11:57Z
+      title: Ivan
+    - filename: JosephGruber_20221030_171105.jpg
+      date: 2022-10-30T17:11:05Z
       title: Ivan
 
 geb-izzie:
@@ -6339,6 +6433,17 @@ geb-ruza:
     - filename: JosephGruber_20160131_131841.jpg
       date: 2016-01-31T00:00:00Z
       title: Ruza
+
+geb-sprinkles:
+  name: Sprinkles (7SS22)
+  tags: geb
+  permalink: /gallery/geb/sprinkles/
+  preview_image: JosephGruber_20221030_173637.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20221030_173637.jpg
+      date: 2022-10-30T17:36:37Z
+      title: Sprinkles
 
 geb-valiant:
   name: Valiant (3VV14)
