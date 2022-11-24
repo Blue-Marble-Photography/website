@@ -5952,6 +5952,29 @@ geb-pumpkin:
     - filename: JosephGruber_20211007_171407.jpg
       date: 2021-10-07T17:14:07Z
       title: Pumpkin
+    - filename: JosephGruber_20161023_083429.jpg
+      date: 2016-10-23T08:34:29Z
+      title: Pumpkin
+      caption: Guiding Eyes for the Blind puppy-in-training Pumpkin in a down with the Washington, D.C. skyline behind her.
+      guid: afb226a3-893f-4d95-9861-c2e82b9f637c
+    - filename: JosephGruber_20160108_214618.jpg
+      date: 2016-01-08T21:46:18Z
+      title: Pumpkin
+      guid: d72920a7-c167-4561-ae1b-6aba88de8424
+    - filename: JosephGruber_20160117_091603.jpg
+      date: 2016-01-17T09:16:03Z
+      title: Who? Me?
+      guid: 33110568-2d78-4c4e-bafe-8768ba56f33d
+    - filename: JosephGruber_20170219_173907.jpg
+      date: 2017-02-19T17:39:07Z
+      title: Pumpkin
+      caption: A young, cute yellow lab takes a nap in the grass on a sunny, warm early spring day
+      guid: a216cf0c-d404-4679-bf26-7284158a8797
+    - filename: JosephGruber_20170219_174241.jpg
+      date: 2017-02-19T17:42:41Z
+      title: Pumpkin
+      caption: A regal looking, young, yellow labrador retriever gazes off in the distance as she basks in the sun laying in the grass on a warm day
+      guid: 1e33684b-8a62-4aac-bba4-5b4bfd1071a9
 
 geb-quasar:
   name: Quasar (6QQ19)
