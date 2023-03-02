@@ -4812,6 +4812,12 @@ geb-jenny:
     - filename: JosephGruber_20190807_194012.jpg
       date: 2019-08-07T19:40:12Z
       title: Jenny
+    - filename: JosephGruber_20230204_183044.jpg
+      date: 2023-02-04T18:30:44Z
+      title: Jenny
+    - filename: JosephGruber_20230204_183944.jpg
+      date: 2023-02-04T18:39:44Z
+      title: Mother and Son (Jenny and Rocket)
 
 geb-jewels:
   name: Jewels (3JJ21)
@@ -6357,6 +6363,9 @@ geb-rocket:
     - filename: JosephGruber_20230122_154630.jpg
       date: 2023-01-22T15:46:30Z
       title: Rocket
+    - filename: JosephGruber_20230204_183944.jpg
+      date: 2023-02-04T18:39:44Z
+      title: Mother and Son (Jenny and Rocket)
 
 geb-romeo:
   name: Romeo (5R317)
