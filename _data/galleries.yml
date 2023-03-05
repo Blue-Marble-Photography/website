@@ -3217,6 +3217,26 @@ geb-champ:
       date: 2022-10-30T17:16:34Z
       title: Champ
 
+geb-clancey:
+  name: Clancey (4C422)
+  tags: geb
+  permalink: /gallery/geb/clancey
+  preview_image: JosephGruber_20230305_140019.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20230304_205418.jpg
+      date: 2023-03-04T20:54:18Z
+      title: Clancey
+    - filename: JosephGruber_20230304_205156.jpg
+      date: 2023-03-04T20:51:56Z
+      title: Clancey
+    - filename: JosephGruber_20230305_140019.jpg
+      date: 2023-03-05T14:00:19Z
+      title: Clancey
+    - filename: JosephGruber_20230305_140156.jpg
+      date: 2023-03-05T14:01:56Z
+      title: Clancey
+
 geb-colleen:
   name: Colleen (8C319)
   tags: geb
