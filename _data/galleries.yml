@@ -3224,6 +3224,21 @@ geb-clancey:
   preview_image: JosephGruber_20230305_140019.jpg
   pricelist: default
   images:
+    - filename: JosephGruber_20230305_220707.jpg
+      date: 2023-03-05T22:07:07Z
+      title: Clancey
+    - filename: JosephGruber_20230305_221354.jpg
+      date: 2023-03-05T22:13:54Z
+      title: Clancey
+    - filename: JosephGruber_20230305_220421.jpg
+      date: 2023-03-05T22:04:21Z
+      title: Clancey
+    - filename: JosephGruber_20230305_220435.jpg
+      date: 2023-03-05T22:04:35Z
+      title: Clancey
+    - filename: JosephGruber_20230305_222140.jpg
+      date: 2023-03-05T22:21:40Z
+      title: Clancey
     - filename: JosephGruber_20230304_205418.jpg
       date: 2023-03-04T20:54:18Z
       title: Clancey
@@ -3233,8 +3248,23 @@ geb-clancey:
     - filename: JosephGruber_20230305_140019.jpg
       date: 2023-03-05T14:00:19Z
       title: Clancey
+    - filename: JosephGruber_20230304_145915.jpg
+      date: 2023-03-04T14:59:15Z
+      title: Clancey
+    - filename: JosephGruber_20230305_220419.jpg
+      date: 2023-03-05T22:04:19Z
+      title: Clancey
     - filename: JosephGruber_20230305_140156.jpg
       date: 2023-03-05T14:01:56Z
+      title: Clancey
+    - filename: JosephGruber_20230305_220523.jpg
+      date: 2023-03-05T22:05:23Z
+      title: Clancey
+    - filename: JosephGruber_20230305_220939.jpg
+      date: 2023-03-05T22:09:39Z
+      title: Clancey
+    - filename: JosephGruber_20230305_220530.jpg
+      date: 2023-03-05T22:05:30Z
       title: Clancey
 
 geb-colleen:
