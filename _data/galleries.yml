@@ -3290,6 +3290,12 @@ geb-clancey:
     - filename: JosephGruber_20230418_130123.jpg
       date: 2023-04-18T13:01:23Z
       title: Clancey
+    - filename: JosephGruber_20230526_131037.jpg
+        date: 2023-05-26T13:10:37Z
+        title: Clancey
+    - filename: JosephGruber_20230526_130951.jpg
+        date: 2023-05-26T13:09:51Z
+        title: Clancey
 
 geb-colleen:
   name: Colleen (8C319)
@@ -6571,6 +6577,15 @@ geb-sprinkles:
     - filename: JosephGruber_20221030_172551.jpg
       date: 2022-10-30T17:25:51Z
       title: Sprinkles
+    - filename: JosephGruber_20230526_130642.jpg
+      date: 2023-05-26T13:06:42Z
+      title: Sprinkles
+    - filename: JosephGruber_20230526_130650.jpg
+      date: 2023-05-26T13:06:50Z
+      title: Sprinkles
+    - filename: JosephGruber_20230313_230345.jpg
+      date: 2023-03-13T23:03:45Z
+      title: Sprinkles
 
 geb-valiant:
   name: Valiant (3VV14)
@@ -6856,6 +6871,26 @@ geb-vinny:
       date: 2022-06-05T19:47:34Z
       title: Vinny
 
+geb-waltz:
+  name: Waltz (9W23)
+  tags: geb
+  permalink: /gallery/geb/waltz/
+  preview_image: JosephGruber_20230521_181040.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20230521_181028.jpg
+      date: 2023-05-21T18:10:28Z
+      title: Waltz
+    - filename: JosephGruber_20230521_181027-2.jpg
+      date: 2023-05-21T18:10:27Z
+      title: Waltz
+    - filename: JosephGruber_20230521_181027.jpg
+      date: 2023-05-21T18:10:27Z
+      title: Waltz
+    - filename: JosephGruber_20230521_181040.jpg
+      date: 2023-05-21T18:10:40Z
+      title: Waltz
+
 geb-willa:
   name: Willa (7WW15)
   tags: geb
@@ -6901,6 +6936,20 @@ geb-willis:
     - filename: JosephGruber_20200621_223112.jpg
       date: 2020-06-21T22:31:12Z
       title: Willis
+
+geb-worthy:
+  name: Worthy (4W23)
+  tags: geb
+  permalink: /gallery/geb/worthy/
+  preview_image: JosephGruber_20230521_181430.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20230521_181438.jpg
+      date: 2023-05-21T18:14:38Z
+      title: Worthy
+    - filename: JosephGruber_20230521_181430.jpg
+      date: 2023-05-21T18:14:30Z
+      title: Worthy
 
 geb-yani:
   name: Yani (5Y15)
