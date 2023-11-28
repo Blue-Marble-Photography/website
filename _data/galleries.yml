@@ -3305,6 +3305,9 @@ geb-clancey:
     - filename: JosephGruber_20230907_235842.jpg
       date: 2023-09-07T23:58:42Z
       title: Clancey and Worthy
+    - filename: JosephGruber_20231125_170133.jpg
+      date: 2023-11-25T17:01:33Z
+      title: Clancey
 
 geb-colleen:
   name: Colleen (8C319)
@@ -5682,6 +5685,20 @@ geb-olive:
     - filename: JosephGruber_20211031_152228.jpg
       date: 2021-10-31T15:22:28Z
       title: Olive
+
+geb-olson:
+  name: Olson (4X23)
+  tags: geb
+  permalink: /gallery/geb/olson/
+  preview_image: JosephGruber_20231125_165744.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20231125_165423.jpg
+      date: 2023-11-25T16:54:23Z
+      title: Olson
+    - filename: JosephGruber_20231125_165744.jpg
+      date: 2023-11-25T16:57:44Z
+      title: Olson
 
 geb-otto:
   name: Otto (4O417)
