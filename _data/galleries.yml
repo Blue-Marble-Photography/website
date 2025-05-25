@@ -3177,6 +3177,17 @@ geb-cam:
       date: 2019-09-22T18:51:45Z
       title: Cam
 
+geb-casey:
+  name: Casey (2C25)
+  tags: geb
+  permalink: /gallery/geb/casey/
+  preview_image: JosephGruber_20250525_181211.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20250525_181211.jpg
+      date: 2025-05-25T18:12:11Z
+      title: Casey
+
 geb-cersei:
   name: Cersei (6C321)
   tags: geb
@@ -3771,6 +3782,17 @@ geb-eric:
     - filename: JosephGruber_20200321_184112-2.jpg
       date: 2020-03-21T18:41:12Z
       title: Eric
+
+geb-erie:
+  name: Erie (3E25)
+  tags: geb
+  permalink: /gallery/geb/erie/
+  preview_image: JosephGruber_20250525_181956.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20250525_181956.jpg
+      date: 2025-05-25T18:19:56Z
+      title: Erie
 
 geb-ernie:
   name: Ernie (5616)
@@ -5112,6 +5134,17 @@ geb-jude:
       date: 2019-01-13T19:30:46Z
       title: Jude
 
+geb-judy:
+  name: Judy (4JJ24)
+  tags: geb
+  permalink: /gallery/geb/judy/
+  preview_image: JosephGruber_20250525_181551.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20250525_181551.jpg
+      date: 2025-05-25T18:15:51Z
+      title: Judy
+
 geb-justine:
   name: Justine (6J315)
   tags: geb
@@ -5720,6 +5753,17 @@ geb-olson:
     - filename: JosephGruber_20241020_180718.jpg
       date: 2024-10-20T00:00:00Z
       title: Olson
+
+geb-oslo:
+  name: Oslo (8OO24)
+  tags: geb
+  permalink: /gallery/geb/oslo/
+  preview_image: JosephGruber_20250525_181706.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20250525_181706.jpg
+      date: 2025-05-25T18:17:06Z
+      title: Oslo
 
 geb-otto:
   name: Otto (4O417)
