@@ -1,12 +1,9 @@
-[tool.poetry]
+[project]
 name = "write_gallery_meta"
 version = "0.1.0"
 description = ""
-authors = ["Joseph Gruber <joseph.gruber@gmail.com>"]
-
-[tool.poetry.dependencies]
-python = "^3.10"
-IPTCInfo3 = "^2.1.4"
+requires-python = "~=3.11"
+dependencies = ["IPTCInfo3 ~=2.1.4"]
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.960"
