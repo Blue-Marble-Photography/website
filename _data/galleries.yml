@@ -2756,6 +2756,35 @@ geb-2022-mile-high-farms-outing:
       date: 2022-10-30T17:14:16Z
       title: Hazy
 
+geb-2025-dillon-reservoir-outing:
+  name: 2025 Dillon Reservoir Outing
+  tags: geb
+  permalink: /gallery/geb/2025-dillon-reservoir-outing/
+  preview_image: JosephGruber_20250823_195130.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20250823_195704.jpg
+      date: 2025-08-23T19:57:04Z
+      title: Casey
+    - filename: JosephGruber_20250823_175546.jpg
+      date: 2025-08-23T17:55:46Z
+      title: Oslo
+    - filename: JosephGruber_20250823_195130.jpg
+      date: 2025-08-23T19:51:30Z
+      title: Colorado Region
+    - filename: JosephGruber_20250823_180329.jpg
+      date: 2025-08-23T18:03:29Z
+      title: Bill
+    - filename: JosephGruber_20250823_200143.jpg
+      date: 2025-08-23T20:01:43Z
+      title: Judy, Lyons, and Casey
+    - filename: JosephGruber_20250823_195900.jpg
+      date: 2025-08-23T19:59:00Z
+      title: Lyons
+    - filename: JosephGruber_20250823_195949.jpg
+      date: 2025-08-23T19:59:49Z
+      title: Judy
+
 benny:
   name: Benny
   tags: private
@@ -3143,6 +3172,17 @@ geb-bando:
       date: 2024-08-03T14:39:35Z
       title: Bando
 
+geb-bill:
+  name: Bill (10X24)
+  tags: geb
+  permalink: /gallery/geb/bill/
+  preview_image: JosephGruber_20250823_180329.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20250823_180329.jpg
+      date: 2025-08-23T18:03:29Z
+      title: Bill
+
 geb-brandy:
   name: Brandy (3B418)
   tags: geb
@@ -3186,6 +3226,9 @@ geb-casey:
   images:
     - filename: JosephGruber_20250525_181211.jpg
       date: 2025-05-25T18:12:11Z
+      title: Casey
+    - filename: JosephGruber_20250823_195704.jpg
+      date: 2025-08-23T19:57:04Z
       title: Casey
 
 geb-cersei:
@@ -5165,6 +5208,9 @@ geb-judy:
     - filename: JosephGruber_20250525_181551.jpg
       date: 2025-05-25T18:15:51Z
       title: Judy
+    - filename: JosephGruber_20250823_195949.jpg
+      date: 2025-08-23T19:59:49Z
+      title: Judy
 
 geb-justine:
   name: Justine (6J315)
@@ -5784,6 +5830,9 @@ geb-oslo:
   images:
     - filename: JosephGruber_20250525_181706.jpg
       date: 2025-05-25T18:17:06Z
+      title: Oslo
+    - filename: JosephGruber_20250823_175546.jpg
+      date: 2025-08-23T17:55:46Z
       title: Oslo
 
 geb-otto:
