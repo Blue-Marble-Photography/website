@@ -110,6 +110,8 @@ geb-puppies:
       geb-rue,
       geb-ruza,
       geb-sprinkles,
+      geb-triton,
+      geb-tucson,
       geb-valiant,
       geb-valiant-7v318,
       geb-valor,
@@ -134,6 +136,7 @@ geb-events:
   preview_image: JosephGruber_20170604_140815.jpg
   galleries:
     [
+      geb-2025-mile-high-farms-outing,
       geb-2025-dillon-reservoir-outing,
       geb-2022-mile-high-farms-outing,
       geb-2021-washington-park,

@@ -2785,6 +2785,34 @@ geb-2025-dillon-reservoir-outing:
       date: 2025-08-23T19:59:49Z
       title: Judy
 
+geb-2025-mile-high-farms-outing:
+  name: 2025 Mile High Farms Outing
+  tags: geb
+  permalink: /gallery/geb/2025-mile-high-farms-outing/
+  preview_image: JosephGruber_20251026_183911.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20251026_183115.jpg
+      date: 2025-10-26T18:31:15Z
+      title: Triton
+    - filename: JosephGruber_20251026_181912.jpg
+      date: 2025-10-26T18:19:12Z
+      title: Tucson
+    - filename: JosephGruber_20251026_183911.jpg
+      date: 2025-10-26T18:39:11Z
+      title: GEB Colorado Region
+    - filename: JosephGruber_20251026_182301.jpg
+      date: 2025-10-26T18:23:01Z
+      title: Erie
+    - filename: JosephGruber_20251026_182506.jpg
+      date: 2025-10-26T18:25:06Z
+      title: Triton
+    - filename: JosephGruber_20251026_182857.jpg
+      date: 2025-10-26T18:28:57Z
+      title: Casey
+    - filename: JosephGruber_20251026_182700.jpg
+      date: 2025-10-26T18:27:00Z
+      title: Judy
 benny:
   name: Benny
   tags: private
@@ -3229,6 +3257,9 @@ geb-casey:
       title: Casey
     - filename: JosephGruber_20250823_195704.jpg
       date: 2025-08-23T19:57:04Z
+      title: Casey
+    - filename: JosephGruber_20251026_182857.jpg
+      date: 2025-10-26T18:28:57Z
       title: Casey
 
 geb-cersei:
@@ -3856,6 +3887,9 @@ geb-erie:
       title: Erie
     - filename: JosephGruber_20250626_145155.jpg
       date: 2025-06-26T14:51:55Z
+      title: Erie
+    - filename: JosephGruber_20251026_182301.jpg
+      date: 2025-10-26T18:23:01Z
       title: Erie
 
 geb-ernie:
@@ -5210,6 +5244,9 @@ geb-judy:
       title: Judy
     - filename: JosephGruber_20250823_195949.jpg
       date: 2025-08-23T19:59:49Z
+      title: Judy
+    - filename: JosephGruber_20251026_182700.jpg
+      date: 2025-10-26T18:27:00Z
       title: Judy
 
 geb-justine:
@@ -6767,6 +6804,31 @@ geb-sprinkles:
     - filename: JosephGruber_20230902_130539.jpg
       date: 2023-09-02T13:05:39Z
       title: Sprinkles
+
+geb-triton:
+  name: Triton (1T25)
+  tags: geb
+  permalink: /gallery/geb/triton/
+  preview_image: JosephGruber_20251026_183115.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20251026_183115.jpg
+      date: 2025-10-26T18:31:15Z
+      title: Triton
+
+geb-tucson:
+  name: Tucson (2TT25)
+  tags: geb
+  permalink: /gallery/geb/tucson/
+  preview_image: JosephGruber_20251026_181912.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20251026_181912.jpg
+      date: 2025-10-26T18:19:12Z
+      title: Tucson
+    - filename: JosephGruber_20251026_182506.jpg
+      date: 2025-10-26T18:25:06Z
+      title: Triton
 
 geb-valiant:
   name: Valiant (3VV14)
