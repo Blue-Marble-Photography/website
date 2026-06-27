@@ -2813,6 +2813,96 @@ geb-2025-mile-high-farms-outing:
     - filename: JosephGruber_20251026_182700.jpg
       date: 2025-10-26T18:27:00Z
       title: Judy
+
+geb-2026-colorado-regional-gathering:
+  name: 2026 GEB Colorado Regional Gathering
+  tags: geb
+  permalink: /gallery/geb/2026-geb-colorado-regional-gathering/
+  preview_image: JosephGruber_20251026_183911.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20260614_190952.jpg
+      date: 2026-06-14T19:09:52Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_161820.jpg
+      date: 2026-06-14T16:18:20Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_160732.jpg
+      date: 2026-06-14T16:07:32Z
+      title: Helen & Quinoa
+    - filename: JosephGruber_20260614_155006.jpg
+      date: 2026-06-14T15:50:06Z
+      title: Michael & Geo
+    - filename: JosephGruber_20260614_191327.jpg
+      date: 2026-06-14T19:13:27Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_154446.jpg
+      date: 2026-06-14T15:44:46Z
+      title: Judy & Lyons
+    - filename: JosephGruber_20260614_162241.jpg
+      date: 2026-06-14T16:22:41Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_191108.jpg
+      date: 2026-06-14T19:11:08Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_154254.jpg
+      date: 2026-06-14T15:42:54Z
+      title: Barb & Flanders
+    - filename: JosephGruber_20260614_191024.jpg
+      date: 2026-06-14T19:10:24Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_154755.jpg
+      date: 2026-06-14T15:47:55Z
+      title: Trish & Drew
+    - filename: JosephGruber_20260614_191153.jpg
+      date: 2026-06-14T19:11:53Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_182258.jpg
+      date: 2026-06-14T18:22:58Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_153954.jpg
+      date: 2026-06-14T15:39:54Z
+      title: Sabina & Josie
+    - filename: JosephGruber_20260614_191234.jpg
+      date: 2026-06-14T19:12:34Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_161107.jpg
+      date: 2026-06-14T16:11:07Z
+      title: Maryann & Uno
+    - filename: JosephGruber_20260614_152057.jpg
+      date: 2026-06-14T15:20:57Z
+      title: Deni Elliott & Hildy
+    - filename: JosephGruber_20260614_153743.jpg
+      date: 2026-06-14T15:37:43Z
+      title: Terry & Cruiser
+    - filename: JosephGruber_20260614_182318.jpg
+      date: 2026-06-14T18:23:18Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_161848.jpg
+      date: 2026-06-14T16:18:48Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_185937.jpg
+      date: 2026-06-14T18:59:37Z
+      title: GEB Colorado Regional Gathering Group Photo
+    - filename: JosephGruber_20260614_182227.jpg
+      date: 2026-06-14T18:22:27Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_162338.jpg
+      date: 2026-06-14T16:23:38Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_165240.jpg
+      date: 2026-06-14T16:52:40Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_162507.jpg
+      date: 2026-06-14T16:25:07Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_191301.jpg
+      date: 2026-06-14T19:13:01Z
+      title: GEB Colorado Regional Gathering
+    - filename: JosephGruber_20260614_161434.jpg
+      date: 2026-06-14T16:14:34Z
+      title: Karen & Ohana
+
 benny:
   name: Benny
   tags: private
@@ -5061,6 +5151,17 @@ geb-jewels:
     - filename: JosephGruber_20211031_141743.jpg
       date: 2021-10-31T14:17:43Z
       title: Lipperts and Jewels
+
+geb-joyce:
+  name: Joyce (2J26)
+  tags: geb
+  permalink: /gallery/geb/joyce/
+  preview_image: JosephGruber_20260614_152501.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20260614_152501.jpg
+      date: 2026-06-14T15:25:01Z
+      title: Joyce
 
 geb-jude:
   name: Jude (2J317)

@@ -69,6 +69,7 @@ geb-puppies:
       geb-izzie,
       geb-jenny,
       geb-jewels,
+      geb-joyce,
       geb-jude,
       geb-judy,
       geb-justine,
@@ -136,6 +137,7 @@ geb-events:
   preview_image: JosephGruber_20170604_140815.jpg
   galleries:
     [
+      geb-2026-colorado-regional-gathering,
       geb-2025-mile-high-farms-outing,
       geb-2025-dillon-reservoir-outing,
       geb-2022-mile-high-farms-outing,
