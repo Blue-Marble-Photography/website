@@ -3290,17 +3290,6 @@ geb-bando:
       date: 2024-08-03T14:39:35Z
       title: Bando
 
-geb-bill:
-  name: Bill (10X24)
-  tags: geb
-  permalink: /gallery/geb/bill/
-  preview_image: JosephGruber_20250823_180329.jpg
-  pricelist: default
-  images:
-    - filename: JosephGruber_20250823_180329.jpg
-      date: 2025-08-23T18:03:29Z
-      title: Bill
-
 geb-brandy:
   name: Brandy (3B418)
   tags: geb
@@ -3801,6 +3790,26 @@ geb-elkins:
     - filename: JosephGruber_20180505_221452.jpg
       date: 2017-06-18T06:52:54Z
       title: Elkins
+
+geb-elvin:
+  name: Elvin (3E325)
+  tags: geb
+  permalink: /gallery/geb/elvin/
+  preview_image: ...
+  pricelist: default
+  images:
+    - filename: JosephGruber_20260726_154343.jpg
+      date: 2026-07-26T15:43:43Z
+      title: Elvin
+    - filename: JosephGruber_20260726_154546.jpg
+      date: 2026-07-26T15:45:46Z
+      title: Elvin
+    - filename: JosephGruber_20260726_164236.jpg
+      date: 2026-07-26T16:42:36Z
+      title: Elvin
+    - filename: JosephGruber_20260726_165651.jpg
+      date: 2026-07-26T16:56:51Z
+      title: Elvin
 
 geb-ellery:
   name: Ellery (3E16)
@@ -5162,6 +5171,18 @@ geb-joyce:
     - filename: JosephGruber_20260614_152501.jpg
       date: 2026-06-14T15:25:01Z
       title: Joyce
+    - filename: JosephGruber_20260726_163633.jpg
+      date: 2026-07-26T16:36:33Z
+      title: Joyce
+    - filename: JosephGruber_20260726_163934.jpg
+      date: 2026-07-26T16:39:34Z
+      title: Joyce
+    - filename: JosephGruber_20260726_165241.jpg
+      date: 2026-07-26T16:52:41Z
+      title: Joyce
+    - filename: JosephGruber_20260726_170959.jpg
+      date: 2026-07-26T17:09:59Z
+      title: Joyce
 
 geb-jude:
   name: Jude (2J317)
@@ -5498,6 +5519,35 @@ geb-laverne:
     - filename: JosephGruber_20170101_200233.jpg
       date: 2017-01-01T00:00:00Z
       title: Laverne
+
+geb-liam:
+  name: Liam (Bill - 10X24)
+  tags: geb
+  permalink: /gallery/geb/liam/
+  preview_image: JosephGruber_20250823_180329.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20240831_195627.jpg
+      date: 2024-08-31T19:56:27Z
+      title: Bill
+    - filename: JosephGruber_20241020_180007.jpg
+      date: 2024-10-20T18:00:07Z
+      title: Bill
+    - filename: JosephGruber_20250823_180329.jpg
+      date: 2025-08-23T18:03:29Z
+      title: Bill
+    - filename: JosephGruber_20260726_164458.jpg
+      date: 2026-07-26T16:44:58Z
+      title: Liam (Bill)
+    - filename: JosephGruber_20260726_164536.jpg
+      date: 2026-07-26T16:45:36Z
+      title: Liam (Bill)
+    - filename: JosephGruber_20260726_164813.jpg
+      date: 2026-07-26T16:48:13Z
+      title: Liam (Bill)
+    - filename: JosephGruber_20260726_170512.jpg
+      date: 2026-07-26T17:05:12Z
+      title: Liam (Bill)
 
 geb-libby:
   name: Libby (5L416)
@@ -6913,6 +6963,9 @@ geb-triton:
   preview_image: JosephGruber_20251026_183115.jpg
   pricelist: default
   images:
+    - filename: JosephGruber_20251026_182506.jpg
+      date: 2025-10-26T18:25:06Z
+      title: Triton
     - filename: JosephGruber_20251026_183115.jpg
       date: 2025-10-26T18:31:15Z
       title: Triton
@@ -6927,9 +6980,18 @@ geb-tucson:
     - filename: JosephGruber_20251026_181912.jpg
       date: 2025-10-26T18:19:12Z
       title: Tucson
-    - filename: JosephGruber_20251026_182506.jpg
-      date: 2025-10-26T18:25:06Z
-      title: Triton
+    - filename: JosephGruber_20260726_163141.jpg
+      date: 2026-07-26T16:31:41Z
+      title: Tucson
+    - filename: JosephGruber_20260726_163306.jpg
+      date: 2026-07-26T16:33:06Z
+      title: Tucson
+    - filename: JosephGruber_20260726_165451.jpg
+      date: 2026-07-26T16:54:51Z
+      title: Tucson
+    - filename: JosephGruber_20260726_170625.jpg
+      date: 2026-07-26T17:06:25Z
+      title: Tucson
 
 geb-valiant:
   name: Valiant (3VV14)
