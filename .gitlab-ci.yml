@@ -26,7 +26,6 @@ build:
     - docker run --rm -v $(pwd):/app ruby27-bookworm bash -c "
       apt-get update -qy &&
       apt-get install -y nodejs npm &&
-      npm install npm@latest -g &&
       npm install gulp -g &&
       npm install &&
       bundle install &&
