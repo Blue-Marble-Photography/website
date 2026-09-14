@@ -2,35 +2,22 @@ stages:
   - build
   - deploy
 
-variables:
-  DOCKER_HOST: "tcp://docker:2375"
-  DOCKER_TLS_CERTDIR: "" # Disable TLS for basic dind setups
-
-services:
-  - name: docker:24.0.5-dind
-    alias: docker
-
-before_script:
-  - until docker info; do sleep 1; done # Wait for dind to initialize
-
 build:
   stage: build
-  image:
-    name: docker:27
-    entrypoint: [""]
-  services:
-    - docker:27-dind
+  image: ruby:2.7
   before_script:
-    - docker build -t ruby27-bookworm .
+    - sed -i -e '/bullseye-security/d' -e 's|deb.debian.org|archive.debian.org|g' /etc/apt/sources.list
+    - echo 'Acquire::Check-Valid-Until "0";' > /etc/apt/apt.conf.d/99no-check-valid-until
+    - apt-get update -qy
+    - apt-get install -y nodejs
+    - apt-get install -y npm
+    - npm install npm@latest -g
+    - npm install gulp -g
+    - npm install
+    - gem install bundler -v 2.4.22
+    - bundle install
   script:
-    - docker run --rm -v $(pwd):/app ruby27-bookworm bash -c "
-      apt-get update -qy &&
-      apt-get install -y nodejs npm &&
-      npm install gulp -g &&
-      npm install &&
-      bundle install &&
-      gulp deploy"
-    - docker cp <container_id>:/app/_site ./_site
+    - gulp deploy
   artifacts:
     paths:
       - _site
