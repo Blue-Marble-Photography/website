@@ -4,18 +4,23 @@ stages:
 
 build:
   stage: build
-  image: ruby:2.7
+  image:
+    name: docker:27
+    entrypoint: [""]
+  services:
+    - docker:27-dind
   before_script:
-    - apt-get update -qy
-    - apt-get install -y nodejs
-    - apt-get install -y npm
-    - npm install npm@latest -g
-    - npm install gulp -g
-    - npm install
-    - gem install bundler -v 2.4.22
-    - bundle install
+    - docker build -t ruby27-bookworm .
   script:
-    - gulp deploy
+    - docker run --rm -v $(pwd):/app ruby27-bookworm bash -c "
+      apt-get update -qy &&
+      apt-get install -y nodejs npm &&
+      npm install npm@latest -g &&
+      npm install gulp -g &&
+      npm install &&
+      bundle install &&
+      gulp deploy"
+    - docker cp <container_id>:/app/_site ./_site
   artifacts:
     paths:
       - _site
