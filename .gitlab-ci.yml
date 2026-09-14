@@ -2,6 +2,17 @@ stages:
   - build
   - deploy
 
+variables:
+  DOCKER_HOST: "tcp://docker:2375"
+  DOCKER_TLS_CERTDIR: "" # Disable TLS for basic dind setups
+
+services:
+  - name: docker:24.0.5-dind
+    alias: docker
+
+before_script:
+  - until docker info; do sleep 1; done # Wait for dind to initialize
+
 build:
   stage: build
   image:
