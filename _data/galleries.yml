@@ -7526,3 +7526,14 @@ geb-yvetta:
     - filename: JosephGruber_20161218_130304.jpg
       date: 2016-12-18T13:03:04Z
       title: Yvetta
+
+geb-zephyr:
+  name: Zephyr (4ZZ26)
+  tags: geb
+  permalink: /gallery/geb/zephyr/
+  preview_image: JosephGruber_20261010_162803.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20261010_162803.jpg
+      date: 2026-10-10T16:28:03Z
+      title: Zephyr
