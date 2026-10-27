@@ -2814,6 +2814,47 @@ geb-2025-mile-high-farms-outing:
       date: 2025-10-26T18:27:00Z
       title: Judy
 
+geb-2026-mile-high-farms-outing:
+  name: 2026 Mile High Farms Outing
+  tags: geb
+  permalink: /gallery/geb/2026-mile-high-farms-outing/
+  preview_image: JosephGruber_20261025_180325.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20261025_175923.jpg
+      date: 2026-10-25T17:59:23Z
+      title: Cannoli
+    - filename: JosephGruber_20261025_180843.jpg
+      date: 2026-10-25T18:08:43Z
+      title: Cannoli
+    - filename: JosephGruber_20261025_180909.jpg
+      date: 2026-10-25T18:09:09Z
+      title: Cannoli
+    - filename: JosephGruber_20261025_181746.jpg
+      date: 2026-10-25T18:17:46Z
+      title: Elvin
+    - filename: JosephGruber_20261025_180737.jpg
+      date: 2026-10-25T18:07:37Z
+      title: Halo (Olay)
+    - filename: JosephGruber_20261025_180721.jpg
+      date: 2026-10-25T18:07:21Z
+      title: Halo (Olay)
+    - filename: JosephGruber_20261025_181629.jpg
+      date: 2026-10-25T18:16:29Z
+      title: Elvin
+    - filename: JosephGruber_20261025_180325.jpg
+      date: 2026-10-25T18:03:25Z
+      title: GEB Colorado Region
+    - filename: JosephGruber_20261025_180814.jpg
+      date: 2026-10-25T18:08:14Z
+      title: Cannoli
+    - filename: JosephGruber_20261025_181300.jpg
+      date: 2026-10-25T18:13:00Z
+      title: Tucson
+    - filename: JosephGruber_20261025_180554.jpg
+      date: 2026-10-25T18:05:54Z
+      title: GEB Colorado Region
+
 geb-2026-colorado-regional-gathering:
   name: 2026 GEB Colorado Regional Gathering
   tags: geb
@@ -3324,6 +3365,26 @@ geb-cam:
       date: 2019-09-22T18:51:45Z
       title: Cam
 
+geb-cannoli:
+  name: Cannoli (8C326)
+  tags: geb
+  permalink: /gallery/geb/cannoli
+  preview_image: JosephGruber_20261025_180843.jpg
+  pricelist: default
+  images:
+    - filename: JosephGruber_20261025_175923.jpg
+      date: 2026-10-25T17:59:23Z
+      title: Cannoli
+    - filename: JosephGruber_20261025_180843.jpg
+      date: 2026-10-25T18:08:43Z
+      title: Cannoli
+    - filename: JosephGruber_20261025_180909.jpg
+      date: 2026-10-25T18:09:09Z
+      title: Cannoli
+    - filename: JosephGruber_20261025_180814.jpg
+      date: 2026-10-25T18:08:14Z
+      title: Cannoli
+
 geb-casey:
   name: Casey (2C25)
   tags: geb
@@ -3809,6 +3870,12 @@ geb-elvin:
       title: Elvin
     - filename: JosephGruber_20260726_165651.jpg
       date: 2026-07-26T16:56:51Z
+      title: Elvin
+    - filename: JosephGruber_20261025_181746.jpg
+      date: 2026-10-25T18:17:46Z
+      title: Elvin
+    - filename: JosephGruber_20261025_181629.jpg
+      date: 2026-10-25T18:16:29Z
       title: Elvin
 
 geb-ellery:
@@ -7009,6 +7076,9 @@ geb-tucson:
       title: Tucson
     - filename: JosephGruber_20260726_170625.jpg
       date: 2026-07-26T17:06:25Z
+      title: Tucson
+    - filename: JosephGruber_20261025_181300.jpg
+      date: 2026-10-25T18:13:00Z
       title: Tucson
 
 geb-valiant:

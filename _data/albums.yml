@@ -19,6 +19,7 @@ geb-puppies:
       geb-bando,
       geb-brandy,
       geb-cam,
+      geb-cannoli,
       geb-casey,
       geb-cersei,
       geb-champ,
@@ -139,6 +140,7 @@ geb-events:
   preview_image: JosephGruber_20170604_140815.jpg
   galleries:
     [
+      geb-2026-mile-high-farms-outing,
       geb-2026-colorado-regional-gathering,
       geb-2025-mile-high-farms-outing,
       geb-2025-dillon-reservoir-outing,
