@@ -90,7 +90,6 @@ function setLightboxDefaults() {
                         downloadDetails.attr("href") +
                         '" target="_blank" download></a>'
                 );
-                enableDownloadNotifications();
             } else {
                 if (downloadDetails.attr("data-item-id")) {
                     btnDownload.get(0).dataset.itemId =
