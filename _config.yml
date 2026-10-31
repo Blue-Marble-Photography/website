@@ -68,19 +68,15 @@ include:
   - .well-known
 
 exclude:
-  [
-    "vendor",
-    "Gemfile",
-    "Gemfile.lock",
-    "gulpfile.js",
-    "node_modules",
-    "package.json",
-    "package-lock.json",
-    "write-gallery-meta.php",
-    "rev-manifest.json",
-    "s3_website.yml",
-    "tf",
-  ]
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - tf
+  - vendor
+
+sass:
+  style: compressed
+  sourcemap: never
 
 compress_html:
   clippings: all

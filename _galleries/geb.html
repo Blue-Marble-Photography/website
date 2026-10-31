@@ -19,7 +19,7 @@ sitemap: false
     </div>
 
     {% assign galleries = site.data.galleries | where: 'tags', 'geb' %}
-    {% assign images = [] %}
+    {% assign images = "" | split: "" %}
     {% for gallery in galleries %}
     {% assign images = images | concat: gallery.images %}
     {% endfor %}

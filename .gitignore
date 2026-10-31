@@ -1,3 +1,6 @@
-assets/
 .aws-sam/
 .bundle/
+.jekyll-cache/
+.sass-cache/
+_site/
+vendor/

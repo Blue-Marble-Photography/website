@@ -5,13 +5,12 @@ stages:
 build:
   stage: build
   image: ruby:3.4.12-trixie
+  variables:
+    JEKYLL_ENV: prod
   before_script:
-    - apt-get update -qy
-    - apt-get install -y --no-install-recommends nodejs npm
-    - npm ci
     - bundle install
   script:
-    - npx gulp deploy
+    - bundle exec jekyll build
   artifacts:
     paths:
       - _site
