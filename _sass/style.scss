@@ -68,17 +68,17 @@ a {
     background-color: transparent;
 }
 
-.webp #cover {
-    background-image: url('../images/cover-750.webp');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 50vh;
-    overflow: auto;
+// WebP where the browser supports image-set() type(); JPEG otherwise.
+@mixin cover-image($width) {
+    background-image: url('../images/cover-#{$width}.jpg');
+    background-image: image-set(
+        url('../images/cover-#{$width}.webp') type('image/webp'),
+        url('../images/cover-#{$width}.jpg') type('image/jpeg')
+    );
 }
 
-.no-webp #cover {
-    background-image: url('../images/cover-750.jpg');
+#cover {
+    @include cover-image(750);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -166,11 +166,8 @@ a[class^='icon-']:hover,
     .card-img-top.post {
         height: 35vw;
     }
-    .no-webp #cover {
-        background-image: url('../images/cover-1100.jpg');
-    }
-    .webp #cover {
-        background-image: url('../images/cover-1100.webp');
+    #cover {
+        @include cover-image(1100);
     }
 }
 
@@ -184,11 +181,8 @@ a[class^='icon-']:hover,
     .card-img-top.album {
         height: 15vw;
     }
-    .no-webp #cover {
-        background-image: url('../images/cover-1440.jpg');
-    }
-    .webp #cover {
-        background-image: url('../images/cover-1440.webp');
+    #cover {
+        @include cover-image(1440);
     }
 }
 
@@ -200,11 +194,8 @@ a[class^='icon-']:hover,
         height: 15vw;
         max-height: 215px;
     }
-    .no-webp #cover {
-        background-image: url('../images/cover-1600.jpg');
-    }
-    .webp #cover {
-        background-image: url('../images/cover-1600.webp');
+    #cover {
+        @include cover-image(1600);
     }
     #photo-gallery div.img-gallery figure img {
         max-height: 35vh;
@@ -212,11 +203,8 @@ a[class^='icon-']:hover,
 }
 
 @media all and (min-width: 1200px) {
-    .no-webp #cover {
-        background-image: url('../images/cover-2880.jpg');
-    }
-    .webp #cover {
-        background-image: url('../images/cover-2880.webp');
+    #cover {
+        @include cover-image(2880);
     }
     #photo-gallery div.img-gallery figure img {
         max-height: 30vh;

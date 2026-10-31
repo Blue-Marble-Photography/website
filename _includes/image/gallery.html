@@ -1,5 +1,5 @@
 {% assign image_url = image.filename | prepend: '/' | prepend: site.photo_url %}
-<div class="col-12 col-lg-4 col-xl-3 d-flex align-items-stretch p-2 img-gallery" vocab="http://schema.org/"
+<div class="col-12 col-lg-4 col-xl-3 d-flex align-items-stretch p-2 img-gallery" vocab="https://schema.org/"
     typeof="ImageObject">
     <figure id="image-{{ forloop.index0 }}" class="mb-0 w-100 bg-dark"
         {% if page.allow_download %}data-src="{% if page.allow_download == "watermark" %}{{ image_url | replace: '.jpg', '-1440.jpg' }}{% else %}{{ image_url | replace: 'photography', 'photography/originals' }}{% endif %}"

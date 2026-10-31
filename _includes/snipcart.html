@@ -17,7 +17,10 @@
 <script>
     document.addEventListener('snipcart.ready', function () {
         Snipcart.store.subscribe(() => {
-            Snipcart.store.getState().cart.items.count == 0 ? $('.snipcart-checkout').addClass('d-none') : $('.snipcart-checkout').removeClass('d-none')
+            var empty = Snipcart.store.getState().cart.items.count == 0;
+            document.querySelectorAll('.snipcart-checkout').forEach(function (el) {
+                el.classList.toggle('d-none', empty);
+            });
         });
     });
 </script>

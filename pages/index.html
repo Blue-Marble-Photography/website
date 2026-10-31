@@ -17,7 +17,7 @@ permalink: index.html
 
         {% for post in site.posts limit:6 %}
         <div class="col-lg-4 d-flex align-items-stretch">
-            <div class="card shadow p-2 mb-2" vocab="http://schema.org/" typeof="ImageObject">
+            <div class="card shadow p-2 mb-2" vocab="https://schema.org/" typeof="ImageObject">
                 {% assign image_url = post.featured_image.filename | prepend: '/' | prepend:site.featured_image_url %}
                 <a property="name" href="{{ post.url }}" title="{{ post.title }}">
                     <picture>
