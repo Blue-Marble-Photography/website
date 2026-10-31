@@ -55,12 +55,6 @@
       "src": "fontawesome"
     },
     {
-      "uid": "9affc98d652b86628d650ee58dbf0357",
-      "css": "basket",
-      "code": 59394,
-      "src": "fontawesome"
-    },
-    {
       "uid": "85528017f1e6053b2253785c31047f44",
       "css": "comment",
       "code": 59395,
@@ -100,12 +94,6 @@
       "uid": "3d39c828009c04ddb6764c0b04cd2439",
       "css": "forward",
       "code": 59399,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "cddbeffea9d90c5db93d5d3e77b8893e",
-      "css": "cart-plus",
-      "code": 61975,
       "src": "fontawesome"
     },
     {

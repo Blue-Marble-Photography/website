@@ -6,151 +6,37 @@ function setLightboxDefaults() {
         "share",
         "facebook",
         "download",
-        "purchase",
         "thumbs",
         "close",
     ];
     $.fancybox.defaults.animationEffect = "zoom-in-out";
     $.fancybox.defaults.btnTpl.fullScreen =
         '<button data-fancybox-fullscreen class="fancybox-button icon-resize-full" title="Expand to Full Screen"></button>';
-    $.fancybox.defaults.btnTpl.purchase =
-        '<button class="fancybox-button icon-cart-plus d-none" title="Purchase Print"></button>';
     $.fancybox.defaults.btnTpl.download =
-        '<button class="fancybox-button icon-download d-none" title="Download"></button>';
+        '<a class="fancybox-button icon-download d-none" title="Download" target="_blank" download></a>';
     $.fancybox.defaults.btnTpl.share =
         '<button class="fancybox-button icon-forward" title="Share Link"></button>';
     $.fancybox.defaults.btnTpl.facebook =
         '<button class="fancybox-button icon-facebook-squared" title="Share on Facebook"></button>';
+
+    // Show the toolbar download link only for images that have one in the gallery markup.
     $.fancybox.defaults.beforeShow = function (instance, slide) {
-        var btnPrint = $("button.fancybox-button.icon-cart-plus");
-        var btnDownload = $("button.fancybox-button.icon-download");
+        var btnDownload = $(".fancybox-button.icon-download");
+        var source = $("#image-" + slide.index + "-actions > a.icon-download");
 
-        if ($("#image-" + slide.index + "-actions > a.icon-cart-plus").length) {
-            var printDetails = $(
-                "#image-" + slide.index + "-actions > a.icon-cart-plus"
-            );
-
-            if (printDetails.attr("data-item-id")) {
-                btnPrint.get(0).dataset.itemId = printDetails.data("item-id");
-            }
-            if (printDetails.attr("data-item-name")) {
-                btnPrint.get(0).dataset.itemName =
-                    printDetails.data("item-name");
-            }
-            if (printDetails.attr("data-item-price")) {
-                btnPrint.get(0).dataset.itemPrice =
-                    printDetails.data("item-price");
-            }
-            if (printDetails.attr("data-item-shippable")) {
-                btnPrint.get(0).dataset.itemShippable =
-                    printDetails.data("item-shippable");
-            }
-            if (printDetails.attr("data-item-taxable")) {
-                btnPrint.get(0).dataset.itemTaxable =
-                    printDetails.data("item-taxable");
-            }
-            if (printDetails.attr("data-item-url")) {
-                btnPrint.get(0).dataset.itemUrl = printDetails.data("item-url");
-            }
-            if (printDetails.attr("data-item-image")) {
-                btnPrint.get(0).dataset.itemImage =
-                    printDetails.data("item-image");
-            }
-            if (printDetails.attr("data-item-custom1-name")) {
-                btnPrint.get(0).dataset.itemCustom1Name =
-                    printDetails.data("item-custom1-name");
-            }
-            if (printDetails.attr("data-item-custom1-options")) {
-                btnPrint.get(0).dataset.itemCustom1Options = printDetails.data(
-                    "item-custom1-options"
-                );
-            }
-            if (printDetails.attr("data-item-custom1-value")) {
-                btnPrint.get(0).dataset.itemCustom1Value =
-                    printDetails.data("item-custom1-value");
-            }
-
-            btnPrint.addClass("snipcart-add-item");
-            btnPrint.removeClass("d-none");
+        if (source.length) {
+            btnDownload.attr("href", source.attr("href")).removeClass("d-none");
         } else {
-            btnPrint.addClass("d-none");
-        }
-
-        if ($("#image-" + slide.index + "-actions > a.icon-download").length) {
-            var downloadDetails = $(
-                "#image-" + slide.index + "-actions > a.icon-download"
-            );
-
-            if (downloadDetails.attr("download") !== undefined) {
-                btnDownload.replaceWith(
-                    '<a class=" fancybox-button icon-download" title="Download" href="' +
-                        downloadDetails.attr("href") +
-                        '" target="_blank" download></a>'
-                );
-            } else {
-                if (downloadDetails.attr("data-item-id")) {
-                    btnDownload.get(0).dataset.itemId =
-                        downloadDetails.data("item-id");
-                }
-                if (downloadDetails.attr("data-item-file-guid")) {
-                    btnDownload.get(0).dataset.itemFileGuid =
-                        downloadDetails.data("item-file-guid");
-                }
-                if (downloadDetails.attr("data-item-max-quantity")) {
-                    btnDownload.get(0).dataset.itemMaxQuantity =
-                        downloadDetails.data("item-max-quantity");
-                }
-                if (downloadDetails.attr("data-item-name")) {
-                    btnDownload.get(0).dataset.itemName =
-                        downloadDetails.data("item-name");
-                }
-                if (downloadDetails.attr("data-item-price")) {
-                    btnDownload.get(0).dataset.itemPrice =
-                        downloadDetails.data("item-price");
-                }
-                if (downloadDetails.attr("data-item-shippable")) {
-                    btnDownload.get(0).dataset.itemShippable =
-                        downloadDetails.data("item-shippable");
-                }
-                if (downloadDetails.attr("data-item-taxable")) {
-                    btnDownload.get(0).dataset.itemTaxable =
-                        downloadDetails.data("item-taxable");
-                }
-                if (downloadDetails.attr("data-item-url")) {
-                    btnDownload.get(0).dataset.itemUrl =
-                        downloadDetails.data("item-url");
-                }
-                if (downloadDetails.attr("data-item-image")) {
-                    btnDownload.get(0).dataset.itemImage =
-                        downloadDetails.data("item-image");
-                }
-                if (downloadDetails.attr("data-item-custom1-name")) {
-                    btnDownload.get(0).dataset.itemCustom1Name =
-                        downloadDetails.data("item-custom1-name");
-                }
-                if (downloadDetails.attr("data-item-custom1-options")) {
-                    btnDownload.get(0).dataset.itemCustom1Options =
-                        downloadDetails.data("item-custom1-options");
-                }
-                if (downloadDetails.attr("data-item-custom1-value")) {
-                    btnDownload.get(0).dataset.itemCustom1Value =
-                        downloadDetails.data("item-custom1-value");
-                }
-
-                btnDownload.addClass("snipcart-add-item");
-                btnDownload.removeClass("d-none");
-            }
-        } else {
-            btnDownload.addClass("d-none");
+            btnDownload.removeAttr("href").addClass("d-none");
         }
     };
-    $.fancybox.defaults.afterShow = function () {
+
+    $.fancybox.defaults.afterShow = function (instance, slide) {
         $(".fancybox-slide--current .fancybox-image").contextmenu(function (e) {
             e.preventDefault();
 
             if ($("#context-menu").length) {
-                var index = parseInt($("[data-fancybox-index]").html()) - 1;
-                var src = $("#image-" + index).data("src");
+                var src = $("#image-" + slide.index).data("src");
 
                 $("#context-menu > ul > li > a").attr("href", src);
 
@@ -184,12 +70,4 @@ jQuery(document).ready(function () {
             );
         }
     );
-
-    $("body").on("click", "button.fancybox-button.icon-cart-plus", function () {
-        parent.$.fancybox.close();
-    });
-
-    $("body").on("click", "button.fancybox-button.icon-download", function () {
-        parent.$.fancybox.close();
-    });
 });

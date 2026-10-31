@@ -9,10 +9,6 @@ image_url: "/assets/images"
 photo_url: "https://images.bluemarble.photography"
 featured_image_url: "https://images.bluemarble.photography"
 
-snipcart_api_key:
-  test: "MmYxNTM1MzItOGRkZS00MjcxLTk4OGEtYWE5MjAwYzc1MzQ4NjM2NjYyNDExMzgxNzA0MTc0"
-  live: "N2JiYWRmMTctMjhjMS00MmY1LWJhOTYtNWVhZjY2Y2NjM2VkNjM2NjYyNDExMzgxNzA0MTc0"
-
 author:
   name: Joseph Gruber
   email: contact@bluemarble.photography
@@ -63,9 +59,6 @@ collections:
     permalink: gallery/:path/
 
 plugins: ["jekyll-paginate", "jekyll-last-modified-at", "jekyll-sitemap"]
-
-include:
-  - .well-known
 
 exclude:
   - Dockerfile

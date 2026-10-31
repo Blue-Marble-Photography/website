@@ -3,7 +3,6 @@ layout: default
 title: Guiding Eyes for the Blind
 description: Adorable pups of Guiding Eyes for the Blind exploring the strange world around them on their journey to becoming guide dogs
 album_name: guidingeyes
-snipcart: true
 robots: nofollow
 allow_download: true
 sitemap: false
@@ -25,7 +24,6 @@ sitemap: false
     {% endfor %}
 
     {% assign images = images | sort: 'date' | reverse | uniq %}
-    {% assign pricelist = site.data.pricelist["default"] %}
     {% assign tags = 'geb' %}
 
     {% for image in images limit: 100 %}

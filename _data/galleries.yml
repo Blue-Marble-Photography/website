@@ -2,66 +2,51 @@ astrophotography:
   name: Astrophotography
   permalink: /gallery/astrophotography
   preview_image: JosephGruber_20150517_050218.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20150517_050218.jpg
       date: 2015-05-17T12:02:18Z
       title: Bonneville Star Trails
-      guid: 108fd96b-6f3c-49d6-83a2-d908626284ee
     - filename: JosephGruber_20150802_212150.jpg
       date: 2015-08-02T01:21:50Z
       title: Space Station Sunset
-      guid: f9931a5d-d534-4dfa-b11c-cc754590d98f
     - filename: JosephGruber_20160225_205236.jpg
       title: Meteoric Aurora
       date: 2016-02-26T05:52:36Z
-      guid: 0256ab40-ebaf-4454-849d-934da2b3d239
     - filename: JosephGruber_20160604_042904.jpg
       date: 2016-06-04T08:29:04Z
       title: Sky-line Drive
-      guid: f6d64756-bf0a-43e7-a67f-fd199137c3a5
     - filename: JosephGruber_20160618_220602.jpg
       date: 2016-06-19T00:06:02Z
       title: Star Trails Over The Capitol
-      guid: 640cf941-a270-4539-9f42-1081d7d255e8
     - filename: JosephGruber_20160625_233129.jpg
       date: 2016-06-26T03:31:29Z
       title: George Washington's Universe
-      guid: 8f3af871-c2a2-4101-9597-7c32b698ad46
     - filename: JosephGruber_20160813_030206.jpg
       date: 2016-08-13T07:02:06Z
       title: Perseids
-      guid: f780cec1-cbb8-4406-aa3d-9f51a65658d6
     - filename: JosephGruber_20160813_032021.jpg
       date: 2016-08-13T07:20:21Z
       title: Galactic Selfie
-      guid: 21fa665c-89f4-46bd-8502-765c4ada41c6
     - filename: JosephGruber_20160923_214739.jpg
       date: 2016-09-24T01:47:39Z
       title: Skyline Drive Straight Ahead
-      guid: a3df9411-c459-4a54-8286-6e793bc7b3bd
     - filename: JosephGruber_20170821_143622.jpg
       date: 2017-08-21T18:36:22Z
       title: 2017 Great American Eclipse
-      guid: 330dd462-83ab-4a70-9dc8-e335bb7aedf2
     - filename: JosephGruber_20140712_222117.jpg
       date: 2014-07-13T02:21:17Z
       title: Supermoon Departure
-      guid: cb621e57-b38b-4578-a126-7d85e55bb018
     - filename: JosephGruber_20190331_034104.jpg
       date: 2019-03-31T03:41:04Z
       title: Space Needle, meet Space Station
       caption: The International Space Station passes high above the Space Needle in Seattle amidst a background of stars in the night sky
-      guid: a7a63f49-ddec-4383-936a-9bb01e7c128f
     - filename: JosephGruber_20190804_070247.jpg
       date: 2019-08-04T07:02:47Z
       title: Star Trails over Mount Rainier reflected in Reflection Lake
       caption: Hundreds of stars and planets rotate around the North Star, Polaris, above Mount Rainier with the reflection of both seen in Reflection Lake
-      guid: 938f091c-128e-409a-8eca-86cd09b94fe0
     - filename: JosephGruber_20210329_132747.jpg
       date: 2021-03-29T13:27:47Z
       title: Full Worm Moon setting over the NOAA Table Mountain Test Facility
-      guid: 0a0ba30e-c25c-4edd-ba71-a2c41e9b2a33
     - filename: JosephGruber_20220628_085943.jpg
       date: 2022-06-28T08:59:43Z
       title: Colorado Night Skies
@@ -70,117 +55,93 @@ landscapes:
   name: Landscapes
   permalink: /gallery/landscapes
   preview_image: JosephGruber_20150311_191718.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20150311_191718.jpg
       date: 2015-03-11T19:17:18Z
       title: What A Beautiful World!
       caption: Sunset over the Anacostia River viewed from Yards Park.
-      guid: d9e42d56-5cfc-4d0d-b4d9-8d349cbe5fe6
     - filename: JosephGruber_20150515_154029.jpg
       date: 2015-05-15T15:40:23Z
       title: Lower Falls of the Yellowstone
-      guid: edaa4edb-155d-438e-9ec1-d1f7c9253c59
     - filename: JosephGruber_20150517_063527.jpg
       date: 2015-05-17T06:35:25Z
       title: Warm sunshine
       caption: A cold night breaks on the Bonneville Salt Flats
-      guid: 8c8c9379-dac9-4c3b-b092-98a9defa99d9
     - filename: JosephGruber_20150518_084146.jpg
       date: 2015-05-18T08:41:46Z
       title: Lake Tahoe Rocky Shoreline
-      guid: 248d2c56-67de-4bab-a095-e8e4e46fedc0
     - filename: JosephGruber_20150519_085858.jpg
       date: 2015-05-19T08:58:58Z
       title: Point Arena Lighthouse
       caption: The tallest lighthouse on the Pacific coast
-      guid: 9a9f8e9f-94a7-48f5-a24e-026b40cc954b
     - filename: JosephGruber_20150802_201051.jpg
       date: 2015-08-02T20:10:51Z
       title: Sunset over the Shenandoah Valley
       caption: Beautiful sunset seen from the Browntown Valley Overlook in the Shenandoah National Park
-      guid: a8d632c9-ed85-4c7b-bdf7-400ba274bd96
     - filename: JosephGruber_20150905_193614.jpg
       date: 2015-09-05T19:36:14Z
       title: Great Falls Sunset
       caption: The orange glow of sunset over the Potomac River 'Great Falls' on Labor Day weekend
-      guid: 801c06de-076a-461c-877e-ec382802b5dd
     - filename: JosephGruber_20151118_093717.jpg
       date: 2015-11-18T09:37:17Z
       title: Red Rocks Sunrise
       caption: Sunrise over the mountains near Denver, Colorado seen from Red Rocks Park
-      guid: fd2fd96d-357a-4ad8-95a7-9f7ac3737302
     - filename: JosephGruber_20151205_111946.jpg
       date: 2015-12-05T11:19:46Z
       title: Frozen Sheep Lakes
       caption: Three of the mountains in Rocky Mountain National Park can be seen in the distance from a frozen Sheep Lakes
-      guid: 56c677d7-3e36-42bd-a8a9-9c23bcab3401
     - filename: JosephGruber_20160220_093007.jpg
       date: 2016-02-20T09:30:07Z
       title: Sunrise on the range
-      guid: 22b11533-add3-4850-a4d8-1a5a4db2fe39
     - filename: JosephGruber_20160223_131742.jpg
       date: 2016-02-23T13:17:42Z
       title: Winter Sunrise
-      guid: 62e65b93-4a04-49c7-93cb-4aa5c4c5e52e
     - filename: JosephGruber_20161231_081805.jpg
       date: 2016-12-31T08:18:01Z
       title: Last Sunrise
       caption: A light show in the sky during the last sunrise of the year as the clouds take on multiple colors and reflect in the Potomac River
-      guid: 0b76d89c-bd54-48c6-88ec-bdf643cae440
     - filename: JosephGruber_20190512_034541.jpg
       date: 2019-05-12T03:45:40Z
       title: Colorful sunset over Mt Shuksan and Baker Lake
       caption: The sky glows pink as the sun sets behind Mt Baker and Baker Lake in the Pacific Northwest
-      guid: 877f8719-0779-4e52-bf2d-bd60e4bd55f4
     - filename: JosephGruber_20200805_012938.jpg
       date: 2020-08-05T01:29:38Z
       title: Sunflowers & Showers
       caption: Raindrops fall onto a field of bright yellow and orange sunflowers
-      guid: 22a813fd-4582-49e7-a965-c523ae61a99a
     - filename: JosephGruber_20200805_013708.jpg
       date: 2020-08-05T01:37:08Z
       title: Sunset Sunflowers
       caption: The sun shines bright in the sky as it begins to set behind a wide field of yellow and orange sunflowers
-      guid: b7e08ecc-318e-4205-b1cb-282a9adb9f2d
     - filename: JosephGruber_20200322_024804.jpg
       date: 2020-03-22T02:48:04Z
       title: Peaceful sunset along the Pacific Northwest coast
       caption: Dusk along the Pacific coastline as waves crash along the rocks and beach with pink and purple colors bright in the sky
-      guid: 05755bc8-46ed-402e-b8b0-55882a729818
     - filename: JosephGruber_20191110_130735.jpg
       date: 2019-11-10T13:07:35Z
       title: Sunrise
       caption: Vivid sunrise over the flatness of the Plains from the horizon to the sky with a spectrum of orange, yellow, and blues
-      guid: 2e4ebe59-6904-4c2c-bf39-966cbd65f9f6
     - filename: JosephGruber_20190705_014154.jpg
       date: 2019-07-05T01:41:54Z
       title: Majestic Bison
       caption: Bison grazing with the Swan Range in northern Montana just south of Glacier National Park majestically rising in the distance
-      guid: 4a1130b3-490a-4ca8-98a7-189ac350c44a
     - filename: JosephGruber_20201226_225849.jpg
       date: 2020-12-26T22:58:48Z
       title: Sunset at Pawnee Buttes
-      guid: b5397320-989d-456a-842f-8f6d484ce6b1
     - filename: JosephGruber_20210523_233657.jpg
       date: 2021-05-23T23:36:57Z
       title: Somewhere...
-      guid: cea13c6b-bd3e-4093-8bc7-8bf102834f86
     - filename: JosephGruber_20210925_181259.jpg
       date: 2021-09-25T18:12:59Z
       title: Wyoming Fall Foliage
       caption: Brilliant orange and yellow trees at fall in southern Wyoming at the Continential Divide
-      guid: cefb97a2-486d-494e-9739-e37be5593d73
     - filename: JosephGruber_20210925_181730.jpg
       date: 2021-09-25T18:17:30Z
       title: Wyoming Fall Foliage
       caption: Fall's reds, oranges, and yellows as far as the eye can see in Wyoming
-      guid: 65292528-9c72-4ef9-9526-00cb7a6798aa
     - filename: JosephGruber_20211004_000847.jpg
       date: 2021-10-04T00:08:47Z
       title: Aspen Glow
       caption: Golden hues light up Boreas Pass and the golden fall foliage in Colorado
-      guid: 9453aaae-1df5-4742-b2c6-81306a2907db
     - filename: JosephGruber_20211008_160515.jpg
       date: 2021-10-08T16:05:15Z
       title: Hiking in the White Mountain National Forest
@@ -201,590 +162,466 @@ pets:
   name: Pets
   permalink: /gallery/pets
   preview_image: JosephGruber_20160108_214618.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160108_214618.jpg
       date: 2016-01-08T21:46:18Z
       title: Pumpkin
-      guid: d72920a7-c167-4561-ae1b-6aba88de8424
     - filename: JosephGruber_20160117_091603.jpg
       date: 2016-01-17T09:16:03Z
       title: Who? Me?
-      guid: 33110568-2d78-4c4e-bafe-8768ba56f33d
     - filename: JosephGruber_20160313_130948.jpg
       date: 2016-03-13T13:09:48Z
       title: Balsa
-      guid: a99f755e-3661-4dbd-a8be-037b6765ece9
     - filename: JosephGruber_20160320_120853.jpg
       date: 2016-03-20T12:08:53Z
       title: Ellery
-      guid: e06df60a-c9f6-4923-a7d0-8c516a5b359b
     - filename: JosephGruber_20160925_120847.jpg
       date: 2016-09-25T12:08:47Z
       title: Delilah
-      guid: e624c484-280c-4b3c-871b-e053d409b024
     - filename: JosephGruber_20161023_083429.jpg
       date: 2016-10-23T08:34:29Z
       title: Pumpkin
       caption: Guiding Eyes for the Blind puppy-in-training Pumpkin in a down with the Washington, D.C. skyline behind her.
-      guid: afb226a3-893f-4d95-9861-c2e82b9f637c
     - filename: JosephGruber_20161105_090725.jpg
       date: 2016-11-05T09:07:25Z
       title: Fall Pumpkin
-      guid: 6951e651-9662-4e03-97b3-1fed5ff5ed3a
     - filename: JosephGruber_20161226_202709.jpg
       date: 2016-12-26T20:27:09Z
       title: Trouble
-      guid: 8003b715-4276-43e0-83af-290712f938fd
     - filename: JosephGruber_20170219_173907.jpg
       date: 2017-02-19T17:39:07Z
       title: Pumpkin
       caption: A young, cute yellow lab takes a nap in the grass on a sunny, warm early spring day
-      guid: a216cf0c-d404-4679-bf26-7284158a8797
     - filename: JosephGruber_20170219_174241.jpg
       date: 2017-02-19T17:42:41Z
       title: Pumpkin
       caption: A regal looking, young, yellow labrador retriever gazes off in the distance as she basks in the sun laying in the grass on a warm day
-      guid: 1e33684b-8a62-4aac-bba4-5b4bfd1071a9
     - filename: JosephGruber_20170312_185631.jpg
       date: 2017-03-12T18:56:31Z
       title: Pumpkin
       caption: Pumpkin enjoys a day out in Shenandoah National Park
-      guid: 9b3304f8-5b80-47f5-8dc7-5aea15f06aa5
     - filename: JosephGruber_20170611_121522.jpg
       date: 2017-06-11T12:15:22Z
       title: Nutmeg
-      guid: 63bfec1f-c23c-4654-a0cf-8e897167cd94
     - filename: JosephGruber_20170722_065122.jpg
       date: 2017-07-22T06:51:22Z
       title: Reno
-      guid: a6377f28-8da9-4330-bd4a-bcdff2cfbef4
     - filename: JosephGruber_20170813_144136.jpg
       date: 2017-08-13T14:41:36Z
       title: Valor
-      guid: 2b90580c-7686-4a1c-a08a-141734074574
     - filename: JosephGruber_20171028_150500.jpg
       date: 2017-10-28T15:05:00Z
       title: Benny
-      guid: 49fa1ad1-3572-4f1c-aa66-21a63dc82cf5
     - filename: JosephGruber_20180408_091227.jpg
       date: 2018-04-08T09:12:27Z
       title: Meyer
-      guid: b884c57b-3329-4f58-9579-9d21ee3f0137
     - filename: JosephGruber_20180428_165539.jpg
       date: 2018-04-28T16:55:39Z
       title: Elkins
-      guid: a613912a-c0c9-439d-af2c-e98fceaf3eff
     - filename: JosephGruber_20180630_074343.jpg
       date: 2018-06-30T07:43:43Z
       title: Rue
-      guid: d79b0033-c31b-4813-b910-f100d9f655ea
     - filename: JosephGruber_20201226_231001.jpg
       date: 2020-12-26T23:10:01Z
       title: Bando
-      guid: 9d018cf5-e462-489c-a7d6-ebc542361c3f
 
 memorials:
   name: Memorials
   permalink: /gallery/memorials
   preview_image: JosephGruber_20151114_181926.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20151114_175540.jpg
       date: 2015-11-14T17:55:40Z
       title: A flower in the tricolour of France's flag
       caption: Crowds gather at Lafeyette Square in a vigil to honor the victims of the attacks in Paris and show solidarity with France
-      guid: 04fb43ef-781e-4d21-b88c-0900547a76c6
     - filename: JosephGruber_20151114_181926.jpg
       date: 2015-11-14T18:19:26Z
       title: Candlelight Vigil for Paris
       caption: Crowds gather at Lafeyette Square in a vigil to honor the victims of the attacks in Paris and show solidarity with France
-      guid: 7e091d29-5088-4425-bce0-bb8427a9a7a1
     - filename: JosephGruber_20151114_182749.jpg
       date: 2015-11-14T18:27:49Z
       title: Candlelight Vigil for Paris
       caption: Crowds gather at Lafeyette Square in a vigil to honor the victims of the attacks in Paris and show solidarity with France
-      guid: 225d12e3-705d-4519-98ca-926f25b41c07
     - filename: JosephGruber_20151114_184855.jpg
       date: 2015-11-14T18:48:55Z
       title: Candlelight Vigil for Paris
       caption: Crowds gather at Lafeyette Square in a vigil to honor the victims of the attacks in Paris and show solidarity with France
-      guid: f6739a05-da37-4573-9476-2e7932eea4cd
 
 activism:
   name: Activism
   permalink: /gallery/activism
   preview_image: JosephGruber_20160707_211247.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20141106_192511.jpg
       date: 2014-11-06T19:25:11Z
       title: Net Neutrality Protest at the White House
-      guid: 19deb57a-15cf-4c83-8a88-43067056d36c
     - filename: JosephGruber_20141129_155501.jpg
       date: 2014-11-29T15:55:01Z
       title: DC Ferguson Protest in Pentagon City (Arlington, Virginia)
       caption: Approximately 50 protesters gather outside of the Pentagon City Mall in Arlington, Virginia on Saturday, November 29th, 2014 to show solidarity with Ferguson, Missouri protests. A small group of protesters showed frustration in which the manner the protests were being handled.
-      guid: de02b07f-d06a-4b9b-960c-070bfb34706d
     - filename: JosephGruber_20160707_202223.jpg
       date: 2016-07-07T20:22:23Z
       title: DC protests after recent police-involved shootings
       caption: Protestors gather in front of the White House after recent police involved shootings of Alton Sterling and Philando Castile
-      guid: ec4ff29a-45aa-484c-9f66-ae8099df5d12
     - filename: JosephGruber_20160707_205012.jpg
       date: 2016-07-07T20:50:12Z
       title: DC protests after recent police-involved shootings
       caption: Protestors march down Pennsylvania Avenue from the White House to the United States Capitol Building after recent police involved shootings of Alton Sterling and Philando Castile
-      guid: 07ae1c4a-fcd3-4d8d-a079-96d56c3f23c2
     - filename: JosephGruber_20160707_211247.jpg
       date: 2016-07-07T21:12:47Z
       title: DC protests after recent police-involved shootings
       caption: Protestors gather at the United States Capitol Building after recent police involved shootings of Alton Sterling and Philando Castile
-      guid: a672fe1a-2a85-4dd9-b7a1-d7ca9305118c
     - filename: JosephGruber_20160707_211253.jpg
       date: 2016-07-07T21:12:53Z
       title: DC protests after recent police-involved shootings
       caption: Protestors gather at the United States Capitol Building after recent police involved shootings of Alton Sterling and Philando Castile
-      guid: f77e52fe-ae01-4a91-8bf2-6c725abb3865
     - filename: JosephGruber_20170114_123322.jpg
       date: 2017-01-14T12:33:22Z
       title: National Action Network - We Shall Not Be Moved March
-      guid: 54fad3d7-1f55-41cf-ae91-ba9be8b9b4ea
     - filename: JosephGruber_20170114_130625.jpg
       date: 2017-01-14T13:06:25Z
       title: National Action Network - We Shall Not Be Moved March
-      guid: 103a33e8-91f7-4f09-9bcc-b7085c882563
     - filename: JosephGruber_20170116_200723.jpg
       date: 2017-01-16T20:07:23Z
       title: Inauguration 2017 Protests in Washington, D.C.
       caption: Washington, USA. 16 Jan, 2017. Protesters with 'Refuse Fascism' march and demonstrate on the streets of Washington, D.C. in the days ahead of President-elect Donald J. Trump's inauguration
-      guid: 7ddf9b7c-0882-40e8-a08a-504b4d1ace18
     - filename: JosephGruber_20170116_203621.jpg
       date: 2017-01-16T20:36:21Z
       title: Inauguration 2017 Protests in Washington, D.C.
       caption: Washington, USA. 16 Jan, 2017. Protesters with 'Refuse Fascism' confront DC police and security in front of the Trump International Hotel ahead of President-elect Donald J. Trump's inauguration in Washington, D.C.
-      guid: f6bbe65e-2796-4bd0-b0e6-23b46b73af49
     - filename: JosephGruber_20170119_184641.jpg
       date: 2017-01-19T18:46:41Z
       title: Rally the day before President Trump's 2016 inauguration
-      guid: e68bbf2e-9271-4124-b98c-df3f785a8029
     - filename: JosephGruber_20170119_185122.jpg
       date: 2017-01-19T18:51:22Z
       title: Protests at President Trump's 2016 inauguration
-      guid: 8a169b46-3b37-435b-8cf7-9990592ba3e5
     - filename: JosephGruber_20170119_195049.jpg
       date: 2017-01-19T19:50:49Z
       title: Protests at President Trump's 2016 inauguration
-      guid: 469524b4-9028-45eb-9a3a-04b3da3c85c3
     - filename: JosephGruber_20170120_102525.jpg
       date: 2017-01-20T10:25:25Z
       title: Protests at President Trump's 2016 inauguration
-      guid: 11855520-5c02-4be8-a7b9-7c706c405724
     - filename: JosephGruber_20170120_103858.jpg
       date: 2017-01-20T10:38:58Z
       title: Protests at President Trump's 2016 inauguration
-      guid: c20add45-bcb2-4932-8366-efabd3e16cb4
     - filename: JosephGruber_20170120_105217.jpg
       date: 2017-01-20T10:52:17Z
       title: Protests at President Trump's 2016 inauguration
-      guid: 0d9aec73-60e0-4965-81fa-3804ddf9591f
     - filename: JosephGruber_20170120_110629.jpg
       date: 2017-01-20T11:06:29Z
       title: Protests at President Trump's 2016 inauguration
-      guid: d1aaa944-bd02-4d6f-9900-862112b0815d
     - filename: JosephGruber_20170121_094455.jpg
       date: 2017-01-21T09:44:55Z
       title: Women's March on Washington
-      guid: e619ea2b-fe96-4054-a6dc-0ddeae7b8dd7
     - filename: JosephGruber_20170121_100424.jpg
       date: 2017-01-21T10:04:24Z
       title: Women's March on Washington
-      guid: a0bd9ec8-5276-4738-82f8-b27409a4f102
     - filename: JosephGruber_20170121_110852.jpg
       date: 2017-01-21T11:08:52Z
       title: Women's March on Washington
-      guid: 4f957ef3-8725-43e1-8de4-fd5c615b09ba
     - filename: JosephGruber_20170121_114754.jpg
       date: 2017-01-21T11:47:54Z
       title: Women's March on Washington
-      guid: 60aa92c7-a808-40ae-81cc-8e4749cca0f6
     - filename: JosephGruber_20170121_115043.jpg
       date: 2017-01-21T11:50:43Z
       title: Women's March on Washington
-      guid: 34b66cad-43a4-49d0-9f6b-12154781a296
     - filename: JosephGruber_20170121_115318.jpg
       date: 2017-01-21T11:53:18Z
       title: Women's March on Washington
-      guid: bc1b7d1c-273f-4193-b810-ae2ad9164738
     - filename: JosephGruber_20170422_144939.jpg
       date: 2017-04-22T14:49:39Z
       title: March for Science Rally in Washington, D.C.
       caption: Activists and protesters march to the United States Capitol as part of the March for Science rally on Earth Day
-      guid: a4a3f0b0-1521-49a7-b6b7-41011af8844c
     - filename: JosephGruber_20170422_145205.jpg
       date: 2017-04-22T14:52:05Z
       title: March for Science Rally in Washington, D.C.
       caption: Bill Nye leads a group of activists and protesters in a march to the United States capitol during the March for Science.
-      guid: 6c4ea1d4-5be3-411d-9168-6949f65583c9
     - filename: JosephGruber_20180219_124815.jpg
       date: 2018-02-19T12:48:15Z
       title: March for our Lives Protest in Washington, D.C.
       caption: High school students from across the D.C. area protest gun control laws and gun reform in front of the White House
-      guid: 7a635eb6-9edf-460d-889e-74f2859381f0
 
 events:
   name: Events
   permalink: /gallery/events
   preview_image: JosephGruber_20160507_134709.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20151212_114726.jpg
       date: 2015-12-12T11:47:26Z
       title: Wreaths Across America
       caption: Civil Air Patrol National Commander, Major General Joseph Vazquez, lays a holiday wreath at a veterans gravesite during Wreaths Across America
-      guid: 0c7c7376-1067-4b36-9e03-6a4cced9c3d6
     - filename: JosephGruber_20151212_162207.jpg
       date: 2015-12-12T16:22:07Z
       title: Wreaths Across America
       caption: Officers from the United States Air Force Auxilary, Civil Air Patrol, salute the Tomb of the Unknown Soldier during a wreath laying at Arlington National Cemetery
-      guid: 4933be0b-e53b-4a31-9318-ed1a284b5e91
     - filename: JosephGruber_20160507_105613.jpg
       date: 2016-05-07T10:56:13Z
       title: DC Funk Parade 2016
       caption: DC Parks & Rec Dancers performing at the Harrison Rec Family Funk Pavilion hosted by The DC Public Library and World Beats & Life for Funk Parade, a festival celebrating music and arts in Washington, DC's U Street Neighborhood. Saturday, May 7, 2016.
-      guid: 1c715d04-cc4b-424b-9271-68d70a8e7618
     - filename: JosephGruber_20160507_114224.jpg
       date: 2016-05-07T11:42:24Z
       title: DC Funk Parade 2016
       caption: The Drum Lady performing at the Harrison Rec Family Funk Pavilion hosted by The DC Public Library and World Beats & Life for Funk Parade, a festival celebrating music and arts in Washington, DC's U Street Neighborhood. Saturday, May 7, 2016.
-      guid: 3ea172fd-2401-4ff1-b5c9-497b60c06105
     - filename: JosephGruber_20160507_124727.jpg
       date: 2016-05-07T12:47:27Z
       title: DC Funk Parade 2016
       caption: Crush Funk Brass performing at the Reeves Center hosted by DCRE for Funk Parade, a festival celebrating music and arts in Washington, DC's U Street Neighborhood. Saturday, May 7, 2016.
-      guid: 4f7827c4-c462-41e2-b2ef-553f1f66d0b0
     - filename: JosephGruber_20160507_131953.jpg
       date: 2016-05-07T13:19:53Z
       title: DC Funk Parade 2016
       caption: Urban Artistry performing at the Reeves Center hosted by DCRE for Funk Parade, a festival celebrating music and arts in Washington, DC's U Street Neighborhood. Saturday, May 7, 2016.
-      guid: b4f32b30-c1fc-43a9-bc39-1c5592777174
     - filename: JosephGruber_20160507_134709.jpg
       date: 2016-05-07T13:47:09Z
       title: DC Funk Parade 2016
       caption: Nubian Spin performing at the Reeves Center hosted by DCRE for Funk Parade, a festival celebrating music and arts in Washington, DC's U Street Neighborhood. Saturday, May 7, 2016.
-      guid: d725fc14-4400-4b61-8abe-12d3bcc239dc
     - filename: JosephGruber_20160508_110822.jpg
       date: 2016-05-08T11:08:22Z
       title: Commemorate V-E Day at the World War II Memorial
       caption: Civil Air Patrol Commemorates 71st Anniversary of V-E Day at the World War II Memorial in Washington, D.C.
-      guid: 1c31b3d8-a652-4595-8236-6b944c154d9c
     - filename: JosephGruber_20160508_113005.jpg
       date: 2016-05-08T11:30:05Z
       title: Commemorate V-E Day at the World War II Memorial
       caption: Civil Air Patrol Commemorates 71st Anniversary of V-E Day at the World War II Memorial in Washington, D.C.
-      guid: ea3f8db2-470b-474d-b6b4-f3a8ddc36fec
     - filename: JosephGruber_20160730_130516.jpg
       date: 2016-07-30T13:05:16Z
       title: Pokemon GO! DC Pokewalk
       caption: A statue of Thomas Jefferson at the Jefferson Memorial overlooks those gathered for the DCPokewalk
-      guid: c341609e-c88a-47a5-a411-27031d56331b
     - filename: JosephGruber_20160730_131650.jpg
       date: 2016-07-30T13:16:50Z
       title: Pokemon GO! DC Pokewalk
       caption: Daniel, team leader for the DC Pokewalk, shares information with the teams gathered at theJefferson Memorial.
-      guid: ede7d446-e3e6-4b98-bde6-2d0b88d2272b
     - filename: JosephGruber_20160730_133857.jpg
       date: 2016-07-30T13:38:57Z
       title: Pokemon GO! DC Pokewalk
       caption: Vernon, a self-proclaimed gamer, works to "catch them all" at the Roosevelt Memorial during the DC Pokewalk
-      guid: 32a758d4-2fa3-432e-af17-9b33d553688d
     - filename: JosephGruber_20160730_141501.jpg
       date: 2016-07-30T14:15:01Z
       title: Pokemon GO! DC Pokewalk
       caption: Team Instinct volunteer Shawn, pauses to regather the team at the Washington Monument withthe "purposely made routes planned out of respect" for the memorials and monuments.
-      guid: ef362262-446d-47e3-949c-682e4930cc31
 
 washington-dc:
   name: Washington, D.C.
   permalink: /gallery/washington-dc
   preview_image: JosephGruber_20150412_070133.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20140912_204409.jpg
       date: 2014-09-12T19:29:10Z
       title: Jefferson Memorial and Washington Monument
-      guid: d0792647-e87a-42c0-8834-ab33ad2adddd
     - filename: JosephGruber_20140922_185549.jpg
       date: 2014-09-22T18:55:49Z
       title: DC Monuments and Memorials
       caption: View of DC monuments and memorials on the 2014 fall equinox.
-      guid: bd9c59b1-6f5b-4656-8881-da48a988e2f2
     - filename: JosephGruber_20141101_180637.jpg
       date: 2014-11-01T18:06:37Z
       title: United States Air Force Memorial
       caption: Sunset from the United States Air Force Memorial in Arlington, Virginia
-      guid: d25eabbe-d458-4e92-850a-2f1fb193fa8c
     - filename: JosephGruber_20141226_172623.jpg
       date: 2014-12-26T17:26:23Z
       title: D.C. Metro at the Speed of Light
-      guid: 3d1616e9-f547-4c6d-9b89-7c33f546e722
     - filename: JosephGruber_20150101_070156.jpg
       date: 2015-01-01T07:01:56Z
       title: New Year's Sunrise over the Tidal Basin
       caption: First Light on New Year's Day over the DC Tidal Basin & Jefferson Memorial
-      guid: 2fda3266-5be7-4ffe-adc2-8abc07e13ac5
     - filename: JosephGruber_20150103_112215.jpg
       date: 2015-01-03T11:22:15Z
       title: Landing at Reagan National Airport in DC
       caption: US Airways on a crosswind landing at Reagan National Airport (DCA)
-      guid: 7fe343d1-6f85-4b2f-9bd6-713b88761aa9
     - filename: JosephGruber_20150111_130920.jpg
       date: 2015-01-11T13:09:20Z
       title: Frozen Reflection
       caption: The Washington Monument reflecting in the frozen Reflecting Pool
-      guid: acc64dc4-1697-4ea8-8baa-39280465367e
     - filename: JosephGruber_20150111_133915.jpg
       date: 2015-01-11T13:39:15Z
       title: Remember
-      guid: c3e407db-fe35-4ad6-a0ae-8ea408cbd25f
     - filename: JosephGruber_20150412_063648.jpg
       date: 2015-04-12T06:36:48Z
       title: Peak Cherry Blossom Bloom
       caption: Washington Monument reflected in the Tidal Basin during peak cherry blossom bloom
-      guid: 55e76a6e-49ac-4b0c-bb84-5fb711b5ffa9
     - filename: JosephGruber_20150412_065221.jpg
       date: 2015-04-12T06:52:21Z
       title: Jefferson Memorial and cherry blossoms
-      guid: cf974146-93a1-4695-8b8d-edd9f1c9b63e
     - filename: JosephGruber_20150412_070133.jpg
       date: 2015-04-12T07:01:33Z
       title: Small cherry blossom tree and the Washington Monument
-      guid: bba3f3ef-c18a-4eef-bfde-b68ef547ac16
     - filename: JosephGruber_20150503_201622.jpg
       date: 2015-05-03T20:16:22Z
       title: Flower Moon over the Jefferson Memorial
-      guid: ce4f9dd8-b492-4502-8148-68332fc88485
     - filename: JosephGruber_20150618_210219.jpg
       date: 2015-06-18T21:02:19Z
       title: Lincoln Memorial Stormy Reflection
       caption: The Lincoln Memorial reflects in the wet granite after thunderstorms passed through the DC area
-      guid: 7dad38c1-b191-46ee-911a-92c59bdd53bd
     - filename: JosephGruber_20150704_211055.jpg
       date: 2015-07-04T21:10:55Z
       title: Independence Day Fireworks in DC
       caption: Composite of three seperate firework shots
-      guid: a4c543df-f701-488d-83c9-99ed7a43a09c
     - filename: JosephGruber_20150924_191524.jpg
       date: 2015-09-24T19:15:24Z
       title: United States Capitol Building
       caption: The United States Capitol Building just after sunset reflects in the skylight's of the visitor center
-      guid: e0d28776-d576-443c-9bd4-a59db436dbd4
     - filename: JosephGruber_20151016_174456.jpg
       date: 2015-10-16T17:44:56Z
       title: Supreme Court of the United States (SCOTUS) Building
       caption: A shadow is cast on the Supreme Court of the United States at sunset
-      guid: 967185fd-a745-4b4d-b6e0-adebaf4cb9ea
     - filename: JosephGruber_20151016_181446.jpg
       date: 2015-10-16T18:14:46Z
       title: United States Capitol Building
-      guid: 8bf28453-2e9b-4e48-a4f6-9d51b2cd2071
     - filename: JosephGruber_20151016_181723.jpg
       date: 2015-10-16T18:17:23Z
       title: Restoration
       caption: The flag of the United States of America flies in front of the scaffodling for the United States Capitol dome restoration project
-      guid: fc5e15a7-ba34-4bea-a528-88a9586e1a50
     - filename: JosephGruber_20160502_205930.jpg
       date: 2016-05-02T20:59:30Z
       title: Lighting up DC
       caption: A lightning bolt seemingly hits near the Washington Monument as severe storms move through the Washington, DC metro area
-      guid: 1ac021d4-2014-44eb-9437-536492512a1c
     - filename: JosephGruber_20170114_124056.jpg
       date: 2017-01-14T12:40:56Z
       title: Tear of a Dream
       caption: It's as if Martin Luther King, Jr. was shedding a tear
-      guid: 4152b872-7ac1-489e-b611-f28e6fdada29
     - filename: JosephGruber_20170225_083006.jpg
       date: 2017-02-25T08:30:06Z
       title: Blue Skies and Cherry Blossoms
       caption: Blue Skies and Cherry Blossoms during peak bloom of the cherry trees in Washington, D.C.
-      guid: 132339b0-0e07-47e5-8f0e-0cd8851396f7
     - filename: JosephGruber_20170330_072136.jpg
       date: 2017-03-30T07:21:36Z
       title: Capitol Blossoms
-      guid: 8ff5eeba-73b8-4c08-b525-78c6c68c7aad
     - filename: JosephGruber_20170330_074520.jpg
       date: 2017-03-30T07:45:20Z
       title: Cherry Blossoms at Hains Point
       caption: Cherry trees line Ohio Drive in Potomac Park during peak bloom of the cherry blossoms in Washington, D.C.
-      guid: 876f3fad-650e-4bb2-b048-616e8e51cfa1
     - filename: JosephGruber_20170406_183617.jpg
       date: 2017-04-06T18:36:16Z
       title: Spring at the Capitol
       caption: Flowers bloom in a flowerbed on the east side of the United States Capitol Building in D.C.
-      guid: d662db1b-a047-4e96-8b46-5bf9f4d426bd
     - filename: JosephGruber_20170406_185410.jpg
       date: 2017-04-06T18:54:09Z
       title: Clouds over the United States Capitol
       caption: Storm clouds begin gathering over the United States Capitol Building before rain arrived in the D.C. area
-      guid: 68974802-a26d-485d-8549-f9bb6ec659b1
     - filename: JosephGruber_20170410_194103.jpg
       date: 2017-04-10T19:41:03Z
       title: A Perfect Spring Day in DC
-      guid: 2c4f9e1b-f128-451f-8b12-fc1c3d559685
     - filename: JosephGruber_20171004_223845.jpg
       date: 2017-10-04T22:38:45Z
       title: Washington Nationals
       caption: Nationals Park in the foreground and the United States Capitol Building in the background
-      guid: fa90d6e1-f554-4297-920a-58792e788d20
     - filename: JosephGruber_20171209_122615.jpg
       date: 2017-12-09T12:26:15Z
       title: Winter snowfall at Nationals Park
       caption: Heavy snow begins to fall at Nationals Park during the offseason
-      guid: 091d9664-40e4-4743-ac10-715bbd448a40
     - filename: JosephGruber_20180106_142037.jpg
       date: 2018-01-06T14:20:37Z
       title: Frozen Potomac River
       caption: Frozen Potomac River near the Memorial Bridge connecting Virginia
-      guid: 58ea1032-30b3-4425-8a98-37109b2ce828
     - filename: JosephGruber_20180108_070524.jpg
       date: 2018-01-08T07:05:24Z
       title: Frozen Sunrise
       caption: Colors are cast in the sky at sunrise over a frozen Tidal Basin and Jefferson Memorial in Washington, D.C.
-      guid: 3b310256-a4e9-4685-bf28-130e47aeea0c
     - filename: JosephGruber_20190129_225804.jpg
       date: 2019-01-29T22:58:04Z
       title: Capitol Snow
       caption: Snow flakes fall around the United States Capitol Building dome during a DC snowstorm
-      guid: 01335939-c7a9-4278-af3f-761d2b80d55d
     - filename: JosephGruber_20180907_003815.jpg
       date: 2018-09-07T00:38:15Z
       title: Monumental Strike
       caption: Lightning strikes behind the Washington Monument lighting up the night sky
-      guid: cae798d0-5819-4a4f-9520-53c6175979b7
     - filename: JosephGruber_20190217_121203.jpg
       date: 2019-02-17T12:12:03Z
       title: Capitol Sunrise
       caption: Sunrise from the steps of the Lincoln Memorial looking out over the DC skyline and Lincoln Memorial Reflecting Pool
-      guid: 9f1d5d0b-8f0c-4f60-bc43-9311662ac50b
     - filename: JosephGruber_20181223_115703.jpg
       date: 2018-12-23T11:57:03Z
       title: Christmas Shutdown
       caption: December 2018 - As the US government shutdown began, impacts began to be felt far and wide including at the United States Capitol with limited visiting hours for the Capitol Christmas Tree.
-      guid: 82497960-b08c-4c8e-80d3-509bb11b4fcc
 
 pacific-northwest:
   name: Pacific Northwest
   permalink: /gallery/pacific-northwest
   preview_image: JosephGruber_20141108_210258.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20141108_210258.jpg
       date: 2014-11-08T21:02:58Z
       title: Colors of Seattle
       caption: Sunset over the Seattle skyline with the Space Needle in the foreground and Mt Rainier in the background
-      guid: e4f46be4-a05f-46c7-8db9-20f22b60f032
     - filename: JosephGruber_20190327_012927.jpg
       date: 2019-03-27T01:29:27Z
       title: UW Cherry Blossoms
       caption: Cherry blossoms bloom in the sunlight on the University of Washington campus
-      guid: 597f526f-2cae-440f-b496-2af42f3920e5
     - filename: JosephGruber_20190325_021634.jpg
       date: 2019-03-25T02:16:34Z
       title: One last wave
       caption: A surfer sitting on their surfboard waits in the water to catch one last wave before the sun sets
-      guid: 8f0532cb-b67c-43ef-983b-136292e2a6ef
     - filename: JosephGruber_20190331_034104.jpg
       date: 2019-03-31T03:41:04Z
       title: Space Needle, meet Space Station
       caption: The International Space Station passes high above the Space Needle in Seattle amidst a background of stars in the night sky
-      guid: a7a63f49-ddec-4383-936a-9bb01e7c128f
     - filename: JosephGruber_20190319_020810.jpg
       date: 2019-03-19T02:08:10Z
       title: Beauty of Seattle
       caption: Joggers, bikers, and walkers enjoy the waterfront along Elliott Bay on the warmest winter day in Seattle history
-      guid: ef7d8bee-e808-456e-b639-2f795b8e19ad
     - filename: JosephGruber_20200322_024804.jpg
       date: 2020-03-22T02:48:04Z
       title: Peaceful sunset along the Pacific Northwest coast
-      guid: 2794a7fc-41b3-4220-9359-2d16a72bb79a
     - filename: JosephGruber_20191225_000227.jpg
       date: 2019-12-25T00:02:27Z
       title: Winter Sunset
-      guid: cb5c56ee-dd97-429d-bdf8-3e8b245e877a
 
 colorado:
   name: Colorado
   permalink: /gallery/colorado
   preview_image: JosephGruber_20191110_235828.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20191111_182930.jpg
       date: 2019-11-11T18:29:30Z
       title: Sunrise Snow at Red Rocks
-      guid: 1b689008-f5b8-4dbd-87c5-01e0f700bd89
     - filename: JosephGruber_20191110_235828.jpg
       date: 2019-11-10T23:58:28Z
       title: Brilliant Sunset over the Front Range
-      guid: 992d26a9-ff93-4c69-b387-ffb1a43f8968
     - filename: JosephGruber_20151118_093717.jpg
       date: 2015-11-18T09:37:17Z
       title: Red Rocks Sunrise
       caption: Sunrise over the mountains near Denver, Colorado seen from Red Rocks Park
-      guid: fd2fd96d-357a-4ad8-95a7-9f7ac3737302
     - filename: JosephGruber_20200722_024759.jpg
       date: 2020-07-22T02:47:59Z
       title: Electric Sunset
-      guid: dcc483a6-0291-496e-9433-d2399f6118e0
     - filename: JosephGruber_20191110_130735.jpg
       date: 2019-11-10T13:07:35Z
       title: Sunrise
       caption: Vivid sunrise over the flatness of the Plains from the horizon to the sky with a spectrum of orange, yellow, and blues
-      guid: 2e4ebe59-6904-4c2c-bf39-966cbd65f9f6
     - filename: JosephGruber_20201226_235056.jpg
       date: 2020-12-26T23:50:56Z
       title: Pawnee Buttes Colorful Sunset
       caption: Shades of pinks and purples highlight the skies above the Pawnee Buttes on the plains of eastern Colorado in Pawnee National Grassland
-      guid: b6f93bdd-0ef9-4c02-99c3-559fc4991ed8
     - filename: JosephGruber_20201226_233904.jpg
       date: 2020-12-26T23:39:04Z
       title: Hints of Sunset
       caption: Bright sunlight shining on the east Pawnee Butte in the Pawnee National Grassland as the shadows of sunset begin to creep up the butte
-      guid: f474e2a2-229f-4534-b59a-78e2da67c469
     - filename: JosephGruber_20211003_225451.jpg
       date: 2021-10-03T22:54:50Z
       title: Golden Aspens on Boreas Pass
       caption: The golden glow of aspens changing color in the fall light up the hill near Boreas Pass in Colorado's high country
-      guid: 8cdcf77d-4999-498c-bc36-4a9e2e38954b
     - filename: JosephGruber_20211004_000847.jpg
       date: 2021-10-04T00:08:47Z
       title: Aspen Glow
       caption: Golden hues light up Boreas Pass and the golden fall foliage in Colorado
-      guid: 9453aaae-1df5-4742-b2c6-81306a2907db
     - filename: JosephGruber_20210925_212028.jpg
       date: 2021-09-25T21:20:28Z
       title: Colorado Fall Foliage
       caption: Brilliant yellow aspen trees cree up Whitely Peak in Colorado's high country
-      guid: 3591bc2c-84ee-4d8e-80f8-e84c9d5473e1
     - filename: JosephGruber_20210925_221254.jpg
       date: 2021-09-25T22:12:53Z
       title: Colorado Fall Foliage
       caption: The Blue River - a tributary of the Colorado River - flows along with trees on the banks changing to their fall colors
-      guid: 0d8315c1-27ad-4dd1-a7ee-a1b340e42594
     - filename: JosephGruber_20210911_180148.jpg
       date: 2021-09-11T18:01:48Z
       title: Fall in Colorado's Summit County
       caption: Sailboat's enjoy the first signs of fall in Colorad's Summit County on Dillon Reservoir
-      guid: a4d51493-7c7c-4dc7-b67b-5c4cff605ad6
     - filename: JosephGruber_20210705_042344.jpg
       date: 2021-07-05T04:23:44Z
       title: Fire Up The Cliffs Independence Day Fireworks
       caption: Stars and fireworks light up the night sky and rugged cliffs during Fourth of July festivities in Colorado's high country
-      guid: c037ebb8-f41a-493e-95d2-4b8a7bd1e047
     - filename: JosephGruber_20210627_123611.jpg
       date: 2021-06-27T12:36:11Z
       title: Hot air balloon mass ascension
       caption: Hot air ballons prepare for an early morning mass ascension in northern Colorado
-      guid: d46c8698-0f03-4d89-9008-c4a19b9c914d
     - filename: JosephGruber_20220622_021603.jpg
       date: 2022-06-22T02:16:02Z
       title: Alpine Glow in Colorado's High Country
@@ -800,34 +637,28 @@ colorado:
     - filename: JosephGruber_20191110_235828.jpg
       date: 2019-11-10T23:58:28Z
       title: Majestic Sunset over the Front Range
-      guid: 992d26a9-ff93-4c69-b387-ffb1a43f8968
     - filename: JosephGruber_20191111_182701.jpg
       date: 2019-11-11T18:27:01Z
       title: Sunrise Snow at Red Rocks
-      guid: 03a274cf-df12-473f-9d85-4ea922003597
 
 wyoming:
   name: Wyoming
   permalink: /gallery/wyoming
   preview_image: JosephGruber_20210925_181259.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210925_181259.jpg
       date: 2021-09-25T18:12:59Z
       title: Wyoming Fall Foliage
       caption: Brilliant orange and yellow trees at fall in southern Wyoming at the Continential Divide
-      guid: cefb97a2-486d-494e-9739-e37be5593d73
     - filename: JosephGruber_20210925_181730.jpg
       date: 2021-09-25T18:17:30Z
       title: Wyoming Fall Foliage
       caption: Fall's reds, oranges, and yellows as far as the eye can see in Wyoming
-      guid: 65292528-9c72-4ef9-9526-00cb7a6798aa
 
 utah:
   name: Utah
   permalink: /gallery/utah
   preview_image: JosephGruber_20220412_132155.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20220410_133542.jpg
       date: 2022-04-10T13:35:42Z
@@ -891,58 +722,45 @@ severe-weather:
   name: Severe Weather
   permalink: /gallery/severe-weather
   preview_image: JosephGruber_20180907_003815.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180907_003815.jpg
       date: 2018-09-07T00:38:15Z
       title: Lightning strikes the Washington Monument
-      guid: 0b82ac6a-72e0-49b8-9822-3c2ad9028d60
     - filename: JosephGruber_20200627_233653.jpg
       date: 2020-06-27T23:36:53Z
       title: Lightning over the Colorado plains
-      guid: 8a488003-165c-47b2-9894-77d9568c7873
     - filename: JosephGruber_20180609_184357.jpg
       date: 2018-06-09T18:43:57Z
       title: Manassas National Battlefield lightning strike
-      guid: 7badbfc2-1116-4291-910b-8f7efbb2d425
     - filename: JosephGruber_20200627_224430.jpg
       date: 2020-06-27T22:44:30Z
       title: Lightning over the Colorado plains
-      guid: 34ed3e45-3148-4728-be12-6a5929bf18e6
     - filename: JosephGruber_20200722_024759.jpg
       date: 2020-07-22T02:47:59Z
       title: Electric Sunset
-      guid: dcc483a6-0291-496e-9433-d2399f6118e0
     - filename: JosephGruber_20201018_204610.jpg
       date: 2020-10-18T20:46:10Z
       title: Left Hand Canyon Fire
       caption: Smoke billows out of the valley and forest near Left Hand Canyon after a forest fire started shortly prior
-      guid: e8838de6-3e11-4bc8-84a9-b642e8867b1b
     - filename: JosephGruber_20201018_183213.jpg
       date: 2020-10-18T18:32:13Z
       title: Forest burned in the Cal Wood Fire
       caption: Trees burned to a crisp in the forest while other are still standing after the Cal Wood forest fire
-      guid: 54058fdf-6435-4244-b5ee-7d148b28aabb
     - filename: JosephGruber_20210523_192315.jpg
       date: 2021-05-23T19:23:15Z
       title: Ominous Plains
-      guid: 3ecbe106-b515-402c-a193-a2e3f7c53702
     - filename: JosephGruber_20210521_022926.jpg
       date: 2021-05-21T02:29:26Z
       title: Electric
-      guid: 71708763-bd57-4a66-8782-48d632f18af6
     - filename: JosephGruber_20210522_194646.jpg
       date: 2021-05-22T19:46:46Z
       title: Rope Tornado in Northeast Colorado
-      guid: 5735603d-6746-4a3e-8add-8d755c0c811b
     - filename: JosephGruber_20210609_024330.jpg
       date: 2021-06-09T02:43:30Z
       title: Sunset Lightning (Composite)
-      guid: 7ce1deb1-dfec-434f-935d-ab05a93656fc
     - filename: JosephGruber_20210609_022843.jpg
       date: 2021-06-09T02:28:43Z
       title: Sunset Lightning
-      guid: eae69c87-94d7-4185-9942-9326ebd7edfd
     - filename: JosephGruber_20220630_042249.jpg
       date: 2022-06-30T04:22:49Z
       title: Lightning Stars
@@ -963,597 +781,477 @@ winter-in-dc:
   name: Winter in DC (2018)
   permalink: /post/winter-in-dc/
   preview_image: JosephGruber_20180106_142037.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180108_070524.jpg
       date: 2018-01-08T12:05:24Z
       title: Frozen Sunrise
       caption: Colors are cast in the sky at sunrise over a frozen Tidal Basin and Jefferson Memorial in Washington, D.C.
-      guid: ec623a9b-87b8-4a83-988d-8745c1d1e477
     - filename: JosephGruber_20180106_142037.jpg
       date: 2018-01-06T19:20:37Z
       title: Frozen Potomac River near the Memorial Bridge connecting Virginia and DC
       caption: Frozen Potomac River near the Memorial Bridge connecting Virginia and DC
-      guid: e3c1168d-f3ef-4ba0-93f4-08e4bf1843f4
     - filename: JosephGruber_20180106_144743.jpg
       date: 2018-01-06T19:47:43Z
       title: An ice skater skates on a frozen Reflecting Pool with the Lincoln Memorial in the background
-      guid: 0413e165-a5d5-40b2-a073-971596bbf393
     - filename: JosephGruber_20180106_144844.jpg
       date: 2018-01-06T19:48:44Z
       title: Lincoln Memorial seen from the middle of a frozen Reflecting Pool
-      guid: d89c5734-61d7-40c2-95e6-fd7129c86fca
     - filename: JosephGruber_20180106_164514.jpg
       date: 2018-01-06T21:45:14Z
       title: The sun sets over the Pentagon and a frozen Pentagon Yacht Basin
-      guid: b1b9b307-0851-4761-981f-8d360b546d70
     - filename: JosephGruber_20180106_165555.jpg
       date: 2018-01-06T21:55:55Z
       title: The Washington Monument reflects in a frozen Potomac River after sunset
-      guid: 1af495b9-c698-4cae-9b2f-6c17ae25c4b2
     - filename: JosephGruber_20180106_145104.jpg
       date: 2018-01-06T19:51:04Z
       title: Reflection of the Washington Monument in a frozen Reflecting Pool
-      guid: d2a1bcd4-7dd8-4921-9b41-8b95c74be3bc
     - filename: JosephGruber_20180108_071820.jpg
       date: 2018-01-08T12:18:20Z
       title: Frozen Sunrise
       caption: Colors are cast in the sky at sunrise over a frozen Tidal Basin and Jefferson Memorial in Washington, D.C.
-      guid: 03fb11d5-f455-4285-8122-b4e3a764c25d
 
 orbital-atk-oa8:
   name: Orbital ATK OA-8
   permalink: /post/orbital-atk-oa-8-launch/
   preview_image: JosephGruber_20171112_062311.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20171112_072033.jpg
       date: 2017-11-12T11:20:33Z
       title: Orbital ATK OA-8 Launch
-      guid: f1ea4578-146c-4b23-9a8c-6dd656ecff00
     - filename: JosephGruber_20171112_072042.jpg
       date: 2017-11-12T11:20:42Z
       title: Orbital ATK OA-8 Launch
-      guid: 569df662-cb1b-4386-8769-8c7a7142a42d
     - filename: JosephGruber_20171112_072137.jpg
       date: 2017-11-12T11:21:37Z
       title: Orbital ATK OA-8 Launch
-      guid: 172af332-12a2-42be-b70f-3e6e77cf9cc8
     - filename: JosephGruber_20171112_072030.jpg
       date: 2017-11-12T11:20:30Z
       title: Orbital ATK OA-8 Launch
-      guid: dccb8e7b-f48c-4724-9788-3a440d6415ee
     - filename: JosephGruber_20171112_072008.jpg
       date: 2017-11-12T11:20:08Z
       title: Orbital ATK OA-8 Launch
-      guid: fa946be2-e003-4ed0-b718-8c19cb9030ff
     - filename: JosephGruber_20171112_072005.jpg
       date: 2017-11-12T11:20:05Z
       title: Orbital ATK OA-8 Launch
-      guid: 453deadc-2558-445a-9a19-ad51a2a46f6a
     - filename: JosephGruber_20171112_062902.jpg
       date: 2017-11-12T10:29:02Z
       title: Orbital ATK OA-8 Launch
-      guid: 10a70380-a0cc-4636-8ec3-3e452429462b
     - filename: JosephGruber_20171112_063347.jpg
       date: 2017-11-12T10:33:47Z
       title: Orbital ATK OA-8 Launch
-      guid: 1b8041fe-80a8-49d4-8998-8bc73c4547b3
     - filename: JosephGruber_20171112_062311.jpg
       date: 2017-11-12T10:23:11Z
       title: Orbital ATK OA-8 Launch
-      guid: 0bf92293-d3ef-44c9-8d62-a295cd22234c
     - filename: JosephGruber_20171111_065914.jpg
       date: 2017-11-11T10:59:14Z
       title: Orbital ATK OA-8 Launch
-      guid: b69b9aa2-46b2-4cac-b2b9-bcf8820aa066
     - filename: JosephGruber_20171112_064313.jpg
       date: 2017-11-12T10:43:13Z
       title: Sunrise at Wallops Flight Facility
-      guid: 7198de23-9845-4705-b84c-682c04e00ccb
     - filename: JosephGruber_20171111_064931.jpg
       date: 2017-11-11T10:49:31Z
       title: Sunrise over Wallops Flight Facility
-      guid: fffe8703-30d5-42ef-bd00-8c9b296eafdb
 
 2017-total-solar-eclipse:
   name: 2017 Total Solar Eclipse
   permalink: /post/2017-total-solar-eclipse/
   preview_image: JosephGruber_20170821_143451.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170821_143534.jpg
       date: 2017-08-21T18:35:34Z
       title: Totality over the Great Smoky Mountains
       caption: The moon eclipses the sun during the 2017 total eclipse as a sunset/sunrise appears over the Great Smoky Mountains
-      guid: 2b194bc2-8685-4c09-aafd-1a619033e6fe
     - filename: JosephGruber_20170821_143622-2.jpg
       date: 2017-08-21T18:36:22Z
       title: 2017 Total Solar Eclipse
       caption: The many different phases of the 2017 total solar eclipse - from the beginning of the eclipse to totality and the diamond ring effect
-      guid: b787b1e1-296e-45cb-b091-136ae649474f
     - filename: JosephGruber_20170821_143451.jpg
       date: 2017-08-21T18:34:51Z
       title: Solar Corona
       caption: The solar corona is seen during totality of the 2017 total solar eclipse
-      guid: b06f8ba1-28a0-4c40-b7c8-490171b14db7
     - filename: JosephGruber_20170821_143622.jpg
       date: 2017-08-21T18:36:22Z
       title: Put a ring on it
       caption: The Diamond Ring effect is seen as the sun begins to emerge after having been eclipsed by the moon during the 2017 total solar eclipse
-      guid: 7793d22a-cc45-4dbd-8b1b-e2126dab40cb
     - filename: JosephGruber_20170821_132307.jpg
       date: 2017-08-21T17:23:07Z
       title: Partial Solar Eclipse
       caption: The moon begins to eclipse the sun during the first few minutes of the 2017 total solar eclipse
-      guid: 17eea4a0-54c6-4e21-b42a-6b1de0408cf6
     - filename: JosephGruber_20170821_135624.jpg
       date: 2017-08-21T17:56:24Z
       title: Halfway to Totality
       caption: The moon eclipses almost half of the sun during the 2017 total solar eclipse
-      guid: a8d99f85-5f8f-486c-8ff1-97edb4c6986d
     - filename: JosephGruber_20170821_143326.jpg
       date: 2017-08-21T18:33:26Z
       title: C1 to C2
       caption: Phases of the 2017 total solar eclipse from first contact to just prior to second contact
-      guid: e23a5be5-4aa8-4e60-9f68-c0d79d84238f
 
 dc-march-for-science:
   name: DC March for Science
   description: Protesters gathered and marched in the United States capitol for the DC March for Science to show support for science funding and communication
   permalink: /post/dc-march-for-science/
   preview_image: JosephGruber_20170422_150205.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170422_091126.jpg
       date: 2017-04-22T13:11:26Z
       title: March for Science - Washington, D.C.
       caption: Teachers showcase scientific experiments as part of a teach-in during the March for Science rally held on Earth Day
-      guid: 811c07ed-fb0c-48ef-8ca2-f9555fb49571
     - filename: JosephGruber_20170422_093630.jpg
       date: 2017-04-22T13:36:30Z
       title: March for Science - Washington, D.C.
       caption: Represenative Don Beyer (D-Va) speaks to constituents before marching in the March for Science rally
-      guid: 0d423702-8e20-4259-ad6a-0e848bb556c3
     - filename: JosephGruber_20170422_144445.jpg
       date: 2017-04-22T18:44:45Z
       title: March for Science - Washington, D.C.
       caption: Activists and protesters march to the United States Capitol as part of the March for Science rally on Earth Day
-      guid: a51be50a-3bd1-4c38-a18c-6415f15d9219
     - filename: JosephGruber_20170422_144501.jpg
       date: 2017-04-22T18:45:01Z
       title: March for Science - Washington, D.C.
       caption: Activists and protesters march to the United States Capitol as part of the March for Science rally on Earth Day
-      guid: 76e8753b-7fd5-41c2-b809-7dc9c727d5b2
     - filename: JosephGruber_20170422_144531.jpg
       date: 2017-04-22T18:45:31Z
       title: March for Science - Washington, D.C.
       caption: A science supporter in an astronaut costume leads the way during the march to the United States Capitol for the March for Science
-      guid: a3e071d0-504a-4834-a6d6-3f6436c0ec4a
     - filename: JosephGruber_20170422_144939.jpg
       date: 2017-04-22T18:49:39Z
       title: March for Science - Washington, D.C.
       caption: Activists and protesters march to the United States Capitol as part of the March for Science rally on Earth Day
-      guid: d1632683-54ff-4fac-b4f1-5e3416dd3dd8
     - filename: JosephGruber_20170422_145212.jpg
       date: 2017-04-22T18:52:12Z
       title: March for Science - Washington, D.C.
       caption: Signs held high, supporters march down Pennsylvania Avenue during the DC March for Science
-      guid: b4b9fa2f-14b0-4736-a9e6-73109723a1c6
     - filename: JosephGruber_20170422_145524.jpg
       date: 2017-04-22T18:55:24Z
       title: March for Science - Washington, D.C.
       caption: Bill Nye leads a group of activists and protesters in a march to the United States capitol during the March for Science
-      guid: 1205e75c-51de-4f92-b619-31c46e099823
     - filename: JosephGruber_20170422_150205.jpg
       date: 2017-04-22T19:02:05Z
       title: March for Science - Washington, D.C.
       caption: Science supporters cheer and hold up signs in front of the United States Capitol during the March for Science
-      guid: f6a96d20-9447-4b21-8312-834653534cef
     - filename: JosephGruber_20170422_153346.jpg
       date: 2017-04-22T19:33:46Z
       title: March for Science - Washington, D.C.
       caption: Activists and protesters gather in front of the United States Capitol at the end of the March for Science
-      guid: 6aa98fd0-e2a7-45fe-9e43-eeb6472659d2
 
 assateague-island-adventures:
   name: Assateague Island Adventures
   description: Wild horses, dark night skies, white sand beaches, beautiful sunrises and amazing sunsets. All found at Assateague Island National Seashore!
   permalink: /post/assateague-island-adventures/
   preview_image: JosephGruber_20170416_064710.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170415_063217.jpg
       date: 2017-04-15T10:32:17Z
       title: Assateague In The Morning
       caption: The horizons glows bright red and reflects in the marsh just before sunrise
-      guid: a6fa3acc-add9-4f6c-ba7a-afc96d329efe
     - filename: JosephGruber_20170416_064710.jpg
       date: 2017-04-16T10:47:10Z
       title: Assateague Sunrise
       caption: The sun makes a brief appearance over the Atlantic Ocean before disappearing behind the clouds
-      guid: 2836548f-cc90-4ccf-84bc-5eafe3183569
     - filename: JosephGruber_20170415_151719.jpg
       date: 2017-04-15T19:17:19Z
       title: Low Tide
       caption: Waves from the Atlantic Ocean crash onto the Assateague Island beach
-      guid: 3e13a4c8-4ddb-4c63-b6a1-fa15c956d0be
     - filename: JosephGruber_20170415_075016.jpg
       date: 2017-04-15T11:50:16Z
       title: Assateague Pony
       caption: An Assateague wild horse walks through the marsh
-      guid: f561096d-11c8-4e9e-99bb-bc8059abc24f
     - filename: JosephGruber_20170415_074143.jpg
       date: 2017-04-15T11:41:43Z
       title: Assateague Pony
       caption: An Assateague wild horse grazes on the grass for breakfast
-      guid: 02087e5a-ab67-4cd7-a342-3700856413ef
     - filename: JosephGruber_20170415_070500.jpg
       date: 2017-04-15T11:05:00Z
       title: Great Blue Heron
       caption: Looking for a meal in the shallow waters of Sinepuxent Bay
-      guid: 1fe451ae-4338-4573-855f-0455467d50b8
     - filename: JosephGruber_20170415_070927.jpg
       date: 2017-04-15T11:09:27Z
       title: Resting Seagull
       caption: A seagull rests on a bench just before sunrise
-      guid: c95b013d-ce15-4bb5-878d-b9672cd555c1
     - filename: JosephGruber_20170415_185016.jpg
       date: 2017-04-15T22:50:16Z
       title: Catching Sunset
       caption: One last catch for this fisherman as the sun begins to set over Sinepuxent Bay
-      guid: 92142cec-ef7a-4931-bfe4-47cb28513631
     - filename: JosephGruber_20170415_191444.jpg
       date: 2017-04-15T23:14:44Z
       title: Sunset at the Beach
       caption: A lone, dead tree stands on the sandy beach at sunset
-      guid: 5dab1fab-a8e9-4763-a25b-b46d5eebfbd5
     - filename: JosephGruber_20170414_194009.jpg
       date: 2017-04-14T11:40:09Z
       title: Almost Gone
       caption: The sun just before it sets over Assateague Island
-      guid: 7e89cddb-33ca-4dba-9f0e-66405fe68be0
     - filename: JosephGruber_20170414_234958.jpg
       date: 2017-04-15T03:49:58Z
       title: Assateague Night Skies
       caption: The light-pollution glow of Wallops Island and Chincoteague give way to the stars above
-      guid: 5eb1dbae-0985-41e6-8560-5e36f558514e
     - filename: JosephGruber_20170415_220431.jpg
       date: 2017-04-16T02:04:31Z
       title: Steel Wool Light Painting
       caption: Trails from steel wool brighten up Assateague beach in this long exposure
-      guid: b9755980-4574-4c39-b447-5fb1f320f947
 
 stormy-dc-sunset:
   name: Stormy DC Sunset
   description: Passing storms light up the sky orange as a stormy DC sunset provided for a colorful and changing sky over the National Mall.
   permalink: /post/stormy-dc-sunset/
   preview_image: JosephGruber_20170406_193340.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170406_193340.jpg
       date: 2017-04-06T23:33:40Z
       title: Rainy Sunset
-      guid: 6510a5e5-80e6-4bd3-ac52-8c657df77438
     - filename: JosephGruber_20170406_193813.jpg
       date: 2017-04-06T23:38:13Z
       title: Rainy Sunset
-      guid: f3de4f71-a2a2-4c76-ad6a-28ddf82be9b1
     - filename: JosephGruber_20170406_183617.jpg
       date: 2017-04-06T22:36:17Z
       title: Spring at the Capitol
-      guid: 2df72d7c-f687-4591-8dce-ae330b657d3c
     - filename: JosephGruber_20170406_185410.jpg
       date: 2017-04-06T22:54:10Z
       title: Clouds over the United States Capitol
-      guid: 21b70c2f-a053-4ec6-b6c1-ea45b3f791de
     - filename: JosephGruber_20170406_185937.jpg
       date: 2017-04-06T22:59:37Z
       title: Turmoil
-      guid: d8770ff1-c912-4aea-a2ae-494ead40841f
 
 2017-cherry-blossoms:
   name: 2017 Cherry Blossoms
   description: From an abnormally warm winter to a late snowstorm, the cherry blossoms in DC kept us on the edge of our seats. But peak bloom sure didn't disappoint!
   permalink: /post/theyre-good-cherry-blossoms-john/
   preview_image: JosephGruber_20170225_083006.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170330_065922.jpg
       date: 2017-03-30T10:59:22Z
       title: D.C. Tidal Basin at sunrise
       caption: Cherry blossoms line the Tidal Basin with a cherry red sunrise
-      guid: 86795a87-36fd-466c-8f0f-016404a15efa
     - filename: JosephGruber_20170225_083204.jpg
       date: 2017-02-25T12:31:04Z
       title: Cherry blossom sunrise
       caption: The sun rises and shines on the cherry blossoms along the Potomac River in Arlington, VA
-      guid: dea83258-60fd-4bcc-b9c3-1b8c381ea7e2
     - filename: JosephGruber_20170225_083233.jpg
       date: 2017-02-25T12:32:33Z
       title: Peak bloom
       caption: Morning light shines on fully bloomed cherry blossoms in Arlington, VA
-      guid: 69633f88-637e-49a4-9b04-ca037e1a2ded
     - filename: JosephGruber_20170225_083006.jpg
       date: 2017-02-25T12:30:06Z
       title: Blue Skies and Cherry Blossoms
       caption: Pink cherry blossoms and blue skies on an early spring day in Arlington, VA
-      guid: a4aa41ce-1723-4304-8b4f-79ce3b3f02d6
     - filename: JosephGruber_20170311_091501.jpg
       date: 2017-03-11T13:15:01Z
       title: Before the bloom
       caption: Early cherry blossom blooms
-      guid: 6b979788-9023-4db9-ae14-243046121850
     - filename: JosephGruber_20170311_093947.jpg
       date: 2017-03-11T13:39:47Z
       title: Damaged blossoms
       caption: Cherry blossoms at the Tidal Basin in Washington, D.C. droop after being damaged from several below freezing days
-      guid: 5d3086cf-d6d2-4ddc-b72b-c9510213ba9e
     - filename: JosephGruber_20170314_090737.jpg
       date: 2017-03-14T13:07:37Z
       title: Frozen blossoms
       caption: Ice covers early cherry blossoms after a winter storm passed through the Washington, D.C. area
-      guid: 3b0ad912-d177-4b00-98a7-2d935eb3656c
     - filename: JosephGruber_20170314_090933.jpg
       date: 2017-03-14T13:09:33Z
       title: Peak freeze
       caption: Early cherry blossoms are covered in ice and snow after a winter storm passes through the Washington, D.C. area
-      guid: 02825f91-1501-4536-9480-6d042d6d24ff
     - filename: JosephGruber_20170330_070145.jpg
       date: 2017-03-30T11:01:45Z
       title: Red skies and cherry blossoms
       caption: A pink and red sky at sunrise over the Tidal Basin and cherry blossoms in Washington, D.C.
-      guid: d4991fca-d0de-433c-8dbf-11dbb75bb311
     - filename: JosephGruber_20170330_071034.jpg
       date: 2017-03-30T11:10:34Z
       title: Signs of spring
       caption: Green leaves and cherry blossoms
-      guid: b506bea9-d87c-444a-bad1-0ad7ffe99a5e
     - filename: JosephGruber_20170330_071132.jpg
       date: 2017-03-30T11:11:32Z
       title: Cherry blossoms at the Tidal Basin
       caption: A branch lined with cherry blossoms hangs over the Tidal Basin in Washington, D.C.
-      guid: 15878915-db31-4ad1-8a83-7234a6f1ad8c
     - filename: JosephGruber_20170330_072136.jpg
       date: 2017-03-30T11:21:36Z
       title: Capitol Bloom
       caption: Spectactular sunrise over the United States Capitol Building while cherry blossoms bloom at the Tidal Basin in Washington, D.C.
-      guid: e909c1d5-b180-41cc-b6a1-04eb390d4e54
     - filename: JosephGruber_20170330_073909.jpg
       date: 2017-03-30T11:39:09Z
       title: Roll Call
       caption: Washington, D.C. Metropolitan Bike Police gather under cherry blossoms before tourists arrive for the day
-      guid: 4d464907-dafe-45df-83f7-9424d287af26
     - filename: JosephGruber_20170330_074520.jpg
       date: 2017-03-30T11:45:20Z
       title: Cherry blossoms at Hains Point
       caption: Early morning sun shines on the cherry blossoms lining Hains Point in Washington, D.C.
-      guid: 6840ed7b-2d01-4bf5-82a2-4ae2dab5b0ac
     - filename: JosephGruber_20170330_074808.jpg
       date: 2017-03-30T11:48:08Z
       title: Cherry blossoms at Hains Point
       caption: Early morning sun shines on the cherry blossoms lining Hains Point in Washington, D.C.
-      guid: d766e504-9175-4caa-b6c7-4eae662c8fd8
     - filename: JosephGruber_20170330_071653.jpg
       date: 2017-03-30T11:16:53Z
       title: Cherry blossom arch
       caption: Peak bloom of the cherry blossoms at the Tidal Basin in Washington, D.C.
-      guid: de1447fc-b04b-4162-aafa-ee97d6ef0d24
 
 hello-spring:
   name: Hello Spring!
   permalink: /post/hello-spring/
   preview_image: JosephGruber_20170330_074520.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170330_074520.jpg
       date: 2017-03-30T07:45:20Z
       title: Cherry Blossoms at Hains Point
       caption: Cherry trees line Ohio Drive in Potomac Park during peak bloom of the cherry blossoms in Washington, D.C.
-      guid: 28fe5ca5-b91d-4398-b260-39ec4a969d60
 
 april-showers-bring-may-flowers:
   name: April Showers Bring May Flowers
   permalink: /post/april-showers-bring-may-flowers/
   preview_image: JosephGruber_20150519_123323.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20150519_123323.jpg
       date: 2015-05-19T12:33:23Z
       title: Wildflowers along the Pacific Coast
       caption: Wildflowers along a hillside at Fort Ross Historic State Park overlooking the Pacific Ocean
-      guid: 88c8f2f2-398d-45c0-b8ae-b31775ac5461
 
 2018-fall-foliage:
   name: 2018 Autumn Foliage in Shenandoah National Park
   description: Trees glow in shades of reds, oranges, and yellows as autumn's fall peaks in Shendoah National Park
   permalink: /post/shenandoah-fall-foliage/
   preview_image: JosephGruber_20181104_115721.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20181104_122938.jpg
       date: 2018-11-04T12:29:38Z
       title: Valley Fog
       caption: Fog lower in the valley near Shenandoah National Park during the peak of autumn's foliage
-      guid: b4f329d6-7879-457e-a5b9-2072ba1a0760
     - filename: JosephGruber_20181104_133012.jpg
       date: 2018-11-04T13:30:12Z
       title: Fall Creek
       caption: Water flows over the rocks and leaves near Dark Hollows Falls
-      guid: 839ba9c0-10a8-4890-bc95-61673d15c03d
     - filename: JosephGruber_20181104_121935.jpg
       date: 2018-11-04T12:19:35Z
       title: Valley Fog
       caption: Fog lower in the valley near Shenandoah National Park during the peak of autumn's foliage
-      guid: dc35f077-f8b4-44ad-801f-4f4105fea8e9
     - filename: JosephGruber_20181104_115721.jpg
       date: 2018-11-04T11:57:21Z
       title: Peak Foliage
       caption: Peak of autumn's foliage in Shenandoah National Park
-      guid: d8fc2b36-05e5-4e7c-b5b3-193e26d20810
     - filename: JosephGruber_20181104_132759.jpg
       date: 2018-11-04T13:27:59Z
       title: Fall Creek
       caption: Water flows over the rocks and leaves near Dark Hollows Falls
-      guid: 41dd0785-fb35-4229-b1d3-b65d553623a8
     - filename: JosephGruber_20181104_115340.jpg
       date: 2018-11-04T11:53:40Z
       title: Peak Foliage
       caption: Peak of autumn's foliage in Shenandoah National Park
-      guid: 0f7f9d60-bbfe-4689-996c-14c5b48074f9
 
 2018-best-photos:
   name: Best Photos of 2018
   description: Counting down the ten most favorite and best photos of 2018 captured by Blue Marble Photography
   permalink: /post/2018-best-photos/
   preview_image: JosephGruber_20180108_071820.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180106_144743.jpg
       date: 2018-01-06T14:47:43Z
       title: Ice Skating on a Frozen Lincoln Memorial Reflecting Pool
       caption: January 2018 - As winter wore on, a cold streak hit the Washington, D.C. area freezing the Lincoln Memorial Reflecting Pool allowing ice skaters, and even intrepid photographers, to venture out onto it's surface.
-      guid: 0413e165-a5d5-40b2-a073-971596bbf393
     - filename: JosephGruber_20180108_070524.jpg
       date: 2018-01-08T07:05:24Z
       title: Colorful Sunrise over the Jefferson Memorial
       caption: January 2018 - The Washington, D.C. area has some of the prettiest sunrises during winter with a multitude of colors over the memorials and monuments, in this case the Tidal Basin and Jefferson Memorial.
-      guid: 3b310256-a4e9-4685-bf28-130e47aeea0c
     - filename: JosephGruber_20180206_154731.jpg
       date: 2018-02-06T15:47:31Z
       title: Maiden Falcon Heavy Launch
       caption: February 2018 - SpaceX successfully launches the Falcon Heavy from Launch Complex 39-A at Kennedy Space Center on it's maiden flight, and in the process sends back stunning views of a cherry red Tesla Roadstar and our beautiful Earth.
-      guid: 05f56b1c-c557-4916-a8dc-761755eff564
     - filename: JosephGruber_20180311_073136.jpg
       date: 2018-03-11T07:31:36Z
       title: Guiding Eyes for the Blind Gwenyth
       caption: March 2018 - Countless fun photoshoots throughout the year with the amazing Guiding Eyes for the Blind puppies in training. GEB Gwenyth here practically bounces for joy in front of the Lincoln Memorial.
-      guid: b0f1d23d-ab9c-42e3-ae6a-cb854cb37c0c
     - filename: JosephGruber_20180514_004629.jpg
       date: 2018-05-14T00:46:29Z
       title: Badlands National Park Night Sky
       caption: May 2018 - Adventures in one of my favorite national parks, Badlands National Park, which has amazing dark skies allowing you to see the stars, planets, and Milky Way in their full glory.
-      guid: e2d237f8-9f2d-41ed-b8cd-dca83ad90d1d
     - filename: JosephGruber_20180812_191045.jpg
       date: 2018-08-12T19:10:45Z
       title: The Face of Hate
       caption: August 2018 - I debated whether to include this photo of the white nationalist Unite the Right rally in DC this summer, however, it was the craziest and scariest protest I've photographed.
-      guid: fe120efb-f9f2-492a-a099-80a77941a481
     - filename: JosephGruber_20180907_003815.jpg
       date: 2018-09-07T00:38:15Z
       title: Lightning over the Washington Monument
       caption: September 2018 - An gorgeous bolt of lightning strikes behind the Washington Monument lighting up the night sky. I had tried for years to get this shot!
-      guid: fe132485-3463-4d50-a330-3767032a1161
     - filename: JosephGruber_20180903_004432.jpg
       date: 2018-09-03T00:44:32Z
       title: Iridium Flare over the Washington Monument
       caption: September 2018 - An Iridium satellite flares over the Washington Monument, one of the last times it would as the legacy generation of Iridium satellites was mostly deorbited in 2018.
-      guid: 391c90a7-d528-4e0d-93fa-91778b5d0efb
     - filename: JosephGruber_20181104_115340.jpg
       date: 2018-11-04T11:53:40Z
       title: Peak Foliage
       caption: November 2018 - Many, many camping and hiking adventures were had in Shenandoah National Park this year with autumn one of my favorite times to spend in the park as the forest glows all shades of orange, red, and yellow.
-      guid: 0f7f9d60-bbfe-4689-996c-14c5b48074f9
     - filename: JosephGruber_20181223_115703.jpg
       date: 2018-12-23T11:57:03Z
       title: Christmas Shutdown
       caption: December 2018 - As the US government shutdown began, impacts began to be felt far and wide including at the United States Capitol with limited visiting hours for the Capitol Christmas Tree.
-      guid: 82497960-b08c-4c8e-80d3-509bb11b4fcc
 
 2019-seattle-cherry-blossoms:
   name: Seattle Spring Cherry Blossoms
   description: Cherry Blossoms in bloom at the University of Washington campus in Seattle as winter exits and spring arrives
   permalink: /post/2019-seattle-cherry-blossoms/
   preview_image: JosephGruber_20190327_012512.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190327_013105.jpg
       date: 2019-03-27T01:31:05Z
       title: Cherry blossoms blooming in the bright sunlight
-      guid: eda88fdf-0c63-4992-93ba-44a7bfccf992
     - filename: JosephGruber_20190327_013138.jpg
       date: 2019-03-27T01:31:38Z
       title: A lone, fully bloomed, cherry blossom
-      guid: 643fd0fd-6058-4e39-be18-69b3b27d984c
     - filename: JosephGruber_20190327_012828.jpg
       date: 2019-03-27T01:28:28Z
       title: Groves of cherry blossoms lined up on the University of Washington campus
-      guid: 9de28bc9-3b6e-425f-ac1f-e0e3dc6530ca
     - filename: JosephGruber_20190327_013204.jpg
       date: 2019-03-27T01:32:04Z
       title: Cherry blossoms embedded in the trunk of the cherry tree
-      guid: e9370a95-3906-4b20-8838-cf98e7d76ec0
     - filename: JosephGruber_20190327_012709.jpg
       date: 2019-03-27T01:27:09Z
       title: Cherry blossoms almost at full bloom
-      guid: 59d2269a-0854-4a68-89ae-bbb042a59ed2
     - filename: JosephGruber_20190327_012927.jpg
       date: 2019-03-27T01:29:27Z
       title: Cherry blossoms bloom in the sunlight on the University of Washington campus
-      guid: 597f526f-2cae-440f-b496-2af42f3920e5
     - filename: JosephGruber_20190327_013227.jpg
       date: 2019-03-27T01:32:27Z
       title: Cherry blossoms embedded in the trunk of the cherry tree
-      guid: da880d15-c389-47a6-9f77-2c9b7d6bb007
     - filename: JosephGruber_20190327_013342.jpg
       date: 2019-03-27T01:33:42Z
       title: Instagram worthy views of the cherry blossoms
-      guid: a21fcbba-d8b3-4a34-a7e2-6a7a2b9b6418
     - filename: JosephGruber_20190327_012512.jpg
       date: 2019-03-27T01:35:12Z
       title: Cherry blossoms soak up the bright sunlight admist a clear blue sky
-      guid: dc8b8f99-027d-4e59-ac47-5ded077ea902
 
 2019-exploring-denver:
   name: Exploring Denver in Early Winter
   description: From brilliant, snow filled sunrises at Red Rocks Park to majestic sunsets over the Front Range, the views never stop when exploring Denver in early winter
   permalink: /post/2019-denver-adventures/
   preview_image: JosephGruber_20191110_235828.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20191110_130735.jpg
       date: 2019-11-10T13:07:35Z
       title: Sunrise
-      guid: 2e4ebe59-6904-4c2c-bf39-966cbd65f9f6
     - filename: JosephGruber_20191110_130809.jpg
       date: 2019-11-10T13:08:09Z
       title: Dawn over Denver
-      guid: 36b57ac9-e364-4fec-bc66-e0b9aed82a14
     - filename: JosephGruber_20191110_133108.jpg
       date: 2019-11-10T13:31:08Z
       title: Purple Mountains Majesty
-      guid: 34793a90-e2d4-4834-b385-41bd65a48a31
     - filename: JosephGruber_20191110_134354.jpg
       date: 2019-11-10T13:43:54Z
       title: Early Bird
-      guid: c5cdb717-7c3b-407a-8c7f-7b3fdb1c72c7
     - filename: JosephGruber_20191110_134458.jpg
       date: 2019-11-10T13:44:58Z
       title: Sunrise at Red Rocks
-      guid: 13b611c4-f3bc-427d-9488-15958c745cbf
     - filename: JosephGruber_20191110_235752.jpg
       date: 2019-11-10T23:57:52Z
       title: Brilliant Sunset over the Front Range
-      guid: bf3ce86b-ec28-4180-93d4-a629c00c7aa9
     - filename: JosephGruber_20191110_235828.jpg
       date: 2019-11-10T23:58:28Z
       title: Majestic Sunset over the Front Range
-      guid: 992d26a9-ff93-4c69-b387-ffb1a43f8968
     - filename: JosephGruber_20191111_182701.jpg
       date: 2019-11-11T18:27:01Z
       title: Sunrise Snow at Red Rocks
-      guid: 03a274cf-df12-473f-9d85-4ea922003597
     - filename: JosephGruber_20191111_182930.jpg
       date: 2019-11-11T18:29:30Z
       title: Red Rocks Morning Snow
-      guid: 1b689008-f5b8-4dbd-87c5-01e0f700bd89
 
 2021-frederick-in-flight:
   name: Frederick In Flight
   description: Bla bla bla
   permalink: /post/hot-air-balloons-at-frederick-in-flight/
   preview_image: JosephGruber_20210627_123611.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210627_123611.jpg
       date: 2021-06-27T12:36:11Z
@@ -1573,7 +1271,6 @@ april-showers-bring-may-flowers:
   description: Bla bla bla
   permalink: /post/fire-up-the-cliffs-independence-day/
   preview_image: JosephGruber_20210705_042344.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210705_040703-2.jpg
       date: 2021-07-05T04:07:03Z
@@ -1593,7 +1290,6 @@ april-showers-bring-may-flowers:
   description: Mind-blowing arches to grand vistas to deep canyons, Utah is surely a photographers dream
   permalink: /post/2022-exploring-utah/
   preview_image: JosephGruber_20220411_014923.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20220410_133542.jpg
       date: 2022-04-10T13:35:42Z
@@ -1658,7 +1354,6 @@ april-showers-bring-may-flowers:
   description: The magnificent peaks and inspiring vista of Summit County Colorado. Oh my.
   permalink: /post/2022-exploring-summit-county/
   preview_image: JosephGruber_20220711_022821.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20220622_021603.jpg
       date: 2022-06-22T02:16:02Z
@@ -1693,7 +1388,6 @@ geb-2017-baysox-game:
   tags: geb
   permalink: /gallery/geb/2017-bowie-baysox-game/
   preview_image: JosephGruber_20170604_153925.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170604_133219.jpg
       date: 2017-06-04T17:32:19Z
@@ -1829,7 +1523,6 @@ geb-2017-canine-cruise:
   tags: geb
   permalink: /gallery/geb/2017-canine-cruise/
   preview_image: JosephGruber_20171004_210922.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20171004_205515.jpg
       date: 2017-10-04T20:55:15Z
@@ -1916,7 +1609,6 @@ geb-2018-canine-cruise:
   tags: geb
   permalink: /gallery/geb/2018-canine-cruise/
   preview_image: JosephGruber_20181002_213215.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20181002_211954.jpg
       date: 2018-10-02T21:19:54Z
@@ -1993,7 +1685,6 @@ geb-2017-wagging-tails:
   tags: geb
   permalink: /gallery/geb/2017-wagging-tails-and-dogfish-ale/
   preview_image: JosephGruber_20170815_233332.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170815_212645.jpg
       date: 2017-08-15T21:26:45Z
@@ -2125,7 +1816,6 @@ geb-2018-wagging-tails:
   tags: geb
   permalink: /gallery/geb/2018-wagging-tails-and-dogfish-ale/
   preview_image: JosephGruber_20180814_214356.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180814_214356.jpg
       date: 2018-08-14T21:43:56Z
@@ -2163,7 +1853,6 @@ geb-2018-pints-and-poses:
   tags: geb
   permalink: /gallery/geb/2018-pints-and-poses/
   preview_image: JosephGruber_20181013_172218.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20181013_174133-2.jpg
       date: 2018-10-13T17:41:33Z
@@ -2246,7 +1935,6 @@ geb-2018-ft-hunt-park:
   tags: geb
   permalink: /gallery/geb/2018-ft-hunt-park/
   preview_image: JosephGruber_20181118_193818.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20181118_192635.jpg
       date: 2018-11-18T19:26:35Z
@@ -2270,7 +1958,6 @@ geb-2019-tom-panek:
   tags: geb
   permalink: /gallery/geb/2019-tom-panek/
   preview_image: JosephGruber_20190428_183647.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190428_180537.jpg
       date: 2019-04-28T18:05:37Z
@@ -2308,7 +1995,6 @@ geb-2019-halloween-home-depot-outing:
   tags: geb
   permalink: /gallery/geb/2019-halloween-home-depot-outing/
   preview_image: JosephGruber_20190922_163058.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190922_162416.jpg
       date: 2019-09-22T16:24:16Z
@@ -2349,7 +2035,6 @@ geb-2019-wagging-tails:
   tags: geb
   permalink: /gallery/geb/2019-wagging-tails-and-dogfish-ale/
   preview_image: JosephGruber_20190924_205151.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190924_203648.jpg
       date: 2019-09-24T20:36:48Z
@@ -2471,7 +2156,6 @@ geb-2020-lake-dillon-outing:
   tags: geb
   permalink: /gallery/geb/2020-lake-dillon-outing/
   preview_image: JosephGruber_20200912_194412.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20200912_184001.jpg
       date: 2020-09-12T18:40:01Z
@@ -2515,7 +2199,6 @@ geb-2021-lake-dillon-outing:
   tags: geb
   permalink: /gallery/geb/2021-lake-dillon-outing/
   preview_image: JosephGruber_20210911_191953.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210911_191013.jpg
       date: 2021-09-11T19:10:13Z
@@ -2571,7 +2254,6 @@ geb-2020-mile-high-farms-outing:
   tags: geb
   permalink: /gallery/geb/2020-mile-high-farms-outing/
   preview_image: JosephGruber_20201011_172910_44261.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20201011_171249_44244.jpg
       date: 2020-10-11T17:12:49Z
@@ -2612,7 +2294,6 @@ geb-2020-guide-dogs-go-west:
   tags: geb
   permalink: /gallery/geb/2020-guide-dogs-go-west
   preview_image: JosephGruber_20201021_173221_45965.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20201021_182446_46041.jpg
       date: 2020-10-21T18:24:46Z
@@ -2647,7 +2328,6 @@ geb-2021-lazy-dog:
   tags: geb
   permalink: /gallery/geb/2021-lazy-dog-outing
   preview_image: JosephGruber_20210718_173346.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210718_193003.jpg
       date: 2021-07-18T19:30:03Z
@@ -2676,7 +2356,6 @@ geb-2021-washington-park:
   tags: geb
   permalink: /gallery/geb/2021-washington-park-outing
   preview_image: JosephGruber_20211023_174134.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211023_181115.jpg
       date: 2021-10-23T18:11:15Z
@@ -2711,7 +2390,6 @@ geb-2022-mile-high-farms-outing:
   tags: geb
   permalink: /gallery/geb/2022-mile-high-farms-outing/
   preview_image: JosephGruber_20221030_170842.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20221030_171634.jpg
       date: 2022-10-30T17:16:34Z
@@ -2761,7 +2439,6 @@ geb-2025-dillon-reservoir-outing:
   tags: geb
   permalink: /gallery/geb/2025-dillon-reservoir-outing/
   preview_image: JosephGruber_20250823_195130.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20250823_195704.jpg
       date: 2025-08-23T19:57:04Z
@@ -2790,7 +2467,6 @@ geb-2025-mile-high-farms-outing:
   tags: geb
   permalink: /gallery/geb/2025-mile-high-farms-outing/
   preview_image: JosephGruber_20251026_183911.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20251026_183115.jpg
       date: 2025-10-26T18:31:15Z
@@ -2819,7 +2495,6 @@ geb-2026-mile-high-farms-outing:
   tags: geb
   permalink: /gallery/geb/2026-mile-high-farms-outing/
   preview_image: JosephGruber_20261025_180325.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20261025_175923.jpg
       date: 2026-10-25T17:59:23Z
@@ -2860,7 +2535,6 @@ geb-2026-colorado-regional-gathering:
   tags: geb
   permalink: /gallery/geb/2026-geb-colorado-regional-gathering/
   preview_image: JosephGruber_20251026_183911.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20260614_190952.jpg
       date: 2026-06-14T19:09:52Z
@@ -2949,7 +2623,6 @@ benny:
   tags: private
   permalink: /gallery/private/benny/
   preview_image: JosephGruber_20171028_151739.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20171028_133251.jpg
       date: 2017-10-28T13:32:51Z
@@ -3089,7 +2762,6 @@ skittle:
   tags: private
   permalink: /gallery/private/skittle/
   preview_image: JosephGruber_20210612_145005.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210612_143450.jpg
       date: 2021-06-12T14:34:50Z
@@ -3124,7 +2796,6 @@ geb-adrienne:
   tags: geb
   permalink: /gallery/geb/adrienne/
   preview_image: JosephGruber_20190217_183934.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190217_183935.jpg
       date: 2019-02-17T18:39:35Z
@@ -3147,7 +2818,6 @@ geb-amos:
   tags: geb
   permalink: /gallery/geb/amos/
   preview_image: JosephGruber_20160730_093714.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160730_093714.jpg
       date: 2016-07-30T09:37:14Z
@@ -3167,7 +2837,6 @@ geb-aqua:
   tags: geb
   permalink: /gallery/geb/aqua/
   preview_image: JosephGruber_20160410_055927.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160410_054417.jpg
       date: 2016-04-10T05:44:17Z
@@ -3208,7 +2877,6 @@ geb-aron:
   tags: geb
   permalink: /gallery/geb/aron/
   preview_image: JosephGruber_20151011_075122.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20151011_073520.jpg
       date: 2015-10-11T07:35:20Z
@@ -3243,7 +2911,6 @@ geb-aussie:
   tags: geb
   permalink: /gallery/geb/aussie/
   preview_image: JosephGruber_20170422_075536.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170422_074745.jpg
       date: 2017-04-22T07:47:45Z
@@ -3269,7 +2936,6 @@ geb-balsa:
   tags: geb
   permalink: /gallery/geb/balsa/
   preview_image: JosephGruber_20170514_091819.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170514_091819.jpg
       date: 2017-05-14T09:18:19Z
@@ -3292,7 +2958,6 @@ geb-bando:
   tags: geb
   permalink: /gallery/geb/bando/
   preview_image: JosephGruber_20201101_193730.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20201101_193730.jpg
       date: 2020-11-01T19:37:30Z
@@ -3336,7 +3001,6 @@ geb-brandy:
   tags: geb
   permalink: /gallery/geb/brandy/
   preview_image: JosephGruber_20190217_173146.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190217_165130.jpg
       date: 2019-02-17T16:51:30Z
@@ -3359,7 +3023,6 @@ geb-cam:
   tags: geb
   permalink: /gallery/geb/cam/
   preview_image: JosephGruber_20190922_185145.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190922_185145.jpg
       date: 2019-09-22T18:51:45Z
@@ -3370,7 +3033,6 @@ geb-cannoli:
   tags: geb
   permalink: /gallery/geb/cannoli
   preview_image: JosephGruber_20261025_180843.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20261025_175923.jpg
       date: 2026-10-25T17:59:23Z
@@ -3390,7 +3052,6 @@ geb-casey:
   tags: geb
   permalink: /gallery/geb/casey/
   preview_image: JosephGruber_20250525_181211.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20250525_181211.jpg
       date: 2025-05-25T18:12:11Z
@@ -3407,7 +3068,6 @@ geb-cersei:
   tags: geb
   permalink: /gallery/geb/cersei
   preview_image: JosephGruber_20221030_172207.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20221030_172207.jpg
       date: 2022-10-30T17:22:07Z
@@ -3424,7 +3084,6 @@ geb-champ:
   tags: geb
   permalink: /gallery/geb/champ
   preview_image: JosephGruber_20211230_194549.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211230_194549.jpg
       date: 2021-12-30T19:45:48Z
@@ -3450,7 +3109,6 @@ geb-clancey:
   tags: geb
   permalink: /gallery/geb/clancey
   preview_image: JosephGruber_20230305_140019.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20230305_220707.jpg
       date: 2023-03-05T22:07:07Z
@@ -3542,7 +3200,6 @@ geb-colleen:
   tags: geb
   permalink: /gallery/geb/colleen
   preview_image: JosephGruber_20190922_184631.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190922_184631.jpg
       date: 2019-09-22T18:46:31Z
@@ -3559,7 +3216,6 @@ geb-davis:
   tags: geb
   permalink: /gallery/geb/davis/
   preview_image: JosephGruber_20190922_185839.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190922_174712.jpg
       date: 2019-09-22T17:47:12Z
@@ -3633,7 +3289,6 @@ geb-debbie:
   tags: geb
   permalink: /gallery/geb/debbie/
   preview_image: JosephGruber_20190922_184836.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190922_184836.jpg
       date: 2019-09-22T18:48:36Z
@@ -3650,7 +3305,6 @@ geb-delilah:
   tags: geb
   permalink: /gallery/geb/delilah/
   preview_image: JosephGruber_20160925_120847.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160925_120847.jpg
       date: 2016-09-25T12:08:47Z
@@ -3709,7 +3363,6 @@ geb-dove:
   tags: geb
   permalink: /gallery/geb/dove/
   preview_image: JosephGruber_20190217_170958.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190217_170953.jpg
       date: 2019-02-17T17:09:53Z
@@ -3723,7 +3376,6 @@ geb-elkins:
   tags: geb
   permalink: /gallery/geb/elkins/
   preview_image: JosephGruber_20170618_065317.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170321_182545.jpg
       date: 2017-03-21T18:25:45Z
@@ -3857,7 +3509,6 @@ geb-elvin:
   tags: geb
   permalink: /gallery/geb/elvin/
   preview_image: JosephGruber_20260726_154343.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20260726_154343.jpg
       date: 2026-07-26T15:43:43Z
@@ -3883,7 +3534,6 @@ geb-ellery:
   tags: geb
   permalink: /gallery/geb/ellery/
   preview_image: JosephGruber_20170521_122429.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170305_130234.jpg
       date: 2017-03-05T13:02:34Z
@@ -3930,7 +3580,6 @@ geb-emblem:
   tags: geb
   permalink: /gallery/geb/emblem/
   preview_image: JosephGruber_20191109_180954.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20191109_180856.jpg
       date: 2019-11-09T18:08:56Z
@@ -3959,7 +3608,6 @@ geb-emerald:
   tags: geb
   permalink: /gallery/geb/emerald/
   preview_image: JosephGruber_20160528_091019.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160528_091019.jpg
       date: 2016-05-28T09:10:19Z
@@ -3988,7 +3636,6 @@ geb-enya:
   tags: geb
   permalink: /gallery/geb/enya/
   preview_image: JosephGruber_20211031_135433.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211031_135743.jpg
       date: 2021-10-31T13:57:43Z
@@ -4011,7 +3658,6 @@ geb-eric:
   tags: geb
   permalink: /gallery/geb/eric/
   preview_image: JosephGruber_20190922_154413.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190922_153009.jpg
       date: 2019-09-22T15:30:09Z
@@ -4028,7 +3674,6 @@ geb-erie:
   tags: geb
   permalink: /gallery/geb/erie/
   preview_image: JosephGruber_20250525_181956.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20250525_181956.jpg
       date: 2025-05-25T18:19:56Z
@@ -4063,7 +3708,6 @@ geb-ernie:
   tags: geb
   permalink: /gallery/geb/ernie/
   preview_image: JosephGruber_20160508_070317.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160508_064002.jpg
       date: 2016-05-08T06:40:02Z
@@ -4095,7 +3739,6 @@ geb-expo:
   tags: geb
   permalink: /gallery/geb/expo/
   preview_image: JosephGruber_20190427_121329.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190427_121329.jpg
       date: 2019-04-27T12:13:29Z
@@ -4145,7 +3788,6 @@ geb-farrow:
   tags: geb
   permalink: /gallery/geb/farrow/
   preview_image: JosephGruber_20161231_131729.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20161218_130047.jpg
       date: 2016-12-18T13:00:47Z
@@ -4180,7 +3822,6 @@ geb-fauna:
   tags: geb
   permalink: /gallery/geb/fauna/
   preview_image: JosephGruber_20160509_164022.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160509_163442.jpg
       date: 2016-05-09T16:34:42Z
@@ -4209,7 +3850,6 @@ geb-fenway:
   tags: geb
   permalink: /gallery/geb/fenway/
   preview_image: JosephGruber_20180729_121247.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180729_120902.jpg
       date: 2018-07-29T12:09:02Z
@@ -4241,7 +3881,6 @@ geb-fay:
   tags: geb
   permalink: /gallery/geb/fay/
   preview_image: JosephGruber_20181110_131822.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20181110_131809.jpg
       date: 2018-11-10T13:18:09Z
@@ -4276,7 +3915,6 @@ geb-flint:
   tags: geb
   permalink: /gallery/geb/flint/
   preview_image: JosephGruber_20211031_143804.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211031_143403.jpg
       date: 2021-10-31T14:34:03Z
@@ -4296,7 +3934,6 @@ geb-freddy:
   tags: geb
   permalink: /gallery/geb/freddy/
   preview_image: JosephGruber_20190217_183544.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190217_183544.jpg
       date: 2019-02-17T18:35:44Z
@@ -4316,7 +3953,6 @@ geb-gait:
   tags: geb
   permalink: /gallery/geb/gait/
   preview_image: JosephGruber_20220821_140308.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20220821_140308.jpg
       date: 2022-08-21T14:03:08Z
@@ -4327,7 +3963,6 @@ geb-galahad:
   tags: geb
   permalink: /gallery/geb/galahad/
   preview_image: JosephGruber_20130727_110311.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20130719_085848.jpg
       date: 2013-07-19T08:58:48Z
@@ -4377,7 +4012,6 @@ geb-giada:
   tags: geb
   permalink: /gallery/geb/giada/
   preview_image: JosephGruber_20150815_072910.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20150815_071146.jpg
       date: 2015-08-15T07:11:46Z
@@ -4412,7 +4046,6 @@ geb-gibbs:
   tags: geb
   permalink: /gallery/geb/gibbs/
   preview_image: JosephGruber_20210613_015046.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210613_015046.jpg
       date: 2021-06-13T01:50:46Z
@@ -4453,7 +4086,6 @@ geb-gilligan:
   tags: geb
   permalink: /gallery/geb/gilligan/
   preview_image: JosephGruber_20160814_122217.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160814_111245.jpg
       date: 2016-08-14T11:12:45Z
@@ -4491,7 +4123,6 @@ geb-ginny:
   tags: geb
   permalink: /gallery/geb/ginny/
   preview_image: JosephGruber_20180526_072004.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170423_121445.jpg
       date: 2017-04-23T12:14:45Z
@@ -4538,7 +4169,6 @@ geb-gunther:
   tags: geb
   permalink: /gallery/geb/gunther/
   preview_image: JosephGruber_20160903_071754.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160903_071754.jpg
       date: 2016-09-03T07:17:54Z
@@ -4558,7 +4188,6 @@ geb-gwenyth:
   tags: geb
   permalink: /gallery/geb/gwenyth/
   preview_image: JosephGruber_20180311_073136.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170115_155228.jpg
       date: 2017-01-15T15:52:28Z
@@ -4661,7 +4290,6 @@ geb-halsey:
   tags: geb
   permalink: /gallery/geb/halsey/
   preview_image: JosephGruber_20211031_145322.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211031_144720.jpg
       date: 2021-10-31T14:47:20Z
@@ -4678,7 +4306,6 @@ geb-harmony:
   tags: geb
   permalink: /gallery/geb/harmony/
   preview_image: JosephGruber_20180505_075645.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170423_133416.jpg
       date: 2017-04-23T13:34:16Z
@@ -4734,7 +4361,6 @@ geb-harry:
   tags: geb
   permalink: /gallery/geb/harry/
   preview_image: JosephGruber_20211023_180706.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211023_180706.jpg
       date: 2021-10-23T18:07:06Z
@@ -4745,7 +4371,6 @@ geb-hazy:
   tags: geb
   permalink: /gallery/geb/hazy/
   preview_image: JosephGruber_20210911_173717.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210911_172511.jpg
       date: 2021-09-11T17:25:11Z
@@ -4774,7 +4399,6 @@ geb-heron:
   tags: geb
   permalink: /gallery/geb/heron/
   preview_image: JosephGruber_20220821_145912.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20220821_145912.jpg
       date: 2022-08-21T14:59:12Z
@@ -4794,7 +4418,6 @@ geb-hilton:
   tags: geb
   permalink: /gallery/geb/hilton/
   preview_image: JosephGruber_20161105_094955.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20161105_094955.jpg
       date: 2016-11-05T09:49:55Z
@@ -4823,7 +4446,6 @@ geb-howie:
   tags: geb
   permalink: /gallery/geb/howie/
   preview_image: JosephGruber_20170409_110203.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170409_105809.jpg
       date: 2017-04-09T10:58:09Z
@@ -4876,7 +4498,6 @@ geb-icarus:
   tags: geb
   permalink: /gallery/geb/icarus/
   preview_image: JosephGruber_20170917_134943.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170917_130236.jpg
       date: 2017-09-17T13:02:36Z
@@ -4929,7 +4550,6 @@ geb-imus:
   tags: geb
   permalink: /gallery/geb/imus/
   preview_image: JosephGruber_20181223_143407.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20181216_193324.jpg
       date: 2018-12-16T19:33:24Z
@@ -4961,7 +4581,6 @@ geb-ireland:
   tags: geb
   permalink: /gallery/geb/ireland/
   preview_image: JosephGruber_20230909_150508.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20230909_150508.jpg
       date: 2023-09-09T15:05:08Z
@@ -4972,7 +4591,6 @@ geb-irene:
   tags: geb
   permalink: /gallery/geb/irene/
   preview_image: JosephGruber_20200628_160233.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20200628_173657.jpg
       date: 2020-06-28T17:36:57Z
@@ -5029,7 +4647,6 @@ geb-irwin:
   tags: geb
   permalink: /gallery/geb/irwin/
   preview_image: JosephGruber_20160730_084358.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160730_081817.jpg
       date: 2016-07-30T08:18:17Z
@@ -5085,7 +4702,6 @@ geb-irwin-7II20:
   tags: geb
   permalink: /gallery/geb/irwin-7II20/
   preview_image: JosephGruber_20200628_171137.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20200628_171134.jpg
       date: 2020-06-28T17:11:34Z
@@ -5123,7 +4739,6 @@ geb-ivan:
   tags: geb
   permalink: /gallery/geb/ivan/
   preview_image: JosephGruber_20210718_193003.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210718_193003.jpg
       date: 2021-07-18T19:30:03Z
@@ -5146,7 +4761,6 @@ geb-izzie:
   tags: geb
   permalink: /gallery/geb/izzie/
   preview_image: JosephGruber_20160814_074602.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160814_073625.jpg
       date: 2016-08-14T07:36:25Z
@@ -5178,7 +4792,6 @@ geb-jenny:
   tags: geb
   permalink: /gallery/geb/jenny/
   preview_image: JosephGruber_20180729_120256.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180729_120126.jpg
       date: 2018-07-29T16:01:26Z
@@ -5216,7 +4829,6 @@ geb-jewels:
   tags: geb
   permalink: /gallery/geb/jewels/
   preview_image: JosephGruber_20211031_141400.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211031_140740.jpg
       date: 2021-10-31T14:07:40Z
@@ -5233,7 +4845,6 @@ geb-joyce:
   tags: geb
   permalink: /gallery/geb/joyce/
   preview_image: JosephGruber_20260614_152501.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20260614_152501.jpg
       date: 2026-06-14T15:25:01Z
@@ -5256,7 +4867,6 @@ geb-jude:
   tags: geb
   permalink: /gallery/geb/jude/
   preview_image: JosephGruber_20190113_193059.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20171022_130624.jpg
       date: 2017-10-22T17:06:24Z
@@ -5426,7 +5036,6 @@ geb-judy:
   tags: geb
   permalink: /gallery/geb/judy/
   preview_image: JosephGruber_20250525_181551.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20250525_181551.jpg
       date: 2025-05-25T18:15:51Z
@@ -5443,7 +5052,6 @@ geb-justine:
   tags: geb
   permalink: /gallery/geb/justine/
   preview_image: JosephGruber_20161106_150554.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20161106_145449.jpg
       date: 2016-11-06T14:54:49Z
@@ -5472,7 +5080,6 @@ geb-kibble:
   tags: geb
   permalink: /gallery/geb/kibble/
   preview_image: JosephGruber_20160814_104507.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160814_104507.jpg
       date: 2016-08-14T10:45:07Z
@@ -5540,7 +5147,6 @@ geb-krieger:
   tags: geb
   permalink: /gallery/geb/krieger
   preview_image: JosephGruber_20160508_055509.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160508_055509.jpg
       date: 2016-05-08T05:55:09Z
@@ -5566,7 +5172,6 @@ geb-laverne:
   tags: geb
   permalink: /gallery/geb/laverne/
   preview_image: JosephGruber_20161006_172311.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20161006_172311.jpg
       date: 2016-10-06T17:23:11Z
@@ -5592,7 +5197,6 @@ geb-liam:
   tags: geb
   permalink: /gallery/geb/liam/
   preview_image: JosephGruber_20250823_180329.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20240831_195627.jpg
       date: 2024-08-31T19:56:27Z
@@ -5621,7 +5225,6 @@ geb-libby:
   tags: geb
   permalink: /gallery/geb/libby/
   preview_image: JosephGruber_20170409_071535.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170205_121001.jpg
       date: 2017-02-05T12:10:01Z
@@ -5674,7 +5277,6 @@ geb-lita:
   tags: geb
   permalink: /gallery/geb/lita/
   preview_image: JosephGruber_20161106_092647.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20161106_091432.jpg
       date: 2016-11-06T09:14:32Z
@@ -5703,7 +5305,6 @@ geb-meyer:
   tags: geb
   permalink: /gallery/geb/meyer/
   preview_image: JosephGruber_20180408_091227.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170205_115443.jpg
       date: 2017-02-05T11:54:43Z
@@ -5774,7 +5375,6 @@ geb-miles:
   tags: geb
   permalink: /gallery/geb/miles/
   preview_image: JosephGruber_20211031_130834.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211031_131155.jpg
       date: 2021-10-31T13:11:55Z
@@ -5791,7 +5391,6 @@ geb-minka:
   tags: geb
   permalink: /gallery/geb/minka/
   preview_image: JosephGruber_20170806_132059.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170806_131822.jpg
       date: 2017-08-06T13:18:22Z
@@ -5820,7 +5419,6 @@ geb-nikon:
   tags: geb
   permalink: /gallery/geb/nikon/
   preview_image: JosephGruber_20190209_145917.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20181216_203551.jpg
       date: 2018-12-16T20:35:51Z
@@ -5870,7 +5468,6 @@ geb-nutmeg:
   tags: geb
   permalink: /gallery/geb/nutmeg/
   preview_image: JosephGruber_20170611_121522.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170611_121505.jpg
       date: 2017-06-11T12:15:05Z
@@ -5908,7 +5505,6 @@ geb-oakley:
   tags: geb
   permalink: /gallery/geb/oakley/
   preview_image: JosephGruber_20211031_133810.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211031_133810.jpg
       date: 2021-10-31T13:38:10Z
@@ -5928,7 +5524,6 @@ geb-obie:
   tags: geb
   permalink: /gallery/geb/obie/
   preview_image: JosephGruber_20190922_152313.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190922_152313.jpg
       date: 2019-09-22T15:23:13Z
@@ -5942,7 +5537,6 @@ geb-ode:
   tags: geb
   permalink: /gallery/geb/ode/
   preview_image: JosephGruber_20181229_133000.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20181216_193431.jpg
       date: 2018-12-16T19:34:31Z
@@ -5977,7 +5571,6 @@ geb-ohana:
   tags: geb
   permalink: /gallery/geb/ohana/
   preview_image: JosephGruber_20181223_134246.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20181223_134246.jpg
       date: 2018-12-23T13:42:46Z
@@ -6006,7 +5599,6 @@ geb-olana:
   tags: geb
   permalink: /gallery/geb/olana/
   preview_image: JosephGruber_20211031_123916.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211031_123435.jpg
       date: 2021-10-31T12:34:35Z
@@ -6023,7 +5615,6 @@ geb-olive:
   tags: geb
   permalink: /gallery/geb/olive/
   preview_image: JosephGruber_20211031_151551.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211031_151249.jpg
       date: 2021-10-31T15:12:49Z
@@ -6049,7 +5640,6 @@ geb-olson:
   tags: geb
   permalink: /gallery/geb/olson/
   preview_image: JosephGruber_20231125_165744.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20231125_165423.jpg
       date: 2023-11-25T16:54:23Z
@@ -6081,7 +5671,6 @@ geb-oslo:
   tags: geb
   permalink: /gallery/geb/oslo/
   preview_image: JosephGruber_20250525_181706.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20250525_181706.jpg
       date: 2025-05-25T18:17:06Z
@@ -6095,7 +5684,6 @@ geb-otto:
   tags: geb
   permalink: /gallery/geb/otto/
   preview_image: JosephGruber_20180408_134140.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180408_134140.jpg
       date: 2018-04-08T13:41:40Z
@@ -6130,7 +5718,6 @@ geb-parsley:
   tags: geb
   permalink: /gallery/geb/parsley
   preview_image: JosephGruber_20160910_075114.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160910_073905.jpg
       date: 2016-09-10T07:39:05Z
@@ -6159,7 +5746,6 @@ geb-patty:
   tags: geb
   permalink: /gallery/geb/patty
   preview_image: JosephGruber_20200912_191119.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20200912_190823.jpg
       date: 2020-09-12T19:08:23Z
@@ -6185,7 +5771,6 @@ geb-pax:
   tags: geb
   permalink: /gallery/geb/pax
   preview_image: JosephGruber_20201117_221558.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20201117_212332.jpg
       date: 2020-11-17T21:23:32Z
@@ -6274,7 +5859,6 @@ geb-pippi:
   tags: geb
   permalink: /gallery/geb/pippi
   preview_image: JosephGruber_20210423_144704.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180916_160530.jpg
       date: 2018-09-16T16:05:30Z
@@ -6339,7 +5923,6 @@ geb-pria:
   tags: geb
   permalink: /gallery/geb/pria
   preview_image: JosephGruber_20180916_155935.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180916_155935.jpg
       date: 2018-09-16T15:59:35Z
@@ -6359,7 +5942,6 @@ geb-pugsley:
   tags: geb
   permalink: /gallery/geb/pugsley/
   preview_image: JosephGruber_20161022_080704.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20161022_080309.jpg
       date: 2016-10-22T08:03:09Z
@@ -6385,7 +5967,6 @@ geb-pumpkin:
   tags: geb
   permalink: /gallery/geb/pumpkin/
   preview_image: JosephGruber_20170312_185630.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20151220_140934.jpg
       date: 2015-12-20T14:09:34Z
@@ -6469,32 +6050,26 @@ geb-pumpkin:
       date: 2016-10-23T08:34:29Z
       title: Pumpkin
       caption: Guiding Eyes for the Blind puppy-in-training Pumpkin in a down with the Washington, D.C. skyline behind her.
-      guid: afb226a3-893f-4d95-9861-c2e82b9f637c
     - filename: JosephGruber_20160108_214618.jpg
       date: 2016-01-08T21:46:18Z
       title: Pumpkin
-      guid: d72920a7-c167-4561-ae1b-6aba88de8424
     - filename: JosephGruber_20160117_091603.jpg
       date: 2016-01-17T09:16:03Z
       title: Who? Me?
-      guid: 33110568-2d78-4c4e-bafe-8768ba56f33d
     - filename: JosephGruber_20170219_173907.jpg
       date: 2017-02-19T17:39:07Z
       title: Pumpkin
       caption: A young, cute yellow lab takes a nap in the grass on a sunny, warm early spring day
-      guid: a216cf0c-d404-4679-bf26-7284158a8797
     - filename: JosephGruber_20170219_174241.jpg
       date: 2017-02-19T17:42:41Z
       title: Pumpkin
       caption: A regal looking, young, yellow labrador retriever gazes off in the distance as she basks in the sun laying in the grass on a warm day
-      guid: 1e33684b-8a62-4aac-bba4-5b4bfd1071a9
 
 geb-quasar:
   name: Quasar (6QQ19)
   tags: geb
   permalink: /gallery/geb/quasar/
   preview_image: JosephGruber_20210424_174238.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210424_173755.jpg
       date: 2021-04-24T17:37:55Z
@@ -6523,7 +6098,6 @@ geb-quincy:
   tags: geb
   permalink: /gallery/geb/quincy/
   preview_image: JosephGruber_20181216_183535.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20181216_183535.jpg
       date: 2018-12-16T18:35:35Z
@@ -6534,7 +6108,6 @@ geb-rasha:
   tags: geb
   permalink: /gallery/geb/rasha/
   preview_image: JosephGruber_20171105_142519.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160828_120805.jpg
       date: 2016-08-28T12:08:05Z
@@ -6593,7 +6166,6 @@ geb-rigby:
   tags: geb
   permalink: /gallery/geb/rigby/
   preview_image: JosephGruber_20180408_105915.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180408_105915.jpg
       date: 2018-04-08T10:59:15Z
@@ -6604,7 +6176,6 @@ geb-rhiana:
   tags: geb
   permalink: /gallery/geb/rhiana
   preview_image: JosephGruber_20210705_161900.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210705_161900.jpg
       date: 2021-07-05T16:19:00Z
@@ -6636,7 +6207,6 @@ geb-rhonda:
   tags: geb
   permalink: /gallery/geb/rhonda
   preview_image: JosephGruber_20191109_175257.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180909_181523.jpg
       date: 2018-09-09T18:15:23Z
@@ -6698,7 +6268,6 @@ geb-rocco:
   tags: geb
   permalink: /gallery/geb/rocco
   preview_image: JosephGruber_20180916_161022.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180916_161022.jpg
       date: 2018-09-16T16:10:22Z
@@ -6718,7 +6287,6 @@ geb-rocket:
   tags: geb
   permalink: /gallery/geb/rocket
   preview_image: JosephGruber_20211106_140833.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211106_141415.jpg
       date: 2021-11-06T14:14:15Z
@@ -6879,7 +6447,6 @@ geb-romeo:
   tags: geb
   permalink: /gallery/geb/romeo/
   preview_image: JosephGruber_20190202_141142.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20181216_203739.jpg
       date: 2018-12-16T20:37:39Z
@@ -6920,7 +6487,6 @@ geb-rue:
   tags: geb
   permalink: /gallery/geb/rue/
   preview_image: JosephGruber_20170611_121110.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170611_115240.jpg
       date: 2017-06-11T11:52:40Z
@@ -6970,7 +6536,6 @@ geb-ruza:
   tags: geb
   permalink: /gallery/geb/ruza/
   preview_image: JosephGruber_20160130_162912.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20141221_135650.jpg
       date: 2014-12-21T13:56:50Z
@@ -6996,7 +6561,6 @@ geb-sprinkles:
   tags: geb
   permalink: /gallery/geb/sprinkles/
   preview_image: JosephGruber_20221030_173637.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20221030_173637.jpg
       date: 2022-10-30T17:36:37Z
@@ -7028,7 +6592,6 @@ geb-triton:
   tags: geb
   permalink: /gallery/geb/triton/
   preview_image: JosephGruber_20251026_183115.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20251026_182506.jpg
       date: 2025-10-26T18:25:06Z
@@ -7060,7 +6623,6 @@ geb-tucson:
   tags: geb
   permalink: /gallery/geb/tucson/
   preview_image: JosephGruber_20251026_181912.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20251026_181912.jpg
       date: 2025-10-26T18:19:12Z
@@ -7086,7 +6648,6 @@ geb-valiant:
   tags: geb
   permalink: /gallery/geb/valiant/
   preview_image: JosephGruber_20151111_132532.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20151111_132101.jpg
       date: 2015-11-11T13:21:01Z
@@ -7130,7 +6691,6 @@ geb-valiant-7v318:
   tags: geb
   permalink: /gallery/geb/valiant-7v318/
   preview_image: JosephGruber_20190120_194110.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190120_194159.jpg
       date: 2019-01-20T19:41:59Z
@@ -7162,7 +6722,6 @@ geb-valor:
   tags: geb
   permalink: /gallery/geb/valor/
   preview_image: JosephGruber_20170813_144040.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20170813_143723.jpg
       date: 2017-08-13T14:37:23Z
@@ -7215,7 +6774,6 @@ geb-vanda:
   tags: geb
   permalink: /gallery/geb/vanda/
   preview_image: JosephGruber_20151017_082052.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20150711_090403.jpg
       date: 2015-07-11T09:04:03Z
@@ -7268,7 +6826,6 @@ geb-varick:
   tags: geb
   permalink: /gallery/geb/varick/
   preview_image: JosephGruber_20210424_142153.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20210424_135015.jpg
       date: 2021-04-24T13:50:15Z
@@ -7306,7 +6863,6 @@ geb-vespa:
   tags: geb
   permalink: /gallery/geb/vespa/
   preview_image: JosephGruber_20161106_142539.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20161006_172110.jpg
       date: 2016-10-06T17:21:10Z
@@ -7350,7 +6906,6 @@ geb-vinny:
   tags: geb
   permalink: /gallery/geb/vinny
   preview_image: JosephGruber_20211230_193032.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20211230_193032.jpg
       date: 2021-12-30T19:30:32Z
@@ -7370,7 +6925,6 @@ geb-waltz:
   tags: geb
   permalink: /gallery/geb/waltz/
   preview_image: JosephGruber_20230521_181040.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20230521_181028.jpg
       date: 2023-05-21T18:10:28Z
@@ -7390,7 +6944,6 @@ geb-willa:
   tags: geb
   permalink: /gallery/geb/willa/
   preview_image: JosephGruber_20161022_100452.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20161022_100452.jpg
       date: 2016-10-22T10:04:52Z
@@ -7416,7 +6969,6 @@ geb-willis:
   tags: geb
   permalink: /gallery/geb/willis/
   preview_image: JosephGruber_20190922_163946.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20190217_171545.jpg
       date: 2019-02-17T17:15:45Z
@@ -7436,7 +6988,6 @@ geb-worthy:
   tags: geb
   permalink: /gallery/geb/worthy/
   preview_image: JosephGruber_20230521_181430.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20230521_181438.jpg
       date: 2023-05-21T18:14:38Z
@@ -7459,7 +7010,6 @@ geb-yani:
   tags: geb
   permalink: /gallery/geb/yani/
   preview_image: JosephGruber_20160702_194151.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160702_193702.jpg
       date: 2016-07-02T19:37:02Z
@@ -7500,7 +7050,6 @@ geb-yola:
   tags: geb
   permalink: /gallery/geb/yola/
   preview_image: JosephGruber_20180930_160133.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20180930_154657.jpg
       date: 2018-09-30T15:46:57Z
@@ -7532,7 +7081,6 @@ geb-yoshi:
   tags: geb
   permalink: /gallery/geb/yoshi/
   preview_image: JosephGruber_20160710_075252.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20160710_074833.jpg
       date: 2016-07-10T07:48:33Z
@@ -7561,7 +7109,6 @@ geb-yvetta:
   tags: geb
   permalink: /gallery/geb/yvetta/
   preview_image: JosephGruber_20161106_101649.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20161106_100545.jpg
       date: 2016-11-06T10:05:45Z
@@ -7602,7 +7149,6 @@ geb-zephyr:
   tags: geb
   permalink: /gallery/geb/zephyr/
   preview_image: JosephGruber_20261010_162803.jpg
-  pricelist: default
   images:
     - filename: JosephGruber_20261010_162803.jpg
       date: 2026-10-10T16:28:03Z
