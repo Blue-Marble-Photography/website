@@ -5,7 +5,6 @@ function setLightboxDefaults() {
         "fullScreen",
         "share",
         "facebook",
-        "twitter",
         "download",
         "purchase",
         "thumbs",
@@ -22,8 +21,6 @@ function setLightboxDefaults() {
         '<button class="fancybox-button icon-forward" title="Share Link"></button>';
     $.fancybox.defaults.btnTpl.facebook =
         '<button class="fancybox-button icon-facebook-squared" title="Share on Facebook"></button>';
-    $.fancybox.defaults.btnTpl.twitter =
-        '<button class="fancybox-button icon-twitter-squared" title="Share on Twitter"></button>';
     $.fancybox.defaults.beforeShow = function (instance, slide) {
         var btnPrint = $("button.fancybox-button.icon-cart-plus");
         var btnDownload = $("button.fancybox-button.icon-download");
@@ -187,15 +184,6 @@ jQuery(document).ready(function () {
             );
         }
     );
-
-    $("body").on("click", ".fancybox-button.icon-twitter-squared", function () {
-        window.open(
-            "https://twitter.com/intent/tweet?text=" +
-                encodeURIComponent(document.title) +
-                "&via=BlueMarblePhoto&url=" +
-                encodeURIComponent(window.location.href)
-        );
-    });
 
     $("body").on("click", "button.fancybox-button.icon-cart-plus", function () {
         parent.$.fancybox.close();

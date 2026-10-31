@@ -1,22 +1,17 @@
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-<link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com" />
 <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
-<link rel="dns-prefetch" href="//code.jquery.com" />
 {%- if page.snipcart or layout.snipcart -%}
 <link rel="preconnect" href="https://app.snipcart.com" />
 <link rel="preconnect" href="https://cdn.snipcart.com" />
 {%- endif -%}
 
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta
     name="description"
     content="{% if page.description %}{{ page.description | strip_newlines | strip | truncate: 320 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 320 }}{% else %}{{ site.description }}{% endif %}"
 />
-<meta name="HandheldFriendly" content="True" />
-<meta name="MobileOptimized" content="320" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <meta name="author" content="{{ site.author.name }}" />
@@ -31,8 +26,6 @@
 <link rel="shortcut icon" href="{{ site.asset_url | prepend: site.url }}/favicons/favicon.ico?v=eE5dlz3jAR" />
 <meta name="apple-mobile-web-app-title" content="Blue Marble Photography" />
 <meta name="application-name" content="Blue Marble Photography" />
-<meta name="msapplication-TileColor" content="#e3e3e3" />
-<meta name="msapplication-config" content="{{ site.asset_url | prepend: site.url }}/favicons/browserconfig.xml?v=eE5dlz3jAR" />
 <meta name="theme-color" content="#146496" />
 
 <link
@@ -41,8 +34,6 @@
 />
 
 <meta name="twitter:card" content="{% if page.feature_image.filename %}summary_large_image{% else %}summary{% endif %}" />
-<meta name="twitter:creator" content="{{ site.author.twitter_username }}" />
-<meta name="twitter:site" content="{{ site.twitter.username }}" />
 
 <meta property="og:type" content="article" />
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
@@ -144,8 +135,6 @@
     {% if page.allow_download %}{% include /css/context-menu.css %}{% endif %}
 </style>
 
-{% if jekyll.environment == "prod" %} {% include gtag.html %} {% endif %}
-
 <script
     src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -157,17 +146,7 @@
     crossorigin="anonymous"
 ></script>
 
-{% if jekyll.environment == "prod" %}
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
-<script>
-    var OneSignal = window.OneSignal || [];
-    OneSignal.push(function () {
-        OneSignal.init({
-            appId: "{{ site.onesignal_api_key }}",
-        });
-    });
-</script>
-{% endif %} {% if page.gallery_name or page.album_name %}
+{% if page.gallery_name or page.album_name %}
 <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
