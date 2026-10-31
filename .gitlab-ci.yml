@@ -4,20 +4,14 @@ stages:
 
 build:
   stage: build
-  image: ruby:2.7
+  image: ruby:3.4.12-trixie
   before_script:
-    - sed -i -e '/bullseye-security/d' -e 's|deb.debian.org|archive.debian.org|g' /etc/apt/sources.list
-    - echo 'Acquire::Check-Valid-Until "0";' > /etc/apt/apt.conf.d/99no-check-valid-until
     - apt-get update -qy
-    - apt-get install -y nodejs
-    - apt-get install -y npm
-    - npm install npm@latest -g
-    - npm install gulp -g
-    - npm install
-    - gem install bundler -v 2.4.22
+    - apt-get install -y --no-install-recommends nodejs npm
+    - npm ci
     - bundle install
   script:
-    - gulp deploy
+    - npx gulp deploy
   artifacts:
     paths:
       - _site

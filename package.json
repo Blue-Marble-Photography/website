@@ -23,10 +23,9 @@
         "gulp-postcss": "^7.0.1",
         "gulp-rename": "^1.4.0",
         "gulp-replace": "^1.0.0",
-        "gulp-sass": "^4.1.0",
+        "gulp-sass": "^6.0.1",
         "gulp-uglify": "^3.0.1",
         "ngrok": "^3.2.7",
-        "node-sass": "^4.14.1",
-        "sass": "^1.26.7"
+        "sass": "~1.105.1"
     }
 }

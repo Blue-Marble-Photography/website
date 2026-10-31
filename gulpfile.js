@@ -10,20 +10,18 @@ var ngrok = require("ngrok");
 var postcss = require("gulp-postcss");
 var rename = require("gulp-rename");
 var replace = require("gulp-replace");
-var sass = require("gulp-sass");
+var sass = require("gulp-sass")(require("sass"));
 var uglify = require("gulp-uglify");
 
 var paths = require("./_assets/gulp/paths.js");
 var platform = process.platform === "win32" ? "win" : "mac";
-
-sass.compiler = require("sass");
 
 gulp.task("build:styles:main", function () {
     return gulp
         .src([paths.sassFilesGlob])
         .pipe(
             sass({
-                outputStyle: "compressed",
+                style: "compressed",
             })
         )
         .pipe(
