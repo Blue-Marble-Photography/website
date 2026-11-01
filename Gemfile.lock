@@ -111,7 +111,7 @@ DEPENDENCIES
   sass-embedded (~> 1.105.1)
 
 RUBY VERSION
-   ruby 3.4.12p148
+   ruby 3.4.11p137
 
 BUNDLED WITH
    2.6.9
