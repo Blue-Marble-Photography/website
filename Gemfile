@@ -4,7 +4,7 @@ source "https://rubygems.org"
 ruby "~> 3.4"
 
 # Removed from Ruby 3.4 default gems; liquid 4 still requires it and Jekyll doesn't declare it.
-gem "bigdecimal", "~> 3.3"
+gem "bigdecimal", "~> 4.1"
 
 gem "jekyll", "~> 4.4"
 gem "jekyll-last-modified-at", "~> 1.3"
