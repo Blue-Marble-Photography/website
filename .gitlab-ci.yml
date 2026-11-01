@@ -1,3 +1,4 @@
+# Each folder carries its own pipeline so it can become its own GitLab project later.
 stages:
   - build
   - deploy
@@ -6,67 +7,6 @@ workflow:
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
-# AWS credentials via GitLab OIDC (role in tf/iam.tf, trusted for main only).
-.aws_oidc:
-  id_tokens:
-    GITLAB_OIDC_TOKEN:
-      aud: https://gitlab.com
-  variables:
-    AWS_ROLE_ARN: arn:aws:iam::530167849052:role/gitlab-ci-bluemarble.photography
-    AWS_ROLE_SESSION_NAME: gitlab-$CI_PROJECT_NAME-$CI_JOB_ID
-    AWS_WEB_IDENTITY_TOKEN_FILE: /tmp/gitlab-oidc-token
-  before_script:
-    - printf '%s' "$GITLAB_OIDC_TOKEN" > "$AWS_WEB_IDENTITY_TOKEN_FILE"
-
-build:
-  stage: build
-  image: ruby:3.4.12-trixie
-  variables:
-    JEKYLL_ENV: prod
-    BUNDLE_PATH: vendor/bundle
-  cache:
-    key:
-      files:
-        - Gemfile.lock
-    paths:
-      - vendor/bundle
-  before_script:
-    - bundle install
-  script:
-    - bundle exec jekyll build
-  artifacts:
-    paths:
-      - _site
-    expire_in: 10 mins
-
-deploy:
-  stage: deploy
-  extends: .aws_oidc
-  image:
-    name: amazon/aws-cli:2.38.1
-    entrypoint: [""]
-  needs:
-    - build
-  script:
-    - aws sts get-caller-identity
-    # aws s3 sync doesn't know these types; upload them separately with explicit Content-Type.
-    - aws s3 sync ./_site/ "s3://$S3_BUCKET_NAME" --delete --exclude "*.woff2" --exclude "*.webp"
-    - aws s3 sync ./_site/ "s3://$S3_BUCKET_NAME" --delete --exclude "*" --include "*.woff2" --content-type font/woff2
-    - aws s3 sync ./_site/ "s3://$S3_BUCKET_NAME" --delete --exclude "*" --include "*.webp" --content-type image/webp
-    - aws cloudfront create-invalidation --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" --paths "/*"
-
-deploy-resize-lambda:
-  stage: deploy
-  extends: .aws_oidc
-  image: public.ecr.aws/sam/build-python3.14:1.169.0-20261014205103
-  tags:
-    - saas-linux-small-arm64
-  needs: []
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "web"
-    - changes:
-        - _components/aws-resize-images/**/*
-  script:
-    - cd _components/aws-resize-images
-    - sam build
-    - sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
+include:
+  - local: website/.gitlab-ci.yml
+  - local: infra/.gitlab-ci.yml
