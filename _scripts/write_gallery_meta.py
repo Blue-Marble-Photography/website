@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "iptcinfo3~=2.1.4",
+# ]
+# ///
 import argparse
 import logging
 from pathlib import Path
