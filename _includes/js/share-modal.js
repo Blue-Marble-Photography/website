@@ -1,28 +1,43 @@
-jQuery(document).ready(function() {
-  $('#shareModal').on('show.bs.modal', function(e) {
-    var photo = $(e.relatedTarget);
-    var title = photo.data('title');
-    var url = photo.data('url');
+(function () {
+  var modal = document.getElementById('shareModal');
 
-    if (typeof title !== 'undefined') {
-      setModalValues(title, url);
+  if (!modal) {
+    return;
+  }
+
+  var input = document.getElementById('photo-url');
+
+  modal.addEventListener('show.bs.modal', function(e) {
+    var photo = e.relatedTarget;
+
+    if (photo && photo.dataset.title !== undefined) {
+      setModalValues(photo.dataset.title, photo.dataset.url);
     }
   });
 
-  $('#shareModal').on('shown.bs.modal', function() {
-    $('#photo-url').select();
+  modal.addEventListener('shown.bs.modal', function() {
+    input.select();
   });
 
-  $('#copy-photo-url').click(function() {
-    $('#photo-url').select();
-    document.execCommand('copy');
+  modal.addEventListener('hide.bs.modal', function() {
+    var popover = bootstrap.Popover.getInstance(input);
 
-    $('#photo-url').popover({ content: 'Copied', placement: 'top' });
-    $('#photo-url').popover('show');
+    if (popover) {
+      popover.hide();
+    }
   });
-});
+
+  document.getElementById('copy-photo-url').addEventListener('click', function() {
+    input.select();
+    navigator.clipboard.writeText(input.value).catch(function() {
+      document.execCommand('copy');
+    });
+
+    bootstrap.Popover.getOrCreateInstance(input, { content: 'Copied', placement: 'top', trigger: 'manual' }).show();
+  });
+})();
 
 function setModalValues(title, url) {
-  $('#photo-title').text('Share: ' + title);
-  $('#photo-url').val(url);
+  document.getElementById('photo-title').textContent = 'Share: ' + title;
+  document.getElementById('photo-url').value = url;
 }

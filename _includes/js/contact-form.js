@@ -1,19 +1,23 @@
-$('#contactForm').submit(function(event) {
-  if ($(this)[0].checkValidity() === false) {
-    event.preventDefault();
-    event.stopPropagation();
-  }
+var contactForm = document.getElementById('contactForm');
 
-  $(this).addClass('was-validated');
-});
+if (contactForm) {
+  contactForm.addEventListener('submit', function(event) {
+    if (!contactForm.checkValidity()) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    contactForm.classList.add('was-validated');
+  });
+}
 
 function parseUriHash() {
-  if (window.location.hash) {
-    var hash = window.location.hash.substring(1);
-
-    if (hash == 'submitted') {
-      $('.submitted').removeClass('d-none');
-      $('form').addClass('d-none');
-    }
+  if (window.location.hash === '#submitted') {
+    document.querySelectorAll('.submitted').forEach(function(el) {
+      el.classList.remove('d-none');
+    });
+    document.querySelectorAll('form').forEach(function(el) {
+      el.classList.add('d-none');
+    });
   }
 }

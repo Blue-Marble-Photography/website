@@ -1,8 +1,8 @@
 <a class="icon-facebook-squared" title="Share on Facebook" aria-label="Share on Facebook"
     href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}#gallery-{{ forloop.index }}"
     target="_blank" rel="noopener"></a>
-<a class="icon-forward" title="Share Link" href="#" aria-label="Share Link" data-toggle="modal"
-    data-target="#shareModal" data-url="{{ page.url | prepend: site.url }}#gallery-{{ forloop.index }}"
+<a class="icon-forward" title="Share Link" href="#" aria-label="Share Link" data-bs-toggle="modal"
+    data-bs-target="#shareModal" data-url="{{ page.url | prepend: site.url }}#gallery-{{ forloop.index }}"
     data-title="{{ image.title }}"></a>
 
 {% if page.allow_download %}

@@ -26,27 +26,97 @@ h6 {
     font-family: 'Lato', sans-serif !important;
 }
 
-a {
-    color: #146496;
+// Brand blue. Bootstrap 5 reads these variables; main.css loads after Bootstrap.
+:root {
+    --bs-primary: #146496;
+    --bs-primary-rgb: 20, 100, 150;
+    --bs-link-color: #146496;
+    --bs-link-color-rgb: 20, 100, 150;
+    --bs-link-hover-color: #105078;
+    --bs-link-hover-color-rgb: 16, 80, 120;
 }
 
-.btn-primary,
-.btn-primary:disabled,
-.btn-outline-primary:hover,
-.btn-outline-primary:not(:disabled):not(.disabled):active,
-.show > .btn-outline-primary.dropdown-toggle {
-    background-color: #146496;
-    border-color: #146496;
+// Bootstrap 4 layout defaults that Bootstrap 5 changed.
+.container,
+.container-fluid,
+.row {
+    --bs-gutter-x: 1.875rem;
+}
+
+.card {
+    --bs-card-spacer-y: 1.25rem;
+    --bs-card-spacer-x: 1.25rem;
+    --bs-card-title-spacer-y: 0.75rem;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+ol,
+ul {
+    padding-left: 40px;
+}
+
+// Bootstrap 4 made every .col-* position: relative; gallery captions are absolutely
+// positioned against their column.
+.img-gallery {
+    position: relative;
+}
+
+.navbar {
+    --bs-navbar-padding-x: 1rem;
+}
+
+// Fixed heading sizes (Bootstrap 5 scales them down on small screens).
+h1, .h1 { font-size: 2.5rem; }
+h2, .h2 { font-size: 2rem; }
+h3, .h3 { font-size: 1.75rem; }
+h4, .h4 { font-size: 1.5rem; }
+h5, .h5 { font-size: 1.25rem; }
+h6, .h6 { font-size: 1rem; }
+
+// Bootstrap 4 link style: underline only on hover. :where() keeps the hover rule at element
+// specificity so .nav-link, .dropdown-item, and .btn still suppress it.
+a {
+    text-decoration: none;
+}
+
+a:where(:hover) {
+    text-decoration: underline;
+}
+
+.btn-primary {
+    --bs-btn-bg: #146496;
+    --bs-btn-border-color: #146496;
+    --bs-btn-hover-bg: #105078;
+    --bs-btn-hover-border-color: #0f4b71;
+    --bs-btn-active-bg: #105078;
+    --bs-btn-active-border-color: #0f4b71;
+    --bs-btn-disabled-bg: #146496;
+    --bs-btn-disabled-border-color: #146496;
+    --bs-btn-focus-shadow-rgb: 55, 123, 166;
 }
 
 .btn-outline-primary {
-    color: #146496;
-    border-color: #146496;
+    --bs-btn-color: #146496;
+    --bs-btn-border-color: #146496;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #146496;
+    --bs-btn-hover-border-color: #146496;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #146496;
+    --bs-btn-active-border-color: #146496;
+    --bs-btn-disabled-color: #146496;
+    --bs-btn-disabled-border-color: #146496;
+    --bs-btn-focus-shadow-rgb: 20, 100, 150;
 }
 
-.dropdown-item.active,
-.dropdown-item:active,
-.navbar .dropdown-item:active,
+.dropdown-menu {
+    --bs-dropdown-link-active-color: #fff;
+    --bs-dropdown-link-active-bg: #146496;
+}
+
 .navbar,
 .navbar.scrolled {
     background-color: #146496;
@@ -66,6 +136,19 @@ a {
 
 .transparent {
     background-color: transparent;
+}
+
+// Bootstrap 4 .jumbotron / .jumbotron-fluid (removed in Bootstrap 5).
+.jumbotron {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 4rem 0;
+    }
 }
 
 // WebP where the browser supports image-set() type(); JPEG otherwise.

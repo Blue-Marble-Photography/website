@@ -5,20 +5,20 @@
             <img src="{{ site.image_url }}/navbar-logo.png" class="img-fluid"
                 alt="Logo for Blue Marble Photography showing the planet Earth inside of a camera lens">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse text-right" id="navbarText">
-            <ul class="navbar-nav ml-auto text-uppercase">
+        <div class="collapse navbar-collapse text-end" id="navbarText">
+            <ul class="navbar-nav ms-auto text-uppercase">
                 <li class="nav-item">
                     <a class="nav-link py-0 text-white" href="/about">About</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link py-0 dropdown-toggle text-white" href="#" id="navbarDropdown"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galleries</a>
-                    <div class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                    <a class="nav-link py-0 dropdown-toggle text-white" href="#" id="navbarGalleries" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Galleries</a>
+                    <div class="dropdown-menu bg-white" aria-labelledby="navbarGalleries">
                         <a class="dropdown-item text-dark" href="/gallery/astrophotography">Astrophotography</a>
                         <a class="dropdown-item text-dark" href="/gallery/landscapes">Landscapes</a>
                         <a class="dropdown-item text-dark" href="/gallery/pets">Pets</a>
@@ -31,11 +31,11 @@
                     <a class="nav-link py-0 text-white" href="/blog">Blog</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link py-0 dropdown-toggle text-white" href="#" id="navbarDropdown"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                    <div class="dropdown-menu dropdown-menu-right bg-white" aria-labelledby="navbarDropdown">
+                    <a class="nav-link py-0 dropdown-toggle text-white" href="#" id="navbarServices" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                    <div class="dropdown-menu dropdown-menu-end bg-white" aria-labelledby="navbarServices">
                         <a class="dropdown-item text-dark" href="/services/pet-mini-sessions">
-                            <span class="badge badge-pill badge-primary">New</span>
+                            <span class="badge rounded-pill text-bg-primary">New</span>
                             Fall 2022 Mini Sessions</a>
                         <a class="dropdown-item text-dark" href="/services/dog-photography">Dog Photography</a>
                     </div>

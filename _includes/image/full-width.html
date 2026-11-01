@@ -41,9 +41,9 @@
     <span class="d-none" property="acquireLicensePage">{{ site.url }}/contact/</span>
 </div>
 
-<div class="col-12 text-right">
-    <a class="icon-forward" title="Share Link" aria-label="Share Link" href="#" data-toggle="modal"
-        data-target="#shareModal" data-url="{{ page.url | prepend: site.url }}" data-title="{{ image.title }}"></a>
+<div class="col-12 text-end">
+    <a class="icon-forward" title="Share Link" aria-label="Share Link" href="#" data-bs-toggle="modal"
+        data-bs-target="#shareModal" data-url="{{ page.url | prepend: site.url }}" data-title="{{ image.title }}"></a>
 
     {% if page.allow_download %}
     {% if page.allow_download == "watermark" %}

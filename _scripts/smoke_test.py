@@ -4,8 +4,8 @@
 # ///
 """Smoke test for bluemarble.photography.
 
-Checks pages, header images, the gallery lightbox, downloads, and right-click protection in real
-browsers, plus the CloudFront edge behavior (AI crawler blocking, opt-out headers, robots.txt).
+Checks pages, header images, the gallery lightbox, downloads, right-click protection, and the Bootstrap
+components (share modal, navbar, dropdown, contact form validation) in real browsers, plus the CloudFront edge behavior (AI crawler blocking, opt-out headers, robots.txt).
 
 Usage:
     uv run _scripts/smoke_test.py                                  # local `jekyll serve`
@@ -266,6 +266,96 @@ def check_lightbox(page: Page, base: str, path: str, downloads: bool, results: R
     results.check(f'{path} #gallery-3 deep link', state['open'] and state['counter'] == '3', state)
 
 
+def appears(page: Page, selector: str, timeout: int = 3000, state: str = 'visible') -> bool:
+    """Wait for a selector to reach a state.
+
+    Args:
+        page: Browser page.
+        selector: CSS selector.
+        timeout: Milliseconds to wait.
+        state: Playwright locator state (`visible` or `hidden`).
+
+    Returns:
+        Whether the element reached the state in time.
+    """
+    try:
+        page.locator(selector).first.wait_for(state=state, timeout=timeout)
+    except Error:
+        return False
+    return True
+
+
+def check_components(page: Page, base: str, results: Results) -> None:
+    """Check the Bootstrap components and that jQuery is gone.
+
+    Args:
+        page: Browser page (desktop viewport).
+        base: Site base URL.
+        results: Collector for outcomes.
+    """
+    page.goto(base + '/gallery/colorado/', wait_until='load')
+    results.check('jQuery not loaded', page.evaluate('() => typeof window.jQuery') == 'undefined')
+
+    toggle = page.locator('[data-bs-toggle="modal"]').first
+    expected = {
+        'title': 'Share: ' + (toggle.get_attribute('data-title') or ''),
+        'url': toggle.get_attribute('data-url'),
+    }
+    toggle.dispatch_event('click')
+    opened = appears(page, '#shareModal.show')
+    shown = page.evaluate(
+        "() => ({ title: document.querySelector('#photo-title').textContent, url: document.querySelector('#photo-url').value })"
+    )
+    results.check('share modal opens with photo URL', opened and shown == expected, shown)
+    page.click('#copy-photo-url')
+    results.check('share modal Copied popover', appears(page, '.popover') and 'Copied' in page.inner_text('.popover'))
+    page.keyboard.press('Escape')
+    results.check('share modal closes', appears(page, '#shareModal', state='hidden'))
+
+    caption = page.evaluate(
+        """() => {
+            const fig = document.querySelector('#image-1').getBoundingClientRect();
+            const cap = document.querySelector('#image-1-actions').getBoundingClientRect();
+            return cap.top >= fig.top - 1 && cap.bottom <= fig.bottom + 1 && cap.left < fig.right && cap.right > fig.left;
+        }"""
+    )
+    results.check('gallery caption overlays its thumbnail', caption is True, caption)
+
+    page.goto(base + '/post/exploring-utah/', wait_until='load')
+    stray = page.evaluate(
+        "() => document.querySelector('article .container').innerText.split('\\n').some((l) => l.trim() === '|')"
+    )
+    results.check('no stray characters above post gallery', stray is False, stray)
+
+    page.goto(base + '/', wait_until='load')
+    page.click('#navbarGalleries')
+    results.check(
+        'Galleries dropdown opens',
+        appears(page, '.dropdown-menu.show') and page.locator('.dropdown-menu.show .dropdown-item').count() > 0,
+    )
+
+    page.goto(base + '/contact/', wait_until='load')
+    page.click('#formSubmit')
+    page.wait_for_timeout(300)
+    validated = page.evaluate("() => document.querySelector('#contactForm').classList.contains('was-validated')")
+    results.check('contact form validates empty submit', validated and page.url.endswith('/contact/'), page.url)
+
+
+def check_mobile_nav(browser: Browser, base: str, results: Results) -> None:
+    """Check the collapsed navbar opens on a phone-sized viewport.
+
+    Args:
+        browser: Launched browser.
+        base: Site base URL.
+        results: Collector for outcomes.
+    """
+    page = browser.new_page(viewport={'width': 390, 'height': 844})
+    page.goto(base + '/', wait_until='load')
+    page.click('.navbar-toggler')
+    results.check('mobile navbar opens', appears(page, '#navbarText.show a[href="/about"]'))
+    page.close()
+
+
 def run_browser(browser: Browser, base: str, results: Results) -> None:
     """Run all browser checks in one engine.
 
@@ -296,8 +386,10 @@ def run_browser(browser: Browser, base: str, results: Results) -> None:
     check_pages(page, base, results)
     for path, downloads in LIGHTBOX_PAGES.items():
         check_lightbox(page, base, path, downloads, results)
+    check_components(page, base, results)
     results.check('no JavaScript errors', not errors, json.dumps(errors[:5]))
     page.close()
+    check_mobile_nav(browser, base, results)
 
 
 def main() -> int:

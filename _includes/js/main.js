@@ -1,14 +1,19 @@
-jQuery(document).ready(function () {
-    parseUriHash();
-    setContextMenu();
+// Scripts load with defer, so the DOM is ready here.
+parseUriHash();
+setContextMenu();
+setLightbox();
 
-    setLightbox();
-});
+(function () {
+  var navbar = document.querySelector('.fixed-top');
 
-$(document).scroll(function () {
-    $('.fixed-top').toggleClass('scrolled', $(this).scrollTop() > $('.fixed-top').height() * 2);
-});
+  if (!navbar) {
+    return;
+  }
 
-$('.zoom-in, .img-gallery figure img').longpress(function (e) {
-    e.preventDefault();
-});
+  function updateNavbar() {
+    navbar.classList.toggle('scrolled', window.scrollY > navbar.offsetHeight * 2);
+  }
+
+  document.addEventListener('scroll', updateNavbar, { passive: true });
+  updateNavbar();
+})();

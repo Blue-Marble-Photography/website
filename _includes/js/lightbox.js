@@ -76,7 +76,7 @@ function setLightbox() {
 
       gallery.closeGallery();
       setModalValues(title, url);
-      $('#shareModal').modal('show');
+      bootstrap.Modal.getOrCreateInstance(document.getElementById('shareModal')).show();
     });
   });
 
@@ -132,7 +132,7 @@ function setLightbox() {
       image.dataset.contextMenu = 'true';
       image.addEventListener('contextmenu', function(e) {
         e.preventDefault();
-        showContextMenu($('#image-' + gallery.index).data('src'), e.pageX, e.pageY);
+        showContextMenu(document.getElementById('image-' + gallery.index).dataset.src, e.pageX, e.pageY);
       });
     }
   });
