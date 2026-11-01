@@ -12,4 +12,4 @@ gem "jekyll-paginate", "~> 1.1"
 gem "jekyll-sitemap", "~> 1.4"
 
 # Dart Sass for jekyll-sass-converter; held to a release that has been out a few weeks.
-gem "sass-embedded", "~> 1.105.1"
+gem "sass-embedded", "~> 1.107.0"
