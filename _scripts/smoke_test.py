@@ -341,8 +341,8 @@ def check_components(page: Page, base: str, results: Results) -> None:
     results.check('contact form validates empty submit', validated and page.url.endswith('/contact/'), page.url)
 
 
-def check_mobile_nav(browser: Browser, base: str, results: Results) -> None:
-    """Check the collapsed navbar opens on a phone-sized viewport.
+def check_mobile(browser: Browser, base: str, results: Results) -> None:
+    """Check the collapsed navbar and album cards on a phone-sized viewport.
 
     Args:
         browser: Launched browser.
@@ -353,6 +353,12 @@ def check_mobile_nav(browser: Browser, base: str, results: Results) -> None:
     page.goto(base + '/', wait_until='load')
     page.click('.navbar-toggler')
     results.check('mobile navbar opens', appears(page, '#navbarText.show a[href="/about"]'))
+
+    page.goto(base + '/gallery/geb/', wait_until='load')
+    widths = page.evaluate(
+        "() => [...document.querySelectorAll('.card')].map((c) => Math.round(c.getBoundingClientRect().width))"
+    )
+    results.check('album cards share one width on mobile', len(widths) > 1 and len(set(widths)) == 1, widths)
     page.close()
 
 
@@ -389,7 +395,7 @@ def run_browser(browser: Browser, base: str, results: Results) -> None:
     check_components(page, base, results)
     results.check('no JavaScript errors', not errors, json.dumps(errors[:5]))
     page.close()
-    check_mobile_nav(browser, base, results)
+    check_mobile(browser, base, results)
 
 
 def main() -> int:

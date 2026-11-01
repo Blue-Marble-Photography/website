@@ -9,7 +9,7 @@
   {% assign sub_album = site.data.albums[album_child] %}
   {% assign image_url = sub_album.preview_image | prepend: '/' | prepend: site.photo_url %}
   <div class="col-12 col-lg-3 col-md-4 d-flex align-items-stretch">
-    <div class="card shadow p-2 mb-4">
+    <div class="card shadow p-2 mb-4 w-100">
       <a href="{{ sub_album.permalink }}">
         <picture>
           <source type="image/webp" media="(min-width: 992px)" srcset="{{ image_url | remove: '.jpg' }}-750.webp">
@@ -38,7 +38,7 @@
   {% assign gallery = site.data.galleries[album_gallery] %}
   {% assign image_url = gallery.preview_image | prepend: '/' | prepend: site.photo_url %}
   <div class="col-12 col-lg-3 col-md-4 d-flex align-items-stretch">
-    <div class="card shadow p-2 mb-4">
+    <div class="card shadow p-2 mb-4 w-100">
       <a href="{{ gallery.permalink }}">
         <picture>
           <source type="image/webp" media="(min-width: 992px)" srcset="{{ image_url | remove: '.jpg' }}-750.webp">
