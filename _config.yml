@@ -61,7 +61,6 @@ collections:
 plugins: ["jekyll-paginate", "jekyll-last-modified-at", "jekyll-sitemap"]
 
 exclude:
-  - Dockerfile
   - Gemfile
   - Gemfile.lock
   - tf

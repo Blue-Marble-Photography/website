@@ -6,7 +6,7 @@
         {
             "label": "Serve",
             "type": "shell",
-            "command": "bundle exec jekyll serve --livereload --force_polling --trace",
+            "command": "bundle exec jekyll serve --livereload --trace",
             "group": {
                 "kind": "test",
                 "isDefault": true
@@ -20,6 +20,6 @@
             "command": "bundle exec jekyll build",
             "group": "build",
             "problemMatcher": []
-        },
+        }
     ]
 }
