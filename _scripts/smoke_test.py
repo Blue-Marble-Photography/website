@@ -26,6 +26,7 @@ from dataclasses import dataclass, field
 from playwright.sync_api import Browser, Error, Page, sync_playwright
 
 IMAGES_HOST = 'https://images.bluemarble.photography'
+TDM_POLICY = 'https://bluemarble.photography/license/'
 SAMPLE_IMAGE = '/JosephGruber_20261025_181746-750.jpg'
 SAMPLE_ORIGINAL = '/originals/JosephGruber_20261025_181746.jpg'
 PAGES = ['/', '/about/', '/blog/', '/gallery/geb/', '/gallery/colorado/', '/post/exploring-utah/']
@@ -128,7 +129,9 @@ def check_edge(base: str, results: Results) -> None:
         headers = fetch(url).headers
         results.check(
             f'opt-out headers: {short}',
-            headers.get('x-robots-tag') == 'noai, noimageai' and headers.get('tdm-reservation') == '1',
+            headers.get('x-robots-tag') == 'noai, noimageai'
+            and headers.get('tdm-reservation') == '1'
+            and headers.get('tdm-policy') == TDM_POLICY,
             headers.get('x-robots-tag'),
         )
         results.check(f'HSTS: {short}', 'max-age=31536000' in headers.get('strict-transport-security', ''))
@@ -143,6 +146,16 @@ def check_edge(base: str, results: Results) -> None:
             f'robots.txt readable by GPTBot and lists it: {host}',
             robots.status == 200 and 'User-agent: GPTBot' in robots.body,
             robots.status,
+        )
+        tdmrep = fetch(host + '/.well-known/tdmrep.json', USER_AGENTS['GPTBot'])
+        try:
+            rules = json.loads(tdmrep.body)
+        except ValueError:
+            rules = []
+        results.check(
+            f'tdmrep.json readable by GPTBot and reserves TDM: {host}',
+            tdmrep.status == 200 and rules[:1] == [{'location': '/', 'tdm-reservation': 1, 'tdm-policy': TDM_POLICY}],
+            tdmrep.status,
         )
 
 
