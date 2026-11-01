@@ -1,0 +1,89 @@
+name: Deploy Website
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@651ff0d62c5c79bed6d53ec518387aae20e72c1a # v1.329.0
+        with:
+          bundler-cache: true
+
+      - name: Build site
+        env:
+          JEKYLL_ENV: prod
+        run: bundle exec jekyll build
+
+      - name: Upload site
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: site
+          path: _site
+          retention-days: 1
+
+  deploy:
+    name: Deploy to S3 and CloudFront
+    needs: build
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Download site
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: site
+          path: _site
+
+      # github-actions-website (state account) may only chain into the deploy role in the
+      # account that still holds the site's bucket and distribution.
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@d979d5b3a71173a29b74b5b88418bfda9437d885 # v6.1.1
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Assume deploy role
+        uses: aws-actions/configure-aws-credentials@d979d5b3a71173a29b74b5b88418bfda9437d885 # v6.1.1
+        with:
+          role-to-assume: arn:aws:iam::530167849052:role/bluemarble-website-deploy
+          role-chaining: true
+          aws-region: us-east-1
+
+      - name: Get parameters from SSM
+        id: get-params
+        run: |
+          echo "bucket-name=$(aws ssm get-parameter --name /website/bucket-name --query Parameter.Value --output text)" >> "$GITHUB_OUTPUT"
+          echo "distribution-id=$(aws ssm get-parameter --name /website/cloudfront-distribution --query Parameter.Value --output text)" >> "$GITHUB_OUTPUT"
+
+      # aws s3 sync doesn't know these types; upload them separately with an explicit Content-Type.
+      - name: Sync to S3
+        env:
+          BUCKET: ${{ steps.get-params.outputs.bucket-name }}
+        run: |
+          aws s3 sync _site/ "s3://$BUCKET" --delete --exclude "*.woff2" --exclude "*.webp"
+          aws s3 sync _site/ "s3://$BUCKET" --delete --exclude "*" --include "*.woff2" --content-type font/woff2
+          aws s3 sync _site/ "s3://$BUCKET" --delete --exclude "*" --include "*.webp" --content-type image/webp
+
+      - name: Invalidate CloudFront
+        env:
+          DISTRIBUTION_ID: ${{ steps.get-params.outputs.distribution-id }}
+        run: aws cloudfront create-invalidation --distribution-id "$DISTRIBUTION_ID" --paths "/*"

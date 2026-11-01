@@ -7,7 +7,7 @@ Disallow: /data/
 
 # AI crawlers and AI search/assistant agents: no access.
 # Source: github.com/ai-robots-txt/ai.robots.txt (2026-10-31), minus facebookexternalhit,
-# Applebot, and PetalBot (link previews and search). Keep in sync with infra/templates/robots-images.txt.
+# Applebot, and PetalBot (link previews and search). Keep in sync with templates/robots-images.txt in the infra-website repo.
 User-agent: AddSearchBot
 User-agent: AgentDataBot
 User-agent: AgentTimes

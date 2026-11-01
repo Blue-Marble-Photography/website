@@ -6,7 +6,6 @@
         {
             "label": "Serve",
             "type": "shell",
-            "options": { "cwd": "${workspaceFolder}/website" },
             "command": "bundle exec jekyll serve --livereload --trace",
             "group": {
                 "kind": "test",
@@ -18,7 +17,6 @@
         {
             "label": "Build",
             "type": "shell",
-            "options": { "cwd": "${workspaceFolder}/website" },
             "command": "bundle exec jekyll build",
             "group": "build",
             "problemMatcher": []
