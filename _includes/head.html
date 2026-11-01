@@ -1,6 +1,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
 
 <meta charset="utf-8" />
 
@@ -143,16 +143,15 @@
 {% if page.gallery_name or page.album_name %}
 <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
-    integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA="
+    href="https://cdn.jsdelivr.net/npm/lightgallery@3.0.0/css/lightgallery-bundle.min.css"
+    integrity="sha384-HS8QBB3BqNdOZ0OCob7h2r3ES7jtvjozuKv+b+B6bpbZX/8AxTQJqBziQ0n8omua"
     crossorigin="anonymous"
 />
-<script
-    defer
-    src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
-    integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8="
-    crossorigin="anonymous"
-></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lightgallery@3.0.0/lightgallery.min.js" integrity="sha384-bihbP2gBgibPxg/ZQ8sjrX7TaLj2xHpSzEQc9p7iUCIfA6L4V7bPWpasE2NGO4rG" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lightgallery@3.0.0/plugins/thumbnail/lg-thumbnail.min.js" integrity="sha384-d5D3ZflDF/6NU19sS/pGpW02WfvR5SasImgYDO2VTjhfEy/KaGVY/7l6ApRNDR+y" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lightgallery@3.0.0/plugins/zoom/lg-zoom.min.js" integrity="sha384-kVW5FJR1hpa0hE83Wox0XOtIfrEPfdRTIXikACyLc4VHQUEgJ4jhg2H0GlW+Vtmz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lightgallery@3.0.0/plugins/fullscreen/lg-fullscreen.min.js" integrity="sha384-SmXiF2xX3AHnY7dvxdMylsmkViwFnLCZEYufbfNB8X52U5WCWidWu0oZpLpE0QS0" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/lightgallery@3.0.0/plugins/share/lg-share.min.js" integrity="sha384-oQGlPOO2LuSkwrwD/Nh7kkeNFEv4PQ/KUw0dnoXcjAnuUcCBPSMwXOgQpJ/N4woV" crossorigin="anonymous"></script>
 {% endif %}
 
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet" />

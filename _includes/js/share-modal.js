@@ -1,14 +1,4 @@
 jQuery(document).ready(function() {
-  $('body').on('click', '.fancybox-button.icon-forward', function() {
-    var title = $('.fancybox-caption').text();
-    var url = window.location.href;
-
-    $('#shareModal').modal('show');
-    setModalValues(title, url);
-
-    $.fancybox.close();
-  });
-
   $('#shareModal').on('show.bs.modal', function(e) {
     var photo = $(e.relatedTarget);
     var title = photo.data('title');

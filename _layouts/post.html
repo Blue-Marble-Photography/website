@@ -22,7 +22,7 @@ navbar-style: transparent
     {% assign tags = gallery.tags %}
     {% endif %}
 
-    <div id="post-gallery" class="row">
+    <div id="post-gallery" class="row" data-lg-gallery>
       {% for image in images %}
       {% include /image/full-width.html %}
       {% endfor %}

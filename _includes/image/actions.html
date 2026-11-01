@@ -7,8 +7,8 @@
 
 {% if page.allow_download %}
 {% if page.allow_download == "watermark" %}
-<a class="icon-download" href="{{ image_url | replace: '.jpg' , '-1440.jpg' }}" title="Download Digital File" aria-label="Download Digital File" target="_blank" download></a>
+<a class="icon-download" href="{{ image_url | replace: '.jpg' , '-1440.jpg' }}" title="Download Digital File" aria-label="Download Digital File" download></a>
 {% else %}
-<a class="icon-download" href="{{ image_url | replace: 'photography/' , 'photography/originals/' }}" title="Download Digital File" aria-label="Download Digital File" target="_blank" download></a>
+<a class="icon-download" href="{{ image_url | replace: 'photography/' , 'photography/originals/' }}" title="Download Digital File" aria-label="Download Digital File" download></a>
 {% endif %}
 {% endif %}

@@ -124,8 +124,25 @@ a[class^='icon-']:hover,
     min-height: 100%;
 }
 
+// Thumbnail strip hidden independently of the caption (see lightbox.js).
+.lg-outer.lg-thumbs-hidden .lg-thumb-outer {
+    display: none;
+}
+
+// Clicking the lightbox photo returns to the gallery (see lightbox.js).
+@media (hover: hover) {
+    .lg-outer:not(.lg-zoomed) .lg-current .lg-image {
+        cursor: zoom-out;
+    }
+}
+
+// lightGallery only dims the download button for photos without a download URL.
+.lg-outer.lg-hide-download .lg-download {
+    display: none;
+}
+
 .img-gallery figure img,
-.fancybox-image,
+.lg-image,
 .zoom-in {
     -webkit-touch-callout: none;
     -webkit-user-select: none;

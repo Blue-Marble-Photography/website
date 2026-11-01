@@ -2,11 +2,12 @@
 <div class="col-12 mt-3 d-flex img-gallery" vocab="https://schema.org/" typeof="ImageObject">
     <figure id="image-{{ forloop.index0 }}" class="mb-0 bg-dark rounded w-100" {% if page.allow_download
         %}data-src="{% if page.allow_download == "watermark" %}{{ image_url | replace: '.jpg' , '-1440.jpg' }}{% else
-        %}{{ image_url | replace: 'photography/' , 'photography/originals' }}{% endif %}" {% endif %}>
+        %}{{ image_url | replace: 'photography/' , 'photography/originals/' }}{% endif %}" {% endif %}>
         <a class="zoom-in" href="{{ image_url | replace: '.jpg', '-750.jpg' }}"
             data-srcset="{{ image_url | replace: '.jpg', '-1600.jpg' }} 992w, {{ image_url | replace: '.jpg', '-1440.jpg' }} 768w, {{ image_url | replace: '.jpg', '-1100.jpg' }} 576w"
-            data-fancybox="gallery"
-            data-caption="{% if image.caption %}{{ image.caption }}{% else %}{{ image.title }}{% endif %}">
+            data-lg-item
+            data-sub-html="{% if image.caption %}{{ image.caption | escape }}{% else %}{{ image.title | escape }}{% endif %}"
+            data-download-url="{% if page.allow_download %}{% if page.allow_download == "watermark" %}{{ image_url | replace: '.jpg', '-1440.jpg' }}{% else %}{{ image_url | replace: 'photography/', 'photography/originals/' }}{% endif %}{% else %}false{% endif %}">
             <picture>
                 <source type="image/webp" media="(min-width: 1200px)"
                     srcset="{{ image_url | remove: '.jpg' }}-2880.webp">
@@ -29,7 +30,7 @@
             </picture>
         </a>
         <figcaption id="image-{{ forloop.index0 }}-actions" class="zoom-in text-white text-center">
-            <a class="zoom-in" data-fancybox-trigger="gallery" data-fancybox-index="{{ forloop.index0 }}" href="javascript:;"
+            <a class="zoom-in" data-lg-open="{{ forloop.index0 }}" href="javascript:;"
                 property="name">{{ image.title }}</a>
             <br>
             {% include /image/actions.html %}
@@ -46,9 +47,9 @@
 
     {% if page.allow_download %}
     {% if page.allow_download == "watermark" %}
-    <a class="icon-download" href="{{ image_url | replace: '.jpg' , '-1440.jpg' }}" title="Download Digital File" aria-label="Download Digital File" target="_blank" download></a>
+    <a class="icon-download" href="{{ image_url | replace: '.jpg' , '-1440.jpg' }}" title="Download Digital File" aria-label="Download Digital File" download></a>
     {% else %}
-    <a class="icon-download" href="{{ image_url | replace: 'photography/' , 'photography/originals' }}" title="Download Digital File" aria-label="Download Digital File" target="_blank" download></a>
+    <a class="icon-download" href="{{ image_url | replace: 'photography/' , 'photography/originals/' }}" title="Download Digital File" aria-label="Download Digital File" download></a>
     {% endif %}
     {% endif %}
 </div>
