@@ -54,19 +54,12 @@ jobs:
           name: site
           path: _site
 
-      # github-actions-website (state account) may only chain into the deploy role in the
-      # account that still holds the site's bucket and distribution.
+      # github-actions-website (508360653481) deploys directly: bucket, distribution, and SSM
+      # parameters all live in that account (permissions: infra-website iam.tf).
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd # v6.3.0
         with:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
-          aws-region: us-east-1
-
-      - name: Assume deploy role
-        uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd # v6.3.0
-        with:
-          role-to-assume: arn:aws:iam::530167849052:role/bluemarble-website-deploy
-          role-chaining: true
           aws-region: us-east-1
 
       - name: Get parameters from SSM
